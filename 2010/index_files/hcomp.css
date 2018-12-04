@@ -1,0 +1,130 @@
+body {
+    color: #444;
+}
+
+/* Header Style */
+#headbar {
+    background-color: #DDD;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#headtitles {
+    margin-left: 205px;
+    width: 65%;
+    text-align: center;
+}
+
+#header_date {
+    font-size: 1.4em;
+}
+
+#header_loc {
+    font-size: 1.3em;
+}
+
+/* Sidebar Style */
+#sidebar {
+    margin-top: 30px;
+    padding-left: 15px;
+    padding-top: 10px;
+    width: 200px;
+    font-family: serif;
+    font-size: 1em;
+    float: left;
+}
+
+.sidegroup {
+   margin-top: 10px;
+   margin-bottom: 20px;
+}
+
+
+.sidegroup p.sideheader {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: green;
+    margin-bottom: 5px;
+}
+
+.sidegroup p {
+    margin: 0px;
+}
+
+.sidegroup a:link {
+    color: #444;
+    text-decoration: none;
+}
+
+.sidegroup a:visited {
+    text-decoration: none;
+}
+
+.sidegroup a:hover {
+    font-weight: bold;
+}
+
+/* Main Content Style */
+#maincontent {
+    margin-left: 215px;
+    padding: 10px;
+    width: 65%;
+}
+
+#maincontent h2 {
+    text-align: center;
+}
+
+/* Call For Papers Style*/
+.cfp_para {
+    padding-bottom: 1em;
+}
+
+/* Important Dates Style */
+#date_table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#date_table td.date_col {
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+
+#date_table td.date_desc {
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+/* Organizers Style */
+.orglist {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.orglist p {
+    margin: 3px;
+}
+
+/* Submit Style */
+#submit_list li {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+
+/* Data Style */
+.data_image {
+    float: left;
+    margin: 5px;
+    padding-right: 20px;
+    height: 150px;
+}
+
+.data_desc {
+    padding-top: 10px;
+    min-height: 150px;
+}
