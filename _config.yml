@@ -1,1 +1,7 @@
-exclude: [README.md, CNAME, LICENSE, util]
+safe: true
+url: https://www.humancomputation.com/
+exclude: [README.md, CNAME, LICENSE, util, Gemfile, Gemfile.lock]
+plugins:
+  - jekyll-redirect-from
+whitelist:
+  - jekyll-redirect-from
