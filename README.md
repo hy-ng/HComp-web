@@ -18,6 +18,20 @@ There is now a Best Poster / Demo Presentation Award. Please make sure to includ
 
 There are also separate proceedings for papers and WiP & demonstration papers. Please make sure to add both of these to the past meetings page.
 
+# Archiving a site for the next year
+
+Do **not** archive the following files:
+- `crowdcamp/`
+- `Gemfile`
+- `Gemfile.lock`
+- `LICENSE`
+- `README.md`
+- `util/`
+- `_config.yml`
+- `_layouts/`
+- `CNAME`
+- `.gitignore`
+
 # Tools
 
 ## Utils
