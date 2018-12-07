@@ -1,6 +1,7 @@
 __macosx/
 .DS_Store
 *~
+*.swp
 _site/
 .sass-cache/
 .jekyll-cache/
