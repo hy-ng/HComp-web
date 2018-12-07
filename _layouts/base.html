@@ -2,6 +2,7 @@
 {% if page.title %}
   {% assign title = title | append: ': ' | append: page.title %}
 {% endif %}
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -50,22 +51,22 @@
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
           <li>
-            <a href="submit.html">Submit</a>
+            <a {% if page.url == '/submit.html' %}class='active'{% endif %} href="submit.html">Submit</a>
           </li>
           <li>
-            <a href="attend.html">Attend</a>
+            <a {% if page.url == '/attend.html' %}class='active'{% endif %} href="attend.html">Attend</a>
           </li>
           <li>
-            <a href="program.html">Program</a>
+            <a {% if page.url == '/program.html' %}class='active'{% endif %} href="program.html">Program</a>
           </li>
           <li>
-            <a href="organizers.html">Organizers</a>
+            <a {% if page.url == '/organizers.html' %}class='active'{% endif %} href="organizers.html">Organizers</a>
           </li>
           <li>
-            <a href="sponsors.html">Sponsors</a>
+            <a {% if page.url == '/sponsors.html' %}class='active'{% endif %} href="sponsors.html">Sponsors</a>
           </li>
           <li>
-            <a href="past%20meetings.html">Past Meetings</a>
+            <a {% if page.url == '/past%20meetings.html' %}class='active'{% endif %} href="past%20meetings.html">Past Meetings</a>
           </li>
         </ul>
       </div>
