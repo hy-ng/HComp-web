@@ -1,66 +1,11 @@
-- name: bozzon
-  full_name: Alessandro Bozzon
-  picture: /img/photo/bozzon.jpeg
-  affiliation: Delft University of Technology
-  website: http://www.wis.ewi.tudelft.nl/bozzon/
-
-- name: suri
-  full_name: Siddharth Suri
-  picture: /img/photo/suri.png
-  affiliation: Microsoft Research
-  website: https://www.microsoft.com/en-us/research/people/suri/
-
-- name: hsu
-  full_name: Jane Hsu
-  picture: /img/photo/janehsu.png
-  affiliation: National Taiwan University
-  website: http://agents.csie.ntu.edu.tw/~yjhsu/who.html
-
-- name: simperl
-  full_name: Elena Simperl
-  picture: /img/photo/simperl.jpg
-  affiliation: University of Southampton
-  website: http://elenasimperl.eu
-
-- name: larson
-  full_name: Kate Larson
-  picture: /img/photo/larson.jpg
-  affiliation: University of Waterloo
-  website: https://cs.uwaterloo.ca/~klarson/
-
-- name: parameswaran
-  full_name: Aditya Parameswaran
-  picture: /img/photo/Parameswaran.jpg
-  affiliation: University of Illinois (UIUC)
-  website: http://data-people.cs.illinois.edu
-
-- name: ipeirotis 
-  full_name: Panos Ipeirotis 
-  picture: /img/photo/Panos.jpg
-  affiliation: New York University
-  website: http://www.ipeirotis.com
-
-- name: xia
-  full_name: Lirong Xia
-  picture: /img/photo/lirong.jpg
-  affiliation: RPI
-  website: http://www.cs.rpi.edu/~xial/
-
-- name: luther
-  full_name: Kurt Luther
-  picture: /img/photo/kurtluther.jpg
-  affiliation: Virginia Tech
-  website: http://crowd.cs.vt.edu/kurt-luther/
-
-- name: lasecki
-  full_name: Walter Lasecki
-  picture: /img/photo/walterlasecki.jpg
-  affiliation: University of Michigan
-  website: https://web.eecs.umich.edu/~wlasecki/
-
-
-- name: goel
-  full_name: Ashish Goel
-  picture: /img/photo/ashishg.jpg
-  affiliation: Stanford University
-  website: http://web.stanford.edu/~ashishg/
+- bozzon
+- suri
+- hsu
+- simperl
+- larson
+- parameswaran
+- ipeirotis
+- xia
+- luther
+- lasecki
+- goel
