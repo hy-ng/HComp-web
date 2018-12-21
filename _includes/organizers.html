@@ -1,0 +1,34 @@
+{% assign people = "" | split: ',' %}
+{% for person in site.data.people %}
+  {% if include.people contains person.id %}
+    {% assign people = people | push: person %}
+  {% endif %}
+{% endfor %}
+{% assign people = people | sort: 'last_name' %}
+
+{% if people.size < 4 %}
+  {% assign col_size = 12 | divided_by: people.size %}
+{% else %}
+  {% assign col_size = 3 %}
+{% endif %}
+
+{% for person in people %}
+  {% assign remainder = forloop.index | minus: 1 | modulo: 4 %}
+  {% if remainder == 0 %}
+    <div class="row profile-row">
+  {% endif %}
+
+  {% if people.size > 1 %}
+    <div class="col-md-{{col_size}}" style="text-align:center">
+  {% endif %}
+    <img class="photo-size img-circle" src="{{ person.picture }}">
+    <h3><a class="theme-link-org" href="{{ person.website }}">{{ person.full_name }}</a></h3>
+    <p class="lead">{{ person.affiliation }}</p>
+  {% if people.size > 1 %}
+  </div>
+  {% endif %}
+
+  {% if remainder == 3 or forloop.last %}
+    </div>
+  {% endif %}
+{% endfor %}

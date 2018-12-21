@@ -1,65 +1,76 @@
-bozzon:
+- id: bozzon
+  last_name: Bozzon
   full_name: Alessandro Bozzon
   picture: /img/photo/bozzon.jpeg
   affiliation: Delft University of Technology
   website: http://www.wis.ewi.tudelft.nl/bozzon/
 
-suri:
+- id: suri
+  last_name: Suri
   full_name: Siddharth Suri
   picture: /img/photo/suri.png
   affiliation: Microsoft Research
   website: https://www.microsoft.com/en-us/research/people/suri/
 
-hsu:
+- id: hsu
+  last_name: Hsu
   full_name: Jane Hsu
   picture: /img/photo/janehsu.png
   affiliation: National Taiwan University
   website: http://agents.csie.ntu.edu.tw/~yjhsu/who.html
 
-simperl:
+- id: simperl
+  last_name: Simperl
   full_name: Elena Simperl
   picture: /img/photo/simperl.jpg
   affiliation: University of Southampton
   website: http://elenasimperl.eu
 
-larson:
+- id: larson
+  last_name: Larson
   full_name: Kate Larson
   picture: /img/photo/larson.jpg
   affiliation: University of Waterloo
   website: https://cs.uwaterloo.ca/~klarson/
 
-parameswaran:
+- id: parameswaran
+  last_name: Parameswaran
   full_name: Aditya Parameswaran
   picture: /img/photo/Parameswaran.jpg
   affiliation: University of Illinois (UIUC)
   website: http://data-people.cs.illinois.edu
 
-ipeirotis:
-  full_name: Panos Ipeirotis
+- id: ipeirotis 
+  last_name: Ipeirotis 
+  full_name: Panos Ipeirotis 
   picture: /img/photo/Panos.jpg
   affiliation: New York University
   website: http://www.ipeirotis.com
 
-xia:
+- id: xia
+  last_name: Xia
   full_name: Lirong Xia
   picture: /img/photo/lirong.jpg
   affiliation: RPI
   website: http://www.cs.rpi.edu/~xial/
 
-luther:
+- id: luther
+  last_name: Luther
   full_name: Kurt Luther
   picture: /img/photo/kurtluther.jpg
   affiliation: Virginia Tech
   website: http://crowd.cs.vt.edu/kurt-luther/
 
-lasecki:
+- id: lasecki
+  last_name: Lasecki
   full_name: Walter Lasecki
   picture: /img/photo/walterlasecki.jpg
   affiliation: University of Michigan
   website: https://web.eecs.umich.edu/~wlasecki/
 
 
-goel:
+- id: goel
+  last_name: Goel
   full_name: Ashish Goel
   picture: /img/photo/ashishg.jpg
   affiliation: Stanford University
