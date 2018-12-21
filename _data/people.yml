@@ -75,3 +75,52 @@
   picture: /img/photo/ashishg.jpg
   affiliation: Stanford University
   website: http://web.stanford.edu/~ashishg/
+
+- id: bragg
+  last_name: Bragg
+  full_name: Jonathan Bragg
+  picture: /img/photo/jbragg-150.jpg
+  affiliation: Stanford University
+  website: https://cs.stanford.edu/~jbragg/
+
+- id: naman
+  last_name: Goel
+  full_name: Naman Goel
+  picture: /img/photo/naman.png
+  affiliation: EPFL, Switzerland
+  website: https://lia.epfl.ch/~goel/
+
+- id: law
+  last_name: Law
+  full_name: Edith Law
+  picture: /img/photo/edith.jpg
+  affiliation: University of Waterloo, Canada
+  website: http://edithlaw.ca/
+
+- id: vaughan
+  last_name: Vaughan
+  full_name: Jenn Wortman Vaughan
+  picture: /img/photo/jenn.png
+  affiliation: Microsoft Research, New York, USA
+  website: http://www.jennwv.com/
+
+- id: aroyo
+  last_name: Aroyo
+  full_name: Lora Aroyo
+  picture: /img/photo/aroyo.jpeg
+  affiliation: Vrije Universiteit Amsterdam
+  website: http://lora-aroyo.org/
+
+- id: ho
+  last_name: Ho
+  full_name: Chien-Ju Ho
+  picture: /img/photo/chienju.png
+  affiliation: Washington University in St. Louis
+  website: http://chienjuho.com/
+
+- id: nushi
+  last_name: Nushi
+  full_name: Besmira Nushi
+  picture: /img/photo/besmira.jpg
+  affiliation: Microsoft Research, Redmond
+  website: https://besmiranushi.com/

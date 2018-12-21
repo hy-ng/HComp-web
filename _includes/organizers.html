@@ -6,8 +6,10 @@
 {% endfor %}
 {% assign people = people | sort: 'last_name' %}
 
-{% if people.size < 4 %}
-  {% assign col_size = 12 | divided_by: people.size %}
+{% if people.size == 2 %}
+  {% assign col_size = 5 %}
+{% elsif people.size == 3 %}
+  {% assign col_size = 4 %}
 {% else %}
   {% assign col_size = 3 %}
 {% endif %}
@@ -18,6 +20,10 @@
     <div class="row profile-row">
   {% endif %}
 
+  {% if people.size == 2 and forloop.first %}
+    <div class="col-md-1"></div>
+  {% endif %}
+
   {% if people.size > 1 %}
     <div class="col-md-{{col_size}}" style="text-align:center">
   {% endif %}
@@ -26,6 +32,10 @@
     <p class="lead">{{ person.affiliation }}</p>
   {% if people.size > 1 %}
   </div>
+  {% endif %}
+
+  {% if people.size == 2 and forloop.last %}
+    <div class="col-md-1"></div>
   {% endif %}
 
   {% if remainder == 3 or forloop.last %}

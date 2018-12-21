@@ -17,40 +17,11 @@ year: 2019
   <div class="container organizers">
     <h2 class="organizer-name">Conference Co-Chairs</h4>
       <p class="lead" style="text-align:center">Contact: <a class="theme-link" href="mailto:hcompconference@gmail.com">hcompconference@gmail.com</a></p>
-      <div class="row profile-row">
-        <div class="col-md-6" style="text-align:center">
-          <img class="photo-size img-circle" src="img/photo/edith.jpg">
-          <h3><a class="theme-link-org" href="http://edithlaw.ca/">Edith Law</a></h3>
-          <p class="lead">University of Waterloo, Canada</p>
-        </div>
-        <div class="col-md-6" style="text-align:center">
-          <img class="photo-size img-circle" src="img/photo/jenn.png">
-          <h3><a class="theme-link-org" href="http://www.jennwv.com/">Jenn Wortman Vaughan</a></h3>
-          <p class="lead">Microsoft Research, New York, USA</p>
-        </div>
-      </div>
+      {% include organizers.html people=site.data.chairs %}
   </div>
   <div class="container organizers">
     <h2 class="organizer-name">Works-in-progress & Demonstration Co-Chairs</h4>
-        
-      <div class="row profile-row">
-        <a name="WIP_chairs" class="anchor"></a>
-        <div class="col-md-4" style="text-align:center">
-          <img class="photo-size img-circle" src="img/photo/aroyo.jpeg">
-          <h3><a class="theme-link-org" href="http://lora-aroyo.org/">Lora Aroyo</a></h3>
-          <p class="lead">Vrije Universiteit Amsterdam</p>
-        </div>
-        <div class="col-md-4" style="text-align:center">
-          <img class="photo-size img-circle" src="img/photo/chienju.png">
-          <h3><a class="theme-link-org" href="http://chienjuho.com/">Chien-Ju Ho</a></h3>
-          <p class="lead">Washington University in St. Louis</p>
-        </div>
-        <div class="col-md-4" style="text-align:center">
-          <img class="photo-size img-circle" src="img/photo/besmira.jpg">
-          <h3><a class="theme-link-org" href="https://besmiranushi.com/">Besmira Nushi</a></h3>
-          <p class="lead">Microsoft Research, Redmond</p>
-        </div>
-      </div>
+    {% include organizers.html people=site.data.wip_chairs %}
   </div>
   <div class="container organizers">
     <h2 class="organizer-name">Doctoral Consortium Co-Chairs</h4>
@@ -138,18 +109,7 @@ year: 2019
   </div>
   <div class="container organizers">
     <h2 class="organizer-name">Website Co-Chairs</h4>
-      <div class="row profile-row" style="text-align:center;">
-        <div class="col-md-7" style="text-align:center">
-          <img class="photo-size img-circle" src="img/photo/jbragg-150.jpg">
-          <h3><a class="theme-link-org" href="https://cs.stanford.edu/~jbragg/">Jonathan Bragg</a></h3>
-          <p class="lead">Stanford University</p>
-        </div>
-        <div class="col-md-3" style="text-align:center">
-          <img class="photo-size img-circle" src="img/photo/naman.png">
-          <h3><a class="theme-link-org" href="https://lia.epfl.ch/~goel/">Naman Goel</a></h3>
-          <p class="lead">EPFL, Switzerland</p>
-        </div>
-      </div>
+    {% include organizers.html people=site.data.website_chairs %}
   </div>
   <div class="container organizers">
     <h2 class="organizer-name">Associate Chairs</h4>
