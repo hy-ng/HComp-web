@@ -514,7 +514,7 @@ h2.section-head span {
 
 .organizers{
     /*border-bottom: 1px solid #ccc;*/
-    padding:40px 0px;
+    padding-bottom: 60px;
 }
 
 .organizer-name {
