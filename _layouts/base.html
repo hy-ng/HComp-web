@@ -10,7 +10,7 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -35,21 +35,14 @@
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
-    <div class="container topnav">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-        <a class="navbar-brand topnav" href="index.html">HCOMP {{ page.year }}</a>
-      </div>
+  <nav class="navbar navbar-light navbar-default navbar-expand-md fixed-top" role="navigation">
+      <a class="navbar-brand topnav" href="index.html">HCOMP {{ page.year }}</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" >
+              <span class="navbar-toggler-icon"></span>
+        </button>
       <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
+      <div class="collapse navbar-collapse justify-content-end" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
           <li>
             <a {% if page.url == '/submit.html' %}class='active'{% endif %} href="submit.html">Submit</a>
           </li>
@@ -70,7 +63,6 @@
           </li>
         </ul>
       </div>
-    </div>
   </nav>
 
   {{ content }}
@@ -79,7 +71,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <p class="copyright text-muted">Copyright &copy; HCOMP {{ 'now' | date: "%Y" }}. All Rights Reserved</p>
+          <p class="copyright text-white">Copyright &copy; HCOMP {{ 'now' | date: "%Y" }}. All Rights Reserved</p>
         </div>
       </div>
     </div>
@@ -88,7 +80,7 @@
 
 
   <!-- jQuery -->
-  <script src="js/jquery.js"></script>
+  <script src="js/jquery-3.3.1.slim.min.js"></script>
 
   <!-- Bootstrap Core JavaScript -->
   <script src="js/bootstrap.min.js"></script>
