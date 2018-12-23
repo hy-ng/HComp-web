@@ -1,70 +1,70 @@
 - id: bozzon
   last_name: Bozzon
   full_name: Alessandro Bozzon
-  picture: /img/photo/bozzon.jpeg
+  picture: img/photo/bozzon.jpeg
   affiliation: Delft University of Technology
   website: http://www.wis.ewi.tudelft.nl/bozzon/
 
 - id: suri
   last_name: Suri
   full_name: Siddharth Suri
-  picture: /img/photo/suri.png
+  picture: img/photo/suri.png
   affiliation: Microsoft Research
   website: https://www.microsoft.com/en-us/research/people/suri/
 
 - id: hsu
   last_name: Hsu
   full_name: Jane Hsu
-  picture: /img/photo/janehsu.png
+  picture: img/photo/janehsu.png
   affiliation: National Taiwan University
   website: http://agents.csie.ntu.edu.tw/~yjhsu/who.html
 
 - id: simperl
   last_name: Simperl
   full_name: Elena Simperl
-  picture: /img/photo/simperl.jpg
+  picture: img/photo/simperl.jpg
   affiliation: University of Southampton
   website: http://elenasimperl.eu
 
 - id: larson
   last_name: Larson
   full_name: Kate Larson
-  picture: /img/photo/larson.jpg
+  picture: img/photo/larson.jpg
   affiliation: University of Waterloo
   website: https://cs.uwaterloo.ca/~klarson/
 
 - id: parameswaran
   last_name: Parameswaran
   full_name: Aditya Parameswaran
-  picture: /img/photo/Parameswaran.jpg
+  picture: img/photo/Parameswaran.jpg
   affiliation: University of Illinois (UIUC)
   website: http://data-people.cs.illinois.edu
 
 - id: ipeirotis 
   last_name: Ipeirotis 
   full_name: Panos Ipeirotis 
-  picture: /img/photo/Panos.jpg
+  picture: img/photo/Panos.jpg
   affiliation: New York University
   website: http://www.ipeirotis.com
 
 - id: xia
   last_name: Xia
   full_name: Lirong Xia
-  picture: /img/photo/lirong.jpg
+  picture: img/photo/lirong.jpg
   affiliation: RPI
   website: http://www.cs.rpi.edu/~xial/
 
 - id: luther
   last_name: Luther
   full_name: Kurt Luther
-  picture: /img/photo/kurtluther.jpg
+  picture: img/photo/kurtluther.jpg
   affiliation: Virginia Tech
   website: http://crowd.cs.vt.edu/kurt-luther/
 
 - id: lasecki
   last_name: Lasecki
   full_name: Walter Lasecki
-  picture: /img/photo/walterlasecki.jpg
+  picture: img/photo/walterlasecki.jpg
   affiliation: University of Michigan
   website: https://web.eecs.umich.edu/~wlasecki/
 
@@ -72,55 +72,55 @@
 - id: goel
   last_name: Goel
   full_name: Ashish Goel
-  picture: /img/photo/ashishg.jpg
+  picture: img/photo/ashishg.jpg
   affiliation: Stanford University
   website: http://web.stanford.edu/~ashishg/
 
 - id: bragg
   last_name: Bragg
   full_name: Jonathan Bragg
-  picture: /img/photo/jbragg-150.jpg
+  picture: img/photo/jbragg-150.jpg
   affiliation: Stanford University
   website: https://cs.stanford.edu/~jbragg/
 
 - id: naman
   last_name: Goel
   full_name: Naman Goel
-  picture: /img/photo/naman.png
+  picture: img/photo/naman.png
   affiliation: EPFL, Switzerland
   website: https://lia.epfl.ch/~goel/
 
 - id: law
   last_name: Law
   full_name: Edith Law
-  picture: /img/photo/edith.jpg
+  picture: img/photo/edith.jpg
   affiliation: University of Waterloo, Canada
   website: http://edithlaw.ca/
 
 - id: vaughan
   last_name: Vaughan
   full_name: Jenn Wortman Vaughan
-  picture: /img/photo/jenn.png
+  picture: img/photo/jenn.png
   affiliation: Microsoft Research, New York, USA
   website: http://www.jennwv.com/
 
 - id: aroyo
   last_name: Aroyo
   full_name: Lora Aroyo
-  picture: /img/photo/aroyo.jpeg
+  picture: img/photo/aroyo.jpeg
   affiliation: Vrije Universiteit Amsterdam
   website: http://lora-aroyo.org/
 
 - id: ho
   last_name: Ho
   full_name: Chien-Ju Ho
-  picture: /img/photo/chienju.png
+  picture: img/photo/chienju.png
   affiliation: Washington University in St. Louis
   website: http://chienjuho.com/
 
 - id: nushi
   last_name: Nushi
   full_name: Besmira Nushi
-  picture: /img/photo/besmira.jpg
+  picture: img/photo/besmira.jpg
   affiliation: Microsoft Research, Redmond
   website: https://besmiranushi.com/
