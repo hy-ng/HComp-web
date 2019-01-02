@@ -124,3 +124,290 @@
   picture: img/photo/besmira.jpg
   affiliation: Microsoft Research, Redmond
   website: https://besmiranushi.com/
+
+- affiliation: Google
+  full_name: "\uFEFFAnja Gruenheid"
+  id: gruenheid
+  last_name: Gruenheid
+  picture: ''
+  website: ''
+
+- affiliation: University of Tsukuba
+  full_name: Atsuyuki Morishima
+  id: morishima
+  last_name: Morishima
+  picture: ''
+  website: ''
+
+- affiliation: Cortical.AI
+  full_name: Markus Krause
+  id: krause
+  last_name: Krause
+  picture: ''
+  website: ''
+
+- affiliation: The University of Queensland
+  full_name: Gianluca Demartini
+  id: demartini
+  last_name: Demartini
+  picture: ''
+  website: ''
+
+- affiliation: ETH Zurich
+  full_name: Hoda Heidari
+  id: heidari
+  last_name: Heidari
+  picture: ''
+  website: ''
+
+- affiliation: Tsinghua University
+  full_name: Guoliang Li
+  id: li
+  last_name: Li
+  picture: ''
+  website: ''
+
+- affiliation: Trash.app
+  full_name: Genevieve Patterson
+  id: patterson
+  last_name: Patterson
+  picture: ''
+  website: ''
+
+- affiliation: UT Austin
+  full_name: Danna Gurari
+  id: gurari
+  last_name: Gurari
+  picture: ''
+  website: ''
+
+- affiliation: The University of Sheffield
+  full_name: Alessandro Checco
+  id: checco
+  last_name: Checco
+  picture: ''
+  website: ''
+
+- affiliation: University of California San Diego
+  full_name: Steven Dow
+  id: dow
+  last_name: Dow
+  picture: ''
+  website: ''
+
+- affiliation: Michigan State University
+  full_name: Joshua Introne
+  id: introne
+  last_name: Introne
+  picture: ''
+  website: ''
+
+- affiliation: Beihang University
+  full_name: Hailong Sun
+  id: sun
+  last_name: Sun
+  picture: ''
+  website: ''
+
+- affiliation: Harvard University
+  full_name: Berk Ustun
+  id: ustun
+  last_name: Ustun
+  picture: ''
+  website: ''
+
+- affiliation: "Ecole Polytechnique F\xE9d\xE9rale de Lausanne"
+  full_name: L. Elisa Celis
+  id: celis
+  last_name: Celis
+  picture: ''
+  website: ''
+
+- affiliation: McGill University
+  full_name: Jerome Waldispuhl
+  id: waldispuhl
+  last_name: Waldispuhl
+  picture: ''
+  website: ''
+
+- affiliation: Politecnico di Milano
+  full_name: Florian Daniel
+  id: daniel
+  last_name: Daniel
+  picture: ''
+  website: ''
+
+- affiliation: Microsoft
+  full_name: Chris Lin
+  id: lin
+  last_name: Lin
+  picture: ''
+  website: ''
+
+- affiliation: Kyoto University/RIKEN
+  full_name: Hisashi Kashima
+  id: kashima
+  last_name: Kashima
+  picture: ''
+  website: ''
+
+- affiliation: Carnegie Mellon HCII
+  full_name: Jeffrey Bigham
+  id: bigham
+  last_name: Bigham
+  picture: ''
+  website: ''
+
+- affiliation: IBM
+  full_name: Anbang Xu
+  id: xu
+  last_name: Xu
+  picture: ''
+  website: ''
+
+- affiliation: Google
+  full_name: Praveen Paritosh
+  id: paritosh
+  last_name: Paritosh
+  picture: ''
+  website: ''
+
+- affiliation: University of Alberta
+  full_name: James Wright
+  id: wright
+  last_name: Wright
+  picture: ''
+  website: ''
+
+- affiliation: The Hong Kong University of Science and Technology
+  full_name: Lei Chen
+  id: chen
+  last_name: Chen
+  picture: ''
+  website: ''
+
+- affiliation: Singapore Management University
+  full_name: Shih-Fen Cheng
+  id: cheng
+  last_name: Cheng
+  picture: ''
+  website: ''
+
+- affiliation: University of Southampton
+  full_name: Matteo Venanzi
+  id: venanzi
+  last_name: Venanzi
+  picture: ''
+  website: ''
+
+- affiliation: Purdue University
+  full_name: Alexander Quinn
+  id: quinn
+  last_name: Quinn
+  picture: ''
+  website: ''
+
+- affiliation: IBM
+  full_name: Maja Vukovic
+  id: vukovic
+  last_name: Vukovic
+  picture: ''
+  website: ''
+
+- affiliation: University of Michigan
+  full_name: Julie Hui
+  id: hui
+  last_name: Hui
+  picture: ''
+  website: ''
+
+- affiliation: The University of Texas at Austin
+  full_name: Matthew Lease
+  id: lease
+  last_name: Lease
+  picture: ''
+  website: ''
+
+- affiliation: NYU
+  full_name: Djellel Difallah
+  id: difallah
+  last_name: Difallah
+  picture: ''
+  website: ''
+
+- affiliation: The Pennsylvania State University
+  full_name: Ting-Hao Huang
+  id: huangtinghao
+  last_name: Huang
+  picture: ''
+  website: ''
+
+- affiliation: Google
+  full_name: Chris Welty
+  id: welty
+  last_name: Welty
+  picture: ''
+  website: ''
+
+- affiliation: University of Tsukuba
+  full_name: Yukino Baba
+  id: baba
+  last_name: Baba
+  picture: ''
+  website: ''
+
+- affiliation: Boston University
+  full_name: Margrit Betke
+  id: betke
+  last_name: Betke
+  picture: ''
+  website: ''
+
+- affiliation: Brown University
+  full_name: Jeff Huang
+  id: huang
+  last_name: Huang
+  picture: ''
+  website: ''
+
+- affiliation: Microsoft
+  full_name: Ece Kamar
+  id: kamar
+  last_name: Kamar
+  picture: ''
+  website: ''
+
+- affiliation: Harvard University
+  full_name: Goran Radanovic
+  id: radanovic
+  last_name: Radanovic
+  picture: ''
+  website: ''
+
+- affiliation: Facebook
+  full_name: Akash-Das Sarma
+  id: sarma
+  last_name: Sarma
+  picture: ''
+  website: ''
+
+- affiliation: Simon Fraser University
+  full_name: Jiannan Wang
+  id: wang
+  last_name: Wang
+  picture: ''
+  website: ''
+
+- affiliation: Harvey Mudd College
+  full_name: Beth Trushkowsky
+  id: trushkowsky
+  last_name: Trushkowsky
+  picture: ''
+  website: ''
+
+- affiliation: Microsoft
+  full_name: Saleema Amershi
+  id: amershi
+  last_name: Amershi
+  picture: ''
+  website: ''
