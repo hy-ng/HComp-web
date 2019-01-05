@@ -411,3 +411,17 @@
   last_name: Amershi
   picture: 'img/photo/Saleema.jpg'
   website: 'https://www.microsoft.com/en-us/research/people/samershi/'
+
+- id: bailey
+  full_name: Brian Bailey
+  last_name: Bailey
+  affiliation: UIUC
+  picture: 'img/photo/brianbailey.jpg'
+  website: 'http://orchid.cs.illinois.edu/people/bailey/index.html'
+
+- id: mason
+  full_name: Winter Mason
+  last_name: Mason
+  affiliation: Facebook
+  picture: 'img/photo/mason.jpeg'
+  website: 'http://smallsocialsystems.com/bio.html'
