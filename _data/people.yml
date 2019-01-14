@@ -425,3 +425,11 @@
   affiliation: Facebook
   picture: 'img/photo/mason.jpeg'
   website: 'http://smallsocialsystems.com/bio.html'
+
+- id: rodrigues
+  full_name: Filipe Rodrigues
+  last_name: Rodrigues
+  affiliation: Technical University of Denmark
+  picture: 'img/photo/rodrigues.png'
+  website: 'http://fprodrigues.com/'
+
