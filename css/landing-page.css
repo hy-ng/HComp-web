@@ -59,7 +59,7 @@ h3 {
     color:#e03c2f !important;
 }
 
-.lead {
+.lead, .page {
     font-size: 17px;
     font-weight: 400;
     color: #333333;
@@ -306,7 +306,7 @@ h3 {
     text-transform:uppercase;
     color: black;
 }
-.section-heading-top {
+.section-heading-top, .page > h2 {
     padding-top: 0px;
     padding-bottom: 0px;
     text-transform:uppercase;
@@ -412,7 +412,7 @@ h3 {
     .intro-text {
         padding: 0px 20px 0px 25px;
     }
-    .lead {
+    .lead, .page {
         font-size:14px;
     }
     .section-heading {
@@ -549,7 +549,7 @@ h2.section-head span {
     text-transform:uppercase;
     letter-spacing:1px;
 }
-.theme-link {
+.theme-link, .page a {
     color: #333;
     border-bottom:1px solid #e03c2f;
     transition: color 0.5s ease;
@@ -560,7 +560,7 @@ h2.section-head span {
     transition: color 0.5s ease;
 }
 
-.theme-link:hover {
+.theme-link:hover, .page a:hover {
     color: #e03c2f;
     border-bottom:0px solid #e03c2f;
     text-decoration:none;
