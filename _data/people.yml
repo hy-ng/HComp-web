@@ -433,3 +433,9 @@
   picture: 'img/photo/rodrigues.png'
   website: 'http://fprodrigues.com/'
 
+- id: yang
+  full_name: Jie Yang
+  last_name: Yang
+  affiliation: Amazon Research
+  picture: 'img/photo/yang-150.jpg'
+  website: 'http://jyang.me/'
