@@ -4,11 +4,13 @@ title: Submit
 year: 2019
 ---
 
-# Call for Papers
+# Call for Submissions
 {:.sub-page-header}
-
 &nbsp;
 {:.sub-page-border}
+
+- Call for [Full Papers](#papers)
+- Call for [Workshops](#workshops)
 
 The Seventh AAAI Conference on Human Computation and Crowdsourcing
 
@@ -45,7 +47,18 @@ Topics of interest include:
 
 - Fairness, accountability, transparency, ethics, and policy implications for crowdsourcing and human computation
 
-## CALL FOR FULL PAPERS
+## CONFERENCE CO-CHAIRS
+
+Edith Law, University of Waterloo
+
+Jennifer Wortman Vaughan, Microsoft Research
+
+
+# CALL FOR FULL PAPERS
+{:.sub-page-header}
+{:#papers}
+&nbsp;
+{:.sub-page-border}
 
 Authors are invited to submit papers of up to 8 pages, plus any number of additional pages containing references only. Please see "Publication" below for number of allowed pages in the final proceedings.
 
@@ -65,8 +78,19 @@ At least one author of each accepted paper must register for the conference to p
 
 Accepted full papers will be allocated eight (8) pages in the conference proceedings; up to two (2) additional pages may be used at a cost to the authors of $275 per page. Final papers found to exceed page limits and or otherwise violating the instructions to authors will not be included in the proceedings. Authors will be required to transfer copyright of their paper to AAAI. Accepted full papers will be published in the HCOMP conference proceedings and included in the [AAAI Digital Library](http://www.aaai.org/Library/HCOMP/hcomp-library.php). 
 
-## CONFERENCE CO-CHAIRS
 
-Edith Law, University of Waterloo
+# CALL FOR WORKSHOPS
+{:.sub-page-header}
+{:#workshops}
+&nbsp;
+{:.sub-page-border}
 
-Jennifer Wortman Vaughan, Microsoft Research
+
+## Important Dates
+- June 19: Workshop proposals due
+- July 10: Workshop notifications sent
+- October 28: Workshop at HCOMP 2019
+
+HCOMP workshops are a gathering place for people interested in human computation or crowdsourcing to meet in the context of a focused and interactive discussion. They are an opportunity to move the field forward and build community. Workshops might address basic or applied research, human computation or crowdsourcing in industry, new methodologies, emerging application areas, or other topics of interest. Workshop schedules should encourage lively debates and discussion. Each workshop should generate ideas that will give the HCOMP community a fresh way of thinking about the topic or that suggest promising directions for future work.
+
+If you would like to organize a workshop, please reach out to <hcompconference@gmail.com> by June 19 with a description of your proposed topic, intended audience, list of potential speakers, and a one-day or half-day schedule, including some time for contributed talks. Workshops are expected to be inclusive, and priority will be given to workshops that include a diversity of speakers, organizers, and viewpoints. Selected workshops will be held on October 28, the day before the main conference begins.
