@@ -62,6 +62,11 @@ Jennifer Wortman Vaughan, Microsoft Research
 &nbsp;
 {:.sub-page-border}
 
+## Important Dates
+- June 3, 2019: Abstracts submission
+- June 5, 2019 (5pm <a class="theme-link" href="https://time.is/EST">EST</a>): Full papers due
+- August 2, 2019: Notification of acceptance
+
 Authors are invited to submit papers of up to 8 pages, plus any number of additional pages containing references only. Please see "Publication" below for number of allowed pages in the final proceedings.
 
 All submitted papers must represent original work, not previously published or under simultaneous peer-review for any other peer-reviewed, archival conference or journal.  
