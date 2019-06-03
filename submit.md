@@ -22,7 +22,7 @@ Skamania Lodge, Stevenson, Washington, USA
 ## KEY DATES
 
 - June 3, 2019: Abstract submission
-- June 5, 2019 (5pm <a class="theme-link" href="https://time.is/EST">EST</a>): Full papers due
+- June 5, 2019 (5pm <a class="theme-link" href="https://time.is/ET">ET</a>): Full papers due
 - August 2, 2019: Notification of acceptance
 - August 22, 2019: Final camera-ready papers due
 - October 28–30, 2019: Conference
@@ -64,7 +64,7 @@ Jennifer Wortman Vaughan, Microsoft Research
 
 ## Important Dates
 - June 3, 2019: Abstracts submission
-- June 5, 2019 (5pm <a class="theme-link" href="https://time.is/EST">EST</a>): Full papers due
+- June 5, 2019 (5pm <a class="theme-link" href="https://time.is/ET">ET</a>): Full papers due
 - August 2, 2019: Notification of acceptance
 - August 22, 2019: Final camera-ready papers due
 
