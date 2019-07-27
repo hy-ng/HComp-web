@@ -111,7 +111,7 @@ If you would like to organize a workshop, please reach out to <hcompconference@g
 
 ## Important Dates
 - August 9: Works-in-Progress Papers and Demonstration papers due (23:59 UTC-12)
-- September 6: WiP and Demo notifications sent
+- August 28: WiP and Demo notifications sent
 - September 26: WiP and Demo camera-ready papers due (23:59 UTC-12)
 
 
@@ -123,9 +123,9 @@ Previously unpublished. All submitted Works-in-Progress papers must represent or
 
 Length. Works-in-Progress & Demonstration papers can be up to 2 pages (references can extend beyond the 2 pages). 
 
-Formatting. Papers must be formatted in AAAI two-column, camera-ready style; please refer to the AAAI 2019 Author Kit (http://www.aaai.org/Publications/Templates/AuthorKit19.zip) for details. Papers must be in trouble-free, high-resolution PDF format, formatted for US Letter (8.5″ x 11″) paper, using Type 1 or TrueType fonts. The AAAI copyright block is not required for works-in-progress or demo submissions, as they are not included in the formal proceedings. Please see below for information about publication.
+Formatting. Papers must be formatted in AAAI two-column, camera-ready style; please refer to the [AAAI 2019 Author Kit](http://www.aaai.org/Publications/Templates/AuthorKit19.zip) for details. Papers must be in trouble-free, high-resolution PDF format, formatted for US Letter (8.5″ x 11″) paper, using Type 1 or TrueType fonts. The AAAI copyright block is not required for works-in-progress or demo submissions, as they are not included in the formal proceedings. Please see below for information about publication.
 
-Electronic submission through the HCOMP-19 EasyChair paper submission site is required on or before the deadline listed above. Please be sure to declare any conflicts-of-interest with Works-in-Progress & Demonstration PC members by selecting the "Declare Conflicts" link on upper-right of your EasyChair submission page. We cannot accept submissions by e-mail or fax. Authors will receive confirmation of receipt of their submissions, including an ID number, shortly after submission. HCOMP will contact authors again only if problems are encountered with papers. Inquiries regarding paper receipt must be made no later than August 12, 2019.
+Electronic submission through the [HCOMP-19 EasyChair paper submission site](https://easychair.org/conferences/?conf=hcomp19) is required on or before the deadline listed above. Please be sure to declare any conflicts-of-interest with Works-in-Progress & Demonstration PC members by selecting the "Declare Conflicts" link on upper-right of your EasyChair submission page. We cannot accept submissions by e-mail or fax. Authors will receive confirmation of receipt of their submissions, including an ID number, shortly after submission. HCOMP will contact authors again only if problems are encountered with papers. Inquiries regarding paper receipt must be made no later than August 12, 2019.
 
 Supplemental Materials. Authors are invited, but not required, to include supplemental materials such as executables and data files so that reviewers can reproduce results in the paper, images, additional videos, related papers, more detailed explanations, derivations, or results. These materials will be viewed only at the discretion of the reviewers, who are only obligated to read your paper itself. 
 
@@ -181,7 +181,7 @@ Supplemental Paragraph. Please write a paragraph explaining:
 
 Length and Organization. Your paper should be no more than 4 pages in total: 3 pages for the Doctoral Research Overview (including all figures and references), and the 4th page being the Supplemental Paragraph. The first page must contain the title of the paper, full author name, affiliation and contact details, an abstract of up to 250 words, and up to 3 keywords describing the research topic areas.
 
-Formatting. Papers must be formatted in AAAI two-column, camera-ready style; please refer to the AAAI 2019 Author Kit (http://www.aaai.org/Publications/Templates/AuthorKit19.zip) for details. Papers must be in trouble-free, high-resolution PDF format, formatted for US Letter (8.5″ x 11″) paper, using Type 1 or TrueType fonts. It is the responsibility of the student to ensure that their submission uses no unusual formatting and is printable on a standard printer. The AAAI copyright block is not required for works-in-progress or demo submissions, as they are not included in the formal proceedings. Please see below for information regarding dissemination.
+Formatting. Papers must be formatted in AAAI two-column, camera-ready style; please refer to the [AAAI 2019 Author Kit](http://www.aaai.org/Publications/Templates/AuthorKit19.zip) for details. Papers must be in trouble-free, high-resolution PDF format, formatted for US Letter (8.5″ x 11″) paper, using Type 1 or TrueType fonts. It is the responsibility of the student to ensure that their submission uses no unusual formatting and is printable on a standard printer. The AAAI copyright block is not required for works-in-progress or demo submissions, as they are not included in the formal proceedings. Please see below for information regarding dissemination.
 
 Electronic submission through the [HCOMP-19 EasyChair paper submission site](https://easychair.org/conferences/?conf=hcomp19) is required on or before the deadline listed above. We cannot accept submissions by e-mail or fax. Authors will receive confirmation of receipt of their submissions, including an ID number, shortly after submission. HCOMP will contact authors again only if problems are encountered with papers. 
 
