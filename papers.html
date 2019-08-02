@@ -53,9 +53,11 @@ year: 2019
 							<li>
 								<a class="theme-link" href="#full">Full Papers</a>
 							</li>
+              <!--
 							<li>
 								<a class="theme-link" href="#wip">Works-in-Progress & Demonstrations</a>
 							</li>
+              -->
 						</ul>
 
 
@@ -256,209 +258,23 @@ year: 2019
 
 						<!--<p class="lead">Please see the online <a class="theme-link" href="http://www.aaai.org/Library/HCOMP/hcomp16contents.php">Conference Proceedings</a> to download full papers.</p>-->
 
+            {% for paper in site.data.papers[2019] %}
 						<b>
-              &quot;A Game Without Competition is Hardly a Game&quot;: The Impact of Competitions on Player Activity in a Human Computation Game
+              {{ paper.title }}
             </b>
 						<ul class="nobullet">
 							<li>
-								Neal Reeves, Peter West and Elena Simperl
+                {{ paper.authors }}
 							</li>
 						</ul>
+            {% endfor %}
 
-						<b>
-              Active Learning with Unbalanced Classes & Example-Generation Queries
-            </b>
-						<ul class="nobullet">
-							<li>
-								Christopher Lin, Mausam and Daniel Weld
-							</li>
-						</ul>
-
-						<b>
-              All That Glitters is Gold -- An Attack Scheme on Gold Questions in Crowdsourcing
-            </b>
-						<ul class="nobullet">
-							<li>
-								Alessandro Checco, Jo Bates and Gianluca Demartini
-							</li>
-						</ul>
-
-						<b>
-              An Empirical Study on Short- and Long-term Effects of Self-Correction in Crowdsourced Microtasks
-            </b>
-						<ul class="nobullet">
-							<li>
-								Masaki Kobayashi, Hiromi Morita, Masaki Matsubara, Nobuyuki Shimizu and Atsuyuki Morishima
-							</li>
-						</ul>
-
-						<b>
-              Capturing and Interpreting Ambiguity in Crowdsourcing Frame Disambiguation
-            </b>
-						<ul class="nobullet">
-							<li>
-								Anca Dumitrache, Lora Aroyo and Chris Welty
-							</li>
-						</ul>
-
-						<b>
-              Crowdsourcing real-time viral disease and pest information. A case of nation-wide cassava disease surveillance in a developing country
-            </b>
-						<ul class="nobullet">
-							<li>
-								Daniel Mutembesa, Ernest Mwebaze and Christopher Omongo
-							</li>
-						</ul>
-
-						<b>
-              EURECA: Enhanced Understanding of Real Environments via Crowd Assistance
-            </b>
-						<ul class="nobullet">
-							<li>
-								Sai Gouravajhala, Jinyeong Yim, Karthik Desingh, Yanda Huang, Odest Jenkins and Walter Lasecki
-							</li>
-						</ul>
-
-						<b>
-              How do Crowdworker Communities and Microtask Markets Influence Each Other? A Data-Driven Study on Amazon Mechanical Turk
-            </b>
-						<ul class="nobullet">
-							<li>
-								Jie Yang, Carlo van der Valk, Tobias Hossfeld, Judith Redi and Alessandro Bozzon
-							</li>
-						</ul>
-
-						<b>
-              Permutation-Invariant Consensus over Crowdsourced Labels
-            </b>
-						<ul class="nobullet">
-							<li>
-								Michael Giancola, Randy Paffenroth and Jacob Whitehill
-							</li>
-						</ul>
-
-						<b>
-              Plexiglass: Multiplexing Passive and Active Tasks for More Efficient Crowdsourcing
-            </b>
-						<ul class="nobullet">
-							<li>
-								Akshay Rao, Harmanpreet Kaur and Walter Lasecki
-							</li>
-						</ul>
-
-						<b>
-              Skill-and-Stress-Aware Assignment of Crowd-Worker Groups to Task Streams
-            </b>
-						<ul class="nobullet">
-							<li>
-								Katsumi Kumai, Masaki Matsubara, Yuhki Shiraishi, Daisuke Wakatsuki, Jianwei Zhang, Takeaki Shionome, Hiroyuki Kitagawa and Atsuyuki Morishima
-							</li>
-						</ul>
-
-						<b>
-              Social Cues, Social Biases: Stereotypes in Annotations on People Images
-            </b>
-						<ul class="nobullet">
-							<li>
-								Jahna Otterbacher
-							</li>
-						</ul>
-
-						<b>
-              Striving to Earn More: Strategies and Tool Use Among Crowd Workers
-            </b>
-						<ul class="nobullet">
-							<li>
-								Toni Kaplan, Susumu Saito, Kotaro Hara and Jeffrey Bigham
-							</li>
-						</ul>
-
-						<b>
-              The Role of Novelty in Securing Investors for Equity Crowdfunding Campaigns
-            </b>
-						<ul class="nobullet">
-							<li>
-								Emoke-Agnes Horvat, Johannes Wachs, Rong Wang and Aniko Hannak
-							</li>
-						</ul>
-
-						<b>
-              Towards Accountable AI: Hybrid Human-Machine Analyses for Characterizing System Failure
-            </b>
-						<ul class="nobullet">
-							<li>
-								Besmira Nushi, Ece Kamar and Eric Horvitz
-							</li>
-						</ul>
-
-						<b>
-              Towards Quantifying Behaviour in Social Crowdsourcing Communities
-            </b>
-						<ul class="nobullet">
-							<li>
-								Khobaib Zaamout and Ken Barker
-							</li>
-						</ul>
-
-						<b>
-              Usability of Humanly Computable Passwords
-            </b>
-						<ul class="nobullet">
-							<li>
-								Samira Samadi, Adam Kalai and Santosh Vempala
-							</li>
-						</ul>
-
-						<b>
-              Utilizing Crowdsourced Asynchronous Chat for Efficient Collection of Dialogue Dataset
-            </b>
-						<ul class="nobullet">
-							<li>
-								Kazushi Ikeda and Keiichiro Hoashi
-							</li>
-						</ul>
-
-						<b>
-              Verifying Conceptual Domain Models with Human Computation: A Case Study in Software Engineering
-            </b>
-						<ul class="nobullet">
-							<li>
-								Marta Sabou, Dietmar Winkler, Stefan Biffl and Peter Penzenstadler
-							</li>
-						</ul>
-
-						<b>
-              Visual Question Answer Diversity
-            </b>
-						<ul class="nobullet">
-							<li>
-								Chun-Ju Yang, Kristen Grauman and Danna Gurari
-							</li>
-						</ul>
-
-						<b>
-              WingIt: Efficient refinement of unclear task instructions
-            </b>
-						<ul class="nobullet">
-							<li>
-								V. K. Chaithanya Manam and Alexander J. Quinn
-							</li>
-						</ul>
-
-						<b>
-              Your Behavior Signals Your Reliability: Modeling Crowd Behavioral Traces to Ensure Quality Relevance Annotations
-            </b>
-						<ul class="nobullet">
-							<li>
-								Tanya Goyal, Tyler McDonnell, Mucahid Kutlu, Tamer Elsayed and Matthew Lease
-							</li>
-						</ul>
-
+            <!--
 						<h2 id="wip" class="section-heading">Works-in-Progress &amp; Demonstrations</h2>
 						</li>
 
 						<p class="lead"><i>
-                Accepted works-in-Progress & Demonstrations will be presented as posters at the conference. <!--Some authors have also chosen to share an online copy of their paper, in which case the paper title links to the online copy.-->
+                Accepted works-in-Progress & Demonstrations will be presented as posters at the conference.
 			</i></p>
 						<b>A Study of Narrative Creation by Means of Crowds and Niches</b>
 						<ul class="nobullet">
@@ -535,6 +351,7 @@ year: 2019
 						<ul class="nobullet">
 							<li>Jiani Qu, Anny Marleen Hißbach, Tim Gollub and Martin Potthast</li>
 						</ul>
+            -->
 
 					</div>
 				</div>
