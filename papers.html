@@ -258,7 +258,8 @@ year: 2019
 
 						<!--<p class="lead">Please see the online <a class="theme-link" href="http://www.aaai.org/Library/HCOMP/hcomp16contents.php">Conference Proceedings</a> to download full papers.</p>-->
 
-            {% for paper in site.data.papers[2019] %}
+            {% assign sorted = site.data.papers[2019] | sort: 'title' %}
+            {% for paper in sorted %}
 						<b>
               {{ paper.title }}
             </b>
