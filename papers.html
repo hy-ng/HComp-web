@@ -53,11 +53,9 @@ year: 2019
 							<li>
 								<a class="theme-link" href="#full">Full Papers</a>
 							</li>
-              <!--
 							<li>
 								<a class="theme-link" href="#wip">Works-in-Progress & Demonstrations</a>
 							</li>
-              -->
 						</ul>
 
 
@@ -258,7 +256,7 @@ year: 2019
 
 						<!--<p class="lead">Please see the online <a class="theme-link" href="http://www.aaai.org/Library/HCOMP/hcomp16contents.php">Conference Proceedings</a> to download full papers.</p>-->
 
-            {% assign sorted = site.data.papers[2019] | sort: 'title' %}
+            {% assign sorted = site.data.accepted[2019].full | sort: 'title' %}
             {% for paper in sorted %}
 						<b>
               {{ paper.title }}
@@ -270,10 +268,46 @@ year: 2019
 						</ul>
             {% endfor %}
 
-            <!--
 						<h2 id="wip" class="section-heading">Works-in-Progress &amp; Demonstrations</h2>
 						</li>
 
+            <h5 class="section-heading">Works-in-Progress</h5>
+						<p class="lead"><i>
+               Accepted works-in-progress will be presented as posters at the conference.
+            </i></p>
+
+            {% assign sorted = site.data.accepted[2019].wip | sort: 'title' %}
+            {% for paper in sorted %}
+						<b>
+              {{ paper.title }}
+            </b>
+						<ul class="nobullet">
+							<li>
+                {{ paper.authors }}
+							</li>
+						</ul>
+            {% endfor %}
+
+            <h5 class="section-heading">Demonstrations</h5>
+						<p class="lead"><i>
+              Accepted demonstrations will be presented as a working system and/or poster at the conference.
+            </i></p>
+
+            {% assign sorted = site.data.accepted[2019].demo | sort: 'title' %}
+            {% for paper in sorted %}
+						<b>
+              {{ paper.title }}
+            </b>
+						<ul class="nobullet">
+							<li>
+                {{ paper.authors }}
+							</li>
+						</ul>
+            {% endfor %}
+
+
+
+            <!--
 						<p class="lead"><i>
                 Accepted works-in-Progress & Demonstrations will be presented as posters at the conference.
 			</i></p>

@@ -1,0 +1,102 @@
+2019:
+  full:
+    - authors: Rehab Qarout, Alessandro Checco, Gianluca Demartini and Kalina Bontcheva
+      title: Platform-related Factors in Repeatability and Reproducibility of Crowdsourcing Tasks
+    - authors: Peter Hase, Chaofan Chen, Oscar Li and Cynthia Rudin
+      title: Interpretable Image Recognition with Hierarchical Prototypes
+    - authors: Yan Shvartzshnaider, Noah Apthorpe, Nick Feamster and Helen Nissenbaum.
+      title: >
+        Going Against the (Appropriate) Flow: A Contextual Integrity Approach to Privacy Policy Analysis
+    - authors: Jahna Otterbacher, Pınar Barlas, Styliani Kleanthous and Kyriakos Kyriakou
+      title: How Do We Talk about Other People? Group (Un)Fairness in Natural Language Image Descriptions
+    - authors: Jorge Ramirez, Marcos Baez, Fabio Casati and Boualem Benatallah
+      title:  Understanding the Impact of Text Highlighting in Crowdsourcing Tasks
+    - authors: Shayan Doroudi, Ece Kamar and Emma Brunskill
+      title: Not Everyone Can Write Great Examples But Great Examples Can Come From Anywhere
+    - authors: Sowmya Karunakaran and Rashmi Ramakrishnan
+      title: Testing Stylistic Interventions to Reduce Emotional Impact of Content Moderation Workers
+    - authors: Camelia Simoiu, Chiraag Sumanth, Alok Shankar and Sharad Goel
+      title: >
+        A Large-Scale Study of the "Wisdom of Crowds'"
+    - authors: Vikram Mohanty, Kareem Abdol-Hamid, Courtney Ebersohl and Kurt Luther
+      title: >
+        Second Opinion: Supporting last-mile person identification with crowdsourcing and face recognition
+    - authors: Nikhil Garg, Lodewijk Gelauff, Sukolsak Sakshuwong and Ashish Goel
+      title: Who is in Your Top Three? Optimizing Learning in Elections with Many Candidates
+    - authors: Colin Vandenhof
+      title: A Hybrid Approach to Identifying Unknown Unknowns of Predictive Models
+    - authors: Arijit Ray, Yi Yao, Rakesh Kumar, Ajay Divakaran and Giedrius Burachas
+      title: Can You Explain That? Lucid Explanations Help Human-AI Collaborative Image Retrieval
+    - authors: Chris Madge, Juntao Yu, Jon Chamberlain, Udo Kruschwitz, Silviu Paun and Massimo Poesio
+      title: Progression In A Language Annotation Game With A Purpose
+    - authors: Andrew Walter, Benjamin Boskin, Seth Cooper and Panagiotis Manolios
+      title: Gamification of Loop-Invariant Discovery from Code
+    - authors: Shelby Heinecke and Lev Reyzin
+      title: Crowdsourced PAC Learning under Classification Noise
+    - authors: Isaac Lage, Emily Chen, Jeffrey He, Menaka Narayanan, Been Kim, Samuel Gershman and Finale Doshi-Velez
+      title: Human Evaluation of Models Built for Interpretability
+    - authors: Andi Peng, Besmira Nushi, Emre Kiciman, Kori Inkpen, Siddharth Suri and Ece Kamar
+      title: What You See is What You Get? The Impact of Representation Criteria on Human Bias in Hiring
+    - authors: Ranjay Krishna, Li Fei-Fei, Michael Bernstein, Pranav Khadpe and Junwon Park
+      title: AI-based Request Augmentation to Increase Crowdsourcing Participation
+    - authors: Mark Whiting, Grant Hugh and Michael Bernstein
+      title: >
+        Fair Work: Crowd Work Minimum Wage with One Line of Code
+    - authors: Mahsan Nourani, Samia Kabir, Sina Mohseni and Eric Ragan
+      title: The Effects of Meaningful and Meaningless Explanations on Trust and Perceived System Accuracy in Intelligent Systems
+    - authors: Gagan Bansal, Besmira Nushi, Ece Kamar, Daniel Weld, Walter Lasecki and Eric Horvitz
+      title: >
+        Beyond Accuracy: On the Role of Mental Models in Human-AI Teams
+    - authors: Tong Liu, Pratik Sanjay Bongale, Akash Venkatachalam and Christopher Homan
+      title: Learning to Predict Population-Level Label Distributions
+  wip:
+    - authors: Chris Welty, Lora Aroyo and Praveen Paritosh
+      title: A Metrological Framework for Evaluating Crowd-powered Instruments
+    - authors: Han Maw Aung, Cienn Givens, Amber Kampen, Rebecca Qin and Beth Trushkowsky
+      title: >
+        Adaptive Query Processing with the Crowd: Joins and the Joinable Filter
+    - authors: Yoshinari Shirai, Yasue Kishino, Yutaka Yanagisawa, Shin Mizutani and Takayuki Suyama
+      title: >
+        Building Human Computation Space on the WWW: Labeling Web Contents through Web Browsers
+    - authors: Darryl Wright, Lucy Fortson, Chris Lintott and Mike Walmsley
+      title: Citizen Scientist Amplification
+    - authors: Xiao Hu, Haobo Wang, Somesh Due, Anirudh Vegesana, Kaiwen Yu, Yung-Hsiang Lu and Ming Yin
+      title: Discovering Biases in Image Datasets with the Crowd
+    - authors: Margarita Boyarskaya and Panos Ipeirotis
+      title: Fair Payments in Adaptive Voting
+    - authors: Cynthia Freeman and Ian Beaver
+      title: Human-in-the-Loop Selection of Optimal Time Series Anomaly Detection Methods
+    - authors: Kohta Katsuno, Masaki Matsubara, Chiemi Watanabe and Atsuyuki Morishima
+      title: Improving Reproducibility of Crowdsourcing Experiments
+    - authors: Sukrit Venkatagiri, Jacob Thebault-Spieker, Sarwat Kazmi, Efua Akonor and Kurt Luther
+      title: >
+        "It's QuizTime!": A Study of Online Verification Practices on Twitter
+    - authors: Jacopo Tagliabue and Reuben Cohn-Gordon
+      title: >
+        Lexical Learning as an Online Optimal Experiment: Building Efficient Search Engines through Human-Machine Collaboration
+    - authors: Mounica Devaguptapu and Venkat Sriram Siddhardh Nadendla
+      title: >
+        On Task Decision Processes based on Discounted Satisficing Heuristic Employed by Crowd Workers
+    - authors: Jacob Thebault-Spieker, Sukrit Venkatagiri, David Mitchell, Chris Hurt and Kurt Luther
+      title: >
+        PairWise: Mitigating Political Bias in Crowdsourced Content Moderation
+    - authors: Rogerio de Leon Pereira, Andrea Bunt and Olivier Tremblay-Savard
+      title: >
+        Promoting Learning and Engagement in Human Computing Games: a Study of Educational Material Formats
+    - authors: Sihang Qiu, Ujwal Gadiraju and Alessandro Bozzon
+      title: Understanding Conversational Style in Conversational Microtask Crowdsourcing
+  demo:
+    - authors: Jorge Ramírez, Simone Degiacomi, Davide Zanella, Marcos Baez, Fabio Casati and Boualem Benatallah
+      title: >
+        CrowdHub: Extending crowdsourcing platforms for the controlled evaluation of tasks designs
+    - authors: Supheakmungkol Sarin, Knot Pipatsrisawat, Khiem Pham, Anurag Batra and Luís Valente
+      title: >
+        Crowdsource by Google: A Platform for Collecting Inclusive and Representative Machine Learning Data
+    - authors: James Fishkin, Nikhil Garg, Lodewijk Gelauff, Ashish Goel, Sukolsak Sakshuwong, Alice Siu, Kamesh Munagala and Sravya Yandamuri
+      title: Deliberative Democracy with the Online Deliberation Platform
+    - authors: Claudel Rheault, Lorne Schell, Doriane Soulas, Chris Tyler, Tara Tressel and Masha Krol
+      title: The Impact of Visual Representations in a Machine Teaching Interaction
+    - authors: Ying Zhong, Masaki Matsubara, Makoto Kobayashi and Atsuyuki Morishima
+      title: >
+        Understandable Microtasks With No Visual Representation
+
