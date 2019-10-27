@@ -9,3 +9,5 @@ _site/
 serve
 icon?
 .envrc
+/vendor/
+/.bundle/
