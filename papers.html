@@ -279,7 +279,11 @@ year: 2019
             {% assign sorted = site.data.accepted[2019].wip | sort: 'title' %}
             {% for paper in sorted %}
 						<b>
+              {% if paper.id %}
               <a class="theme-link" href="assets/papers/{{paper.id}}.pdf">{{ paper.title }}</a>
+              {% else %}
+              {{ paper.title }}
+              {% endif %}
             </b>
 						<ul class="nobullet">
 							<li>
@@ -296,7 +300,11 @@ year: 2019
             {% assign sorted = site.data.accepted[2019].demo | sort: 'title' %}
             {% for paper in sorted %}
 						<b>
+              {% if paper.id %}
               <a class="theme-link" href="assets/papers/{{paper.id}}.pdf">{{ paper.title }}</a>
+              {% else %}
+              {{ paper.title }}
+              {% endif %}
             </b>
 						<ul class="nobullet">
 							<li>

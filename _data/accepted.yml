@@ -57,10 +57,6 @@
       title: >
         Adaptive Query Processing with the Crowd: Joins and the Joinable Filter
       id: 118
-    - authors: Yoshinari Shirai, Yasue Kishino, Yutaka Yanagisawa, Shin Mizutani and Takayuki Suyama
-      title: >
-        Building Human Computation Space on the WWW: Labeling Web Contents through Web Browsers
-      id: 120
     - authors: Darryl Wright, Lucy Fortson, Chris Lintott and Mike Walmsley
       title: Citizen Scientist Amplification
       id: 126
@@ -88,10 +84,6 @@
       title: >
         On Task Decision Processes based on Discounted Satisficing Heuristic Employed by Crowd Workers
       id: 146
-    - authors: Jacob Thebault-Spieker, Sukrit Venkatagiri, David Mitchell, Chris Hurt and Kurt Luther
-      title: >
-        PairWise: Mitigating Political Bias in Crowdsourced Content Moderation
-      id: 135
     - authors: Rogerio de Leon Pereira, Andrea Bunt and Olivier Tremblay-Savard
       title: >
         Promoting Learning and Engagement in Human Computing Games: a Study of Educational Material Formats
@@ -118,4 +110,14 @@
       title: >
         Understandable Microtasks With No Visual Representation
       id: 129
-
+    - authors: Jacob Thebault-Spieker, Sukrit Venkatagiri, David Mitchell, Chris Hurt and Kurt Luther
+      title: >
+        PairWise: Mitigating Political Bias in Crowdsourced Content Moderation
+      id: 135
+    - authors: Yoshinari Shirai, Yasue Kishino, Yutaka Yanagisawa, Shin Mizutani and Takayuki Suyama
+      title: >
+        Building Human Computation Space on the WWW: Labeling Web Contents through Web Browsers
+      id: 120
+    - authors: Mark Whiting, Grant Hugh and Michael Bernstein
+      title: >
+        Fair Work: Crowd Work Minimum Wage with One Line of Code
