@@ -1,5 +1,5 @@
 safe: true
-url: https://www.humancomputation.com
+url: https://www.humancomputation2020test.com
 exclude: [README.md, CNAME, LICENSE, util, Gemfile, Gemfile.lock, vendor, vendor-bundle]
 plugins:
   - jekyll-redirect-from
