@@ -6,7 +6,9 @@
 {% endfor %}
 {% assign people = people | sort: 'last_name' %}
 
-{% if people.size == 2 %}
+{% if people.size == 1 %}
+  {% assign col_size = 12 %}
+{% elsif people.size == 2 %}
   {% assign col_size = 5 %}
 {% elsif people.size == 3 %}
   {% assign col_size = 4 %}
@@ -24,13 +26,13 @@
     <div class="col-md-1"></div>
   {% endif %}
 
-  {% if people.size > 1 %}
+  {% if people.size >= 1 %}
     <div class="col-md-{{col_size}}" style="text-align:center">
   {% endif %}
     <img class="photo-size rounded-circle" src="{{ person.picture }}">
     <h3><a class="theme-link-org" href="{{ person.website }}">{{ person.full_name }}</a></h3>
     <p class="lead">{{ person.affiliation }}</p>
-  {% if people.size > 1 %}
+  {% if people.size >= 1 %}
   </div>
   {% endif %}
 

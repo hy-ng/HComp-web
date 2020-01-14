@@ -23,7 +23,7 @@
   last_name: Simperl
   full_name: Elena Simperl
   picture: img/photo/simperl.jpg
-  affiliation: University of Southampton
+  affiliation: King's College London
   website: http://elenasimperl.eu
 
 - id: larson
@@ -110,6 +110,20 @@
   picture: img/photo/aroyo.jpeg
   affiliation: Vrije Universiteit Amsterdam
   website: http://lora-aroyo.org/
+
+- id: oomen
+  last_name: Oomen
+  full_name: Johan Oomen
+  picture: img/photo/oomen.jpg
+  affiliation: Vrije Universiteit Amsterdam
+  website: https://www.beeldengeluid.nl/en/knowledge/experts/johan-oomen/
+
+- id: amaral
+  last_name: Amaral
+  full_name: Gabriel Amaral
+  picture: img/photo/amaral.jpg
+  affiliation: King's College London
+  website: https://gabrielmaia7.github.io/
 
 - id: ho
   last_name: Ho
