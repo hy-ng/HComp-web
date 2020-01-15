@@ -2,6 +2,8 @@
   - vaughan
   - law
 2020:
-  - simperl
-  - aroyo
-  - oomen
+  general:
+    - simperl
+    - aroyo
+  local:
+    - oomen

@@ -118,6 +118,13 @@
   affiliation: Vrije Universiteit Amsterdam
   website: https://www.beeldengeluid.nl/en/knowledge/experts/johan-oomen/
 
+- id: inel
+  last_name: oana
+  full_name: Oana Inel
+  picture: img/photo/inel.jpg
+  affiliation: Vrije Universiteit Amsterdam
+  website: https://oana-inel.github.io/
+
 - id: amaral
   last_name: Amaral
   full_name: Gabriel Amaral
