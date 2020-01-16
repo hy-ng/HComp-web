@@ -119,10 +119,10 @@
   website: https://www.beeldengeluid.nl/en/knowledge/experts/johan-oomen/
 
 - id: inel
-  last_name: oana
+  last_name: Inel
   full_name: Oana Inel
   picture: img/photo/inel.jpg
-  affiliation: Vrije Universiteit Amsterdam
+  affiliation: Delft University of Technology
   website: https://oana-inel.github.io/
 
 - id: amaral
