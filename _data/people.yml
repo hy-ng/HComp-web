@@ -12,6 +12,13 @@
   affiliation: Microsoft Research
   website: https://www.microsoft.com/en-us/research/people/suri/
 
+- id: yin
+  last_name: yin
+  full_name: Ming Yin
+  picture: img/photo/Ming.jpg
+  affiliation: Purdue University
+  website: http://mingyin.org/
+
 - id: hsu
   last_name: Hsu
   full_name: Jane Hsu
@@ -19,11 +26,18 @@
   affiliation: National Taiwan University
   website: http://agents.csie.ntu.edu.tw/~yjhsu/who.html
 
+- id: gentile
+  last_name: Gentile
+  full_name: Anna Lisa Gentile
+  picture: img/photo/annalisa-150.jpg
+  affiliation: IBM
+  website: https://anligentile.github.io/
+
 - id: simperl
   last_name: Simperl
   full_name: Elena Simperl
   picture: img/photo/simperl.jpg
-  affiliation: University of Southampton
+  affiliation: King's College London
   website: http://elenasimperl.eu
 
 - id: larson
@@ -108,8 +122,36 @@
   last_name: Aroyo
   full_name: Lora Aroyo
   picture: img/photo/aroyo.jpeg
-  affiliation: Vrije Universiteit Amsterdam
+  affiliation: Google
   website: http://lora-aroyo.org/
+
+- id: oomen
+  last_name: Oomen
+  full_name: Johan Oomen
+  picture: img/photo/oomen.jpg
+  affiliation: The Netherlands Institute for Sound and Vision
+  website: https://www.beeldengeluid.nl/en/knowledge/experts/johan-oomen/
+
+- id: verbruggen
+  last_name: Verbruggen
+  full_name: Erwin Verbruggen
+  picture: img/photo/verbruggen-150.jpg
+  affiliation: The Netherlands Institute for Sound and Vision
+  website: https://www.beeldengeluid.nl/en/knowledge/experts/erwin-verbruggen
+
+- id: inel
+  last_name: Inel
+  full_name: Oana Inel
+  picture: img/photo/inel.jpg
+  affiliation: Delft University of Technology
+  website: https://oana-inel.github.io/
+
+- id: amaral
+  last_name: Amaral
+  full_name: Gabriel Amaral
+  picture: img/photo/amaral.jpg
+  affiliation: King's College London
+  website: https://gabrielmaia7.github.io/
 
 - id: ho
   last_name: Ho
@@ -139,12 +181,26 @@
   picture: 'img/photo/Morishima.jpg'
   website: 'https://fusioncomplab.org/people/atsuyuki/'
 
-- affiliation: Cortical.AI
+- affiliation: Brainworks
   full_name: Markus Krause
   id: krause
   last_name: Krause
   picture: 'img/photo/Markus.png'
   website: 'https://www.mooqita.org'
+
+- affiliation: Karlsruhe
+  full_name: Maribel Acosta
+  id: acosta
+  last_name: Acosta
+  picture: 'img/photo/acosta-150.jpg'
+  website: 'https://www.aifb.kit.edu/web/Maribel_Acosta/en'
+
+- affiliation: University of Michigan
+  full_name: Harmanpreet Kaur
+  id: kaur
+  last_name: Kaur
+  picture: 'img/photo/harman-150.jpg'
+  website: 'http://www-personal.umich.edu/~harmank/'
 
 - affiliation: The University of Queensland
   full_name: Gianluca Demartini
@@ -167,6 +223,41 @@
   picture: 'img/photo/liguoliang.jpg'
   website: 'http://dbgroup.cs.tsinghua.edu.cn/ligl/'
 
+- affiliation: Max Planck Institute for Software Systems
+  full_name: Adish Singla
+  id: singla
+  last_name: Singla
+  picture: 'img/photo/adish.png'
+  website: 'https://machineteaching.mpi-sws.org/adishsingla.html'
+
+- affiliation: Microsoft
+  full_name: Omar Alonso
+  id: alonso
+  last_name: Alonso
+  picture: 'img/photo/omar.png'
+  website: 'https://www.linkedin.com/in/omar-alonso-8a5235/'
+
+- affiliation: Snap Research
+  full_name: Rajan Vaish
+  id: vaish
+  last_name: Vaish
+  picture: 'img/photo/rajan.png'
+  website: 'http://www.rajanvaish.com/index.html' 
+  
+- affiliation: UC Santa Cruz
+  full_name: David Lee
+  id: lee
+  last_name: Lee
+  picture: 'img/photo/david.jpg'
+  website: 'https://www.soe.ucsc.edu/people/davidtlee' 
+
+- affiliation: Delft University of Technology
+  full_name: Ujwal Gadiraju
+  id: gadiraju
+  last_name: Gadiraju
+  picture: 'img/photo/ujwal-new.png'
+  website: 'http://www.l3s.de/~gadiraju/' 
+
 - affiliation: Trash.app
   full_name: Genevieve Patterson
   id: patterson
@@ -187,6 +278,13 @@
   last_name: Checco
   picture: 'img/photo/checco-150.jpg'
   website: 'https://www.sheffield.ac.uk/is/staff/checco'
+
+- affiliation: FD Mediagroep
+  full_name: Anca Dumitrache
+  id: dumitrache
+  last_name: Dumitrache
+  picture: 'img/photo/dumitrache-150.jpg'
+  website: 'http://ancad.ro/'
 
 - affiliation: University of California San Diego
   full_name: Steven Dow

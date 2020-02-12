@@ -80,7 +80,7 @@ h3 {
 /*    padding-bottom: 50px;
     color: #f8f8f8;*/
     background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),
-                rgba(0,0,0,0.3) url(../img/HCOMP2019-1-MainPage.jpg) no-repeat center;
+                rgba(0,0,0,0.3) url(../img/HCOMP2020-1-MainPage.jpg) no-repeat center;
     background-position: center;
     background-size: cover;
     min-height:400px;
@@ -121,7 +121,7 @@ h3 {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 0px;
     color: #f8f8f8;
-    background: url(../img/HCOMP2019-1-MainPage.jpg) no-repeat center;
+    background: url(../img/HCOMP2020-1-MainPage.jpg) no-repeat center;
     background-position: center;
     background-size: cover;
     min-height:400px;
@@ -131,7 +131,7 @@ h3 {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 0px;
     color: #f8f8f8;
-    background: url(../img/HCOMP2019-1-MainPage.jpg) no-repeat center;
+    background: url(../img/HCOMP2020-1-MainPage.jpg) no-repeat center;
     background-position: center;
     background-size: cover;
     min-height:400px;
@@ -141,7 +141,7 @@ h3 {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 0px;
     color: #f8f8f8;
-    background: url(../img/HCOMP2019-1-MainPage.jpg) no-repeat center;
+    background: url(../img/HCOMP2020-1-MainPage.jpg) no-repeat center;
     background-position: center;
     background-size: cover;
     min-height:400px;
@@ -151,7 +151,7 @@ h3 {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 0px;
     color: #f8f8f8;
-    background: url(../img/HCOMP2019-1-MainPage.jpg) no-repeat center;
+    background: url(../img/HCOMP2020-1-MainPage.jpg) no-repeat center;
     background-position: center;
     background-size: cover;
     min-height:400px;
@@ -178,7 +178,7 @@ h3 {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 0px;
     color: #f8f8f8;
-    background: url(../img/HCOMP2019-1-MainPage.jpg) no-repeat center;
+    background: url(../img/HCOMP2020-1-MainPage.jpg) no-repeat center;
     background-position: center;
     background-size: cover;
     min-height:400px;
@@ -187,7 +187,7 @@ h3 {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 0px;
     color: #f8f8f8;
-    background: url(../img/HCOMP2019-1-MainPage.jpg) no-repeat center;
+    background: url(../img/HCOMP2020-1-MainPage.jpg) no-repeat center;
     background-position: center;
     background-size: cover;
     min-height:400px;
@@ -489,22 +489,21 @@ h2.section-head {
     position: relative;
     z-index: 1;
     text-align: center;
-    margin-top: 60px;s
+    margin-top: 60px;
 }
 
 h2.section-head:before {
         border-top: 2px solid #dfdfdf;
         content:"";
         margin: 0 auto; /* this centers the line to the full width specified */
-        position: absolute;  positioning must be absolute here, and relative positioning must be applied to the parent 
+        position: absolute;  /* positioning must be absolute here, and relative positioning must be applied to the parent */
         top: 50%; left: 0; right: 0; bottom: 0;
         width: 97%;
         z-index: -1;
 }
 
 h2.section-head span {
-         to hide the lines from behind the text, you have to set the background color the same as the container 
-        background: #fff;
+        background: #fff; /* to hide the lines from behind the text, you have to set the background color the same as the container  */
         padding: 0 15px;
 }
 
@@ -661,7 +660,7 @@ mark {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 0px;
     color: #f8f8f8;
-    background: url(../img/HCOMP2019-1-MainPage.jpg) no-repeat center;
+    background: url(../img/HCOMP2020-1-MainPage.jpg) no-repeat center;
     background-position: center;
     background-size: cover;
     min-height:400px;
