@@ -75,6 +75,20 @@
   affiliation: Virginia Tech
   website: http://crowd.cs.vt.edu/kurt-luther/
 
+- id: lu
+  last_name: Lu
+  full_name: Christina Lu
+  picture: img/photo/christina_lu-150.jpg
+  affiliation: Google
+  website: https://www.linkedin.com/in/christina-lu/
+
+- id: wibowo
+  last_name: Wibowo
+  full_name: Kenny Wibowo
+  picture: img/photo/wibowo-150.jpg
+  affiliation: Google
+  website: https://wibow.io/
+
 - id: lasecki
   last_name: Lasecki
   full_name: Walter Lasecki
@@ -194,6 +208,13 @@
   last_name: Acosta
   picture: 'img/photo/acosta-150.jpg'
   website: 'https://www.aifb.kit.edu/web/Maribel_Acosta/en'
+
+- affiliation: Google
+  full_name: Igor Karpov
+  id: karpov
+  last_name: Karpov
+  picture: 'img/photo/karpov-150.jpg'
+  website: 'http://www.cs.utexas.edu/users/ai-lab/?igorkarpov'
 
 - affiliation: University of Michigan
   full_name: Harmanpreet Kaur
@@ -446,6 +467,27 @@
   last_name: Welty
   picture: 'img/photo/welty-150.jpg'
   website: 'https://ai.google/research/people/104789'
+
+- affiliation: Artist
+  full_name: Anna Ridler
+  id: ridler
+  last_name: Ridler
+  picture: 'img/photo/anna_ridler-150.jpg'
+  website: 'https://annaridler.com/'
+
+- affiliation: University of Amsterdam
+  full_name: Julia Noordegraaf
+  id: noordegraaf
+  last_name: Noordegraaf
+  picture: 'img/photo/julia_noordegraaf-150.jpg'
+  website: 'https://www.uva.nl/profiel/n/o/j.j.noordegraaf/j.j.noordegraaf.html/'
+
+- affiliation: Spotify
+  full_name: Mounia Lalmas
+  id: lalmas
+  last_name: lalmas
+  picture: 'img/photo/mounia_lalmas-150.jpg'
+  website: 'https://mounia-lalmas.blog/mounia-lalmas/'
 
 - affiliation: University of Tsukuba
   full_name: Yukino Baba

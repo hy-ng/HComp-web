@@ -14,14 +14,6 @@ year: 2020
 - Call for [Works-In-Progress and Demonstration Papers](#wip)
 - Call for [Doctoral Consortium](#doc)
 
-The Eight AAAI Conference on Human Computation and Crowdsourcing
-
-Oct 26-28, 2020
-The Netherlands Institute for Sound and Vision, Hilversum, The Netherlands
-
-## KEY DATES
-- October 26–28, 2020: Conference
-
 ## OVERVIEW
 
 The 8th AAAI Conference on Human Computation and Crowdsourcing (HCOMP 2020) will be held Oct 26-28 at The Netherlands Institute for Sound and Vision, Hilversum, The Netherlands.
@@ -41,18 +33,6 @@ Topics of interest include:
 - Topics at the intersection of HCI and AI, including human-AI interaction, human-AI collaboration, AI interpretability, explainable AI, etc.
 
 - Fairness, accountability, transparency, ethics, and policy implications for crowdsourcing and human computation
-
-## CONFERENCE CO-CHAIRS
-
-### General Co-Chairs
-
-Elena Simperl, King's College London
-
-Lora Aroyo, Vrije Universiteit Amsterdam
-
-### Local Chair
-
-Johan Oomen, Vrije Universiteit Amsterdam
 
 # CALL FOR FULL PAPERS
 {:.sub-page-header}
