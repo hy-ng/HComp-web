@@ -1,2 +1,7 @@
 2020:
-  - gentile
+  chairs:
+    - gentile
+    - karpov
+  support:
+    - lu
+    - wibowo

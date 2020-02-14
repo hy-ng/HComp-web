@@ -86,28 +86,19 @@ redirect_from:
             <!-- <li><i class="icon-font fa fa-inbox"></i></li> -->
             <li>
               <h2 class="section-heading">
-                <a class="theme-link" href="keynote.html">Keynote Speakers</a>
+                <a class="theme-link" href="keynotes.html">Keynote Speakers</a>
               </h2>
             </li>
           </ul>
           <p class="lead">
-            We are pleased to announce four fantastic keynote speakers: <a class="theme-link" href="http://annaridler.com/">Anna Ridler</a>, <a class="theme-link" href="https://research.google/people/104789/">Chris Welty</a>, <a class="theme-link" href="https://www.uva.nl/profiel/n/o/j.j.noordegraaf/j.j.noordegraaf.html">Julia Noordegraaf</a>, and <a class="theme-link" href="https://mounia-lalmas.blog/mounia-lalmas/">Mounia Lalmas</a>!
+            We are pleased to announce four fantastic keynote speakers: 
           </p>
+          <div class="container keynotes">
+            {% assign people = site.data.keynotes[page.year] %}
+            {% include organizers.html people=people %}
+          </div>
         </div>
 
-        <div class="intro-paragraph">
-          <ul class="list-inline">
-            <!-- <li><i class="icon-font fa fa-inbox"></i></li> -->
-            <li>
-              <h2 class="section-heading">
-                <a class="theme-link" href="keynote.html#fireside"
-                  >Fireside Chat Panelists</a
-                >
-              </h2>
-            </li>
-          </ul>
-          <p class="lead"></p>
-        </div>
 
         <!-- div class="intro-paragraph">
             <ul class="list-inline">
@@ -207,13 +198,11 @@ redirect_from:
         <!--p class="important-date">June 3, 2019 (5pm <a class="theme-link" href="https://time.is/ET">ET</a>)</!--p>
           <p style="font-weight:400;">Abstracts submission</p>
           <p class="important-date">June 5, 2019 (5pm <a class="theme-link" href="https://time.is/ET">ET</a>)</p>
-          <p style="font-weight:400;">Full papers due</p>
-          <p class="important-date">August 2, 2019</p>
-          <p style="font-weight:400;">Notification of acceptance</p>
-          <p class="important-date">Oct 29&ndash;30, 2019</p-->
-          <p style="font-weight:400;">Main conference</p>
+          <p style="font-weight:400;">Full papers due</p-->
           <p class="important-date">Oct 26, 2020</p>
-          <!--p style="font-weight:400;">Workshops and Doctoral Consortium</p-->
+          <p style="font-weight:400;">Workshops, Doctoral Consortium and CrowdCamp</p>
+          <p class="important-date">Oct 27-28, 2020</p>
+          <p style="font-weight:400;">Main conference</p>
       </div>
       <a
         class="twitter-timeline"
