@@ -75,12 +75,12 @@
   affiliation: Virginia Tech
   website: http://crowd.cs.vt.edu/kurt-luther/
 
-- id: lu
-  last_name: Lu
-  full_name: Christina Lu
-  picture: img/photo/christina_lu-150.jpg
+- id: liu
+  last_name: Liu
+  full_name: Christina Liu
+  picture: img/photo/christina_liu-150.jpg
   affiliation: Google
-  website: https://www.linkedin.com/in/christina-lu/
+  website: https://www.linkedin.com/in/christina-liu-506b4478/
 
 - id: wibowo
   last_name: Wibowo
