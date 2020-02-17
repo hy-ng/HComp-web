@@ -55,6 +55,7 @@
   website: http://data-people.cs.illinois.edu
 
 - id: ipeirotis 
+  steering: HCOMP 2015 &amp; 2011 Co-Chair
   last_name: Ipeirotis 
   full_name: Panos Ipeirotis 
   picture: img/photo/Panos.jpg
@@ -119,6 +120,7 @@
   website: https://lia.epfl.ch/~goel/
 
 - id: law
+  steering: HCOMP 2019 Co-Chair
   last_name: Law
   full_name: Edith Law
   picture: img/photo/edith.jpg
@@ -126,6 +128,7 @@
   website: http://edithlaw.ca/
 
 - id: vaughan
+  steering: HCOMP 2019 Co-Chair
   last_name: Vaughan
   full_name: Jenn Wortman Vaughan
   picture: img/photo/jenn.png
@@ -145,6 +148,13 @@
   picture: img/photo/oomen.jpg
   affiliation: The Netherlands Institute for Sound and Vision
   website: https://www.beeldengeluid.nl/en/knowledge/experts/johan-oomen/
+
+- id: bennet
+  last_name: Bennet
+  full_name: Paul Bennet
+  picture: img/photo/Paul%20Bennett.jpg
+  affiliation: Microsoft Research
+  website: http://research.microsoft.com/en-us/um/people/pauben/
 
 - id: verbruggen
   last_name: Verbruggen
@@ -307,7 +317,8 @@
   picture: 'img/photo/dumitrache-150.jpg'
   website: 'http://ancad.ro/'
 
-- affiliation: University of California San Diego
+- affiliation: University of California, San Diego
+  steering: HCOMP 2017 Co-Chair
   full_name: Steven Dow
   id: dow
   last_name: Dow
@@ -370,7 +381,48 @@
   picture: 'img/photo/kashima.jpg'
   website: 'http://www.geocities.co.jp/kashi_pong/index_e.html'
 
+- affiliation: Northwestern University
+  steering: HCOMP 2015 Co-Chair
+  full_name: Elizabeth Gerber
+  id: gerber
+  last_name: Gerber
+  picture: 'img/photo/Elizabeth.png'
+  website: 'http://egerber.mech.northwestern.edu/'
+
+- affiliation: University of California, Berkeley
+  steering: HCOMP 2013 Co-Chair
+  full_name: Bjoern Hartman
+  id: hartman
+  last_name: Hartman
+  picture: img/photo/Bjoern.png
+  website: http://www.cs.berkeley.edu/~bjoern/
+
+- affiliation: Microsoft Research
+  steering: HCOMP 2013 Co-Chair
+  full_name: Eric Horvitz
+  id: horvitz
+  last_name: Horvitz
+  picture: img/photo/Horvitz.jpg
+  website: http://research.microsoft.com/en-us/um/people/horvitz/
+
+- affiliation: Microsoft Research
+  steering: HCOMP 2017 Co-Chair
+  full_name: Adam Kalai
+  picture: "img/photo/adam_kalai.jpg"
+  website: https://www.microsoft.com/en-us/research/people/adum/
+  last_name: Kalai
+  id: kalai
+
+- affiliation: Lumi, Semion Ltd
+  steering: HCOMP 2018 Co-Chair
+  full_name: Gabriella Kazai
+  picture: "img/photo/Gabriella.jpg"
+  website: http://www.gabriella-kazai.com
+  last_name: Kazai
+  id: kazai
+
 - affiliation: Carnegie Mellon HCII
+  steering: HCOMP 2014 Co-Chair
   full_name: Jeffrey Bigham
   id: bigham
   last_name: Bigham
@@ -404,6 +456,14 @@
   last_name: Chen
   picture: 'img/photo/lichen.jpg'
   website: 'http://www.cs.ust.hk/~leichen/'
+
+- affiliation: Harvard University
+  steering: HCOMP 2012 Chair and 2018 Co-Chair
+  full_name: Yiling Chen
+  id: yiling_chen
+  last_name: Chen
+  picture: 'img/photo/Yiling.png'
+  website: 'http://yiling.seas.harvard.edu/'
 
 - affiliation: Singapore Management University
   full_name: Shih-Fen Cheng
@@ -440,7 +500,8 @@
   picture: 'img/photo/Julie.jpg'
   website: 'http://juliehui.com'
 
-- affiliation: The University of Texas at Austin
+- affiliation: The University of Texas, Austin
+  steering: HCOMP 2016 Co-Chair
   full_name: Matthew Lease
   id: lease
   last_name: Lease
@@ -481,6 +542,29 @@
   last_name: Noordegraaf
   picture: 'img/photo/julia_noordegraaf-150.jpg'
   website: 'https://www.uva.nl/profiel/n/o/j.j.noordegraaf/j.j.noordegraaf.html/'
+
+- affiliation: Harvard University
+  steering: HCOMP 2014 Co-Chair
+  full_name: David Parkes
+  id: parkes
+  last_name: Parkes
+  picture: 'img/photo/David.png'
+  website: 'http://www.eecs.harvard.edu/~parkes/'
+
+- affiliation: Carnegie Mellon University
+  steering: HCOMP 2011 Co-Chair
+  full_name: Luis von Ahn
+  id: vonahn
+  last_name: von Ahn
+  picture: 'img/photo/Luis.png'
+  website: 'https://www.cs.cmu.edu/~biglou/'
+
+- affiliation: Northwestern University
+  full_name: Haoqi Zhang
+  id: zhang
+  last_name: Zhang
+  picture: 'img/photo/Haoqi.jpg'
+  website: 'http://users.eecs.northwestern.edu/~hq/'
 
 - affiliation: Spotify
   full_name: Mounia Lalmas
