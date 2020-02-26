@@ -44,8 +44,8 @@ Topics of interest include:
 ## Important Dates
 ### All times are midnight CEST (Amsterdam time)
 - June 5, 2020: Abstracts submission (compulsory to submit a full paper)
-- June 12, 2019: Full papers due
-- July 31, 2019: Notification of acceptance
+- June 12, 2020: Full papers due
+- July 31, 2020: Notification of acceptance
 - August 14, 2020: Final camera-ready papers due
 
 ## Submission
