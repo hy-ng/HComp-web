@@ -622,6 +622,13 @@
   picture: 'img/photo/jiannan-wang.jpg'
   website: 'http://www.cs.sfu.ca/~jnwang/'
 
+- id: deliddo
+  last_name: De Liddo
+  full_name: Anna De Liddo
+  picture: img/photo/deliddo-150.jpg
+  affiliation: The Open University
+  website: http://people.kmi.open.ac.uk/anna/
+
 - affiliation: Harvey Mudd College
   full_name: Beth Trushkowsky
   id: trushkowsky
