@@ -14,6 +14,8 @@ year: 2020
 - Call for [Works-In-Progress and Demonstration Papers](#wip)
 - Call for [Doctoral Consortium](#doc)
 
+<b>The HCOMP organisers are monitoring the ongoing situation around Covid-19 closely. We plan to hold the conference at the same dates, either online, or, if it‘s safe and the restrictions allow it, at the planned venue in the Netherlands. We aim to disclose further details in a few months. In the meantime, we’re looking forward to your submissions!</b>
+
 ## OVERVIEW
 
 HCOMP is the home of the human computation and crowdsourcing community. It’s the premier venue for presenting latest findings from research and practice into frameworks, methods and systems that bring together people and machine intelligence to achieve better results. 
