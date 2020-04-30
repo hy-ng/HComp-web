@@ -13,8 +13,7 @@ year: 2020
 - Call for [Workshops](#workshops)
 - Call for [Works-In-Progress and Demonstration Papers](#wip)
 - Call for [Doctoral Consortium](#doc)
-
-<b>The HCOMP organisers are monitoring the ongoing situation around Covid-19 closely. We plan to hold the conference at the same dates, either online, or, if it‘s safe and the restrictions allow it, at the planned venue in the Netherlands. We aim to disclose further details in a few months. In the meantime, we’re looking forward to your submissions!</b>
+- Call for [Blue Sky Ideas Track](#bsi)
 
 ## OVERVIEW
 
@@ -102,6 +101,8 @@ Reviewers will be asked to flag papers they deem worthy of a prize. The general 
 
 ## Important Dates
 
+Questions? Please contact the Workshop Chairs.
+
 
 # Call for Works-In-Progress (WiP) And Demonstration Papers
 {:.sub-page-header}
@@ -110,7 +111,59 @@ Reviewers will be asked to flag papers they deem worthy of a prize. The general 
 {:.sub-page-border}
 
 ## Important Dates
+### All times are midnight CEST (Amsterdam time)
+- August 7, 2020: Paper due
+- August 20, 2020: Notification of acceptance
+- September 20, 2020: Final camera-ready papers due
 
+## Overview
+The Works-in-Progress and Demonstration track focuses on recent findings or other types of innovative or thought-provoking work, hands-on demonstration, novel interactive technologies and experiences relevant to the HCOMP community.
+
+We encourage practitioners and researchers to submit Works-in-Progress & Demo Track as it provides a unique opportunity for sharing valuable ideas, eliciting useful feedback on early-stage work, and fostering discussions and collaborations among colleagues. 
+To maximise visibility this year accepted Works-in-Progress and Demonstration submissions will also be presented with a 1-2 min PechaKucha presentation dedicated to the Works-in-Progress & Demonstration Track within the HCOMP plenary programme.
+
+Submissions are welcome from any area of computer science, artificial intelligence, and human-computer interaction, to economics and the social sciences, all the way to digital humanities, policy, and ethics.  This year, we especially encourage work that generate new insights into the “human computation” side of HCOMP, such as new understandings about human cognition, human-in-the-loop intelligence systems, human-AI interaction and collaboration, algorithmic and interface techniques for augmenting human abilities to perform tasks, and other issues that affect how humans collaborate with AI systems (such as bias, fairness, and interpretability). 
+
+### Works-in-progress
+A Work-in-Progress is a concise report of recent findings or other types of innovative or thought-provoking work relevant to the HCOMP community. The difference between Works-in-Progress and other contribution types is that Work-in-Progress submissions represent work that has not reached a level of completion that would warrant the full Refereed selection process. That said, appropriate submissions should make some contribution to the body of HCOMP knowledge, whether realized or promised. A significant benefit of a Work-in-Progress derives from the discussion between the author and conference attendees that will be fostered by the face-to-face presentation of the work.
+Work-in-Progress submissions are in a form of a ~2 page extended abstract, see Submission Rules.
+
+### Demonstrations
+A demonstration is a high-visibility, high-impact forum of the HCOMP program that allows you to present your hands-on demonstration, share novel interactive technologies, and stage interactive experiences. Demonstrations will showcase this year’s most exciting human computation and collaborative human-AI prototypes and systems. If you have an interesting prototype, system, exhibit or installation, we want to know about it. Sharing hands-on experiences of your work is often the best way to communicate what you have created. The demonstration submission should describe the nature of the system as well as the expected form of interaction with the user and the audience. If you have special infrastructure requirements for the demonstration, please include them in a dedicated paragraph within the submission. Demonstrations submissions are in a form of a ~2 page extended abstract, see Submission Rules.
+
+## Submission
+All submitted Works-in-Progress and Demos must represent original work, not previously published or under simultaneous peer-review for any other peer-reviewed, archival conference or journal.
+
+Submissions must be done in the form of up to 2 pages Extended Abstract (references can extend beyond the 2 pages) via the HCOMP-20 EasyChair Website. Submissions to Easychair is required on or before the deadline listed above. We cannot accept submissions by e-mail or fax. Authors will receive confirmation of receipt of their submissions, including an ID number, shortly after submission. HCOMP will contact authors again only if problems are encountered with papers. Inquiries regarding paper receipt must be made no later than August 10.
+
+### Formatting
+Extended Abstracts must be formatted in AAAI two-column, camera-ready style; please refer to the AAAI 2020 Author Kit for details. Papers must be in trouble-free, high-resolution PDF format, formatted for US Letter (8.5″ x 11″) paper, using Type 1 or TrueType fonts. The AAAI copyright block is not required for works-in-progress or demo submissions, as they are not included in the formal proceedings. Please see below for information about publication.
+
+### Supplemental Materials
+Authors are invited, but not required, to include supplemental materials such as executables and data files so that reviewers can reproduce results in the paper, images, additional videos, related papers, more detailed explanations, derivations, or results. These materials will be viewed only at the discretion of the reviewers, who are only obligated to read your paper itself.
+
+### NOT Anonymized
+Authors should include information identifying themselves and their institutions for single-blind review.
+
+## Reviews
+Submissions to the Works-in-Progress & Demonstration Track will be curated. This means that submissions will only be evaluated by the Works-in-Progress & Demonstration chairs (in coordination with other relevant conference chairs). Authors should expect to receive only very light feedback on their submissions.
+
+## Publication and Proceedings
+Accepted papers will NOT be included in official conference proceedings, and so may be submitted later to other conferences or journals for official publication. Accepted papers will be made available online on the conference website, and a summary of the WiP and Demo session will be provided in the AAAI AI Magazine.
+
+## Presenting at the Conference
+Accepted submissions will be presented at the conference in two main modalities: 1) with a 1-2 min PechaKucha presentation in a plenary session dedicated to the Works-in-Progress & Demonstration Track within the HCOMP plenary programme, and 2) with an author proposed presentation format.
+Authors can propose their desired presentation format(s) at the time of submission, including (but not limited to) poster, interactive demo, short video, short presentation, or small exhibition booth. The eventual format(s) will be decided in cooperation between authors and conference organizers. Authors are asked to include special requests and requirements at the time of submission by sending an email to the chairs.
+
+## Work-in-Progress and Demo Award
+HCOMP 2020 will recognize one best Works-in-Progress and one best Demonstration. Announcement of the winners will be done at the conference in a plenary session together with the other conference award. 
+The Works-in-Progress and Demonstration chairs will assess the Works-in-Progress and Demonstrations submissions to determine the winners (considering both quality of paper submission and presentation at the conference).
+
+## Contacts
+Please contact the Works-in-progress and Demonstration Co-Chairs if you have any questions.
+
+Anna De Liddo, at [anna.deliddo@open.ac.uk](anna.deliddo@open.ac.uk)
+Alessandro Checco, at [a.checco@sheffield.ac.uk](a.checco@sheffield.ac.uk)
 
 # Call for Doctoral Consortium
 {:.sub-page-header}
@@ -121,3 +174,29 @@ Reviewers will be asked to flag papers they deem worthy of a prize. The general 
 ## Important Dates
 
 Questions? Please contact the Doctoral Consortium Chairs.
+
+# Call for the Blue Sky Ideas track
+{:.sub-page-header}
+{:#bsi}
+&nbsp;
+{:.sub-page-border}
+
+## Important Dates
+### All times are midnight CEST (Amsterdam time)
+- August 7, 2020: Paper due
+- August 20, 2020: Notification of acceptance
+- September 20, 2020: Final camera-ready papers due
+
+## Submission
+
+In cooperation with the [Computing Community Consortium (CCC)](https://cra.org/ccc/), HCOMP 2020 invites submissions to a special “Blue Sky Ideas” track. The emphasis of this track will be on visionary ideas, long term challenges, and opportunities in research that are outside of the current mainstream
+topics of the field. 
+
+Submissions will be judged on the extent to which they expand the possibilities and horizons of the field or challenge existing
+assumptions prevalent in the field.
+
+Submissions to this track should follow the same formatting guidelines as submissions to the research track, but are limited to at most *four* pages in length for both submission and final publication. Accepted papers will be published in the conference proceedings and on the web.
+
+To encourage researchers to present truly visionary concepts, the CCC is offering prizes for up to *three* top papers in this special track: first prize $1000, second prize $750, and third prize $500, to be awarded as travel grants.
+
+Questions? Please contact the Blue Sky Ideas track Chairs.
