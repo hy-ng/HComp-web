@@ -126,15 +126,15 @@ Submissions are welcome from any area of computer science, artificial intelligen
 
 ### Works-in-progress
 A Work-in-Progress is a concise report of recent findings or other types of innovative or thought-provoking work relevant to the HCOMP community. The difference between Works-in-Progress and other contribution types is that Work-in-Progress submissions represent work that has not reached a level of completion that would warrant the full Refereed selection process. That said, appropriate submissions should make some contribution to the body of HCOMP knowledge, whether realized or promised. A significant benefit of a Work-in-Progress derives from the discussion between the author and conference attendees that will be fostered by the face-to-face presentation of the work.
-Work-in-Progress submissions are in a form of a ~2 page extended abstract, see Submission Rules.
+Work-in-Progress submissions are in the form of a ~2 page extended abstract, see Submission section.
 
 ### Demonstrations
-A demonstration is a high-visibility, high-impact forum of the HCOMP program that allows you to present your hands-on demonstration, share novel interactive technologies, and stage interactive experiences. Demonstrations will showcase this year’s most exciting human computation and collaborative human-AI prototypes and systems. If you have an interesting prototype, system, exhibit or installation, we want to know about it. Sharing hands-on experiences of your work is often the best way to communicate what you have created. The demonstration submission should describe the nature of the system as well as the expected form of interaction with the user and the audience. If you have special infrastructure requirements for the demonstration, please include them in a dedicated paragraph within the submission. Demonstrations submissions are in a form of a ~2 page extended abstract, see Submission Rules.
+A demonstration is a high-visibility, high-impact forum of the HCOMP program that allows you to present your hands-on demonstration, share novel interactive technologies, and stage interactive experiences. Demonstrations will showcase this year’s most exciting human computation and collaborative human-AI prototypes and systems. If you have an interesting prototype, system, exhibit or installation, we want to know about it. Sharing hands-on experiences of your work is often the best way to communicate what you have created. The demonstration submission should describe the nature of the system as well as the expected form of interaction with the user and the audience. If you have special infrastructure requirements for the demonstration, please include them in a dedicated paragraph within the submission. Demonstrations submissions are in the form of a ~2 page extended abstract, see Submission section.
 
 ## Submission
 All submitted Works-in-Progress and Demos must represent original work, not previously published or under simultaneous peer-review for any other peer-reviewed, archival conference or journal.
 
-Submissions must be done in the form of up to 2 pages Extended Abstract (references can extend beyond the 2 pages) via the HCOMP-20 EasyChair Website. Submissions to Easychair is required on or before the deadline listed above. We cannot accept submissions by e-mail or fax. Authors will receive confirmation of receipt of their submissions, including an ID number, shortly after submission. HCOMP will contact authors again only if problems are encountered with papers. Inquiries regarding paper receipt must be made no later than August 10.
+Submissions must be done in the form of up to 2 pages Extended Abstract (references can extend beyond the 2 pages) via the [HCOMP-20 EasyChair Website](https://easychair.org/my/conference?conf=hcomp2020). Submissions to Easychair is required on or before the deadline listed above. We cannot accept submissions by e-mail or fax. Authors will receive confirmation of receipt of their submissions, including an ID number, shortly after submission. HCOMP will contact authors again only if problems are encountered with papers. Inquiries regarding paper receipt must be made no later than August 10.
 
 ### Formatting
 Extended Abstracts must be formatted in AAAI two-column, camera-ready style; please refer to the AAAI 2020 Author Kit for details. Papers must be in trouble-free, high-resolution PDF format, formatted for US Letter (8.5″ x 11″) paper, using Type 1 or TrueType fonts. The AAAI copyright block is not required for works-in-progress or demo submissions, as they are not included in the formal proceedings. Please see below for information about publication.
@@ -162,7 +162,7 @@ The Works-in-Progress and Demonstration chairs will assess the Works-in-Progress
 ## Contacts
 Please contact the Works-in-progress and Demonstration Co-Chairs if you have any questions.
 
-Anna De Liddo, at [anna.deliddo@open.ac.uk](anna.deliddo@open.ac.uk)
+Anna De Liddo, at [anna.deliddo@open.ac.uk](anna.deliddo@open.ac.uk) <br>
 Alessandro Checco, at [a.checco@sheffield.ac.uk](a.checco@sheffield.ac.uk)
 
 # Call for Doctoral Consortium
