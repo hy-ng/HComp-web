@@ -240,6 +240,13 @@
   picture: 'img/photo/demartini-150.jpg'
   website: 'http://www.gianlucademartini.net'
 
+- affiliation: Siemens, Austria
+  full_name: Marta Sabou
+  id: sabou
+  last_name: Sabou
+  picture: 'img/photo/marta-sabou-150.jpg'
+  website: 'http://kmi.open.ac.uk/people/member/marta-sabou'  
+
 - affiliation: ETH Zurich
   full_name: Hoda Heidari
   id: heidari
@@ -274,6 +281,13 @@
   last_name: Vaish
   picture: 'img/photo/rajan.png'
   website: 'http://www.rajanvaish.com/index.html' 
+
+- affiliation: Amazon, USA
+  full_name: Seyi Feyisetan
+  id: feyisetan
+  last_name: Feyisetan
+  picture: 'img/photo/feyisetan-150.jpg'
+  website: 'https://www.sociam.org/team-member/dr-seyi-feyisetan'  
   
 - affiliation: UC Santa Cruz
   full_name: David Lee
