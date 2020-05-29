@@ -181,7 +181,7 @@ Alessandro Checco, at [a.checco@sheffield.ac.uk](a.checco@sheffield.ac.uk)
 
 ## Important Dates
 ### All times are midnight CEST (Amsterdam time)
-- July 3: Doctoral Consortium applications due (23:59 UTC-12)
+- July 3: Doctoral Consortium applications due
 - July 31: Doctoral Consortium notifications sent
 - October 26: Doctoral Consortium at HCOMP-20
 
