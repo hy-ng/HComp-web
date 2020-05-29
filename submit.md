@@ -180,8 +180,63 @@ Alessandro Checco, at [a.checco@sheffield.ac.uk](a.checco@sheffield.ac.uk)
 {:.sub-page-border}
 
 ## Important Dates
+### All times are midnight CEST (Amsterdam time)
+- July 3: Doctoral Consortium applications due (23:59 UTC-12)
+- July 31: Doctoral Consortium notifications sent
+- October 26: Doctoral Consortium at HCOMP-20
 
-Questions? Please contact the Doctoral Consortium Chairs.
+HCOMP’s annual Doctoral Consortium provides doctoral students with a unique opportunity to meet each other and experienced researchers in the field. Students will be mentored by a group of faculty who are leaders in the diverse specialties that make up the HCOMP field. The objectives of the Doctoral Consortium are to provide students with an opportunity:
+- To present and discuss their research with experienced researchers: the Doctoral Consortium Mentors;
+- To establish a supportive community, including other doctoral students at a similar stage of their dissertation research;
+- To provide a platform for broader exposure for their research, both in general and in support of future a job search.
+
+## Areas of Interest
+HCOMP is unique in the diversity of disciplines it draws upon, and contributes to, ranging from computer science, artificial intelligence, and human-computer interaction, to economics and the social sciences, all the way to digital humanities, policy, and ethics. This year, we especially encourage works that generate new insights into the quality (or qualities) of human-annotated datasets, including elements such as reliability and replicability of human computation and crowdsourcing experiments, novel metrics for aggregation of results, and holistic approaches to deal with bias, fairness, and interpretability.
+
+## Eligibility
+Applicants must be currently enrolled in a full-time PhD program and have written, or be close to completing, a thesis proposal (or equivalent). We will give preference to students who have proposed or are about to propose but are far enough from completing their thesis that the feedback they receive at the event can impact their work. Before submitting, students should discuss this criterion with their advisor or supervisor.
+
+## Attendance
+Those accepted are required to present their work at the Doctoral Consortium. Participants will also likely be required to present a poster on their work during the poster session at the main conference.
+
+## Selection
+Submissions will be reviewed by a Program Committee of Doctoral Committee Mentors, with selection based upon the expected potential of both the student and their proposed work, as well as the expected benefit to the student from participation. Priority will be given to students whose research goes beyond locally available expertise at their home institutions.
+
+## Financial Support
+More information about financial support coming soon. 
+
+## Application
+Applicants must submit a solely-authored paper in English containing: 1) a Doctoral Research Overview; and 2) a Supplemental Paragraph.
+
+## Doctoral Research Overview.
+Please summarize your doctoral research, including the following sections:
+- Motivation for the proposed research;
+- Background and related work (including key references);
+- Description of the proposed research, including key research questions and planned methodology to be used for investigating these research questions;
+- Proposed experiments if appropriate; Any preliminary evaluation and findings are welcomed, but this is not required.;
+- Specific research issues and/or challenges (do not skip these; the consortium is about helping you solve issues, not boasting about the issues you already solved!).
+
+## Supplemental Paragraph.
+Please write a paragraph explaining:
+- Why you want to participate in the consortium at this point in your doctoral studies and how you expect to benefit from the consortium;
+- The status of your dissertation proposal (writing, submitted, presented, or approved);
+- Your expected (approximate) defense date.
+
+## Length and Organization.
+Your paper should be no more than 4 pages in total: 3 pages for the Doctoral Research Overview (including all figures and references), and the 4th page being the Supplemental Paragraph. The first page must contain the title of the paper, full author name, affiliation and contact details, an abstract of up to 250 words, and up to 3 keywords describing the research topic areas.
+
+## Formatting.
+Papers must be formatted in AAAI two-column, camera-ready style; please refer to the AAAI 2019 Author Kit for details. Papers must be in trouble-free, high-resolution PDF format, formatted for US Letter (8.5” x 11”) paper, using Type 1 or TrueType fonts. It is the responsibility of the student to ensure that their submission uses no unusual formatting and is printable on a standard printer. The AAAI copyright block is not required for works-in-progress or demo submissions, as they are not included in the formal proceedings. Please see below for information regarding dissemination.
+
+## Submission.
+Electronic submission through the HCOMP-20 EasyChair ([https://easychair.org/conferences/?conf=hcomp2020](https://easychair.org/conferences/?conf=hcomp2020)) paper submission site is required on or before the deadline listed above. We cannot accept submissions by e-mail or fax. Authors will receive confirmation of receipt of their submissions, including an ID number, shortly after submission. HCOMP will contact authors again only if problems are encountered with papers.
+
+## Dissemination.
+Submissions will be distributed only to mentors and other attendees of the doctoral consortium. Proceedings of the Doctoral Consortium will NOT be archived. As such, students may freely submit their research contributions for official publication in other venues. Participant names and university affiliations, as well as paper titles and abstracts, will be publicized on the conference website and in the conference program for the poster session. 
+
+## Questions?
+Please contact the Doctoral Consortium Chairs.
+
 
 # Call for the Blue Sky Ideas track
 {:.sub-page-header}
