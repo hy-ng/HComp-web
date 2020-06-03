@@ -14,6 +14,7 @@ year: 2020
 - Call for [Works-In-Progress and Demonstration Papers](#wip)
 - Call for [Doctoral Consortium](#doc)
 - Call for [Blue Sky Ideas Track](#bsi)
+- Call for [CrowdCamp](#ccamp)
 
 ## OVERVIEW
 
@@ -170,8 +171,8 @@ The Works-in-Progress and Demonstration chairs will assess the Works-in-Progress
 ## Contacts
 Please contact the Works-in-progress and Demonstration Co-Chairs if you have any questions.
 
-Anna De Liddo, at [anna.deliddo@open.ac.uk](anna.deliddo@open.ac.uk) <br>
-Alessandro Checco, at [a.checco@sheffield.ac.uk](a.checco@sheffield.ac.uk)
+Anna De Liddo, at [anna.deliddo@open.ac.uk](mailto:anna.deliddo@open.ac.uk) <br>
+Alessandro Checco, at [a.checco@sheffield.ac.uk](mailto:a.checco@sheffield.ac.uk)
 
 # Call for Doctoral Consortium
 {:.sub-page-header}
@@ -263,3 +264,27 @@ Submissions to this track should follow the same formatting guidelines as submis
 To encourage researchers to present truly visionary concepts, the CCC is offering prizes for up to *three* top papers in this special track: first prize $1000, second prize $750, and third prize $500, to be awarded as travel grants.
 
 Questions? Please contact the Blue Sky Ideas track Chairs.
+
+# CrowdCamp Call for Interest
+{:.sub-page-header}
+{:#ccamp}
+&nbsp;
+{:.sub-page-border}
+
+## What is CrowdCamp?
+CrowdCamp is a one-day hackathon for researchers and practitioners with interests in crowdsourcing, human computation, social media, and collective intelligence. CrowdCamp has been going on since 2011, at first co-located with CHI, then with CSCW, and since 2014 with HCOMP. Historically, CrowdCamp’s focus for participants has been aimed at creating deliverable prototypes or study designs during the workshop. You can find details of previous editions [here](past_ccamp.html). Prior CrowdCamp projects have resulted in top-tier conference publications, blog posts, and on-going research. For the past several years the primary theme of CrowdCamp has been the *Human-AI Collaboration*.
+
+This year, while keeping the same focus, we would like to draw attention to **data** - *how to leverage human computation for the purpose of generating, acquiring, annotating reliable datasets for AI*. Going even further, during CrowdCamp 2020 we would like to focus on projects that explore what are *characteristics of reliable datasets*, how can we *measure and improve* the overall quality as well as the quality of *various aspects of such datasets*, e.g. their reliability, reproducibility, fairness, etc., and finally *what influences the quality* of human-labelled datasets in terms of the collection, labeling, aggregation, sampling, etc practices.
+
+## Call for Participation: 
+All participants are encouraged to embrace the mutual interests of HCI and AI research within their work on the CrowdCamp projects, touching on different methodologies for the same area of research. CrowdCamp will also be leveraged as an opportunity to better understand the challenges and opportunities for research collaborations at the intersection of artificial intelligence and human-computer interaction.
+
+We invite students, faculty, industry researchers, and anyone else who is interested to participate in CrowdCamp. We are looking for people with different expertise, ranging from social scientists to programmers, ethnographers to designers, and anyone else interested in the broader topic of Human-AI Collaboration. 
+
+In order to prepare an event that has a good coverage of interests and topics across the HCOMP community, we would like you to fill [this application form](https://forms.gle/UGKCwv7C69s7ctQC7) with your expression of interest to participate. The application takes about 5 minutes to complete, and asks for:
+- **Your Research Interests**: We are looking for a diverse group of people that will work together on data-centric projects during CrowdCamp and will therefore ask you to indicate your research interests whether they be in Human Computation, HCI, AI, or in other fields.  
+- **Your Ideal CrowdCamp Partner**: We want to make sure you get an awesome partner / team for your CrowdCamp adventure. Depending on your research interests, we’d love to know if you’re looking for partner(s) with AI or HCI expertise, or someone who is an expert in both. Ideally, we would like to have HCI and AI people working together as a team. 
+- **Topics you would like to work on**: You can list research topics and datasets you care about. The more specificity you can provide, the better we can do to match you to a group at CrowdCamp. 
+- **Your Contact Information**: Name and email.
+
+Once we have collected all the ideas for research topics and datasets, we will ask you to vote on them so that we can form teams prior to the day of the workshop. The CrowdCamp day will focus on working on a research project (whether that’s a study design, an idea for a new algorithm, a system architecture, or something else entirely) within your interdisciplinary HCI-AI teams. Each team will also have the opportunity to get feedback on their research project from a group of experts (in both HCI and AI methodologies). Our goal is to foster interdisciplinary collaborations and enable this for your particular domain of interest and research ideas.
