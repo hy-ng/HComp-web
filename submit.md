@@ -184,7 +184,6 @@ Alessandro Checco, at [a.checco@sheffield.ac.uk](mailto:a.checco@sheffield.ac.uk
 ### All times are midnight CEST (Amsterdam time)
 - July 3: Doctoral Consortium applications due
 - July 31: Doctoral Consortium notifications sent
-- October 26: Doctoral Consortium at HCOMP-20
 
 HCOMP’s annual Doctoral Consortium provides doctoral students with a unique opportunity to meet each other and experienced researchers in the field. Students will be mentored by a group of faculty who are leaders in the diverse specialties that make up the HCOMP field. The objectives of the Doctoral Consortium are to provide students with an opportunity:
 - To present and discuss their research with experienced researchers: the Doctoral Consortium Mentors;
