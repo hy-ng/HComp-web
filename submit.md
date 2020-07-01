@@ -9,8 +9,8 @@ year: 2020
 &nbsp;
 {:.sub-page-border}
 
-- Call for [Full Papers](#papers)
-- Call for [Workshops](#workshops)
+- Call for [Full Papers (closed)](#papers)
+- Call for [Workshops (closed)](#workshops)
 - Call for [Works-In-Progress and Demonstration Papers](#wip)
 - Call for [Doctoral Consortium](#doc)
 - Call for [Blue Sky Ideas Track](#bsi)
@@ -45,8 +45,8 @@ Topics of interest include:
 
 ## Important Dates
 ### All times are midnight CEST (Amsterdam time)
-- June 5, 2020: Abstracts submission (compulsory to submit a full paper)
-- June 12, 2020: Full papers due
+- ~~June 5, 2020: Abstracts submission (compulsory to submit a full paper)~~
+- ~~June 12, 2020: Full papers due~~
 - July 31, 2020: Notification of acceptance
 - August 14, 2020: Final camera-ready papers due
 
@@ -102,13 +102,13 @@ Reviewers will be asked to flag papers they deem worthy of a prize. The general 
 
 ## Important Dates
 ### All times are midnight CEST (Amsterdam time)
-- June 26, 2020: Topic descriptions due
+- ~~June 26, 2020: Topic descriptions due~~
 - October 26, 2020: Workshops are to take place
 
 ## Overview
 HCOMP workshops are a gathering place for people interested in human computation or crowdsourcing to meet in the context of a focused and interactive discussion. They are an opportunity to move the field forward and build community. Workshops might address basic or applied research, human computation or crowdsourcing in industry, new methodologies, emerging application areas, or other topics of interest. Workshop schedules should encourage lively debates and discussion. Each workshop should generate ideas that will give the HCOMP community a fresh way of thinking about the topic or that suggest promising directions for future work.
 
-If you would like to organize a workshop, please reach out to [hcompconference@gmail.com](mailto:hcompconference@gmail.com) by <b>June 26</b> with a description of your proposed topic, intended audience, list of potential speakers, and a one-day or half-day schedule, including some time for contributed talks. Workshops are expected to be inclusive, and priority will be given to workshops that include a diversity of speakers, organizers, and viewpoints. Selected workshops will be held on <b>October 26</b>, the day before the main conference begins. Organizers also have the possibility to publish an overview article about their workshop (up to 10 pages, including abstracts of selected articles) to AI Magazine.
+If you would like to organize a workshop, please reach out to [hcompconference@gmail.com](mailto:hcompconference@gmail.com) by <b>June 26</b> with a description of your proposed topic, intended audience, list of potential speakers, and a one-day or half-day schedule, including some time for contributed talks. Workshops are expected to be inclusive, and priority will be given to workshops that include a diversity of speakers, organizers, and viewpoints. Organizers also have the possibility to publish an overview article about their workshop (up to 10 pages, including abstracts of selected articles) to AI Magazine.
 
 Questions? Please contact the Workshop Chairs.
 
