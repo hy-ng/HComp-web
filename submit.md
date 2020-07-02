@@ -260,7 +260,7 @@ assumptions prevalent in the field.
 
 Submissions to this track should follow the same formatting guidelines as submissions to the research track, but are limited to at most *four* pages in length for both submission and final publication. Accepted papers will be published in the conference proceedings and on the web.
 
-To encourage researchers to present truly visionary concepts, the CCC is offering prizes for up to *three* top papers in this special track: first prize $1000, second prize $750, and third prize $500, to be awarded as travel grants.
+To encourage researchers to present truly visionary concepts, the CCC is offering prizes for up to *three* top papers in this special track: first prize $1000, second prize $750, and third prize $500, to be awarded.
 
 Questions? Please contact the Blue Sky Ideas track Chairs.
 
