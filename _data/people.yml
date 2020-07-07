@@ -684,3 +684,17 @@
   affiliation: Amazon Research
   picture: 'img/photo/yang-150.jpg'
   website: 'http://jyang.me/'
+
+- id: yang
+  full_name: Jie Yang
+  last_name: Yang
+  affiliation: Amazon Research
+  picture: 'img/photo/yang-150.jpg'
+  website: 'http://jyang.me/'
+
+- id: rasa
+  full_name: Rasa Bočytė
+  last_name: Bočytė
+  affiliation: The Netherlands Institute for Sound and Vision
+  picture: 'img/photo/rasa-150.jpg'
+  website: https://www.beeldengeluid.nl/en/knowledge/experts/rasa-bocyte

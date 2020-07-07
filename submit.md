@@ -12,7 +12,7 @@ year: 2020
 - Call for [Full Papers (closed)](#papers)
 - Call for [Workshops (closed)](#workshops)
 - Call for [Works-In-Progress and Demonstration Papers](#wip)
-- Call for [Doctoral Consortium](#doc)
+- Call for [Doctoral Consortium (closed)](#doc)
 - Call for [Blue Sky Ideas Track](#bsi)
 - Call for [CrowdCamp](#ccamp)
 
@@ -103,7 +103,7 @@ Reviewers will be asked to flag papers they deem worthy of a prize. The general 
 ## Important Dates
 ### All times are midnight CEST (Amsterdam time)
 - ~~June 26, 2020: Topic descriptions due~~
-- October 26, 2020: Workshops are to take place
+- October 26-28, 2020: Workshops are to take place
 
 ## Overview
 HCOMP workshops are a gathering place for people interested in human computation or crowdsourcing to meet in the context of a focused and interactive discussion. They are an opportunity to move the field forward and build community. Workshops might address basic or applied research, human computation or crowdsourcing in industry, new methodologies, emerging application areas, or other topics of interest. Workshop schedules should encourage lively debates and discussion. Each workshop should generate ideas that will give the HCOMP community a fresh way of thinking about the topic or that suggest promising directions for future work.
@@ -111,6 +111,9 @@ HCOMP workshops are a gathering place for people interested in human computation
 If you would like to organize a workshop, please reach out to [hcompconference@gmail.com](mailto:hcompconference@gmail.com) by <b>June 26</b> with a description of your proposed topic, intended audience, list of potential speakers, and a one-day or half-day schedule, including some time for contributed talks. Workshops are expected to be inclusive, and priority will be given to workshops that include a diversity of speakers, organizers, and viewpoints. Organizers also have the possibility to publish an overview article about their workshop (up to 10 pages, including abstracts of selected articles) to AI Magazine.
 
 Questions? Please contact the Workshop Chairs.
+
+Alessandro Bozzon, at [A.Bozzon@tudelft.nl](mailto:A.Bozzon@tudelft.nl) <br>
+Anca Dumitrache, at [anca.dumitrache89@gmail.com](mailto:anca.dumitrache89@gmail.com)
 
 
 # Call for Works-In-Progress (WiP) And Demonstration Papers
@@ -182,7 +185,7 @@ Alessandro Checco, at [a.checco@sheffield.ac.uk](mailto:a.checco@sheffield.ac.uk
 
 ## Important Dates
 ### All times are midnight CEST (Amsterdam time)
-- July 3: Doctoral Consortium applications due
+- ~~July 3: Doctoral Consortium applications due~~
 - July 31: Doctoral Consortium notifications sent
 
 HCOMP’s annual Doctoral Consortium provides doctoral students with a unique opportunity to meet each other and experienced researchers in the field. Students will be mentored by a group of faculty who are leaders in the diverse specialties that make up the HCOMP field. The objectives of the Doctoral Consortium are to provide students with an opportunity:
@@ -208,7 +211,7 @@ More information about financial support coming soon.
 ## Application
 Applicants must submit a solely-authored paper in English containing: 1) a Doctoral Research Overview; and 2) a Supplemental Paragraph.
 
-## Doctoral Research Overview.
+## Doctoral Research Overview
 Please summarize your doctoral research, including the following sections:
 - Motivation for the proposed research;
 - Background and related work (including key references);
@@ -216,27 +219,29 @@ Please summarize your doctoral research, including the following sections:
 - Proposed experiments if appropriate; Any preliminary evaluation and findings are welcomed, but this is not required.;
 - Specific research issues and/or challenges (do not skip these; the consortium is about helping you solve issues, not boasting about the issues you already solved!).
 
-## Supplemental Paragraph.
+## Supplemental Paragraph
 Please write a paragraph explaining:
 - Why you want to participate in the consortium at this point in your doctoral studies and how you expect to benefit from the consortium;
 - The status of your dissertation proposal (writing, submitted, presented, or approved);
 - Your expected (approximate) defense date.
 
-## Length and Organization.
+## Length and Organization
 Your paper should be no more than 4 pages in total: 3 pages for the Doctoral Research Overview (including all figures and references), and the 4th page being the Supplemental Paragraph. The first page must contain the title of the paper, full author name, affiliation and contact details, an abstract of up to 250 words, and up to 3 keywords describing the research topic areas.
 
-## Formatting.
+## Formatting
 Papers must be formatted in AAAI two-column, camera-ready style; please refer to the AAAI 2019 Author Kit for details. Papers must be in trouble-free, high-resolution PDF format, formatted for US Letter (8.5” x 11”) paper, using Type 1 or TrueType fonts. It is the responsibility of the student to ensure that their submission uses no unusual formatting and is printable on a standard printer. The AAAI copyright block is not required for works-in-progress or demo submissions, as they are not included in the formal proceedings. Please see below for information regarding dissemination.
 
-## Submission.
+## Submission
 Electronic submission through the HCOMP-20 EasyChair ([https://easychair.org/conferences/?conf=hcomp2020](https://easychair.org/conferences/?conf=hcomp2020)) paper submission site is required on or before the deadline listed above. We cannot accept submissions by e-mail or fax. Authors will receive confirmation of receipt of their submissions, including an ID number, shortly after submission. HCOMP will contact authors again only if problems are encountered with papers.
 
-## Dissemination.
+## Dissemination
 Submissions will be distributed only to mentors and other attendees of the doctoral consortium. Proceedings of the Doctoral Consortium will NOT be archived. As such, students may freely submit their research contributions for official publication in other venues. Participant names and university affiliations, as well as paper titles and abstracts, will be publicized on the conference website and in the conference program for the poster session. 
 
 ## Questions?
 Please contact the Doctoral Consortium Chairs.
 
+Maribel Acosta, at [maribel.acosta@kit.edu](mailto:maribel.acosta@kit.edu) <br>
+Markus Krause, at [public.markus.krause@gmail.com](mailto:public.markus.krause@gmail.com)
 
 # Call for the Blue Sky Ideas track
 {:.sub-page-header}
