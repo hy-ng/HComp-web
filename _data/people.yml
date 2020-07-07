@@ -146,7 +146,7 @@
   last_name: Oomen
   full_name: Johan Oomen
   picture: img/photo/oomen.jpg
-  affiliation: The Netherlands Institute for Sound and Vision
+  affiliation: Netherlands Institute for Sound and Vision
   website: https://www.beeldengeluid.nl/en/knowledge/experts/johan-oomen/
 
 - id: bennet
@@ -160,7 +160,7 @@
   last_name: Verbruggen
   full_name: Erwin Verbruggen
   picture: img/photo/verbruggen-150.jpg
-  affiliation: The Netherlands Institute for Sound and Vision
+  affiliation: Netherlands Institute for Sound and Vision
   website: https://www.beeldengeluid.nl/en/knowledge/experts/erwin-verbruggen
 
 - id: inel
@@ -692,9 +692,9 @@
   picture: 'img/photo/yang-150.jpg'
   website: 'http://jyang.me/'
 
-- id: rasa
-  full_name: Rasa Bočytė
-  last_name: Bočytė
-  affiliation: The Netherlands Institute for Sound and Vision
+- id: bocyte
+  full_name: Rasa Bocyte
+  last_name: Bocyte
+  affiliation: Netherlands Institute for Sound and Vision
   picture: 'img/photo/rasa-150.jpg'
-  website: https://www.beeldengeluid.nl/en/knowledge/experts/rasa-bocyte
+  website:  www.linkedin.com/in/rbocyte
