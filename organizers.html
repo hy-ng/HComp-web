@@ -21,66 +21,66 @@ redirect_from:
     <p class="lead" style="text-align:center">Contact: <a class="theme-link"
         href="mailto:hcompconference@gmail.com">hcompconference@gmail.com</a></p>
     {% assign people = site.data.chairs[page.year].general %}
-    {% include organizers.html people=people %}
+    {% include people.html people=people %}
 </div>
 <div class="container organizers">
   <h2 class="organizer-name">Conference Local Chair</h4>
     {% assign people = site.data.chairs[page.year].local %}
-    {% include organizers.html people=people %}
+    {% include people.html people=people %}
 </div>
 <div class="container organizers">
   <h2 class="organizer-name">Works-in-progress & Demonstration Co-Chairs</h4>
     {% assign people = site.data.wip_chairs[page.year] %}
-    {% include organizers.html people=people %}
+    {% include people.html people=people %}
 </div>
 <div class="container organizers">
   <h2 class="organizer-name">Workshops Co-Chairs</h4>
     {% assign people = site.data.workshop_chairs[page.year] %}
-    {% include organizers.html people=people %}
+    {% include people.html people=people %}
 </div>
 <div class="container organizers">
   <h2 class="organizer-name">Doctoral Consortium Co-Chairs</h4>
     {% assign people = site.data.doc_cons_chairs[page.year] %}
-    {% include organizers.html people=people %}
+    {% include people.html people=people %}
 </div>
 <div class="container organizers">
   <h2 class="organizer-name">Industry & Sponsorships Co-Chairs</h4>
     {% assign people = site.data.industry_chairs[page.year] %}
-    {% include organizers.html people=people %}
+    {% include people.html people=people %}
 </div>
 </div>
 <div class="container organizers">
   <h2 class="organizer-name">Social Media and Publicity Co-Chairs</h4>
     {% assign people = site.data.socialmedia_chairs[page.year] %}
-    {% include organizers.html people=people %}
+    {% include people.html people=people %}
 </div>
 <div class="container organizers">
   <h2 class="organizer-name">CrowdCamp Co-Chairs</h4>
     {% assign people = site.data.crowdcamp_chairs[page.year].chairs %}
-    {% include organizers.html people=people %}
+    {% include people.html people=people %}
 </div>
 <div class="container organizers">
   <h2 class="organizer-name">CrowdCamp Support Team</h4>
     {% assign people = site.data.crowdcamp_chairs[page.year].support %}
-    {% include organizers.html people=people %}
+    {% include people.html people=people %}
 </div>
 <div class="container organizers">
   <h2 class="organizer-name">Website Chair</h4>
     {% assign people = site.data.website_chairs[page.year] %}
-    {% include organizers.html people=people %}
+    {% include people.html people=people %}
 </div>
 <div class="container organizers">
   <h2 class="organizer-name">Associate Chairs</h4>
     {% assign people = site.data.associate_chairs[page.year] %}
-    {% include organizers.html people=people %}
+    {% include people.html people=people %}
 </div>
 <div class="container organizers">
   <h2 class="organizer-name">Program Committee</h4>
     {% assign people = site.data.pc[page.year] %}
-    {% include organizers.html people=people %}
+    {% include people.html people=people %}
 </div>
 <div class="container organizers">
   <h2 class="organizer-name">Conference Steering Committee</h4>
     {% assign people = site.data.steering[page.year] %}
-    {% include organizers.html people=people steering=true%}
+    {% include people.html people=people steering=true%}
 </div>

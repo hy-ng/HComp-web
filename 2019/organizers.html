@@ -18,12 +18,12 @@ year: 2019
     <h2 class="organizer-name">Conference Co-Chairs</h4>
       <p class="lead" style="text-align:center">Contact: <a class="theme-link" href="mailto:hcompconference@gmail.com">hcompconference@gmail.com</a></p>
       {% assign people = site.data.chairs[page.year] %}
-      {% include organizers.html people=people %}
+      {% include people.html people=people %}
   </div>
   <div class="container organizers">
     <h2 class="organizer-name">Works-in-progress & Demonstration Co-Chairs</h4>
     {% assign people = site.data.wip_chairs[page.year] %}
-    {% include organizers.html people=people %}
+    {% include people.html people=people %}
   </div>
   <div class="container organizers">
     <h2 class="organizer-name">Doctoral Consortium Co-Chairs</h4>
@@ -112,17 +112,17 @@ year: 2019
   <div class="container organizers">
     <h2 class="organizer-name">Website Co-Chairs</h4>
     {% assign people = site.data.website_chairs[page.year] %}
-    {% include organizers.html people=people %}
+    {% include people.html people=people %}
   </div>
   <div class="container organizers">
     <h2 class="organizer-name">Associate Chairs</h4>
     {% assign people = site.data.associate_chairs[page.year] %}
-    {% include organizers.html people=people %}
+    {% include people.html people=people %}
   </div>
   <div class="container organizers">
     <h2 class="organizer-name">Program Committee</h4>
     {% assign people = site.data.pc[page.year] %}
-    {% include organizers.html people=people %}
+    {% include people.html people=people %}
   </div>
 
 

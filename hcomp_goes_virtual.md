@@ -25,3 +25,23 @@ Yours truly,
 
 The HCOMP2020 team
 
+# Virtual Content
+{:.sub-page-header}
+&nbsp;
+{:.sub-page-border}
+**Underline Science** will produce and host the virtual content for **HCOMP 2020** on [underline.io](https://www.underline.io/), the world’s
+first live streaming and digital library platform for cutting-edge conference lectures, research and discussions.
+
+HCOMP 2020 content, including all live streams, presentations, workshops and lecture videos, will be available
+for viewing on [underline.io](https://www.underline.io/), along with slides, demos, abstracts and tutorials. With attendees joining the conference
+from around the globe and in different time zones, Underline’s platform maximizes both the scholarship, interactivity and
+networking opportunities for HCOMP.
+
+Underline is the world’s first virtual conference platform and digital repository for events in academia, science,
+medicine and other professional fields. Underline’s online video platform is custom-built for scientific and academic events,
+and their Emmy Award-winning production team is aggregating and hosting conference content in both live and virtual environments,
+allowing presenters to reach new global audiences while also giving meeting attendees the ability to watch or re-watch any content
+during and after conferences.
+
+
+
