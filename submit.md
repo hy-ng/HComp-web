@@ -12,7 +12,7 @@ year: 2020
 - Call for [Full Papers (closed)](#papers)
 - Call for [Workshops (closed)](#workshops)
 - Call for [Works-In-Progress and Demonstration Papers](#wip)
-- Call for [Doctoral Consortium (closed)](#doc)
+- Call for [Doctoral Consortium](#doc)
 - Call for [Blue Sky Ideas Track](#bsi)
 - Call for [CrowdCamp](#ccamp)
 
@@ -187,6 +187,8 @@ Alessandro Checco, at [a.checco@sheffield.ac.uk](mailto:a.checco@sheffield.ac.uk
 ### All times are midnight CEST (Amsterdam time)
 - ~~July 3: Doctoral Consortium applications due~~
 - July 31: Doctoral Consortium notifications sent
+- August 11: Second round of Doctoral Consortium applications due
+- September 8: Second round of Doctoral Consortium notifications sent
 
 HCOMP’s annual Doctoral Consortium provides doctoral students with a unique opportunity to meet each other and experienced researchers in the field. Students will be mentored by a group of faculty who are leaders in the diverse specialties that make up the HCOMP field. The objectives of the Doctoral Consortium are to provide students with an opportunity:
 - To present and discuss their research with experienced researchers: the Doctoral Consortium Mentors;
