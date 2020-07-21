@@ -267,7 +267,11 @@ Submissions to this track should follow the same formatting guidelines as submis
 
 To encourage researchers to present truly visionary concepts, the CCC is offering prizes for up to *three* top papers in this special track: first prize $1000, second prize $750, and third prize $500, to be awarded.
 
+Note that paper submissions in this track will not receive full-fledged reviews as in the other tracks at HCOMP 2020. All submissions however will be screened to ensure that they meet the required criteria of being visionary in nature. A committee of experts will adjudicate the top-3 submissions to this track and nominate them for awards sponsored by CCC.
+
 Questions? Please contact the Blue Sky Ideas track Chairs.
+
+Ujwal Gadiraju, at [u.k.gadiraju@tudelft.nl](mailto:u.k.gadiraju@tudelft.nl)
 
 # CrowdCamp Call for Interest
 {:.sub-page-header}
