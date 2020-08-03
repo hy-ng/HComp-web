@@ -47,7 +47,7 @@ Topics of interest include:
 ### All times are midnight CEST (Amsterdam time)
 - ~~June 5, 2020: Abstracts submission (compulsory to submit a full paper)~~
 - ~~June 12, 2020: Full papers due~~
-- July 31, 2020: Notification of acceptance
+- ~~July 31, 2020: Notification of acceptance~~
 - August 14, 2020: Final camera-ready papers due
 
 ## Submission
@@ -186,7 +186,7 @@ Alessandro Checco, at [a.checco@sheffield.ac.uk](mailto:a.checco@sheffield.ac.uk
 ## Important Dates
 ### All times are midnight CEST (Amsterdam time)
 - ~~July 3: Doctoral Consortium applications due~~
-- July 31: Doctoral Consortium notifications sent
+- ~~July 31: Doctoral Consortium notifications sent~~
 - August 11: Second round of Doctoral Consortium applications due
 - September 8: Second round of Doctoral Consortium notifications sent
 
