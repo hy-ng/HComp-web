@@ -15,7 +15,7 @@ We will be announcing detailed information about the format of the event in the 
 
 - **Remote participation**: we will provide technical infrastructure and support to give talks, present posters and demos, run workshops, mentor and receive feedback, discuss and socialise. We hope to reach a much wider audience without the need to travel and the expenses and overheads that come with it. 
 - **Registration fees**: we will be able to adjust the registration fees to account for the fact that we will no longer need to cover certain types of expenditure like meeting rooms and catering. Some costs will remain, for instance to cover services such as conference proceedings and organisational support. The registration is due to open at the end of July.
-- **Dates**: the core event will happen between the same three days, from Monday October 26th to Wednesday October 29th. We are considering spreading some of the tracks over Friday the 30th as well to accommodate different time zones and allow participants to attend to other duties for some part of the day.
+- **Dates**: the core event will happen between the same three days, from Monday October 26th to Wednesday October 29th.
 - **Sponsors**: we are able to offer a whole new range of engagement opportunities for sponsors and participants because of the new format. More information is available [here](sponsors.html).
 - **Virtual experience**: while we will not be able to welcome you at the Netherlands Institute for Sound and Vision this year, we hope to virtually take you on a visit to the Netherlands. Expect virtual museum tours to explore the gems of Dutch culture, as well as interactive social events.
 
