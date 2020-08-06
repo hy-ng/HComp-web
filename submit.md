@@ -124,7 +124,7 @@ Anca Dumitrache, at [anca.dumitrache89@gmail.com](mailto:anca.dumitrache89@gmail
 
 ## Important Dates
 ### All times are midnight CEST (Amsterdam time)
-- August 7, 2020: Paper due
+- August 14, 2020: Paper due
 - August 20, 2020: Notification of acceptance
 - September 20, 2020: Final camera-ready papers due
 
