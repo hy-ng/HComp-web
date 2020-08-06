@@ -103,7 +103,7 @@ Reviewers will be asked to flag papers they deem worthy of a prize. The general 
 ## Important Dates
 ### All times are midnight CEST (Amsterdam time)
 - ~~June 26, 2020: Topic descriptions due~~
-- October 26-28, 2020: Workshops are to take place
+- October 26-29, 2020: Workshops are to take place
 
 ## Overview
 HCOMP workshops are a gathering place for people interested in human computation or crowdsourcing to meet in the context of a focused and interactive discussion. They are an opportunity to move the field forward and build community. Workshops might address basic or applied research, human computation or crowdsourcing in industry, new methodologies, emerging application areas, or other topics of interest. Workshop schedules should encourage lively debates and discussion. Each workshop should generate ideas that will give the HCOMP community a fresh way of thinking about the topic or that suggest promising directions for future work.
