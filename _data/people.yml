@@ -698,3 +698,10 @@
   affiliation: Netherlands Institute for Sound and Vision
   picture: 'img/photo/rasa-150.jpg'
   website:  www.linkedin.com/in/rbocyte
+
+- id: perona
+  full_name: Pietro Perona
+  last_name: Perona
+  affiliation: Amazon
+  picture: 'img/photo/perona.jpeg'
+  website:  http://www.vision.caltech.edu/Perona.html
