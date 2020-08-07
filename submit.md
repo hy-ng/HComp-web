@@ -271,6 +271,8 @@ To encourage researchers to present truly visionary concepts, the CCC is offerin
 
 Note that paper submissions in this track will not receive full-fledged reviews as in the other tracks at HCOMP 2020. All submissions however will be screened to ensure that they meet the required criteria of being visionary in nature. A committee of experts will adjudicate the top-3 submissions to this track and nominate them for awards sponsored by CCC.
 
+The submissions are done electronicaly through the [HCOMP-20 EasyChair paper submission site](https://easychair.org/account/signin?l=JgJ7AN1PTJU1LCg1Ry9r3t#) is required on or before the deadline listed above. We cannot accept submissions by e-mail or fax. Authors will receive confirmation of receipt of their submissions, including an ID number, shortly after submission. HCOMP will contact authors again only if problems are encountered with papers. 
+
 Questions? Please contact the Blue Sky Ideas track Chairs.
 
 Ujwal Gadiraju, at [u.k.gadiraju@tudelft.nl](mailto:u.k.gadiraju@tudelft.nl)
