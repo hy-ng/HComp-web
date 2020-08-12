@@ -187,7 +187,7 @@ Alessandro Checco, at [a.checco@sheffield.ac.uk](mailto:a.checco@sheffield.ac.uk
 ### All times are midnight CEST (Amsterdam time)
 - ~~July 3: Doctoral Consortium applications due~~
 - ~~July 31: Doctoral Consortium notifications sent~~
-- August 11: Second round of Doctoral Consortium applications due
+- ~~August 11: Second round of Doctoral Consortium applications due~~
 - September 8: Second round of Doctoral Consortium notifications sent
 
 HCOMP’s annual Doctoral Consortium provides doctoral students with a unique opportunity to meet each other and experienced researchers in the field. Students will be mentored by a group of faculty who are leaders in the diverse specialties that make up the HCOMP field. The objectives of the Doctoral Consortium are to provide students with an opportunity:
@@ -253,7 +253,7 @@ Markus Krause, at [public.markus.krause@gmail.com](mailto:public.markus.krause@g
 
 ## Important Dates
 ### All times are midnight CEST (Amsterdam time)
-- August 7, 2020: Paper due
+- ~~August 7, 2020: Paper due~~
 - August 20, 2020: Notification of acceptance
 - September 20, 2020: Final camera-ready papers due
 
