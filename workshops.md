@@ -11,7 +11,11 @@ year: 2020
 
 # [W1: Data Excellence](http://eval.how/dew2020/)
 
-**Organizers**: Praveen Paritosh, Matt Lease, Mike Schaekermann, Lora Aroyo
+**Organizers**:
+Praveen Paritosh, Google;
+Matt Lease, UT Austin and Amazon;
+Mike Schaekermann, Amazon and University of Waterloo;
+Lora Aroyo, Google
 
 **Overview**: Human annotated data is crucial for operationalizing empirical ways for evaluating, comparing, and assessing the progress of ML/AI research. As human annotated data represents the compass that the entire ML/AI community relies on, the human computation (HCOMP) research community has a multiplicative effect on the progress of the field. Optimizing the cost, size, and speed of collecting data has attracted significant attention by HCOMP and related research communities. In the first to market rush with data, aspects of maintainability, reliability, validity, and fidelity of datasets are often overlooked. We want to turn this way of thinking on its head and highlight examples, case-studies, methodologies for excellence in data collection. Data excellence happens organically due to appropriate support, expertise, diligence, commitment, pride, community, etc. We will invite speakers and submissions exploring such case studies in data excellence, focusing on empirical and theoretical methodologies for reliability, validity, maintainability, and fidelity of data. Goals of the workshop:
 -   Gather case studies of data excellence;
