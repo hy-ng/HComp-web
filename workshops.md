@@ -9,7 +9,7 @@ year: 2020
 &nbsp;
 {:.sub-page-border}
 
-# W1: Data Excellence
+# [W1: Data Excellence](http://eval.how/dew2020/)
 
 **Organizers**: Praveen Paritosh, Matt Lease, Mike Schaekermann, Lora Aroyo
 
