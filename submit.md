@@ -11,9 +11,9 @@ year: 2020
 
 - Call for [Full Papers (closed)](#papers)
 - Call for [Workshops (closed)](#workshops)
-- Call for [Works-In-Progress and Demonstration Papers](#wip)
-- Call for [Doctoral Consortium](#doc)
-- Call for [Blue Sky Ideas Track](#bsi)
+- Call for [Works-In-Progress and Demonstration Papers (closed)](#wip)
+- Call for [Doctoral Consortium (closed)](#doc)
+- Call for [Blue Sky Ideas Track (closed)](#bsi)
 - Call for [CrowdCamp](#ccamp)
 
 ## OVERVIEW
@@ -124,7 +124,7 @@ Anca Dumitrache, at [anca.dumitrache89@gmail.com](mailto:anca.dumitrache89@gmail
 
 ## Important Dates
 ### All times are midnight CEST (Amsterdam time)
-- August 14, 2020: Paper due
+- ~~August 14, 2020: Paper due~~
 - August 20, 2020: Notification of acceptance
 - September 20, 2020: Final camera-ready papers due
 
