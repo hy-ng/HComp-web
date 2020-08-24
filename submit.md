@@ -254,7 +254,7 @@ Markus Krause, at [public.markus.krause@gmail.com](mailto:public.markus.krause@g
 ## Important Dates
 ### All times are midnight CEST (Amsterdam time)
 - ~~August 7, 2020: Paper due~~
-- August 20, 2020: Notification of acceptance
+- August 24, 2020: Notification of acceptance
 - September 20, 2020: Final camera-ready papers due
 
 ## Submission
