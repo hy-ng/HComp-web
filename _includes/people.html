@@ -13,11 +13,18 @@
 {% elsif people.size == 3 %}
   {% assign col_size = 4 %}
 {% else %}
-  {% assign col_size = 3 %}
+  {% if include.narrow %}
+    {% assign col_size = 4 %}
+  {% else %}
+    {% assign col_size = 3 %}
+  {% endif %}
 {% endif %}
-
 {% for person in people %}
-  {% assign remainder = forloop.index | minus: 1 | modulo: 4 %}
+  {% if include.narrow %}
+    {% assign remainder = forloop.index | minus: 1 | modulo: 5 %}
+  {% else %}
+    {% assign remainder = forloop.index | minus: 1 | modulo: 4 %}
+  {% endif %}
   {% if remainder == 0 %}
     <div class="row profile-row">
   {% endif %}
@@ -44,7 +51,13 @@
     <div class="col-md-1"></div>
   {% endif %}
 
-  {% if remainder == 3 or forloop.last %}
-    </div>
+  {% if include.narrow %}
+    {% if remainder == 4 forloop.last %}
+      </div>
+    {% endif %}
+  {% else %}
+    {% if remainder == 3 forloop.last %}
+      </div>
+    {% endif %}
   {% endif %}
 {% endfor %}

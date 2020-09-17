@@ -90,7 +90,7 @@ redirect_from:
           </p>
           <div class="container keynotes">
             {% assign people = site.data.keynotes[page.year] %}
-            {% include people.html people=people %}
+            {% include people.html people=people narrow=true %}
           </div>
         </div>
 
