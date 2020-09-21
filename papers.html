@@ -47,6 +47,9 @@ redirect_from:
               <a class="theme-link" href="#full">Full Papers</a>
             </li>
             <li>
+              <a class="theme-link" href="#short">Short Papers</a>
+            </li>
+            <li>
               <a class="theme-link" href="#wip"
                 >Works-in-Progress & Demonstrations</a
               >
@@ -56,6 +59,20 @@ redirect_from:
           <h2 id="full" class="section-heading">Full Papers</h2>
           
           {% assign sorted = site.data.accepted[2020].full | sort: 'title' %} {%
+          for paper in sorted %}
+          <b>
+            {{ paper.title }}
+          </b>
+          <ul class="nobullet">
+            <li>
+              {{ paper.authors }}
+            </li>
+          </ul>
+          {% endfor %}
+
+          <h2 id="full" class="section-heading">Short Papers</h2>
+          
+          {% assign sorted = site.data.accepted[2020].short | sort: 'title' %} {%
           for paper in sorted %}
           <b>
             {{ paper.title }}
