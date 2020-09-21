@@ -24,7 +24,7 @@ Lora Aroyo, Google
 -   Empirical and theoretical methodologies for reliability, validity, maintainability, fidelity of data;
 -   How do we invest more, not less, in data? How do we justify that investment? 
 
-# W2: Rigorous Evaluation of AI Systems
+# [W2: Rigorous Evaluation of AI Systems](http://eval.how/reais-2020/)
 
 **Organizers**: Bernease Herman, Sarah Luger, Maria Stone, Kurt Bollacker
 
