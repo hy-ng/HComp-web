@@ -201,3 +201,12 @@
   demo:
     - authors: "Kyriakos Kyriakou, Pınar Barlas, Styliani Kleanthous, Jahna Otterbacher"
       title: "OpenTag: Understanding Human Perceptions of Image Tagging Algorithms"
+  bluesky:
+    - authors: "Aik Beng Ng, Zhangsheng Lai, Simon See, Shaowei Lin"
+      title: "Group-Assign: Type Theoretic Framework for Human AI Orchestration"
+    - authors: "Kevin Kells"
+      title: "A Technology-Assisted Social Computing Framework for Solving Complex Social Problems"
+    - authors: "Simo Hosio, Niels van Berkel"
+      title: "COGNET: The Planetary Cognition Delivery Network"
+    - authors: "Vincent Conitzer"
+      title: "Using Human Cognitive Limitations to Enable New Systems"
