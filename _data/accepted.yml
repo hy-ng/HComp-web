@@ -168,9 +168,36 @@
       title: "A Case for Soft Loss Functions"
     - authors: "Xiaotong Tone Xu, Judith Fan and Steven Dow"
       title: "Schema and Metadata Guide the Collective Generation of Relevant and Diverse Work"
+  doc:
+    - title: "Labour as a Commodity: Social Reproduction in the Development of Artificial Intelligence"
+      authors: "Julian Posada"
+    - title: "Improving Crowd Working Conditions with A Novel Cooperation System"
+      authors: "Haoyu Xie"
+    - title: "Feature-Engineering from Meta-Cognitive Data for Machine-Learning based Decision-Aggregation "
+      authors: "Hilla Shinitzky"
+    - title: "Accounting for Human Factors in Machine-Assisted Decision-Making"
+      authors: "Nina Grgic-Hlaca"    
   wip:
-    - authors: Placeholder
-      title: Placeholer
+    - title: "Exploring Effectiveness of Inter-Microtask Qualification Tests in Crowdsourcing"
+      authors: "Masaya Morinaga, Susumu Saito, Teppei Nakano, Tetsunori Kobayashi, Tetsuji Ogawa"
+    - title: "Crowdwork as a Snapshot in Time: Image Annotation Tasks during a Pandemic"
+      authors: "Evgenia Christoforou, Pinar Barlas, Jahna Otterbacher"
+    - title: "Assessing Political Bias using Crowdsourced Pairwise Comparisons"
+      authors: "Tzu-Sheng Kuo, Mcardle Hankin, Miranda Li, Andrew Ying, Cathy Wang"
+    - title: "Dynamic Worker-Task Assignment for High-Quality Task Results with ML Workers"
+      authors: "Yu Yamashita, Masaki Kobayashi, Kei Wakabayashi, Atsuyuki Morishima"
+    - title: "A Survey of Visually Impaired Workers in Japanese and US Crowdsourcing Platforms"
+      authors: "Ying Zhong, Makoto Kobayashi, Masaki Matsubara, Atsuyuki Morishima"
+    - title: "A TOPSIS-based Multi-Objective Model for Constrained Crowd Judgment Analysis"
+      authors: "Sujoy Chatterjee, Sunghoon Lim"
+    - title: "Socially Augmented Crowdsourced Collection of Folk Theories"
+      authors: "Jonas Oppenlaender"
+    - title: "Turkish Judge: A Peer Evaluation Framework for Crowd Work Appeals"
+      authors: "Mukund Venkateswaran, Edward Cohen, Nivedita Sankar, Chris Callison-Burch "
+    - title: "Qualification Labour: A Fair Wage Isn’t Enough if Workers Need to Do 5,000 Low Paid Tasks to Qualify for Your Task"
+      authors: "Jonathan Kummerfeld"
+    - title: "Towards a Crowdsourcing Platform for Low Resource Languages -- A Collectivist Approach"
+      authors: "Sarah Luger, Christopher M. Homan, Allashera Tapo"
   demo:
-    - authors: Placeholder
-      title: Placeholer
+    - authors: "Kyriakos Kyriakou, Pınar Barlas, Styliani Kleanthous, Jahna Otterbacher"
+      title: "OpenTag: Understanding Human Perceptions of Image Tagging Algorithms"

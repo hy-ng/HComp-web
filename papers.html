@@ -84,17 +84,26 @@ redirect_from:
           </ul>
           {% endfor %}
 
+          <h2 id="full" class="section-heading">Doctoral Consortium</h2>
+          
+          {% assign sorted = site.data.accepted[2020].doc | sort: 'title' %} {%
+          for paper in sorted %}
+          <b>
+            {{ paper.title }}
+          </b>
+          <ul class="nobullet">
+            <li>
+              {{ paper.authors }}
+            </li>
+          </ul>
+          {% endfor %}
+
           <h2 id="wip" class="section-heading">
-            Works-in-Progress &amp; Demonstrations
+            Works-in-Progress &amp; Demonstration
           </h2>
 
           <h5 class="section-heading">Works-in-Progress</h5>
-          <p class="lead">
-            <i>
-              Accepted works-in-progress will be informed when decided.
-            </i>
-          </p>
-          <!--
+          
           {% assign sorted = site.data.accepted[2020].wip | sort: 'title' %} {%
           for paper in sorted %}
           <b>
@@ -110,14 +119,9 @@ redirect_from:
             </li>
           </ul>
           {% endfor %}
-          -->
+
           <h5 class="section-heading">Demonstrations</h5>
-          <p class="lead">
-            <i>
-              Accepted demonstrations will be informed when decided.
-            </i>
-          </p>
-          <!--
+          
           {% assign sorted = site.data.accepted[2020].demo | sort: 'title' %} {%
           for paper in sorted %}
           <b>
@@ -133,7 +137,7 @@ redirect_from:
             </li>
           </ul>
           {% endfor %}
-          -->
+
         </div>
       </div>
     </div>
