@@ -31,7 +31,7 @@ Includes discounted conference registration, plus a one-year online new or renew
 
 Workshop Information can be found [here](https://www.humancomputation.com/workshops.html).
 
-HCOMP-20 workshops will be held Monday, October 26, just prior to the technical conference. Workshops will run concurrently at 3:00 - 6:30 PM (CET - UTC+1). Technical registrants may sign up for workshops as part of their technical registration. For those wishing to attend only the Workshop program, a Workshop Only registration is offered.
+HCOMP-20 workshops will be held Sunday and Monday, October 25 and 26, just prior to the technical conference. Workshops will run concurrently at 3:00 - 6:30 PM (CET - UTC+1). Technical registrants may sign up for workshops as part of their technical registration. For those wishing to attend only the Workshop program, a Workshop Only registration is offered.
 
 Workshop Only Fee:
 - $50  Regular

@@ -54,6 +54,11 @@ redirect_from:
                 >Works-in-Progress & Demonstrations</a
               >
             </li>
+            <li>
+              <a class="theme-link" href="#bsi"
+                >Blue Sky Ideas Track</a
+              >
+            </li>
           </ul>
 
           <h2 id="full" class="section-heading">Full Papers</h2>
@@ -138,7 +143,7 @@ redirect_from:
           </ul>
           {% endfor %}
 
-          <h2 id="full" class="section-heading">Blue Sky Ideas Papers</h2>
+          <h2 id="bsi" class="section-heading">Blue Sky Ideas Papers</h2>
           
           {% assign sorted = site.data.accepted[2020].bluesky | sort: 'title' %} {%
           for paper in sorted %}
