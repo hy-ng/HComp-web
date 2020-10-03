@@ -12,8 +12,8 @@ year: 2020
 # [W1: Data Excellence](http://eval.how/dew2020/)
 
 **Date and Time**
-October 26, 2020 
-3:00pm-6:20pm CET
+October 25, 2020 
+2:00pm-5:20pm CET
 
 **Organizers**:
 Praveen Paritosh, Google;
@@ -31,8 +31,8 @@ Lora Aroyo, Google
 # [W2: Rigorous Evaluation of AI Systems](http://eval.how/reais-2020/)
 
 **Date and Time**
-October 25, 2020
-3:00pm -6:20pm CET
+October 26, 2020
+2:00pm -5:20pm CET
 
 **Organizers**: Bernease Herman, Sarah Luger, Maria Stone, Kurt Bollacker
 
