@@ -13,7 +13,7 @@ year: 2020
 
 **Date and Time**
 October 26, 2020 
-2:00pm-5:20pm CET
+2:00pm - 6:20pm CET
 
 **Organizers**:
 Praveen Paritosh, Google;
@@ -32,7 +32,7 @@ Lora Aroyo, Google
 
 **Date and Time**
 October 25, 2020
-2:00pm-5:20pm CET
+2:00pm - 6:20pm CET
 
 **Organizers**: Bernease Herman, Sarah Luger, Maria Stone, Kurt Bollacker
 
