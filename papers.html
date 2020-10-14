@@ -50,6 +50,11 @@ redirect_from:
               <a class="theme-link" href="#short">Short Papers</a>
             </li>
             <li>
+              <a class="theme-link" href="#dc"
+                >Doctoral Consortium</a
+              >
+            </li>
+            <li>
               <a class="theme-link" href="#wip"
                 >Works-in-Progress & Demonstrations</a
               >
@@ -75,7 +80,7 @@ redirect_from:
           </ul>
           {% endfor %}
 
-          <h2 id="full" class="section-heading">Short Papers</h2>
+          <h2 id="short" class="section-heading">Short Papers</h2>
           
           {% assign sorted = site.data.accepted[2020].short | sort: 'title' %} {%
           for paper in sorted %}
@@ -89,7 +94,7 @@ redirect_from:
           </ul>
           {% endfor %}
 
-          <h2 id="full" class="section-heading">Doctoral Consortium</h2>
+          <h2 id="dc" class="section-heading">Doctoral Consortium</h2>
           
           {% assign sorted = site.data.accepted[2020].doc | sort: 'title' %} {%
           for paper in sorted %}

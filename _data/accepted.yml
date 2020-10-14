@@ -176,7 +176,9 @@
     - title: "Feature-Engineering from Meta-Cognitive Data for Machine-Learning based Decision-Aggregation "
       authors: "Hilla Shinitzky"
     - title: "Accounting for Human Factors in Machine-Assisted Decision-Making"
-      authors: "Nina Grgic-Hlaca"    
+      authors: "Nina Grgic-Hlaca"
+    - title: "The Role of Energy Efficiency Smart Buildings in the Transformation of the Energy System: a Data Science Analysis from Social and Technical Perspectives"
+      authors: "Jiao Jiao"
   wip:
     - title: "Exploring Effectiveness of Inter-Microtask Qualification Tests in Crowdsourcing"
       authors: "Masaya Morinaga, Susumu Saito, Teppei Nakano, Tetsunori Kobayashi, Tetsuji Ogawa"
