@@ -34,6 +34,10 @@ redirect_from:
           <h3 class="subheader bg-warning"><i class="icon-font fa fa-bullhorn"></i>&nbsp;&nbsp;
             <b>HCOMP2020 goes virtual! Read the full announcement <a href='hcomp_goes_virtual.html'>here</a></b>
           </h3>
+          <br/>
+          <h3 class="subheader bg-warning"><i class="icon-font fa fa-bullhorn"></i>&nbsp;&nbsp;
+            <b> Check the list of <a href='papers.html#full'>accepted papers</a> and <a href='https://aaai.org/Library/HCOMP/hcomp20contents.php'>conference proceedings</a></b>
+          </h3>
 
           <h2 class="section-heading">Welcome to HCOMP 2020!</h2>
 
@@ -90,7 +94,7 @@ redirect_from:
           </p>
           <div class="container keynotes">
             {% assign people = site.data.keynotes[page.year] %}
-            {% include people.html people=people narrow=true %}
+            {% include people.html people=people narrow=true keynote=true%}
           </div>
         </div>
 
@@ -148,9 +152,9 @@ redirect_from:
         <p class="important-date">September 20, 2020</p>
         <p style="font-weight:400;">WiP and Demo camera ready due</p>
         <p class="important-date">September 30, 2020</p>
-        <p style="font-weight:400;">Blue Sky Ideas camera ready due</p-->
+        <p style="font-weight:400;">Blue Sky Ideas camera ready due</p>
         <p class="important-date">October 9th, 2020</p>
-        <p style="font-weight:400;">Deadline for uploading videos</p>
+        <p style="font-weight:400;">Deadline for uploading videos</p-->
         <p class="important-date">Oct 25-29, 2020</p>
         <p style="font-weight:400;">HCOMP2020</p>
       </div>

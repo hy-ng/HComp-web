@@ -542,6 +542,7 @@
   last_name: Welty
   picture: 'img/photo/welty-150.jpg'
   website: 'https://ai.google/research/people/104789'
+  keynote: 'keynotes.html#chris_welty'
 
 - affiliation: Artist
   full_name: Anna Ridler
@@ -549,6 +550,7 @@
   last_name: Ridler
   picture: 'img/photo/anna_ridler-150.jpg'
   website: 'https://annaridler.com/'
+  keynote: 'keynotes.html#anna_ridler'
 
 - affiliation: University of Amsterdam
   full_name: Julia Noordegraaf
@@ -556,6 +558,7 @@
   last_name: Noordegraaf
   picture: 'img/photo/julia_noordegraaf-150.jpg'
   website: 'https://www.uva.nl/profiel/n/o/j.j.noordegraaf/j.j.noordegraaf.html/'
+  keynote: 'keynotes.html#julia_noordegraaf'
 
 - affiliation: Harvard University
   steering: HCOMP 2014 Co-Chair
@@ -586,6 +589,7 @@
   last_name: lalmas
   picture: 'img/photo/mounia_lalmas-150.jpg'
   website: 'https://mounia-lalmas.blog/mounia-lalmas/'
+  keynote: 'keynotes.html#mounia_lalmas'
 
 - affiliation: University of Tsukuba
   full_name: Yukino Baba
@@ -705,3 +709,4 @@
   affiliation: Amazon
   picture: 'img/photo/perona-150.jpg'
   website:  http://eas.caltech.edu/people/perona
+  keynote: 'keynotes.html#pietro_perona'

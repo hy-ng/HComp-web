@@ -2,12 +2,17 @@
 layout: page
 title: HCOMP2020 Goes Virtual
 year: 2020
+driveId: 1OfTboxP3fa99BIY-gdcU8IOeFTkBdJdC/preview
 ---
 
 # HCOMP2020 is going virtual
 {:.sub-page-header}
 &nbsp;
 {:.sub-page-border}
+
+The Dutch institue for media culture [Netherlands Institute for Sound and Vision](https://www.beeldengeluid.nl/en) will be your virtual HCOMP2020 co-host and will bring a little taste of the Netherlands directly to you. Enjoy our video greeting below! 
+
+{% include googleDrivePlayer.html id=page.driveId %}
 
 Over the last months, we have been closely monitoring the ongoing situation around Covid-19. Given the measures that have been put into place around the world, and the uncertainty about how the situation will evolve between now and the end of October, the HCOMP organising committee and AAAI have decided that in 2020 HCOMP will be a virtual conference. Our main concerns are with the members of our community and the challenges they might be facing in these unprecedented times. 
 

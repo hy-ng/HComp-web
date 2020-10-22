@@ -126,7 +126,7 @@ Anca Dumitrache, at [anca.dumitrache89@gmail.com](mailto:anca.dumitrache89@gmail
 ### All times are midnight CEST (Amsterdam time)
 - ~~August 14, 2020: Paper due~~
 - ~~August 20, 2020: Notification of acceptance~~
-- September 20, 2020: Final camera-ready papers due
+- ~~September 20, 2020: Final camera-ready papers due~~
 
 ## Overview
 The Works-in-Progress and Demonstration track focuses on recent findings or other types of innovative or thought-provoking work, hands-on demonstration, novel interactive technologies and experiences relevant to the HCOMP community.
@@ -255,7 +255,7 @@ Markus Krause, at [public.markus.krause@gmail.com](mailto:public.markus.krause@g
 ### All times are midnight CEST (Amsterdam time)
 - ~~August 7, 2020: Paper due~~
 - ~~August 24, 2020: Notification of acceptance~~
-- September 30, 2020: Final camera-ready papers due
+- ~~September 30, 2020: Final camera-ready papers due~~
 
 ## Submission
 

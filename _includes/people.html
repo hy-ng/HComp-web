@@ -37,7 +37,13 @@
     <div class="col-md-{{col_size}}" style="text-align:center">
   {% endif %}
     <img class="photo-size rounded-circle" src="{{ person.picture }}">
-    <h3><a class="theme-link-org" href="{{ person.website }}">{{ person.full_name }}</a></h3>
+    
+    {% if include.keynote %}
+      <h3><a class="theme-link-org" href="{{ person.keynote }}">{{ person.full_name }}</a></h3>
+    {% else %}
+      <h3><a class="theme-link-org" href="{{ person.website }}">{{ person.full_name }}</a></h3>
+    {% endif %}
+
     <p class="lead">{{ person.affiliation }}
       {% if include.steering %}
         <br>{{ person.steering }}
