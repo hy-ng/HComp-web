@@ -182,27 +182,49 @@
   wip:
     - title: "Exploring Effectiveness of Inter-Microtask Qualification Tests in Crowdsourcing"
       authors: "Masaya Morinaga, Susumu Saito, Teppei Nakano, Tetsunori Kobayashi, Tetsuji Ogawa"
+      id: 78
+      link: assets/2020/wip_demos/HCOMP_2020_paper_78.pdf
     - title: "Crowdwork as a Snapshot in Time: Image Annotation Tasks during a Pandemic"
       authors: "Evgenia Christoforou, Pinar Barlas, Jahna Otterbacher"
+      id: 79
+      link: assets/2020/wip_demos/HCOMP_2020_paper_79.pdf
     - title: "Assessing Political Bias using Crowdsourced Pairwise Comparisons"
       authors: "Tzu-Sheng Kuo, Mcardle Hankin, Miranda Li, Andrew Ying, Cathy Wang"
+      id: 80
+      link: assets/2020/wip_demos/HCOMP_2020_paper_80.pdf
     - title: "Dynamic Worker-Task Assignment for High-Quality Task Results with ML Workers"
       authors: "Yu Yamashita, Masaki Kobayashi, Kei Wakabayashi, Atsuyuki Morishima"
+      id: 82
+      link: assets/2020/wip_demos/HCOMP_2020_paper_82.pdf
     - title: "A Survey of Visually Impaired Workers in Japanese and US Crowdsourcing Platforms"
       authors: "Ying Zhong, Makoto Kobayashi, Masaki Matsubara, Atsuyuki Morishima"
+      id: 83
+      link: assets/2020/wip_demos/HCOMP_2020_paper_83.pdf
     - title: "A TOPSIS-based Multi-Objective Model for Constrained Crowd Judgment Analysis"
       authors: "Sujoy Chatterjee, Sunghoon Lim"
+      id: 84
+      link: assets/2020/wip_demos/HCOMP_2020_paper_84.pdf
     - title: "Socially Augmented Crowdsourced Collection of Folk Theories"
       authors: "Jonas Oppenlaender"
+      id: 86
+      link: assets/2020/wip_demos/HCOMP_2020_paper_86.pdf
     - title: "Turkish Judge: A Peer Evaluation Framework for Crowd Work Appeals"
       authors: "Mukund Venkateswaran, Edward Cohen, Nivedita Sankar, Chris Callison-Burch "
+      id: 90
+      link: assets/2020/wip_demos/HCOMP_2020_paper_90.pdf
     - title: "Qualification Labour: A Fair Wage Isn’t Enough if Workers Need to Do 5,000 Low Paid Tasks to Qualify for Your Task"
       authors: "Jonathan Kummerfeld"
+      id: 94
+      link: assets/2020/wip_demos/HCOMP_2020_paper_94.pdf
     - title: "Towards a Crowdsourcing Platform for Low Resource Languages -- A Collectivist Approach"
       authors: "Sarah Luger, Christopher M. Homan, Allashera Tapo"
+      id: 95
+      link: assets/2020/wip_demos/HCOMP_2020_paper_95.pdf
   demo:
     - authors: "Kyriakos Kyriakou, Pınar Barlas, Styliani Kleanthous, Jahna Otterbacher"
       title: "OpenTag: Understanding Human Perceptions of Image Tagging Algorithms"
+      id: 76
+      link: assets/2020/wip_demos/HCOMP_2020_paper_76.pdf
   bluesky:
     - authors: "Aik Beng Ng, Zhangsheng Lai, Simon See, Shaowei Lin"
       title: "Group-Assign: Type Theoretic Framework for Human AI Orchestration"

@@ -47,7 +47,6 @@ redirect_from:
               <a class="theme-link" href="#proc">Proceedings</a>
             </li>
             <li>
-            <li>
               <a class="theme-link" href="#full">Full Papers</a>
             </li>
             <li>
@@ -77,9 +76,15 @@ redirect_from:
           
           {% assign sorted = site.data.accepted[2020].full | sort: 'title' %} {%
           for paper in sorted %}
-          <b>
-            {{ paper.title }}
-          </b>
+          {% if paper.link %}
+            <b>
+              <a class="theme-link" href= "{{ paper.link }}" >{{ paper.title }}</a>
+            </b>
+          {% else %}
+            <b>
+              {{ paper.title }}
+            </b>
+          {% endif %}
           <ul class="nobullet">
             <li>
               {{ paper.authors }}
@@ -91,9 +96,15 @@ redirect_from:
           
           {% assign sorted = site.data.accepted[2020].short | sort: 'title' %} {%
           for paper in sorted %}
-          <b>
-            {{ paper.title }}
-          </b>
+          {% if paper.link %}
+            <b>
+              <a class="theme-link" href= "{{ paper.link }}" >{{ paper.title }}</a>
+            </b>
+          {% else %}
+            <b>
+              {{ paper.title }}
+            </b>
+          {% endif %}
           <ul class="nobullet">
             <li>
               {{ paper.authors }}
@@ -105,9 +116,15 @@ redirect_from:
           
           {% assign sorted = site.data.accepted[2020].doc | sort: 'title' %} {%
           for paper in sorted %}
-          <b>
-            {{ paper.title }}
-          </b>
+          {% if paper.link %}
+            <b>
+              <a class="theme-link" href= "{{ paper.link }}" >{{ paper.title }}</a>
+            </b>
+          {% else %}
+            <b>
+              {{ paper.title }}
+            </b>
+          {% endif %}
           <ul class="nobullet">
             <li>
               {{ paper.authors }}
@@ -123,13 +140,15 @@ redirect_from:
           
           {% assign sorted = site.data.accepted[2020].wip | sort: 'title' %} {%
           for paper in sorted %}
-          <b>
-            {% if paper.id %}
-            <a class="theme-link" href="assets/papers/{{paper.id}}.pdf"
-              >{{ paper.title }}</a
-            >
-            {% else %} {{ paper.title }} {% endif %}
-          </b>
+          {% if paper.link %}
+            <b>
+              <a class="theme-link" href= "{{ paper.link }}" >{{ paper.title }}</a>
+            </b>
+          {% else %}
+            <b>
+              {{ paper.title }}
+            </b>
+          {% endif %}
           <ul class="nobullet">
             <li>
               {{ paper.authors }}
@@ -141,13 +160,15 @@ redirect_from:
           
           {% assign sorted = site.data.accepted[2020].demo | sort: 'title' %} {%
           for paper in sorted %}
-          <b>
-            {% if paper.id %}
-            <a class="theme-link" href="assets/papers/{{paper.id}}.pdf"
-              >{{ paper.title }}</a
-            >
-            {% else %} {{ paper.title }} {% endif %}
-          </b>
+          {% if paper.link %}
+            <b>
+              <a class="theme-link" href= "{{ paper.link }}" >{{ paper.title }}</a>
+            </b>
+          {% else %}
+            <b>
+              {{ paper.title }}
+            </b>
+          {% endif %}
           <ul class="nobullet">
             <li>
               {{ paper.authors }}
@@ -159,9 +180,15 @@ redirect_from:
           
           {% assign sorted = site.data.accepted[2020].bluesky | sort: 'title' %} {%
           for paper in sorted %}
-          <b>
-            {{ paper.title }}
-          </b>
+          {% if paper.link %}
+            <b>
+              <a class="theme-link" href= "{{ paper.link }}" >{{ paper.title }}</a>
+            </b>
+          {% else %}
+            <b>
+              {{ paper.title }}
+            </b>
+          {% endif %}
           <ul class="nobullet">
             <li>
               {{ paper.authors }}
