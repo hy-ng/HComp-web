@@ -10,7 +10,7 @@ driveId: 1OfTboxP3fa99BIY-gdcU8IOeFTkBdJdC/preview
 &nbsp;
 {:.sub-page-border}
 
-The Dutch institute for media culture [Netherlands Institute for Sound and Vision](https://www.beeldengeluid.nl/en) will be your virtual HCOMP2020 co-host and will bring a little taste of the Netherlands directly to you. Enjoy the video greeting below! 
+The Dutch institute for media culture [Netherlands Institute for Sound and Vision](sound_and_vision.html) will be your virtual HCOMP2020 co-host and will bring a little taste of the Netherlands directly to you. Enjoy the video greeting below! 
 
 {% include googleDrivePlayer.html id=page.driveId %}
 
