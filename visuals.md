@@ -17,16 +17,20 @@ You can see the illustrations for past tasks and sessions below!
 
 ## Workshop 1: Data Excellence Workshop
 
-<img src="img/visuals/2020/HCOMP2020_workshop_1_DEW2020_V1.png" alt="Boom Chicago" height="1500"/>
+<img src="img/visuals/2020/HCOMP2020_workshop_1_DEW2020_V1.png" height="1500"/>
 
 ## Keynote Speaker: Mounia Lalmas
 
-<img src="img/visuals/2020/HCOMP2020_Keynote_1_V1.png" alt="Boom Chicago" height="600"/>
+<img src="img/visuals/2020/HCOMP2020_Keynote_1_V1.png" height="600"/>/>
+
+## Keynote Speaker: Anna Riddler
+
+<img src="img/visuals/2020/HCOMP2020_Keynote_2_V1.png" height="600"/>
 
 ## Doctoral Consortium
 
-<img src="img/visuals/2020/HCOMP2020_DC_Papers_V1.png" alt="Boom Chicago" height="1500"/>
+<img src="img/visuals/2020/HCOMP2020_DC_Papers_V1.png" height="1500"/>
 
 ## Blue Sky Ideas
 
-<img src="img/visuals/2020/HCOMP2020_Blue_Sky_Papers_v1.png" alt="Boom Chicago" height="1500"/>   
+<img src="img/visuals/2020/HCOMP2020_Blue_Sky_Papers_v1.png" height="1500"/>   
