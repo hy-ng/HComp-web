@@ -21,11 +21,19 @@ You can see the illustrations for past tasks and sessions below!
 
 ## Keynote Speaker: Mounia Lalmas
 
-<img src="img/visuals/2020/HCOMP2020_Keynote_1_V1.png" height="600"/>/>
+<img src="img/visuals/2020/HCOMP2020_Keynote_1_V1.png" height="600"/>
 
 ## Keynote Speaker: Anna Riddler
 
 <img src="img/visuals/2020/HCOMP2020_Keynote_2_V1.png" height="600"/>
+
+## Keynote Speaker: Chris Welty
+
+<img src="img/visuals/2020/HCOMP2020_Keynote_3_V1.png" height="600"/>
+
+## Keynote Speaker: Julia Noordegraaf
+
+<img src="img/visuals/2020/HCOMP2020_Keynote_4_V1.png" height="600"/>
 
 ## Doctoral Consortium
 
