@@ -35,6 +35,10 @@ You can see the illustrations for past tasks and sessions below!
 
 <img src="img/visuals/2020/HCOMP2020_Keynote_4_V1.png" height="600"/>
 
+## Keynote Speaker: Pietro Perona
+
+<img src="img/visuals/2020/HCOMP2020_Keynote_5_V1.png" height="600"/>
+
 ## Doctoral Consortium
 
 <img src="img/visuals/2020/HCOMP2020_DC_Papers_V1.png" height="1500"/>
