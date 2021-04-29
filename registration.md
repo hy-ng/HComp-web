@@ -1,10 +1,10 @@
 ---
 layout: page
 title: REGISTRATION
-year: 2020
+year: 2021
 ---
 
-# HCOMP-20 Registration
+# HCOMP-21 Registration
 {:.sub-page-header}
 &nbsp;
 {:.sub-page-border}
