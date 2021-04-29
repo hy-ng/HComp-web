@@ -91,11 +91,9 @@ As noted earlier, at least one author of each accepted paper must register for t
 
 ## Paper awards
 
-HCOMP 2021 will recognize a best paper and two runner ups.  New to HCOMP is a best student-paper. 
+HCOMP 2021 will recognize a best paper and two runner ups. Reviewers will be asked to flag papers they deem worthy of a prize. The general chairs will set up a small panel who will read the papers, consider the comments of the reviewers and assess the talk to determine the winners.
 
-A best student paper is a paper where major parts of the work have been completed by an undergrad or postgrad student. 
-
-Reviewers will be asked to flag papers they deem worthy of a prize. The general chairs will set up a small panel who will read the papers, consider the comments of the reviewers and assess the talk to determine the winners.
+Paper award winners will be invited to submit extended versions of their papers to a special issue of the open-access journal Frontiers of AI, with publication fees waived.
 
 # CALL FOR BLUE SKY IDEAS
 {:.sub-page-header}
