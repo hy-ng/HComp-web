@@ -39,6 +39,7 @@
   picture: img/photo/simperl-150.jpg
   affiliation: King's College London
   website: http://elenasimperl.eu
+  steering: HCOMP 2020 Co-Chair
 
 - id: larson
   last_name: Larson
@@ -72,7 +73,7 @@
 - id: luther
   last_name: Luther
   full_name: Kurt Luther
-  picture: img/photo/kurtluther.jpg
+  picture: 'img/photo/KurtLuther-150.jpg'
   affiliation: Virginia Tech
   website: http://crowd.cs.vt.edu/kurt-luther/
 
@@ -140,6 +141,7 @@
   full_name: Lora Aroyo
   picture: img/photo/aroyo.jpeg
   affiliation: Google
+  steering: HCOMP 2020 Co-Chair
   website: http://lora-aroyo.org/
 
 - id: oomen
@@ -303,8 +305,8 @@
   picture: 'img/photo/ujwal-new.png'
   website: 'http://www.l3s.de/~gadiraju/' 
 
-- affiliation: Trash.app
-  full_name: Genevieve Patterson
+- affiliation: VSCO
+  full_name: Geneviève Patterson
   id: patterson
   last_name: Patterson
   picture: 'img/photo/genevieve.png'
@@ -710,3 +712,73 @@
   picture: 'img/photo/perona-150.jpg'
   website:  http://eas.caltech.edu/people/perona
   keynote: 'keynotes.html#pietro_perona'
+
+- id: braga
+  full_name: Daniela Braga
+  last_name: Braga
+  affiliation: DefinedCrowd
+  website: https://www.definedcrowd.com/
+  picture: 'img/photo/DanielaBraga-150.jpg'
+
+- id: sarne
+  full_name: David Sarne
+  last_name: Sarne
+  affiliation: Bar-Ilan University
+  website: https://u.cs.biu.ac.il/~sarned/
+  picture: 'img/photo/sarne-150.jpg'
+
+- id: savage
+  full_name: Saiph Savage
+  last_name: Savage
+  affiliation: West Virginia University
+  website: http://www.saiph.org/
+  picture: 'img/photo/saiph-150.jpg'
+
+- id: chan
+  full_name: Joel Chan
+  last_name: Chan
+  affiliation: University of Maryland
+  picture: 'img/photo/jchan-150.jpg'
+  website: http://joelchan.me/
+
+- id: poursabzi
+  full_name: Forough Poursabzi-Sangdeh
+  last_name: Poursabzi-Sangdeh
+  affiliation: Microsoft
+  picture: 'img/photo/foroughp-150.jpg'
+  website: https://foroughp.github.io/
+
+- id: williams
+  full_name: Alex Williams
+  last_name: Williams
+  affiliation: University of Tennessee, Knoxville
+  website: http://web.eecs.utk.edu/~acw/
+  picture: 'img/photo/awilliams-150.jpg'
+
+- id: manikonda
+  full_name: Lydia Manikonda
+  last_name: Manikonda
+  affiliation: Rensselaer Polytechnic Institute
+  website: https://lmanikon.github.io/
+  picture: 'img/photo/LManikonda-150.jpg'
+
+- id: foong
+  full_name: Eureka Foong
+  last_name: Foong
+  affiliation: The University of Tokyo
+  website: https://www.eurekafoong.com/
+  picture: 'img/photo/efoong-150.jpg'
+
+- id: sangwonlee
+  full_name: Sang Won Lee
+  last_name: Lee
+  affiliation: Virginia Tech
+  website: https://people.cs.vt.edu/sangwonlee/
+  picture: 'img/photo/sangwonlee-150.jpg'
+
+- id: amypavel
+  full_name: Amy Pavel
+  last_name: Pavel
+  affiliation: Carnegie Mellon University
+  website: https://amypavel.com/
+  picture: 'img/photo/amypavel.png'

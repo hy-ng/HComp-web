@@ -47,6 +47,27 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse justify-content-end" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
+        {% if page.year == 2021 %}
+        <li>
+          <a {% if page.url == '/submit.html' %}class='active' {% endif %} href="submit.html">Submit</a>
+        </li>
+        <!-- li>
+          <a {% if page.url == '/attend.html' %}class='active' {% endif %} href="attend.html">Attend</a>
+        </li -->
+        <!-- li>
+          <a {% if page.url == '/program.html' %}class='active' {% endif %} href="program.html">Program</a>
+        </li -->
+        <li>
+          <a {% if page.url == '/organizers.html' %}class='active' {% endif %} href="organizers.html">Organizers</a>
+        </li>
+        <!-- li>
+          <a {% if page.url == '/sponsors.html' %}class='active' {% endif %} href="sponsors.html">Sponsors</a>
+        </li -->
+        <li>
+          <a {% if page.url == '/past%20meetings.html' %}class='active' {% endif %} href="past%20meetings.html">Past
+            Meetings</a>
+        </li>
+        {% else %}
         <li>
           <a {% if page.url == '/submit.html' %}class='active' {% endif %} href="submit.html">Submit</a>
         </li>
@@ -66,6 +87,7 @@
           <a {% if page.url == '/past%20meetings.html' %}class='active' {% endif %} href="past%20meetings.html">Past
             Meetings</a>
         </li>
+        {% endif %}
       </ul>
     </div>
   </nav>
@@ -100,7 +122,7 @@
               about new ideas for ideas related to crowd and social computing research.
             </li>
             <li>
-              Keep track of our twitter hashtag <a href="https://twitter.com/search?q=%23hcomp2020" class="theme-link">#HCOMP2020</a>.
+              Keep track of our twitter hashtag <a href="https://twitter.com/search?q=%23hcomp2020" class="theme-link">#HCOMP2021</a>.
             </li>
             <li>
               Join the <a href="https://hcomp.community/" class="theme-link">HCOMP Slack Community</a> to be in touch with researchers, industry players, practitioners, and crowd workers around Human Computation and relevant topics.

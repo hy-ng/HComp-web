@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Past CrowdCamp Editions
-year: 2020
+year: 2021
 ---
 
 # CrowdCamp Past Editions
@@ -9,6 +9,7 @@ year: 2020
 &nbsp;
 {:.sub-page-border}
 
+- [CrowdCamp 2020 (@HCOMP)](https://cats4ml.humancomputation.com/)
 - [CrowdCamp 2019 (@HCOMP)](https://crowdcamp2019.home.blog/)
 - [CrowdCamp 2017 (@HCOMP)](https://www.humancomputation.com/2017/crowdcamp.html#past)
 - [CrowdCamp 2016 (@HCOMP)](https://www.humancomputation.com/crowdcamp/hcomp2016/)
