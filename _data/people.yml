@@ -73,7 +73,7 @@
 - id: luther
   last_name: Luther
   full_name: Kurt Luther
-  picture: 'img/photo/KurtLuther-150.jpg'
+  picture: 'img/photo/KurtLuther.jpeg'
   affiliation: Virginia Tech
   website: http://crowd.cs.vt.edu/kurt-luther/
 
@@ -312,7 +312,7 @@
   picture: 'img/photo/genevieve.png'
   website: 'https://genp.github.io'
 
-- affiliation: UT Austin
+- affiliation: University of Texas at Austin
   full_name: Danna Gurari
   id: gurari
   last_name: Gurari
@@ -516,7 +516,7 @@
   picture: 'img/photo/Julie.jpg'
   website: 'http://juliehui.com'
 
-- affiliation: The University of Texas, Austin
+- affiliation: University of Texas at Austin
   steering: HCOMP 2016 Co-Chair
   full_name: Matthew Lease
   id: lease
@@ -531,8 +531,8 @@
   picture: 'img/photo/djellel.jpg'
   website: 'https://www.linkedin.com/in/djellel/'
 
-- affiliation: The Pennsylvania State University
-  full_name: Ting-Hao Huang
+- affiliation: Pennsylvania State University
+  full_name: Ting-Hao (Kenneth) Huang
   id: huangtinghao
   last_name: Huang
   picture: 'img/photo/Ting-HaoHuang.jpg'
@@ -782,3 +782,10 @@
   affiliation: Carnegie Mellon University
   website: https://amypavel.com/
   picture: 'img/photo/amypavel.png'
+
+- id: sdoroudi
+  full_name: Shayan Doroudi
+  last_name: Doroudi
+  affiliation: University of California, Irvine
+  picture: 'img/photo/shayan.jpg'
+  website: https://faculty.sites.uci.edu/doroudis/
