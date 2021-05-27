@@ -13,7 +13,7 @@ year: 2021
 - Call for [Blue Sky Ideas](#bsi)
 - Call for [Workshops](#workshops)
 - Call for [Works-In-Progress and Demonstration Papers](#wip)
-- Call for [Doctoral Consortium](#doc)
+- Call for [Graduate Consortium](#doc)
 - Call for [CrowdCamp](#ccamp)
 
 ## OVERVIEW
@@ -116,12 +116,63 @@ Coming soon.
 {:.sub-page-border}
 Coming soon.
 
-# CALL FOR DOCTORAL CONSORTIUM
+# CALL FOR GRADUATE CONSORTIUM
 {:.sub-page-header}
 {:#doc}
 &nbsp;
 {:.sub-page-border}
-Coming soon.
+
+## THE HCOMP 2021 GRADUATE CONSORTIUM (14TH NOVEMBER 2021)
+
+<img src="/img/graduate-consortium.jpg" alt="Detroit Industry, North Wall fresco by Diego M. Rivera" width="100%"/>
+
+We are proud to announce the 8th HCOMP Graduate Consortium. We invite both master’s and doctoral students in graduate programs related to crowdsourcing and human-computation to submit a research proposal by August 2nd, 2021 to be considered in the Graduate Consortium of the AAAI Conference on Human Computation and Crowdsourcing (HCOMP 2021). The consortium will take place online. Additionally, we are proud to announce that we have received sponsorship from the A.I. Journal to fully fund HCOMP conference registration fees for highly competitive and select students participating in the Graduate Student Consortium.
+
+## OBJECTIVE
+The HCOMP’21 graduate consortium provides graduate students with the unique opportunity to share their research with crowdsourcing and human computation experts, meet other graduate students, network, and receive mentoring from both industry and academia.
+
+## PARTICIPATING IN THE HCOMP GRADUATE CONSORTIUM
+If you wish to participate in the graduate consortium, complete this form: [https://tinyurl.com/8ydrf4hj](https://tinyurl.com/8ydrf4hj). The form will ask you general information about yourself, your research, motivations for participating in the graduate consortium, and will ask you to submit a 3 page abstract (with references) about your research. Student participants will need to:
+- Give a short online talk about their research during the consortium
+- Participate in online group discussion about their work and that of their peers.
+- Receive one-on-one online mentoring from renowned crowdsourcing researchers.
+- Access to an Aspiring Top Researcher Bootcamp to become a successful scientist in the field of crowdsourcing and human computation. 
+ 
+Additionally, a highly select group of students from the Graduate Consortium will receive sponsorship from the A.I. Journal to fully fund their HCOMP conference registration fees.
+
+## PREPARING YOUR ABSTRACT
+Applicants must submit a 3 page paper with references  explaining their research.
+
+### Research Explanation. 
+While final versions of accepted papers will be posted on the Graduate Consortium website and publicized in the HCOMP community, proceedings of the Doctoral Consortium will NOT be archived. As such, students may freely submit their research contributions for official publication in other venues.
+
+The research explanation should include:
+- Motivation for the proposed research
+- Background and related work (including key references)
+- Description of proposed research, including key research questions and planned methodology to be used for investigating these research questions
+- Proposed experiments if appropriate; Any preliminary evaluation and findings are welcomed, but this is not required.
+- Specific research issues and/or challenges the student would like to discuss
+
+### Format Requirements. 
+Submitted papers must be written in English, formatted according to AAAI Format guidelines, and submitted as a single PDF file (embedding all required fonts). The paper should be no more than 3 pages in length including all figures and references.
+
+## SUBMISSION GUIDELINES
+Submit your paper via this form: [https://tinyurl.com/8ydrf4hj](https://tinyurl.com/8ydrf4hj).
+
+## SELECTION CRITERIA
+All graduate students are invited to participate in the call. Submissions will be evaluated based on the research summary that is submitted in terms of quality and merit. We will also consider where the student is in their academic career. We will favor students who might benefit the most from participating in the consortium.  
+
+## IMPORTANT DATES
+- August 2nd 2021  – Submission deadline (Midnight anywhere on earth)
+- August 30th, 2021 – Notification date
+- September 19th 2021- Camera-ready deadline
+- Nov 14th 2021– Consortium
+
+## GRADUATE CONSORTIUM CHAIRS
+- Saiph Savage (Northeastern University & UNAM)
+- David Sarne (Bar-Ilan University)
+
+Write questions or comments to: saiph@uw.edu, david.sarne@gmail.com
 
 # CALL FOR CROWDCAMP
 {:.sub-page-header}
