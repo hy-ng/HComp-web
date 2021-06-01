@@ -126,22 +126,31 @@ Coming soon.
 
 <img src="/img/graduate-consortium.jpg" alt="Detroit Industry, North Wall fresco by Diego M. Rivera" width="100%"/>
 
-We are proud to announce the 8th HCOMP Graduate Consortium. We invite both master’s and doctoral students in graduate programs related to crowdsourcing and human-computation to submit a research proposal by August 2nd, 2021 to be considered in the Graduate Consortium of the AAAI Conference on Human Computation and Crowdsourcing (HCOMP 2021). The consortium will take place online. Additionally, we are proud to announce that we have received sponsorship from the A.I. Journal to fully fund HCOMP conference registration fees for highly competitive and select students participating in the Graduate Student Consortium.
+We are proud to announce the 8th HCOMP Graduate Consortium. We invite both master’s and doctoral students in graduate programs related to crowdsourcing and human-computation to submit a research proposal by August 2nd, 2021 to be considered in the Graduate Consortium of the AAAI Conference on Human Computation and Crowdsourcing (HCOMP 2021). The consortium will take place online and you can choose to participate in two ways: (1) graduate audience; or (2) “graduate colleague”. We are honored to announce that we have received sponsorship from the A.I. Journal to fully fund HCOMP conference registration for students participating as “graduate colleagues” (you will be selected based on your abstract submissions.)
 
 ## OBJECTIVE
 The HCOMP’21 graduate consortium provides graduate students with the unique opportunity to share their research with crowdsourcing and human computation experts, meet other graduate students, network, and receive mentoring from both industry and academia.
 
 ## PARTICIPATING IN THE HCOMP GRADUATE CONSORTIUM
-If you wish to participate in the graduate consortium, complete this form: [https://tinyurl.com/8ydrf4hj](https://tinyurl.com/8ydrf4hj). The form will ask you general information about yourself, your research, motivations for participating in the graduate consortium, and will ask you to submit a 3 page abstract (with references) about your research. Student participants will need to:
+If you wish to participate in the graduate consortium, complete this form: [https://tinyurl.com/2ax2zjxwj](https://tinyurl.com/2ax2zjxwj). The form will ask you general information about yourself, your research, motivations for participating in the graduate consortium, and the modality in which you wish to participate (as audience or colleague). If you wish to participate as a colleague you  will be expected to to complete the online form and submit a 3 page abstract (with references) about your research. If you wish to participate as an audience member you only need to complete the form. 
+
+### Expectations of Audience Type Participants. 
+Student participating in this modality  will need to:
+- Complete the online form: [https://tinyurl.com/2ax2zjxw](https://tinyurl.com/2ax2zjxw)
+- Participate in online group discussion about their work and that of their peers.
+- Access to an Aspiring Top Researcher Bootcamp to become a successful scientist in the field of crowdsourcing and human computation. 
+
+### Expectations of Colleague Type Participants.
+- Complete the online form and Submit a short abstract about their research: [https://tinyurl.com/2ax2zjxw](https://tinyurl.com/2ax2zjxw)
 - Give a short online talk about their research during the consortium
 - Participate in online group discussion about their work and that of their peers.
 - Receive one-on-one online mentoring from renowned crowdsourcing researchers.
 - Access to an Aspiring Top Researcher Bootcamp to become a successful scientist in the field of crowdsourcing and human computation. 
- 
-Additionally, a highly select group of students from the Graduate Consortium will receive sponsorship from the A.I. Journal to fully fund their HCOMP conference registration fees.
 
-## PREPARING YOUR ABSTRACT
-Applicants must submit a 3 page paper with references  explaining their research.
+Additionally, students participating as colleagues will receive sponsorship from the A.I. Journal to fully fund their HCOMP conference registration fees. Note that only select candidates will be able to participate as colleagues. However, if you are not selected to be a colleague you will be able to participate as an audience member. 
+
+## PREPARING YOUR ABSTRACT FOR COLLEAGUE PARTICIPATION
+Applicants must submit a 3 page paper with references explaining their research.
 
 ### Research Explanation. 
 While final versions of accepted papers will be posted on the Graduate Consortium website and publicized in the HCOMP community, proceedings of the Doctoral Consortium will NOT be archived. As such, students may freely submit their research contributions for official publication in other venues.
@@ -157,22 +166,22 @@ The research explanation should include:
 Submitted papers must be written in English, formatted according to AAAI Format guidelines, and submitted as a single PDF file (embedding all required fonts). The paper should be no more than 3 pages in length including all figures and references.
 
 ## SUBMISSION GUIDELINES
-Submit your paper via this form: [https://tinyurl.com/8ydrf4hj](https://tinyurl.com/8ydrf4hj).
+Submit your information via this form: [https://tinyurl.com/2ax2zjxw](https://tinyurl.com/2ax2zjxw).
 
 ## SELECTION CRITERIA
-All graduate students are invited to participate in the call. Submissions will be evaluated based on the research summary that is submitted in terms of quality and merit. We will also consider where the student is in their academic career. We will favor students who might benefit the most from participating in the consortium.  
+All graduate students are invited to participate in the call. Submissions to Colleague Participation mode  will be evaluated based on the research summary that is submitted in terms of quality and merit and where the student is in their academic career. We will favor students who might benefit the most from participating in the consortium as colleagues. Students interested in participating in the consortium as audience members only need to complete their online form: [https://tinyurl.com/2ax2zjxw](https://tinyurl.com/2ax2zjxw). 
 
 ## IMPORTANT DATES
 - August 2nd 2021  – Submission deadline (Midnight anywhere on earth)
-- August 30th, 2021 – Notification date
+- August 30th 2021 – Notification date
 - September 19th 2021- Camera-ready deadline
-- Nov 14th 2021– Consortium
+- November 14th 2021– Consortium
 
 ## GRADUATE CONSORTIUM CHAIRS
 - Saiph Savage (Northeastern University & UNAM)
 - David Sarne (Bar-Ilan University)
 
-Write questions or comments to: saiph@uw.edu, david.sarne@gmail.com
+Write questions or comments to: s.savage@northeastern.edu, david.sarne@gmail.com
 
 # CALL FOR CROWDCAMP
 {:.sub-page-header}
