@@ -107,7 +107,41 @@ Coming soon.
 {:#workshops}
 &nbsp;
 {:.sub-page-border}
-Coming soon.
+### Workshop Day: November 14, 2021  
+### Submission Deadline: August 13, 2021  
+<br/>
+
+## OVERVIEW
+We invite proposals for workshops at HCOMP 2021. Workshops bring together communities with common research interests and agendas to discuss ongoing work and initiate new collaborations. Workshops may address research, best practices, tools, education, emerging themes and applications, and critical thinking about existing methodologies and frameworks. Topics should be within the general scope of HCOMP, but may include emerging research directions that have not yet been fully explored and may even be seen as controversial.  Workshops may also be a forum for other types of topic-specific activities, such as tutorials or roundtables.
+
+## WORKSHOP FORMAT
+Workshop format can include discussions of contributions from attendees (e.g., posters, lightning talks) as well as providing space for lively, informal debates (e.g., breakout groups, panel discussions).
+
+Keep everyone involved! We especially encourage innovative workshop formats that keep attendees engaged throughout the workshop. As we have all learned by now, virtual events can be boring without sufficient planning. Get creative! Consider incorporating demos, feedback on innovative task designs, or short-term collaborations. What can your attendees create? … or solve?
+
+## SUBMISSION INSTRUCTIONS
+If you would like to organize a workshop at HCOMP 2021, please email us by August 13 at hcompworkshops2021@gmail.com and include the following information in a PDF file, which is has maximum of four pages:
+
+- Draft workshop announcement. This should include:
+	- Title.
+	- Topics and subtopics that are in scope.
+	- Organizers’ names and affiliations. Note that priority will be given to workshops that include a diverse group of organizers across different dimensions including but not limited to affiliation, affiliation type (e.g., academia, industry), geographical location, and area of research.
+	- Draft schedule.
+	- Information on whether your workshop will be a full-day or a half-day event
+	- Deadline for submissions to your workshop (if applicable). Our suggested deadline is no later than October 8, 2021.
+	- Notification date for acceptance/rejection of submissions to your workshop (if applicable). Our suggested date is no later than October 20, 2021.
+- Information about how you will keep participants debating, interacting, and/or creating throughout the virtual workshop.
+- Information on the approximate time during the workshop that will be spent on non-interactive activities (e.g., listening to talks).
+- Information on how you will advertise your workshop. We encourage organizers to consider sending announcements to channels that will reach a diverse group of people.
+- Considered keynote speakers, panelists, or special invitees, with indication of speakers that have already been invited or (tentatively) accepted.
+
+## Key Dates (all times are midnight AoE)
+- Deadline for proposals: August 13, 2021
+- Notification:  August 27, 2021
+
+## Contact
+- Forough Poursabzi-Sangdeh, fpoursabzi@microsoft.com
+- Alexander Quinn, aq@purdue.edu
 
 # CALL FOR WORKS-IN-PROGRESS AND DEMONSTRATION PAPERS
 {:.sub-page-header}
