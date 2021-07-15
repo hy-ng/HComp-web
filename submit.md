@@ -120,7 +120,7 @@ Workshop format can include discussions of contributions from attendees (e.g., p
 Keep everyone involved! We especially encourage innovative workshop formats that keep attendees engaged throughout the workshop. As we have all learned by now, virtual events can be boring without sufficient planning. Get creative! Consider incorporating demos, feedback on innovative task designs, or short-term collaborations. What can your attendees create? … or solve?
 
 ## SUBMISSION INSTRUCTIONS
-If you would like to organize a workshop at HCOMP 2021, please email us by August 13 at hcompworkshops2021@gmail.com and include the following information in a PDF file, which is has maximum of four pages:
+If you would like to organize a workshop at HCOMP 2021, please email us by **August 13** at hcompworkshops2021@gmail.com and include the following information in a **PDF file**, which is has **maximum of four pages**:
 
 - Draft workshop announcement. This should include:
 	- Title.
