@@ -143,12 +143,51 @@ If you would like to organize a workshop at HCOMP 2021, please email us by **Aug
 - Forough Poursabzi-Sangdeh, fpoursabzi@microsoft.com
 - Alexander Quinn, aq@purdue.edu
 
-# CALL FOR WORKS-IN-PROGRESS AND DEMONSTRATION PAPERS
+# CALL FOR WORKS-IN-PROGRESS (WiP) AND DEMONSTRATION PAPERS
 {:.sub-page-header}
 {:#wip}
 &nbsp;
 {:.sub-page-border}
-Coming soon.
+
+## Important Dates
+- September 3: Works-in-Progress Papers and Demonstration papers due (23:59 UTC-12)
+- September 17: WiP and Demo notifications sent
+- October 8: WiP and Demo camera-ready papers due (23:59 UTC-12)
+
+## Overview
+The Works-in-Progress and Demonstration track focuses on recent findings or other types of innovative or thought-provoking work, hands-on demonstration, novel interactive technologies and experiences relevant to the HCOMP community. We encourage practitioners and researchers to submit Works-in-Progress & Demo Track as it provides a unique opportunity for sharing valuable ideas, eliciting useful feedback on early-stage work, and fostering discussions and collaborations among colleagues. Submissions are welcome from any area of computer science, artificial intelligence, and human-computer interaction, to economics and the social sciences, all the way to digital humanities, policy, and ethics.
+
+### Works-in-Progress
+A Work-in-Progress is a concise report of recent findings or other types of innovative or thought-provoking work relevant to the HCOMP community. The difference between Works-in-Progress and other contribution types is that Work-in-Progress submissions represent work that has not reached a level of completion that would warrant the full Refereed selection process. That said, appropriate submissions should make some contribution to the body of HCOMP knowledge, whether realized or promised. A significant benefit of a Work-in-Progress derives from the discussion between the author and conference attendees that will be fostered by the synchronous virtual presentation of the work. Work-in-Progress submissions are in the form of a roughly 2 page paper, see Submission section.
+
+### Demonstrations
+A demonstration is a high-visibility, high-impact forum of the HCOMP program that allows you to present your hands-on demonstration, share novel interactive technologies, and stage interactive experiences. Demonstrations will showcase this year’s most exciting human computation and collaborative human-AI prototypes and systems. If you have an interesting prototype, system, exhibit or installation, we want to know about it. Sharing hands-on experiences of your work is often the best way to communicate what you have created. The demonstration submission should describe the nature of the system as well as the expected form of interaction with the user and the audience. We advise preparing a demo video to address connectivity issues during the virtual demo session. Demonstrations submissions are in the form of a roughly 2 page paper, see Submission section.
+
+## Submission 
+
+Submissions must be done via the HCOMP-21 EasyChair Website under the Works-in-Progress and Demonstration track. Submissions to Easychair are required on or before the deadline listed above. We cannot accept submissions by e-mail or fax. Authors will receive confirmation of receipt of their submissions, including an ID number, shortly after submission. HCOMP will contact authors again only if problems are encountered with papers.
+
+### Length
+Works-in-Progress and Demonstration papers can be up to 2 pages (references can extend beyond the 2 pages).
+
+### Formatting
+Papers must be formatted in AAAI two-column, camera-ready style; please refer to the AAAI 2021 Author Kit [http://www.aaai.org/Publications/Templates/AuthorKit21.zip](http://www.aaai.org/Publications/Templates/AuthorKit21.zip) for details. Papers must be in trouble-free, high-resolution PDF format, formatted for US Letter (8.5″ x 11″) paper, using Type 1 or TrueType fonts. The AAAI copyright block is not required for works-in-progress or demo submissions, as they are not included in the formal proceedings. Please see below for information about publication.
+
+### Supplemental Materials
+Authors are invited, but not required, to include supplemental materials such as executables and data files so that reviewers can reproduce results in the paper, images, additional videos, related papers, more detailed explanations, derivations, or results. These materials will be viewed only at the discretion of the reviewers, who are only obligated to read your paper itself.
+
+### NOT Anonymized
+Authors should include information identifying themselves and their institutions for single-blind review.
+
+### NOT Archival 
+Accepted papers will NOT be included in official conference proceedings, and so could be submitted later to other conferences or journals for official publication. Accepted papers will be made available online on the conference website.
+
+## Contacts
+
+Please contact the Works-in-progress and Demonstration Co-Chairs if you have any questions.
+
+- Danna Gurari, at danna.gurari@ischool.utexas.edu
+- Adish Singla, at adishs@mpi-sws.org
 
 # CALL FOR GRADUATE CONSORTIUM
 {:.sub-page-header}
