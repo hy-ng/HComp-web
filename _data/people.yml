@@ -333,7 +333,7 @@
   picture: 'img/photo/dumitrache-150.jpg'
   website: 'http://ancad.ro/'
 
-- affiliation: Associate Professor / UC San Diego Department of Cognitive Science
+- affiliation: UC San Diego
   steering: HCOMP 2017 Co-Chair
   full_name: Steven Dow
   id: dow
@@ -524,7 +524,7 @@
   picture: 'img/photo/mattlease.jpg'
   website: 'https://www.ischool.utexas.edu/~ml/'
 
-- affiliation: NYU
+- affiliation: New York University
   full_name: Djellel Difallah
   id: difallah
   last_name: Difallah
@@ -628,7 +628,7 @@
   picture: 'img/photo/goran.jpg'
   website: 'https://crcs.seas.harvard.edu/people/goran-radanovic-0'
 
-- affiliation: Facebook Inc
+- affiliation: Facebook
   full_name: Akash-Das Sarma
   id: sarma
   last_name: Sarma
@@ -790,7 +790,7 @@
   picture: 'img/photo/jgoncalves.jpg'
   website: https://www.jorgegoncalves.com
 
-- id: cc
+- id: jotterbacher
   full_name: Jahna Otterbacher
   last_name: Otterbacher
   affiliation: Open University of Cyprus & CYENS CoE
@@ -849,14 +849,14 @@
 - id: coreyjackson
   full_name: Corey Jackson
   last_name: Jackson
-  affiliation: The Information School, University of Wisconsin, Madison
+  affiliation: University of Wisconsin - Madison
   picture: 'img/photo/coreyjackson.png'
   website: http://coreybjackson.com/
 
 - id: bmcinnis
   full_name: Brian McInnis
   last_name: McInnis
-  affiliation: UC San Diego, Design Lab
+  affiliation: UC San Diego
   picture: 'img/photo/bmcinnis.jpg'
   website: https://bmcinnis.github.io/
 
@@ -891,7 +891,7 @@
 - id: sblickhan
   full_name: Samantha Blickhan
   last_name: Blickhan
-  affiliation: Humanities Research Lead & Co-Director of Zooniverse Team at the Adler Planetarium, Chicago IL
+  affiliation: Zooniverse and the Adler Planetarium
   picture: 'img/photo/sblickhan.png'
   website: https://www.zooniverse.org
 
