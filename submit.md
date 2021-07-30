@@ -100,7 +100,29 @@ Paper award winners will be invited to submit extended versions of their papers 
 {:#bsi}
 &nbsp;
 {:.sub-page-border}
-Coming soon.
+## IMPORTANT DATES
+All times are midnight EDT
+- September 7, 2021: Papers due
+- September 24, 2021: Notification of acceptance
+- September 30, 2021: Final camera-ready papers due
+
+## SUBMISSION
+In cooperation with the Computing Community Consortium (CCC), HCOMP 2021 invites submissions to a special “Blue Sky Ideas” track. The goal of this track is to present ideas and visions that can push the HCOMPcommunity into new directions. Thus, papers in this track should be open-ended and present new problems, new application domains, or new methodologies that are likely to stimulate significant new research. 
+
+Submissions will be judged on the extent to which they expand the possibilities and horizons of the field, challenge existing assumptions prevalent in the field, and/or address long term challenges and opportunities that are outside of the current mainstream topics of the field.
+
+Submissions to this track should follow the same formatting guidelines as submissions to the research track, but are limited to at most four (4) pages in length (including references) for both submission and final publication. Accepted papers will be published in the conference proceedings and on the web, and presented at the conference as full oral presentations 
+
+To encourage researchers to present truly visionary concepts, the CCC is offering prizes for up to three top papers in this special track: first prize $1000, second prize $750, and third prize $500, to be awarded.
+
+Note that paper submissions in this track will not receive full-fledged reviews as in the other tracks at HCOMP 2021. All submissions however will be screened to ensure that they meet the required criteria of being visionary in nature. A committee of 5-6 experts will adjudicate the top-3 accepted submissions to this track and nominate them for awards sponsored by CCC.
+
+The submissions are managed electronically through the HCOMP-21 EasyChair paper [submission site](https://easychair.org/conferences/?conf=hcomp2021) and are required on or before the deadline listed above. We cannot accept submissions by e-mail or fax. Authors will receive confirmation of receipt of their submissions, including an ID number, shortly after submission. HCOMP will contact authors again only if problems are encountered with papers.
+
+Questions? Please contact the Blue Sky Ideas track Chairs.
+- Siddharth Suri, at suri@microsoft.com
+- Joel Chan, at joelchan@umd.edu 
+
 
 # CALL FOR WORKSHOPS
 {:.sub-page-header}
