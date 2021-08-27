@@ -130,7 +130,10 @@ Questions? Please contact the Blue Sky Ideas track Chairs.
 &nbsp;
 {:.sub-page-border}
 ### Workshop Day: November 14, 2021  
-### Submission Deadline: August 13, 2021  
+### (NEW) Submission Deadline: August 31, 2021  
+
+<span style="color: green;">Deadline has been updated to August 31, 2021!</span>
+
 <br/>
 
 ## OVERVIEW
