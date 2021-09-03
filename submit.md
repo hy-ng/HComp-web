@@ -195,7 +195,7 @@ Submissions must be done via the HCOMP-21 EasyChair Website under the Works-in-P
 Works-in-Progress and Demonstration papers can be up to 2 pages (references can extend beyond the 2 pages).
 
 ### Formatting
-Papers must be formatted in AAAI two-column, camera-ready style; please refer to the AAAI 2021 Author Kit [http://www.aaai.org/Publications/Templates/AuthorKit21.zip](http://www.aaai.org/Publications/Templates/AuthorKit21.zip) for details. Papers must be in trouble-free, high-resolution PDF format, formatted for US Letter (8.5″ x 11″) paper, using Type 1 or TrueType fonts. The AAAI copyright block is not required for works-in-progress or demo submissions, as they are not included in the formal proceedings. Please see below for information about publication.
+Papers must be formatted in AAAI two-column, camera-ready style; please refer to the AAAI 2021 Author Kit [https://www.aaai.org/Publications/Templates/AuthorKit21.zip](https://www.aaai.org/Publications/Templates/AuthorKit21.zip) for details. Papers must be in trouble-free, high-resolution PDF format, formatted for US Letter (8.5″ x 11″) paper, using Type 1 or TrueType fonts. The AAAI copyright block is not required for works-in-progress or demo submissions, as they are not included in the formal proceedings. Please see below for information about publication.
 
 ### Supplemental Materials
 Authors are invited, but not required, to include supplemental materials such as executables and data files so that reviewers can reproduce results in the paper, images, additional videos, related papers, more detailed explanations, derivations, or results. These materials will be viewed only at the discretion of the reviewers, who are only obligated to read your paper itself.
