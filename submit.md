@@ -173,8 +173,10 @@ If you would like to organize a workshop at HCOMP 2021, please email us by **Aug
 &nbsp;
 {:.sub-page-border}
 
+
 ## Important Dates
-- September 3: Works-in-Progress Papers and Demonstration papers due (23:59 UTC-12)
+<span style="color: green;">Deadline has been extended to September 10, 2021!</span>
+- September 10 (extended): Works-in-Progress Papers and Demonstration papers due (23:59 UTC-12)
 - September 17: WiP and Demo notifications sent
 - October 8: WiP and Demo camera-ready papers due (23:59 UTC-12)
 
