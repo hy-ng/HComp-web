@@ -287,4 +287,35 @@ Write questions or comments to: s.savage@northeastern.edu, david.sarne@gmail.com
 {:#ccamp}
 &nbsp;
 {:.sub-page-border}
-Coming soon.
+
+- **Workshop Day:** November 14th, 2021
+- **Submission Deadline:** October 15th, 2021
+
+## OVERVIEW
+CrowdCamp is a one-day hack-a-thon for researchers and practitioners with interests in crowdsourcing, human computation, social media, AI, and collective intelligence. Historically, CrowdCamp’s focus for participants has been aimed at creating deliverable prototypes or study designs during the workshop. Prior CrowdCamp projects have resulted in top-tier conference publications, blog posts, and on-going research. 
+
+## SUBMISSION
+
+### Call for Participation
+We invite students, faculty, industry researchers, and anyone else who is interested to participate in CrowdCamp. We are looking for people with different expertise, ranging from social scientists to programmers, ethnographers to designers, and more. 
+
+To apply to participate, we ask that you complete the [CrowdCamp 2021 application form](https://forms.gle/Mqz8gJYdb5VwfE6YA). The application takes about 10 minutes to complete, and asks for:
+
+- **A Project Idea:** A project idea or application domain that you care about. If you are accepted to CrowdCamp, you will still be able to modify your initial idea. The more specificity you can provide for your idea or application domain, the better we can do to match you to a research group at CrowdCamp. 
+- **Your Research Interests:** We are looking for a diverse group of people that will develop amazing projects during CrowdCamp and will therefore ask you to indicate your research interests whether they be in HCI, AI, or in another field. 
+- **Your Ideal CrowdCamp Partner:** We want to make sure you get an awesome partner / team for your CrowdCamp adventure. Depending on your project and research interests, we’d love to know if you’re looking for partner(s) with a particular type of expertise. Ideally, we would like to have people with different types of expertise (e.g., HCI and AI people) working together as a team!
+- **Your Contact Information:** Name and email.
+
+## CROWDCAMP FORMAT
+The workshop day will focus on developing a research project (whether that’s a study design, an idea for a new algorithm, a system architecture, or something else entirely) within your interdisciplinary teams. Each team will also have the opportunity to get feedback on their research project from a group of experts. Our goal is to foster interdisciplinary collaborations and enable this for your particular domain of interest and research ideas. 
+
+## Key Dates (all times are midnight AoE)
+- Deadline for proposals: October 15th, 2021
+- Notification: October 21st, 2021
+
+## Contact
+- Ting-Hao ‘Kenneth’ Huang, txh710@psu.edu
+- Amy Pavel, apavel@cs.cmu.edu
+
+
+
