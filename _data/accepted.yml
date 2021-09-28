@@ -236,8 +236,38 @@
       title: "Using Human Cognitive Limitations to Enable New Systems"
 2021:
   full:
-    - authors: "Coming Soon!"
-      title: ""
+    - authors: "Shota Yamanaka"
+      title: "Utility of Crowdsourced User Experiments for Measuring the Central Tendency of User Performance to Evaluate Error-rate Models on GUIs"
+    - authors: "Lei Han, Xiao Dong and Gianluca Demartini"
+      title: "Iterative Human-in-the-Loop Discovery of Unknown Unknowns in Image Datasets"
+    - authors: "Yang Zhang, Lanyu Shang, Ruohan Zong, Zeng Wang, Ziyi Kou and Dong Wang"
+      title: "StreamCollab: A Streaming Crowd-AI Collaborative System to Smart Urban Infrastructure Monitoring in Social Sensing"
+    - authors: "Chris Welty, Lora Aroyo, Flip Korn, Sara Marie Mc Carthy and Shubin Zhao"
+      title: "Rapid Instance-level Knowledge Acquisition from Class-level Common Sense"
+    - authors: "Tim Draws, Alisa Rieger, Oana Inel, Ujwal Gadiraju and Nava Tintarev"
+      title: "A Checklist to Combat Cognitive Biases in Crowdsourcing"
+    - authors: "Juntao Wang, Yang Liu and Yiling Chen"
+      title: "Forecast Aggregation via Peer Prediction"
+    - authors: "Masaki Kobayashi, Kei Wakabayashi and Atsuyuki Morishima"
+      title: "Human+AI Crowd Task Assignment Considering Result Quality Requirements"
+    - authors: "Tahir Abbas, Ujwal Gadiraju, Vassilis-Javed Khan and Panos Markopoulos"
+      title: "Making Time Fly: Using Fillers to Improve Perceived Latency in Crowd-Powered Conversational Systems"
+    - authors: "Lujain Ibrahim, Mohammad M. Ghassemi and Tuka Alhanai"
+      title: "Modeling Simultaneous Preferences for Age, Gender, Ethnic, and Professional Profiles in Government-expense Spending: A Conjoint Analysis"
+    - authors: "Ankit Agrawal and Jane Cleland-Huang"
+      title: "Explaining Autonomous Decisions in Swarms of Human-on-the-Loop Small Unmanned Aerial Systems"
+    - authors: "Ioannis Petros Samiotis, Sihang Qiu, Christoph Lofi, Jie Yang, Ujwal Gadiraju and Alessandro Bozzon"
+      title: "Exploring the Music Perception Skills of Crowd Workers"
+    - authors: "Wei Tang and Chien-Ju Ho"
+      title: "On the Bayesian Rational Assumption in Information Design"
+    - authors: "David Alvarez Melis, Harmanpreet Kaur, Hal Daume, Hanna Wallach and Jennifer Wortman Vaughan"
+      title: "From Human Explanation to Model Interpretability: A Framework Based on Weight of Evidence"
+    - authors: "Beverly Freeman, Naama Hammel, Sonia Phene, Abigail Huang, Rebecca Ackermann, Olga Kanzheleva, Miles Hutson, Caitlin Taggart, Quang Duong and Rory Sayres"
+      title: "Iterative Quality Control Strategies for Expert Medical Image Labeling"
+    - authors: "Abdullah Alshaibani and Alexander Quinn"
+      title: "Pterodactyl:  Two-step Redaction Of Images For Robust Face Deidentification"
+    - authors: "Romena Yasmin, Joshua Grassel, Md Mahmudulla Hassan, Adolfo Escobedo and Olac Fuentes"
+      title: "Enhancing Image Classification Capabilities of Crowdsourcing-based Methods through Expanded Input Elicitation"
   short:
     - authors: "Coming Soon!"
       title: ""
@@ -245,5 +275,85 @@
     - title: "Coming Soon!"
       authors: ""
   wip:
+    - title: "A General-Purpose Crowdsourcing Computational Quality Control Toolkit for Python"
+      authors: "Dmitry Ustalov, Nikita Pavlichenko, Vladimir Losev, Iulian Giliazev and Evgeny Tulin"
+      id: 85
+      link: 
+    - title: "The Role of Anthropomorphic Visual Cues in Human Interactions with Conversational Agents"
+      authors: "Emilija Zlatkutė, Sihang Qiu, Jie Yang and Ujwal Gadiraju"
+      id: 86
+      link: 
+    - title: "Rsourcer: Scaling Feedback on Research Drafts"
+      authors: "Yuchao Jiang, Boualem Benatallah and Marcos Báez"
+      id: 88
+      link: 
+    - title: "A Human Computation Approach for Ontology Restrictions Verification"
+      authors: "Stefani Tsaneva and Marta Sabou"
+      id: 90
+      link: 
+    - title: "Towards a Requester-centered Study on the Use of ‘Bots’ for Completing Tasks"
+      authors: "Jonas Oppenlaender and Simo Hosio"
+      id: 91
+      link:
+    - title: "A Paradigm Shift towards Crowd-based Healthcare System"
+      authors: "Sujoy Chatterjee, Thipendra P Singh, Amitava Choudhury and Anirban Mukhopadhyay"
+      id: 92
+      link: 
+    - title: "Double-Checking History: Designing Assessable Systems for Historical Photo Identification"
+      authors: "Vikram Mohanty and Kurt Luther"
+      id: 93
+      link: 
+    - title: "Crowdsourcing Diverse Paraphrases for Training Task-oriented Bots"
+      authors: "Jorge Ramírez, Auday Berro, Marcos Baez, Boualem Benatallah and Fabio Casati"
+      id: 94
+      link: 
+    - title: "When Content Decides Where You Belong: Investigating Micro Communities on VSCO"
+      authors: "Vikram Mohanty and Geneviève Patterson"
+      id: 95
+      link: 
+    - title: "Supporting Dynamic Construction of Datasets with Annotator Suggestions"
+      authors: "Jeongeon Park, Eunyeong Ko, Donghoon Han, Jinyeong Yim and Juho Kim"
+      id: 97
+      link: 
+    - title: "HAEM: Obtaining Higher-Quality Classification Task Results with AI Co-Workers"
+      authors: "Yu Yamashita, Masaki Kobayashi, Kei Wakabayashi, Hiroyoshi Ito and Atsuyuki Morishima"
+      id: 98
+      link: 
+    - title: "Crowdsourcing Human Oversight on Image Tagging Algorithms: An initial study of image diversity"
+      authors: "Kyriakos Kyriakou, Pınar Barlas, Styliani Kleanthous, Evgenia Christoforou and Jahna Otterbacher"
+      id: 104
+      link: 
+    - title: "Morphological Matrices as a Tool for Crowdsourced Ideation"
+      authors: "Jonas Oppenlaender"
+      id: 105
+      link: 
+    - title: "Exploring the Role of Domain Experts in Characterizing and Mitigating MachineLearning Errors"
+      authors: "Pavel Hoogland, Oana Inel, Jie Yang, Margje Schuur, Jasper van Vliet and Piet van Hoffen"
+      id: 107
+      link: 
+    - title: "How Much Do Platform Workers Value Reviews? An Experimental Method"
+      authors: "David Holtz, Liane Scult and Siddharth Suri"
+      id: 108
+      link: 
+    - title: "Crowdsourcing Exploratory Cues for Idea Browsing and Inspiration Discovery"
+      authors: "Xiaotong Tone Xu, Khuyen Le, Christopher Cha, Samuel Fleet and Steven Dow"
+      id: 109
+      link: 
+    - title: "Hate2Explain: Crowdsourced Explanations as a Cultural Bridge in Understanding Hateful Memes"
+      authors: "Chao-Chun Han, Yi-Ching Huang, Nanyi Bi and Jane Hsu"
+      id: 110
+      link: 
+    - title: "iClarify - A Tool to Help Requesters Iteratively Improve Task Descriptions in Crowdsourcing"
+      authors: "Zahra Nouri, Nikhil Prakash, Ujwal Gadiraju and Henning Wachsmuth"
+      id: 111
+      link: 
+    - title: "FindItOut: A Multiplayer GWAP for Collecting Plural Knowledge"
+      authors: "Agathe Balayn, Gaole He, Andrea Hu, Jie Yang and Ujwal Gadiraju"
+      id: 112
+      link: 
   demo:
+    - authors: "Coming Soon!"
+      title: ""
   bluesky:
+    - authors: "Coming Soon!"
+      title: ""

@@ -7,7 +7,7 @@ redirect_from:
 ---
 
 <!-- Header -->
-<div class="program-header">
+<div class="submit-header">
   <div class="intro-message"></div>
 </div>
 
@@ -16,14 +16,6 @@ redirect_from:
 <div class="container">
   <div class="row"></div>
 </div>
-
-<div class="container">
-  <h1 class="sub-page-header">Accepted Papers - Coming Soon!</h1>
-  <div class="sub-page-border"></div>
-</div>
-
-<!-- BLOCKED OUT UNTIL PAPERS ACCEPTED  
-container a
 
 <div class="container">
   <div class="intro-text">
@@ -50,12 +42,14 @@ container a
             <li>
               <a class="theme-link" href="#full">Full Papers</a>
             </li>
+            <!--
             <li>
               <a class="theme-link" href="#short">Short Papers</a>
             </li>
+            -->
             <li>
               <a class="theme-link" href="#dc"
-                >Doctoral Consortium</a
+                >Graduate Consortium</a
               >
             </li>
             <li>
@@ -71,11 +65,14 @@ container a
           </ul>
 
           <h2 id="proc" class="section-heading">Proceedings</h2>
-          <a class="theme-link" href="https://aaai.org/Library/HCOMP/hcomp20contents.php"> View Conference Proceedings </a>         
+          <p>Coming soon!</p>
+          <!--
+          <a class="theme-link" href="https://aaai.org/Library/HCOMP/hcomp20contents.php"> View Conference Proceedings </a>  
+          -->       
 
           <h2 id="full" class="section-heading">Full Papers</h2>
           
-          {% assign sorted = site.data.accepted[2020].full | sort: 'title' %} {%
+          {% assign sorted = site.data.accepted[2021].full | sort: 'title' %} {%
           for paper in sorted %}
           {% if paper.link %}
             <b>
@@ -93,11 +90,12 @@ container a
           </ul>
           {% endfor %}
 
+          <!--
           <h2 id="short" class="section-heading">Short Papers</h2>
-          
-          {% assign sorted = site.data.accepted[2020].short | sort: 'title' %} {%
+          {% assign sorted = site.data.accepted[2021].short | sort: 'title' %} {%
           for paper in sorted %}
           {% if paper.link %}
+          
             <b>
               <a class="theme-link" href= "{{ paper.link }}" >{{ paper.title }}</a>
             </b>
@@ -112,10 +110,12 @@ container a
             </li>
           </ul>
           {% endfor %}
+          -->
 
-          <h2 id="dc" class="section-heading">Doctoral Consortium</h2>
-          
-          {% assign sorted = site.data.accepted[2020].doc | sort: 'title' %} {%
+          <h2 id="dc" class="section-heading">Graduate Consortium</h2>
+          <p>Coming soon!</p>
+          <!--
+          {% assign sorted = site.data.accepted[2021].doc | sort: 'title' %} {%
           for paper in sorted %}
           {% if paper.link %}
             <b>
@@ -132,14 +132,16 @@ container a
             </li>
           </ul>
           {% endfor %}
+          -->
 
           <h2 id="wip" class="section-heading">
             Works-in-Progress &amp; Demonstration
           </h2>
-
-          <h5 class="section-heading">Works-in-Progress</h5>
           
-          {% assign sorted = site.data.accepted[2020].wip | sort: 'title' %} {%
+          <h5 class="section-heading">Works-in-Progress</h5>
+          <p>Coming soon!</p>
+          <!--
+          {% assign sorted = site.data.accepted[2021].wip | sort: 'title' %} {%
           for paper in sorted %}
           {% if paper.link %}
             <b>
@@ -156,10 +158,12 @@ container a
             </li>
           </ul>
           {% endfor %}
+          -->
 
           <h5 class="section-heading">Demonstrations</h5>
-          
-          {% assign sorted = site.data.accepted[2020].demo | sort: 'title' %} {%
+          <p>Coming soon!</p>
+          <!--
+          {% assign sorted = site.data.accepted[2021].demo | sort: 'title' %} {%
           for paper in sorted %}
           {% if paper.link %}
             <b>
@@ -176,10 +180,12 @@ container a
             </li>
           </ul>
           {% endfor %}
+          -->
 
           <h2 id="bsi" class="section-heading">Blue Sky Ideas Papers</h2>
-          
-          {% assign sorted = site.data.accepted[2020].bluesky | sort: 'title' %} {%
+          <p>Coming soon!</p>
+          <!--
+          {% assign sorted = site.data.accepted[2021].bluesky | sort: 'title' %} {%
           for paper in sorted %}
           {% if paper.link %}
             <b>
@@ -196,10 +202,10 @@ container a
             </li>
           </ul>
           {% endfor %}
+          -->
 
         </div>
       </div>
     </div>
   </div>
 </div>
--->
