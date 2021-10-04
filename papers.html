@@ -54,12 +54,12 @@ redirect_from:
             </li>
             <li>
               <a class="theme-link" href="#wip"
-                >Works-in-Progress & Demonstrations</a
+                >Works-in-Progress and Demonstrations</a
               >
             </li>
             <li>
               <a class="theme-link" href="#bsi"
-                >Blue Sky Ideas Track</a
+                >Blue Sky Ideas Papers</a
               >
             </li>
           </ul>
@@ -132,7 +132,7 @@ redirect_from:
           {% endfor %}
 
           <h2 id="wip" class="section-heading">
-            Works-in-Progress &amp; Demonstrations
+            Works-in-Progress and Demonstrations
           </h2>
           
           {% assign sorted = site.data.accepted[2021].wip | sort: 'title' %} {%
@@ -154,8 +154,6 @@ redirect_from:
           {% endfor %}
 
           <h2 id="bsi" class="section-heading">Blue Sky Ideas Papers</h2>
-          <p>Coming soon!</p>
-          <!--
           {% assign sorted = site.data.accepted[2021].bluesky | sort: 'title' %} {%
           for paper in sorted %}
           {% if paper.link %}
@@ -173,7 +171,6 @@ redirect_from:
             </li>
           </ul>
           {% endfor %}
-          -->
 
         </div>
       </div>
