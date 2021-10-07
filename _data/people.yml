@@ -972,4 +972,42 @@
   picture: 'img/photo/yjchang.png'
   website: https://www.cs.nycu.edu.tw/members/detail/armuro?locale=en
 
+- id: teevan
+  full_name: Jaime Teevan
+  last_name: Teevan
+  affiliation: Microsoft
+  picture: 'img/photo/teevan.jpeg'
+  website: https://www.microsoft.com/en-us/research/people/teevan/
+  keynote: 'keynotes.html#teevan'
 
+- id: juhokim
+  full_name: Juho Kim
+  last_name: Kim
+  affiliation: KAIST
+  picture: 'img/photo/juhokim.jpeg'
+  website: https://juhokim.com/
+  keynote: 'keynotes.html#juhokim'
+
+- id: chrislintott
+  full_name: Chris Lintott
+  last_name: Lintott
+  affiliation: University of Oxford
+  picture: 'img/photo/chrislintott.jpeg'
+  website: https://www.physics.ox.ac.uk/our-people/lintott
+  keynote: 'keynotes.html#chrislintott'
+
+- id: olgamegorskaya
+  full_name: Olga Megorskaya
+  last_name: Megorskaya
+  affiliation: Toloka
+  picture: 'img/photo/olgamegorskaya.jpeg'
+  website: https://wearetechwomen.com/inspirational-woman-olga-megorskaya-ceo-co-founder-toloka/
+  keynote: 'keynotes.html#olgamegorskaya'
+
+- id: kumarchellapilla
+  full_name: Kumar Chellapilla
+  last_name: Chellapilla
+  affiliation: Amazon Web Services (AWS)
+  picture: 'img/photo/kumarchellapilla.jpeg'
+  website: https://www.linkedin.com/in/kumarchellapilla/
+  keynote: 'keynotes.html#kumarchellapilla'
