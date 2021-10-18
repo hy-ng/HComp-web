@@ -1011,3 +1011,11 @@
   picture: 'img/photo/kumarchellapilla.jpeg'
   website: https://www.linkedin.com/in/kumarchellapilla/
   keynote: 'keynotes.html#kumarchellapilla'
+
+- id: tanumitra
+  full_name: Tanu Mitra
+  last_name: Mitra
+  affiliation: University of Washington
+  picture: 'img/photo/tanumitra.png'
+  website: https://faculty.washington.edu/tmitra/
+  keynote: 'keynotes.html#tanumitra'

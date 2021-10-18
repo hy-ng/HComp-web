@@ -21,7 +21,8 @@
 {% endif %}
 {% for person in people %}
   {% if include.narrow %}
-    {% assign remainder = forloop.index | minus: 1 | modulo: 5 %}
+    <!-- modulo 6 because 6 speakers !-->
+    {% assign remainder = forloop.index | minus: 1 | modulo: 6 %}
   {% else %}
     {% assign remainder = forloop.index | minus: 1 | modulo: 4 %}
   {% endif %}
@@ -58,11 +59,14 @@
   {% endif %}
 
   {% if include.narrow %}
-    {% if remainder == 4 forloop.last %}
+    <!-- include narrow !-->
+    {% if remainder == 5 forloop.last %}
+      <!-- remainder 5 because 6 speakers !-->
       </div>
     {% endif %}
   {% else %}
     {% if remainder == 3 forloop.last %}
+      <!-- remainder 3 !-->
       </div>
     {% endif %}
   {% endif %}
