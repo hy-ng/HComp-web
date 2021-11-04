@@ -30,8 +30,3 @@ Looking for a new job? Check out the open positions from our sponsors below.
 ### Full-time in London
 - [AI Group - Research Engineer](https://careers.bloomberg.com/job/detail/90216)
 - [AI Group - Senior Software Engineer](https://careers.bloomberg.com/job/detail/90215)
-
-## TU Delft
-
-- [Assistant Professor of Data Intensive Systems](https://www.tudelft.nl/over-tu-delft/werken-bij-tu-delft/vacatures/details?jobId=3541&jobTitle=Assistant%20Professor%20of%20Data-Intensive%20Systems%20)
-- [PhD Position in Human-in-the-loop AI](https://www.academictransfer.com/en/301631/phd-position-in-human-in-the-loop-ai/)
