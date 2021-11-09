@@ -290,27 +290,15 @@
       authors: "Quanze Chen"
     - title: "Incorporating Human In The Loop For Voice Assistants"
       authors: "Shih-Hong Huang"
-  wip:
+  wip-a:
     - title: "A General-Purpose Crowdsourcing Computational Quality Control Toolkit for Python"
       authors: "Dmitry Ustalov, Nikita Pavlichenko, Vladimir Losev, Iulian Giliazev and Evgeny Tulin"
       id: 85
-      link: 
-    - title: "The Role of Anthropomorphic Visual Cues in Human Interactions with Conversational Agents"
-      authors: "Emilija Zlatkutė, Sihang Qiu, Jie Yang and Ujwal Gadiraju"
-      id: 86
-      link: 
-    - title: "Rsourcer: Scaling Feedback on Research Drafts"
-      authors: "Yuchao Jiang, Boualem Benatallah and Marcos Báez"
-      id: 88
       link: 
     - title: "A Human Computation Approach for Ontology Restrictions Verification"
       authors: "Stefani Tsaneva and Marta Sabou"
       id: 90
       link: 
-    - title: "Towards a Requester-centered Study on the Use of ‘Bots’ for Completing Tasks"
-      authors: "Jonas Oppenlaender and Simo Hosio"
-      id: 91
-      link:
     - title: "A Paradigm Shift towards Crowd-based Healthcare System"
       authors: "Sujoy Chatterjee, Thipendra P Singh, Amitava Choudhury and Anirban Mukhopadhyay"
       id: 92
@@ -322,18 +310,6 @@
     - title: "Crowdsourcing Diverse Paraphrases for Training Task-oriented Bots"
       authors: "Jorge Ramírez, Auday Berro, Marcos Baez, Boualem Benatallah and Fabio Casati"
       id: 94
-      link: 
-    - title: "When Content Decides Where You Belong: Investigating Micro Communities on VSCO"
-      authors: "Vikram Mohanty and Geneviève Patterson"
-      id: 95
-      link: 
-    - title: "Supporting Dynamic Construction of Datasets with Annotator Suggestions"
-      authors: "Jeongeon Park, Eunyeong Ko, Donghoon Han, Jinyeong Yim and Juho Kim"
-      id: 97
-      link: 
-    - title: "HAEM: Obtaining Higher-Quality Classification Task Results with AI Co-Workers"
-      authors: "Yu Yamashita, Masaki Kobayashi, Kei Wakabayashi, Hiroyoshi Ito and Atsuyuki Morishima"
-      id: 98
       link: 
     - title: "Crowdsourcing Human Oversight on Image Tagging Algorithms: An initial study of image diversity"
       authors: "Kyriakos Kyriakou, Pınar Barlas, Styliani Kleanthous, Evgenia Christoforou and Jahna Otterbacher"
@@ -347,14 +323,15 @@
       authors: "Pavel Hoogland, Oana Inel, Jie Yang, Margje Schuur, Jasper van Vliet and Piet van Hoffen"
       id: 107
       link: 
-    - title: "How Much Do Platform Workers Value Reviews? An Experimental Method"
-      authors: "David Holtz, Liane Scult and Siddharth Suri"
-      id: 108
-      link: 
     - title: "Crowdsourcing Exploratory Cues for Idea Browsing and Inspiration Discovery"
       authors: "Xiaotong Tone Xu, Khuyen Le, Christopher Cha, Samuel Fleet and Steven Dow"
       id: 109
       link: 
+    - title: "FindItOut: A Multiplayer GWAP for Collecting Plural Knowledge"
+      authors: "Agathe Balayn, Gaole He, Andrea Hu, Jie Yang and Ujwal Gadiraju"
+      id: 112
+      link: 
+  wip-b: 
     - title: "Hate2Explain: Crowdsourced Explanations as a Cultural Bridge in Understanding Hateful Memes"
       authors: "Chao-Chun Han, Yi-Ching Huang, Nanyi Bi and Jane Hsu"
       id: 110
@@ -363,9 +340,33 @@
       authors: "Zahra Nouri, Nikhil Prakash, Ujwal Gadiraju and Henning Wachsmuth"
       id: 111
       link: 
-    - title: "FindItOut: A Multiplayer GWAP for Collecting Plural Knowledge"
-      authors: "Agathe Balayn, Gaole He, Andrea Hu, Jie Yang and Ujwal Gadiraju"
-      id: 112
+    - title: "How Much Do Platform Workers Value Reviews? An Experimental Method"
+      authors: "David Holtz, Liane Scult and Siddharth Suri"
+      id: 108
+      link: 
+    - title: "The Role of Anthropomorphic Visual Cues in Human Interactions with Conversational Agents"
+      authors: "Emilija Zlatkutė, Sihang Qiu, Jie Yang and Ujwal Gadiraju"
+      id: 86
+      link: 
+    - title: "Rsourcer: Scaling Feedback on Research Drafts"
+      authors: "Yuchao Jiang, Boualem Benatallah and Marcos Báez"
+      id: 88
+      link: 
+    - title: "Towards a Requester-centered Study on the Use of ‘Bots’ for Completing Tasks"
+      authors: "Jonas Oppenlaender and Simo Hosio"
+      id: 91
+      link:
+    - title: "When Content Decides Where You Belong: Investigating Micro Communities on VSCO"
+      authors: "Vikram Mohanty and Geneviève Patterson"
+      id: 95
+      link: 
+    - title: "Supporting Dynamic Construction of Datasets with Annotator Suggestions"
+      authors: "Jeongeon Park, Eunyeong Ko, Donghoon Han, Jinyeong Yim and Juho Kim"
+      id: 97
+      link: 
+    - title: "HAEM: Obtaining Higher-Quality Classification Task Results with AI Co-Workers"
+      authors: "Yu Yamashita, Masaki Kobayashi, Kei Wakabayashi, Hiroyoshi Ito and Atsuyuki Morishima"
+      id: 98
       link: 
   demo:
     - authors: "Coming Soon!"

@@ -40,7 +40,7 @@ redirect_from:
               <a class="theme-link" href="#proc">Proceedings</a>
             </li>
             <li>
-              <a class="theme-link" href="#full">Full Papers</a>
+              <a class="theme-link" href="#full">Papers</a>
             </li>
             <!--
             <li>
@@ -70,7 +70,7 @@ redirect_from:
           <a class="theme-link" href="https://aaai.org/Library/HCOMP/hcomp20contents.php"> View Conference Proceedings </a>  
           -->       
 
-          <h2 id="full" class="section-heading">Full Papers</h2>
+          <h2 id="full" class="section-heading">Papers</h2>
           
           {% assign sorted = site.data.accepted[2021].full | sort: 'title' %} {%
           for paper in sorted %}
@@ -134,24 +134,48 @@ redirect_from:
           <h2 id="wip" class="section-heading">
             Works-in-Progress and Demonstrations
           </h2>
+
+            <h3 id="wip-a" href="#wip-a">
+              Group A</h3>
           
-          {% assign sorted = site.data.accepted[2021].wip | sort: 'title' %} {%
-          for paper in sorted %}
-          {% if paper.link %}
-            <b>
-              <a class="theme-link" href= "{{ paper.link }}" >{{ paper.title }}</a>
-            </b>
-          {% else %}
-            <b>
-              {{ paper.title }}
-            </b>
-          {% endif %}
-          <ul class="nobullet">
-            <li>
-              {{ paper.authors }}
-            </li>
-          </ul>
-          {% endfor %}
+            {% assign sorted = site.data.accepted[2021].wip-a | sort: 'title' %} {%
+            for paper in sorted %}
+            {% if paper.link %}
+              <b>
+                <a class="theme-link" href= "{{ paper.link }}" >{{ paper.title }}</a>
+              </b>
+            {% else %}
+              <b>
+                {{ paper.title }}
+              </b>
+            {% endif %}
+            <ul class="nobullet">
+              <li>
+                {{ paper.authors }}
+              </li>
+            </ul>
+            {% endfor %}
+
+            <h3 id="wip-b" href="#wip-b">
+              Group B</h3>
+
+            {% assign sorted = site.data.accepted[2021].wip-b | sort: 'title' %} {%
+            for paper in sorted %}
+            {% if paper.link %}
+              <b>
+                <a class="theme-link" href= "{{ paper.link }}" >{{ paper.title }}</a>
+              </b>
+            {% else %}
+              <b>
+                {{ paper.title }}
+              </b>
+            {% endif %}
+            <ul class="nobullet">
+              <li>
+                {{ paper.authors }}
+              </li>
+            </ul>
+            {% endfor %}
 
           <h2 id="bsi" class="section-heading">Blue Sky Ideas Papers</h2>
           {% assign sorted = site.data.accepted[2021].bluesky | sort: 'title' %} {%
