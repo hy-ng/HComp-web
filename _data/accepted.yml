@@ -274,22 +274,39 @@
   doc: 
     - title: "Empowering Workers with Artificial Intelligence Tools"
       authors: "Carlos Toxtli-Hernandez"
+      link: assets/gc/Carlos_Toxtl.pdf
+      video: https://www.dropbox.com/s/nq9gistl6ymmea2/Carlos%20Toxtli.mov?dl=0
     - title: "Designing Human-AI Collaborative Systems for Historical Photo Identification"
       authors: "Vikram Mohanty"
+      link: assets/gc/Vikram_Mohanty.pdf
+      video: https://www.dropbox.com/s/aoe2f9yqs8zgryj/Vikram.mp4?dl=0
     - title: "Investigating Impacts of the Intra-Rural Digital Divide on Rural and Super-Rural Crowd Workers"
       authors: "Rebecca Jonas"
+      link: assets/gc/Rebecca_Jonas.pdf
+      video: https://www.dropbox.com/s/71qf0g3dzqhyem4/Rebecca_Jonas.mp4?dl=0
     - title: "Human-UAV Collaborations in the Human-On-the-Loop Emergency Response Systems"
       authors: "Ankit Agrawal"
+      link: assets/gc/Ankit_Agrawal.pdf
+      video: https://www.dropbox.com/s/u4kp18pm7j3dq0m/Agrawal.mp4?dl=0
     - title: "What is the Next Dataset Creation Pipeline?"
-      authors: "Yuan-Hong Liao"
+      authors: "Yuan-Hong (Andrew) Liao"
+      link: assets/gc/Yuan-Hong_Andrew_Liao.pdf
+      video: https://www.dropbox.com/s/85g4iv5jbedwrba/yuan-hong_liao.mp4?dl=0
     - title: "Supporting High-Stakes Investigations with Expert-Led Crowdsourcing"
       authors: "Sukrit Venkatagiri"
+      link: assets/gc/Sukrit_Venkatagiri.pdf
     - title: "Unlocking the Potential of the Crowd by Challenging its Assumptions"
       authors: "Amy Rechkemmer"
+      link: assets/gc/Amy_Rechkemmer.pdf
+      video: https://www.dropbox.com/s/vgr1ugbfi9iz8wr/Amy%20Elizabeth%20Rechkemmer.mov?dl=0
     - title: "Disentangling Inherent Ambiguity and Disagreement in Crowdsourced Annotation"
       authors: "Quanze Chen"
+      link: assets/gc/Quanze_Chen.pdf
+      video: https://www.dropbox.com/s/reaadr4fifkcbv8/Jim%20Chen.mp4?dl=0
     - title: "Incorporating Human In The Loop For Voice Assistants"
       authors: "Shih-Hong Huang"
+      link: assets/gc/Shih-Hong_Huang.pdf
+      video: https://www.dropbox.com/s/05rv9mof6xh2eox/Shih-Hong%20Huang.mp4?dl=0
   wip-a:
     - title: "A General-Purpose Crowdsourcing Computational Quality Control Toolkit for Python"
       authors: "Dmitry Ustalov, Nikita Pavlichenko, Vladimir Losev, Iulian Giliazev and Evgeny Tulin"
