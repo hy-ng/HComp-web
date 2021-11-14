@@ -391,8 +391,11 @@
   bluesky:
     - authors: "Neo Christopher Chung"
       title: "Human in the Loop for Machine Creativity"
+      link: assets/blue_sky/HCOMP_2021_paper_101.pdf
     - authors: "Burcu Sayin, Jie Yang, Andrea Passerini and Fabio Casati"
       title: "The Science of Rejection: A Research Area for Human Computation"
+      link: assets/blue_sky/HCOMP_2021_paper_102.pdf
     - authors: "Yasaman Rohanifar, Syed Ishtiaque Ahmed, Sharifa Sultana, Prateek Chanda and Malay Bhattacharyya"
       title: "Human Computation and Crowdsourcing for Earth"
+      link: assets/blue_sky/HCOMP_2021_paper_103.pdf
     
