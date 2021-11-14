@@ -311,80 +311,80 @@
     - title: "A General-Purpose Crowdsourcing Computational Quality Control Toolkit for Python"
       authors: "Dmitry Ustalov, Nikita Pavlichenko, Vladimir Losev, Iulian Giliazev and Evgeny Tulin"
       id: 85
-      link: 
+      link: assets/wips_demos/HCOMP_2021_paper_85.pdf
     - title: "A Human Computation Approach for Ontology Restrictions Verification"
       authors: "Stefani Tsaneva and Marta Sabou"
       id: 90
-      link: 
+      link: assets/wips_demos/HCOMP_2021_paper_90.pdf
     - title: "A Paradigm Shift towards Crowd-based Healthcare System"
       authors: "Sujoy Chatterjee, Thipendra P Singh, Amitava Choudhury and Anirban Mukhopadhyay"
       id: 92
-      link: 
+      link: assets/wips_demos/HCOMP_2021_paper_92.pdf
     - title: "Double-Checking History: Designing Assessable Systems for Historical Photo Identification"
       authors: "Vikram Mohanty and Kurt Luther"
       id: 93
-      link: 
+      link: assets/wips_demos/HCOMP_2021_paper_93.pdf
     - title: "Crowdsourcing Diverse Paraphrases for Training Task-oriented Bots"
       authors: "Jorge Ramírez, Auday Berro, Marcos Baez, Boualem Benatallah and Fabio Casati"
       id: 94
-      link: 
+      link: assets/wips_demos/HCOMP_2021_paper_94.pdf
     - title: "Crowdsourcing Human Oversight on Image Tagging Algorithms: An initial study of image diversity"
       authors: "Kyriakos Kyriakou, Pınar Barlas, Styliani Kleanthous, Evgenia Christoforou and Jahna Otterbacher"
       id: 104
-      link: 
+      link: assets/wips_demos/HCOMP_2021_paper_104.pdf
     - title: "Morphological Matrices as a Tool for Crowdsourced Ideation"
       authors: "Jonas Oppenlaender"
       id: 105
-      link: 
-    - title: "Exploring the Role of Domain Experts in Characterizing and Mitigating MachineLearning Errors"
+      link: assets/wips_demos/HCOMP_2021_paper_105.pdf
+    - title: "Exploring the Role of Domain Experts in Characterizing and Mitigating Machine Learning Errors"
       authors: "Pavel Hoogland, Oana Inel, Jie Yang, Margje Schuur, Jasper van Vliet and Piet van Hoffen"
       id: 107
-      link: 
+      link: assets/wips_demos/HCOMP_2021_paper_107.pdf
     - title: "Crowdsourcing Exploratory Cues for Idea Browsing and Inspiration Discovery"
       authors: "Xiaotong Tone Xu, Khuyen Le, Christopher Cha, Samuel Fleet and Steven Dow"
       id: 109
-      link: 
+      link: assets/wips_demos/HCOMP_2021_paper_109.pdf
     - title: "FindItOut: A Multiplayer GWAP for Collecting Plural Knowledge"
       authors: "Agathe Balayn, Gaole He, Andrea Hu, Jie Yang and Ujwal Gadiraju"
       id: 112
-      link: 
+      link: assets/wips_demos/HCOMP_2021_paper_112.pdf
   wip-b: 
     - title: "Hate2Explain: Crowdsourced Explanations as a Cultural Bridge in Understanding Hateful Memes"
       authors: "Chao-Chun Han, Yi-Ching Huang, Nanyi Bi and Jane Hsu"
       id: 110
-      link: 
+      link: assets/wips_demos/HCOMP_2021_paper_110.pdf
     - title: "iClarify - A Tool to Help Requesters Iteratively Improve Task Descriptions in Crowdsourcing"
       authors: "Zahra Nouri, Nikhil Prakash, Ujwal Gadiraju and Henning Wachsmuth"
       id: 111
-      link: 
+      link: assets/wips_demos/HCOMP_2021_paper_111.pdf
     - title: "How Much Do Platform Workers Value Reviews? An Experimental Method"
       authors: "David Holtz, Liane Scult and Siddharth Suri"
       id: 108
-      link: 
+      link: assets/wips_demos/HCOMP_2021_paper_108.pdf
     - title: "The Role of Anthropomorphic Visual Cues in Human Interactions with Conversational Agents"
       authors: "Emilija Zlatkutė, Sihang Qiu, Jie Yang and Ujwal Gadiraju"
       id: 86
-      link: 
+      link: assets/wips_demos/HCOMP_2021_paper_86.pdf
     - title: "Rsourcer: Scaling Feedback on Research Drafts"
       authors: "Yuchao Jiang, Boualem Benatallah and Marcos Báez"
       id: 88
-      link: 
+      link: assets/wips_demos/HCOMP_2021_paper_88.pdf
     - title: "Towards a Requester-centered Study on the Use of ‘Bots’ for Completing Tasks"
       authors: "Jonas Oppenlaender and Simo Hosio"
       id: 91
-      link:
+      link: assets/wips_demos/HCOMP_2021_paper_91.pdf
     - title: "When Content Decides Where You Belong: Investigating Micro Communities on VSCO"
       authors: "Vikram Mohanty and Geneviève Patterson"
       id: 95
-      link: 
+      link: assets/wips_demos/HCOMP_2021_paper_95.pdf
     - title: "Supporting Dynamic Construction of Datasets with Annotator Suggestions"
       authors: "Jeongeon Park, Eunyeong Ko, Donghoon Han, Jinyeong Yim and Juho Kim"
       id: 97
-      link: 
+      link: assets/wips_demos/HCOMP_2021_paper_97.pdf
     - title: "HAEM: Obtaining Higher-Quality Classification Task Results with AI Co-Workers"
       authors: "Yu Yamashita, Masaki Kobayashi, Kei Wakabayashi, Hiroyoshi Ito and Atsuyuki Morishima"
       id: 98
-      link: 
+      link: assets/wips_demos/HCOMP_2021_paper_98.pdf
   demo:
     - authors: "Coming Soon!"
       title: ""
