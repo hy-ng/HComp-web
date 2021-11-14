@@ -114,12 +114,21 @@ redirect_from:
           for paper in sorted %}
           {% if paper.link %}
             <b>
-              <a class="theme-link" href= "{{ paper.link }}" >{{ paper.title }}</a>
+              <a class="theme-link" href= "{{ paper.link }}" target="_blank">{{ paper.title }}</a>
             </b>
+            {% if paper.video %}
+              (<a class="theme-link" target="_blank" href="{{ paper.video }}">video</a>)
+            {% endif %}
+
           {% else %}
             <b>
               {{ paper.title }}
             </b>
+            {% if paper.video %}
+              (<a class="theme-link" target="_blank" href="{{ paper.video }}">video</a>)
+            {% endif %}
+
+
           {% endif %}
           <ul class="nobullet">
             <li>
