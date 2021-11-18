@@ -239,50 +239,66 @@
     - authors: "Shota Yamanaka"
       title: "Utility of Crowdsourced User Experiments for Measuring the Central Tendency of User Performance to Evaluate Error-rate Models on GUIs"
       video: https://slideslive.com/38969642
+      link: https://ojs.aaai.org/index.php/HCOMP/article/view/18948
     - authors: "Lei Han, Xiao Dong and Gianluca Demartini"
       title: "Iterative Human-in-the-Loop Discovery of Unknown Unknowns in Image Datasets"
+      link: https://ojs.aaai.org/index.php/HCOMP/article/view/18941
       video: https://slideslive.com/38969643
     - authors: "Yang Zhang, Lanyu Shang, Ruohan Zong, Zeng Wang, Ziyi Kou and Dong Wang"
       title: "StreamCollab: A Streaming Crowd-AI Collaborative System to Smart Urban Infrastructure Monitoring in Social Sensing"
       video: https://slideslive.com/38969644
+      link: https://ojs.aaai.org/index.php/HCOMP/article/view/18950
     - authors: "Chris Welty, Lora Aroyo, Flip Korn, Sara Marie Mc Carthy and Shubin Zhao"
       title: "Rapid Instance-level Knowledge Acquisition from Class-level Common Sense"
       video: https://slideslive.com/38969645
+      link: https://ojs.aaai.org/index.php/HCOMP/article/view/18947
     - authors: "Tim Draws, Alisa Rieger, Oana Inel, Ujwal Gadiraju and Nava Tintarev"
       title: "A Checklist to Combat Cognitive Biases in Crowdsourcing"
       video: https://slideslive.com/38969646
+      link: https://ojs.aaai.org/index.php/HCOMP/article/view/18939
     - authors: "Juntao Wang, Yang Liu and Yiling Chen"
       title: "Forecast Aggregation via Peer Prediction"
       video: https://slideslive.com/38969647
+      link: https://ojs.aaai.org/index.php/HCOMP/article/view/18946
     - authors: "Masaki Kobayashi, Kei Wakabayashi and Atsuyuki Morishima"
       title: "Human+AI Crowd Task Assignment Considering Result Quality Requirements"
       video: https://slideslive.com/38969648
+      link: https://ojs.aaai.org/index.php/HCOMP/article/view/18943
     - authors: "Tahir Abbas, Ujwal Gadiraju, Vassilis-Javed Khan and Panos Markopoulos"
       title: "Making Time Fly: Using Fillers to Improve Perceived Latency in Crowd-Powered Conversational Systems"
       video: https://slideslive.com/38969649
+      link: https://ojs.aaai.org/index.php/HCOMP/article/view/18935
     - authors: "Lujain Ibrahim, Mohammad M. Ghassemi and Tuka Alhanai"
       title: "Modeling Simultaneous Preferences for Age, Gender, Ethnic, and Professional Profiles in Government-expense Spending: A Conjoint Analysis"
       video: https://slideslive.com/38969650
+      link: https://ojs.aaai.org/index.php/HCOMP/article/view/18942
     - authors: "Ankit Agrawal and Jane Cleland-Huang"
       title: "Explaining Autonomous Decisions in Swarms of Human-on-the-Loop Small Unmanned Aerial Systems"
       video: https://slideslive.com/38969651
+      link: https://ojs.aaai.org/index.php/HCOMP/article/view/18936
     - authors: "Ioannis Petros Samiotis, Sihang Qiu, Christoph Lofi, Jie Yang, Ujwal Gadiraju and Alessandro Bozzon"
       title: "Exploring the Music Perception Skills of Crowd Workers"
       video: https://slideslive.com/38969652
+      link: https://ojs.aaai.org/index.php/HCOMP/article/view/18944
     - authors: "Wei Tang and Chien-Ju Ho"
       title: "On the Bayesian Rational Assumption in Information Design"
+      link: https://ojs.aaai.org/index.php/HCOMP/article/view/18945
       video: https://slideslive.com/38969653
     - authors: "David Alvarez Melis, Harmanpreet Kaur, Hal Daume, Hanna Wallach and Jennifer Wortman Vaughan"
       title: "From Human Explanation to Model Interpretability: A Framework Based on Weight of Evidence"
       video: https://slideslive.com/38969654
+      link: https://ojs.aaai.org/index.php/HCOMP/article/view/18938
     - authors: "Beverly Freeman, Naama Hammel, Sonia Phene, Abigail Huang, Rebecca Ackermann, Olga Kanzheleva, Miles Hutson, Caitlin Taggart, Quang Duong and Rory Sayres"
       title: "Iterative Quality Control Strategies for Expert Medical Image Labeling"
+      link: https://ojs.aaai.org/index.php/HCOMP/article/view/18940
     - authors: "Abdullah Alshaibani and Alexander Quinn"
       title: "Pterodactyl:  Two-step Redaction Of Images For Robust Face Deidentification"
       video: https://slideslive.com/38969655
+      link: https://ojs.aaai.org/index.php/HCOMP/article/view/18937
     - authors: "Romena Yasmin, Joshua Grassel, Md Mahmudulla Hassan, Adolfo Escobedo and Olac Fuentes"
       title: "Enhancing Image Classification Capabilities of Crowdsourcing-based Methods through Expanded Input Elicitation"
       video: https://slideslive.com/38969656
+      link: https://ojs.aaai.org/index.php/HCOMP/article/view/18949
   short:
     - authors: "Coming Soon!"
       title: ""
