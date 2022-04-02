@@ -1,7 +1,7 @@
 ---
 layout: page
 title: REGISTRATION
-year: 2021
+year: 2022
 ---
 
 # HCOMP-21 Registration

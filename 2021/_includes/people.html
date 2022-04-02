@@ -1,0 +1,73 @@
+{% assign people = "" | split: ',' %}
+{% for person in site.data.people %}
+  {% if include.people contains person.id %}
+    {% assign people = people | push: person %}
+  {% endif %}
+{% endfor %}
+{% assign people = people | sort: 'last_name' %}
+
+{% if people.size == 1 %}
+  {% assign col_size = 12 %}
+{% elsif people.size == 2 %}
+  {% assign col_size = 5 %}
+{% elsif people.size == 3 %}
+  {% assign col_size = 4 %}
+{% else %}
+  {% if include.narrow %}
+    {% assign col_size = 4 %}
+  {% else %}
+    {% assign col_size = 3 %}
+  {% endif %}
+{% endif %}
+{% for person in people %}
+  {% if include.narrow %}
+    <!-- modulo 6 because 6 speakers !-->
+    {% assign remainder = forloop.index | minus: 1 | modulo: 6 %}
+  {% else %}
+    {% assign remainder = forloop.index | minus: 1 | modulo: 4 %}
+  {% endif %}
+  {% if remainder == 0 %}
+    <div class="row profile-row">
+  {% endif %}
+
+  {% if people.size == 2 and forloop.first %}
+    <div class="col-md-1"></div>
+  {% endif %}
+
+  {% if people.size >= 1 %}
+    <div class="col-md-{{col_size}}" style="text-align:center">
+  {% endif %}
+    <img class="photo-size rounded-circle" src="{{ person.picture }}">
+    
+    {% if include.keynote %}
+      <h3><a class="theme-link-org" href="{{ person.keynote }}">{{ person.full_name }}</a></h3>
+    {% else %}
+      <h3><a class="theme-link-org" href="{{ person.website }}">{{ person.full_name }}</a></h3>
+    {% endif %}
+
+    <p class="lead">{{ person.affiliation }}
+      {% if include.steering %}
+        <br>{{ person.steering }}
+      {% endif %}
+    </p>
+  {% if people.size >= 1 %}
+  </div>
+  {% endif %}
+
+  {% if people.size == 2 and forloop.last %}
+    <div class="col-md-1"></div>
+  {% endif %}
+
+  {% if include.narrow %}
+    <!-- include narrow !-->
+    {% if remainder == 5 forloop.last %}
+      <!-- remainder 5 because 6 speakers !-->
+      </div>
+    {% endif %}
+  {% else %}
+    {% if remainder == 3 forloop.last %}
+      <!-- remainder 3 !-->
+      </div>
+    {% endif %}
+  {% endif %}
+{% endfor %}

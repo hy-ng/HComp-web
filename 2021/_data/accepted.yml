@@ -1,0 +1,454 @@
+2019:
+  full:
+    - authors: Rehab Qarout, Alessandro Checco, Gianluca Demartini and Kalina Bontcheva
+      title: Platform-related Factors in Repeatability and Reproducibility of Crowdsourcing Tasks
+    - authors: Peter Hase, Chaofan Chen, Oscar Li and Cynthia Rudin
+      title: Interpretable Image Recognition with Hierarchical Prototypes
+    - authors: Yan Shvartzshnaider, Noah Apthorpe, Nick Feamster and Helen Nissenbaum.
+      title: >
+        Going Against the (Appropriate) Flow: A Contextual Integrity Approach to Privacy Policy Analysis
+    - authors: Jahna Otterbacher, Pınar Barlas, Styliani Kleanthous and Kyriakos Kyriakou
+      title: How Do We Talk about Other People? Group (Un)Fairness in Natural Language Image Descriptions
+    - authors: Jorge Ramirez, Marcos Baez, Fabio Casati and Boualem Benatallah
+      title:  Understanding the Impact of Text Highlighting in Crowdsourcing Tasks
+    - authors: Shayan Doroudi, Ece Kamar and Emma Brunskill
+      title: Not Everyone Can Write Great Examples But Great Examples Can Come From Anywhere
+    - authors: Sowmya Karunakaran and Rashmi Ramakrishnan
+      title: Testing Stylistic Interventions to Reduce Emotional Impact of Content Moderation Workers
+    - authors: Camelia Simoiu, Chiraag Sumanth, Alok Shankar and Sharad Goel
+      title: >
+        A Large-Scale Study of the "Wisdom of Crowds'"
+    - authors: Vikram Mohanty, Kareem Abdol-Hamid, Courtney Ebersohl and Kurt Luther
+      title: >
+        Second Opinion: Supporting last-mile person identification with crowdsourcing and face recognition
+    - authors: Nikhil Garg, Lodewijk Gelauff, Sukolsak Sakshuwong and Ashish Goel
+      title: Who is in Your Top Three? Optimizing Learning in Elections with Many Candidates
+    - authors: Colin Vandenhof
+      title: A Hybrid Approach to Identifying Unknown Unknowns of Predictive Models
+    - authors: Arijit Ray, Yi Yao, Rakesh Kumar, Ajay Divakaran and Giedrius Burachas
+      title: Can You Explain That? Lucid Explanations Help Human-AI Collaborative Image Retrieval
+    - authors: Chris Madge, Juntao Yu, Jon Chamberlain, Udo Kruschwitz, Silviu Paun and Massimo Poesio
+      title: Progression In A Language Annotation Game With A Purpose
+    - authors: Andrew Walter, Benjamin Boskin, Seth Cooper and Panagiotis Manolios
+      title: Gamification of Loop-Invariant Discovery from Code
+    - authors: Shelby Heinecke and Lev Reyzin
+      title: Crowdsourced PAC Learning under Classification Noise
+    - authors: Isaac Lage, Emily Chen, Jeffrey He, Menaka Narayanan, Been Kim, Samuel Gershman and Finale Doshi-Velez
+      title: Human Evaluation of Models Built for Interpretability
+    - authors: Andi Peng, Besmira Nushi, Emre Kiciman, Kori Inkpen, Siddharth Suri and Ece Kamar
+      title: What You See is What You Get? The Impact of Representation Criteria on Human Bias in Hiring
+    - authors: Ranjay Krishna, Li Fei-Fei, Michael Bernstein, Pranav Khadpe and Junwon Park
+      title: AI-based Request Augmentation to Increase Crowdsourcing Participation
+    - authors: Mark Whiting, Grant Hugh and Michael Bernstein
+      title: >
+        Fair Work: Crowd Work Minimum Wage with One Line of Code
+    - authors: Mahsan Nourani, Samia Kabir, Sina Mohseni and Eric Ragan
+      title: The Effects of Meaningful and Meaningless Explanations on Trust and Perceived System Accuracy in Intelligent Systems
+    - authors: Gagan Bansal, Besmira Nushi, Ece Kamar, Daniel Weld, Walter Lasecki and Eric Horvitz
+      title: >
+        Beyond Accuracy: On the Role of Mental Models in Human-AI Teams
+    - authors: Tong Liu, Pratik Sanjay Bongale, Akash Venkatachalam and Christopher Homan
+      title: Learning to Predict Population-Level Label Distributions
+  wip:
+    - authors: Chris Welty, Lora Aroyo and Praveen Paritosh
+      title: A Metrological Framework for Evaluating Crowd-powered Instruments
+      id: 140
+    - authors: Han Maw Aung, Cienn Givens, Amber Kampen, Rebecca Qin and Beth Trushkowsky
+      title: >
+        Adaptive Query Processing with the Crowd: Joins and the Joinable Filter
+      id: 118
+    - authors: Darryl Wright, Lucy Fortson, Chris Lintott and Mike Walmsley
+      title: Citizen Scientist Amplification
+      id: 126
+    - authors: Xiao Hu, Haobo Wang, Somesh Due, Anirudh Vegesana, Kaiwen Yu, Yung-Hsiang Lu and Ming Yin
+      title: Discovering Biases in Image Datasets with the Crowd
+      id: 132
+    - authors: Margarita Boyarskaya and Panos Ipeirotis
+      title: Fair Payments in Adaptive Voting
+      id: 112
+    - authors: Cynthia Freeman and Ian Beaver
+      title: Human-in-the-Loop Selection of Optimal Time Series Anomaly Detection Methods
+      id: 121
+    - authors: Kohta Katsuno, Masaki Matsubara, Chiemi Watanabe and Atsuyuki Morishima
+      title: Improving Reproducibility of Crowdsourcing Experiments
+      id: 119
+    - authors: Sukrit Venkatagiri, Jacob Thebault-Spieker, Sarwat Kazmi, Efua Akonor and Kurt Luther
+      title: >
+        "It's QuizTime!": A Study of Online Verification Practices on Twitter
+      id: 148
+    - authors: Jacopo Tagliabue and Reuben Cohn-Gordon
+      title: >
+        Lexical Learning as an Online Optimal Experiment: Building Efficient Search Engines through Human-Machine Collaboration
+      id: 113
+    - authors: Mounica Devaguptapu and Venkat Sriram Siddhardh Nadendla
+      title: >
+        On Task Decision Processes based on Discounted Satisficing Heuristic Employed by Crowd Workers
+      id: 146
+    - authors: Rogerio de Leon Pereira, Andrea Bunt and Olivier Tremblay-Savard
+      title: >
+        Promoting Learning and Engagement in Human Computing Games: a Study of Educational Material Formats
+      id: 122
+    - authors: Sihang Qiu, Ujwal Gadiraju and Alessandro Bozzon
+      title: Understanding Conversational Style in Conversational Microtask Crowdsourcing
+      id: 130
+  demo:
+    - authors: Jorge Ramírez, Simone Degiacomi, Davide Zanella, Marcos Baez, Fabio Casati and Boualem Benatallah
+      title: >
+        CrowdHub: Extending crowdsourcing platforms for the controlled evaluation of tasks designs
+      id: 125
+    - authors: Supheakmungkol Sarin, Knot Pipatsrisawat, Khiem Pham, Anurag Batra and Luís Valente
+      title: >
+        Crowdsource by Google: A Platform for Collecting Inclusive and Representative Machine Learning Data
+      id: 143
+    - authors: James Fishkin, Nikhil Garg, Lodewijk Gelauff, Ashish Goel, Sukolsak Sakshuwong, Alice Siu, Kamesh Munagala and Sravya Yandamuri
+      title: Deliberative Democracy with the Online Deliberation Platform
+      id: 144
+    - authors: Claudel Rheault, Lorne Schell, Doriane Soulas, Chris Tyler, Tara Tressel and Masha Krol
+      title: The Impact of Visual Representations in a Machine Teaching Interaction
+      id: 138
+    - authors: Ying Zhong, Masaki Matsubara, Makoto Kobayashi and Atsuyuki Morishima
+      title: >
+        Understandable Microtasks With No Visual Representation
+      id: 129
+    - authors: Jacob Thebault-Spieker, Sukrit Venkatagiri, David Mitchell, Chris Hurt and Kurt Luther
+      title: >
+        PairWise: Mitigating Political Bias in Crowdsourced Content Moderation
+      id: 135
+    - authors: Yoshinari Shirai, Yasue Kishino, Yutaka Yanagisawa, Shin Mizutani and Takayuki Suyama
+      title: >
+        Building Human Computation Space on the WWW: Labeling Web Contents through Web Browsers
+      id: 120
+    - authors: Mark Whiting, Grant Hugh and Michael Bernstein
+      title: >
+        Fair Work: Crowd Work Minimum Wage with One Line of Code
+2020:
+  full:
+    - authors: "Yukino Baba, Jiyi Li and Hisashi Kashima"
+      title: "CrowDEA: Multi-view Idea Prioritization with Crowds"
+    - authors: "Tahir Abbas, Vassilis-Javed Khan, Ujwal Gadiraju and Panos Markopoulos"
+      title: "Trainbot: A Conversational Interface to Train Crowd Workers for Delivering On-Demand Therapy"
+    - authors: "Gerard van Alphen, Sihang Qiu, Alessandro Bozzon and Geert-Jan Houben"
+      title: "Analyzing Workers Performance in Online Mapping Tasks Across Web, Mobile, and Virtual Reality Platforms"
+    - authors: "Anubrata Das, Brandon Uyvu Dang and Matthew Lease"
+      title: "Fast, Accurate, and Healthier: Interactive Blurring Helps Moderators Reduce Exposure to Harmful Content"
+    - authors: "Amy Rechkemmer and Ming Yin"
+      title: "Motivating Novice Crowd Workers through Goal Setting. An Investigation into the Effects on Complex Crowdsourcing Task Training"
+    - authors: "Alexander Erlei, Franck Awounang Nekdem, Lukas Meub, Avishek Anand and Ujwal Gadiraju"
+      title: "Impact of Algorithmic Decision Making on Human Behavior: Evidence from Ultimatum Bargaining"
+    - authors: "Ido Nimni and David Sarne"
+      title: "Effective Operator Summaries Extraction"
+    - authors: "Mahsan Nourani, Joanie T. King and Eric Ragan"
+      title: "The Role of Domain Expertise in User Trust and the Impact of First Impressions with Intelligent Systems"
+    - authors: "Donald Honeycutt, Mahsan Nourani and Eric Ragan"
+      title: "Soliciting Human-in-the-Loop User Feedback for Interactive Machine Learning Reduces User Trust and Impressions of Model Accuracy"
+    - authors: "Qing Li, Sharon Lynn Chu, Nanjie Rao and Mahsan Nourani"
+      title: "Understanding the Effects of Explanation Types and User Motivations on Movie Recommender System Use"
+    - authors: "Danula Hettiachchi, Senuri Wijenayake, Simo Hosio, Vassilis Kostakos and Jorge Goncalves"
+      title: "How Context Influences Cross-Device Task Acceptance in Crowd Work"
+    - authors: "Ryan Kemmer, Yeawon Yoo, Adolfo Escobedo and Ross Maciejewski"
+      title: "Enhancing Collective Estimates by Aggregating Cardinal and Ordinal Inputs"
+    - authors: "Nir Machlev and David Sarne"
+      title: "Predicting Crowdworkers' Performance as Human-Sensors for Robot Navigation"
+    - authors: "Marta Sabou, Klemens Käsznar, Dietmar Winkler, Markus Zlabinger and Stefan Biffl"
+      title: "Verifying Extended Entity Relationship Diagrams with Open Tasks"
+    - authors: "Abdullah Alshaibani, Sylvia Carrell, Li-Hsin Tseng, Jungmin Shin and Alexander Quinn"
+      title: "Privacy-Preserving Face Redaction using Crowdsourcing"
+  short:
+    - authors: "Sohail Akhtar, Valerio Basile and Viviana Patti"
+      title: "Modeling Annotator Perspective and Polarized Opinions to Improve Hate Speech Detection"
+    - authors: "Xiaoni Duan, Chien-Ju Ho and Ming Yin"
+      title: "Does Exposure to Diverse Perspectives Mitigate Biases in Crowdwork? An Explorative Study"
+    - authors: "Claudia Flores-Saviaga, Yuwen Li, Benjamin Hanrahan, Jeffrey Bigham and Saiph Savage"
+      title: "The Challenges of Crowd Workers in Rural and Urban America"
+    - authors: "Masanari Kimura, Kei Wakabayashi and Atsuyuki Morishima"
+      title: "Batch Prioritization of Data Labeling Tasks for Training Classifiers"
+    - authors: "Hua Shen and Ting-Hao 'Kenneth' Huang"
+      title: "How Useful Are the Machine-Generated Interpretations? A Human Evaluation on Guessing the Wrongly Predicted Labels"
+    - authors: "Alexandra Uma, Tommaso Fornaciari, Dirk Hovy, Silviu Paun, Barbara Plank and Massimo Poesio"
+      title: "A Case for Soft Loss Functions"
+    - authors: "Xiaotong Tone Xu, Judith Fan and Steven Dow"
+      title: "Schema and Metadata Guide the Collective Generation of Relevant and Diverse Work"
+  doc:
+    - title: "Labour as a Commodity: Social Reproduction in the Development of Artificial Intelligence"
+      authors: "Julian Posada"
+    - title: "Improving Crowd Working Conditions with A Novel Cooperation System"
+      authors: "Haoyu Xie"
+    - title: "Feature-Engineering from Meta-Cognitive Data for Machine-Learning based Decision-Aggregation "
+      authors: "Hilla Shinitzky"
+    - title: "Accounting for Human Factors in Machine-Assisted Decision-Making"
+      authors: "Nina Grgic-Hlaca"
+    - title: "The Role of Energy Efficiency Smart Buildings in the Transformation of the Energy System: a Data Science Analysis from Social and Technical Perspectives"
+      authors: "Jiao Jiao"
+  wip:
+    - title: "Exploring Effectiveness of Inter-Microtask Qualification Tests in Crowdsourcing"
+      authors: "Masaya Morinaga, Susumu Saito, Teppei Nakano, Tetsunori Kobayashi, Tetsuji Ogawa"
+      id: 78
+      link: assets/2020/wip_demos/HCOMP_2020_paper_78.pdf
+    - title: "Crowdwork as a Snapshot in Time: Image Annotation Tasks during a Pandemic"
+      authors: "Evgenia Christoforou, Pinar Barlas, Jahna Otterbacher"
+      id: 79
+      link: assets/2020/wip_demos/HCOMP_2020_paper_79.pdf
+    - title: "Assessing Political Bias using Crowdsourced Pairwise Comparisons"
+      authors: "Tzu-Sheng Kuo, Mcardle Hankin, Miranda Li, Andrew Ying, Cathy Wang"
+      id: 80
+      link: assets/2020/wip_demos/HCOMP_2020_paper_80.pdf
+    - title: "Dynamic Worker-Task Assignment for High-Quality Task Results with ML Workers"
+      authors: "Yu Yamashita, Masaki Kobayashi, Kei Wakabayashi, Atsuyuki Morishima"
+      id: 82
+      link: assets/2020/wip_demos/HCOMP_2020_paper_82.pdf
+    - title: "A Survey of Visually Impaired Workers in Japanese and US Crowdsourcing Platforms"
+      authors: "Ying Zhong, Makoto Kobayashi, Masaki Matsubara, Atsuyuki Morishima"
+      id: 83
+      link: assets/2020/wip_demos/HCOMP_2020_paper_83.pdf
+    - title: "A TOPSIS-based Multi-Objective Model for Constrained Crowd Judgment Analysis"
+      authors: "Sujoy Chatterjee, Sunghoon Lim"
+      id: 84
+      link: assets/2020/wip_demos/HCOMP_2020_paper_84.pdf
+    - title: "Socially Augmented Crowdsourced Collection of Folk Theories"
+      authors: "Jonas Oppenlaender"
+      id: 86
+      link: assets/2020/wip_demos/HCOMP_2020_paper_86.pdf
+    - title: "Turkish Judge: A Peer Evaluation Framework for Crowd Work Appeals"
+      authors: "Mukund Venkateswaran, Edward Cohen, Nivedita Sankar, Chris Callison-Burch "
+      id: 90
+      link: assets/2020/wip_demos/HCOMP_2020_paper_90.pdf
+    - title: "Qualification Labour: A Fair Wage Isn’t Enough if Workers Need to Do 5,000 Low Paid Tasks to Qualify for Your Task"
+      authors: "Jonathan Kummerfeld"
+      id: 94
+      link: assets/2020/wip_demos/HCOMP_2020_paper_94.pdf
+    - title: "Towards a Crowdsourcing Platform for Low Resource Languages -- A Collectivist Approach"
+      authors: "Sarah Luger, Christopher M. Homan, Allashera Tapo"
+      id: 95
+      link: assets/2020/wip_demos/HCOMP_2020_paper_95.pdf
+  demo:
+    - authors: "Kyriakos Kyriakou, Pınar Barlas, Styliani Kleanthous, Jahna Otterbacher"
+      title: "OpenTag: Understanding Human Perceptions of Image Tagging Algorithms"
+      id: 76
+      link: assets/2020/wip_demos/HCOMP_2020_paper_76.pdf
+  bluesky:
+    - authors: "Aik Beng Ng, Zhangsheng Lai, Simon See, Shaowei Lin"
+      title: "Group-Assign: Type Theoretic Framework for Human AI Orchestration"
+    - authors: "Kevin Kells"
+      title: "A Technology-Assisted Social Computing Framework for Solving Complex Social Problems"
+    - authors: "Simo Hosio, Niels van Berkel"
+      title: "COGNET: The Planetary Cognition Delivery Network"
+    - authors: "Vincent Conitzer"
+      title: "Using Human Cognitive Limitations to Enable New Systems"
+2021:
+  full:
+    - authors: "Shota Yamanaka"
+      title: "Utility of Crowdsourced User Experiments for Measuring the Central Tendency of User Performance to Evaluate Error-rate Models on GUIs"
+      video: https://slideslive.com/38969642
+      link: https://ojs.aaai.org/index.php/HCOMP/article/view/18948
+    - authors: "Lei Han, Xiao Dong and Gianluca Demartini"
+      title: "Iterative Human-in-the-Loop Discovery of Unknown Unknowns in Image Datasets"
+      link: https://ojs.aaai.org/index.php/HCOMP/article/view/18941
+      video: https://slideslive.com/38969643
+    - authors: "Yang Zhang, Lanyu Shang, Ruohan Zong, Zeng Wang, Ziyi Kou and Dong Wang"
+      title: "StreamCollab: A Streaming Crowd-AI Collaborative System to Smart Urban Infrastructure Monitoring in Social Sensing"
+      video: https://slideslive.com/38969644
+      link: https://ojs.aaai.org/index.php/HCOMP/article/view/18950
+    - authors: "Chris Welty, Lora Aroyo, Flip Korn, Sara Marie Mc Carthy and Shubin Zhao"
+      title: "Rapid Instance-level Knowledge Acquisition from Class-level Common Sense"
+      video: https://slideslive.com/38969645
+      link: https://ojs.aaai.org/index.php/HCOMP/article/view/18947
+    - authors: "Tim Draws, Alisa Rieger, Oana Inel, Ujwal Gadiraju and Nava Tintarev"
+      title: "A Checklist to Combat Cognitive Biases in Crowdsourcing"
+      video: https://slideslive.com/38969646
+      link: https://ojs.aaai.org/index.php/HCOMP/article/view/18939
+    - authors: "Juntao Wang, Yang Liu and Yiling Chen"
+      title: "Forecast Aggregation via Peer Prediction"
+      video: https://slideslive.com/38969647
+      link: https://ojs.aaai.org/index.php/HCOMP/article/view/18946
+    - authors: "Masaki Kobayashi, Kei Wakabayashi and Atsuyuki Morishima"
+      title: "Human+AI Crowd Task Assignment Considering Result Quality Requirements"
+      video: https://slideslive.com/38969648
+      link: https://ojs.aaai.org/index.php/HCOMP/article/view/18943
+    - authors: "Tahir Abbas, Ujwal Gadiraju, Vassilis-Javed Khan and Panos Markopoulos"
+      title: "Making Time Fly: Using Fillers to Improve Perceived Latency in Crowd-Powered Conversational Systems"
+      video: https://slideslive.com/38969649
+      link: https://ojs.aaai.org/index.php/HCOMP/article/view/18935
+    - authors: "Lujain Ibrahim, Mohammad M. Ghassemi and Tuka Alhanai"
+      title: "Modeling Simultaneous Preferences for Age, Gender, Ethnic, and Professional Profiles in Government-expense Spending: A Conjoint Analysis"
+      video: https://slideslive.com/38969650
+      link: https://ojs.aaai.org/index.php/HCOMP/article/view/18942
+    - authors: "Ankit Agrawal and Jane Cleland-Huang"
+      title: "Explaining Autonomous Decisions in Swarms of Human-on-the-Loop Small Unmanned Aerial Systems"
+      video: https://slideslive.com/38969651
+      link: https://ojs.aaai.org/index.php/HCOMP/article/view/18936
+    - authors: "Ioannis Petros Samiotis, Sihang Qiu, Christoph Lofi, Jie Yang, Ujwal Gadiraju and Alessandro Bozzon"
+      title: "Exploring the Music Perception Skills of Crowd Workers"
+      video: https://slideslive.com/38969652
+      link: https://ojs.aaai.org/index.php/HCOMP/article/view/18944
+    - authors: "Wei Tang and Chien-Ju Ho"
+      title: "On the Bayesian Rational Assumption in Information Design"
+      link: https://ojs.aaai.org/index.php/HCOMP/article/view/18945
+      video: https://slideslive.com/38969653
+    - authors: "David Alvarez Melis, Harmanpreet Kaur, Hal Daume, Hanna Wallach and Jennifer Wortman Vaughan"
+      title: "From Human Explanation to Model Interpretability: A Framework Based on Weight of Evidence"
+      video: https://slideslive.com/38969654
+      link: https://ojs.aaai.org/index.php/HCOMP/article/view/18938
+    - authors: "Beverly Freeman, Naama Hammel, Sonia Phene, Abigail Huang, Rebecca Ackermann, Olga Kanzheleva, Miles Hutson, Caitlin Taggart, Quang Duong and Rory Sayres"
+      title: "Iterative Quality Control Strategies for Expert Medical Image Labeling"
+      link: https://ojs.aaai.org/index.php/HCOMP/article/view/18940
+    - authors: "Abdullah Alshaibani and Alexander Quinn"
+      title: "Pterodactyl:  Two-step Redaction Of Images For Robust Face Deidentification"
+      video: https://slideslive.com/38969655
+      link: https://ojs.aaai.org/index.php/HCOMP/article/view/18937
+    - authors: "Romena Yasmin, Joshua Grassel, Md Mahmudulla Hassan, Adolfo Escobedo and Olac Fuentes"
+      title: "Enhancing Image Classification Capabilities of Crowdsourcing-based Methods through Expanded Input Elicitation"
+      video: https://slideslive.com/38969656
+      link: https://ojs.aaai.org/index.php/HCOMP/article/view/18949
+  short:
+    - authors: "Coming Soon!"
+      title: ""
+  doc: 
+    - title: "Empowering Workers with Artificial Intelligence Tools"
+      authors: "Carlos Toxtli-Hernandez"
+      link: assets/gc/Carlos_Toxtl.pdf
+      video: https://www.dropbox.com/s/nq9gistl6ymmea2/Carlos%20Toxtli.mov?dl=0
+    - title: "Designing Human-AI Collaborative Systems for Historical Photo Identification"
+      authors: "Vikram Mohanty"
+      link: assets/gc/Vikram_Mohanty.pdf
+      video: https://www.dropbox.com/s/aoe2f9yqs8zgryj/Vikram.mp4?dl=0
+    - title: "Investigating Impacts of the Intra-Rural Digital Divide on Rural and Super-Rural Crowd Workers"
+      authors: "Rebecca Jonas"
+      link: assets/gc/Rebecca_Jonas.pdf
+      video: https://www.dropbox.com/s/71qf0g3dzqhyem4/Rebecca_Jonas.mp4?dl=0
+    - title: "Human-UAV Collaborations in the Human-On-the-Loop Emergency Response Systems"
+      authors: "Ankit Agrawal"
+      link: assets/gc/Ankit_Agrawal.pdf
+      video: https://www.dropbox.com/s/u4kp18pm7j3dq0m/Agrawal.mp4?dl=0
+    - title: "What is the Next Dataset Creation Pipeline?"
+      authors: "Yuan-Hong (Andrew) Liao"
+      link: assets/gc/Yuan-Hong_Andrew_Liao.pdf
+      video: https://www.dropbox.com/s/85g4iv5jbedwrba/yuan-hong_liao.mp4?dl=0
+    - title: "Supporting High-Stakes Investigations with Expert-Led Crowdsourcing"
+      authors: "Sukrit Venkatagiri"
+      link: assets/gc/Sukrit_Venkatagiri.pdf
+    - title: "Unlocking the Potential of the Crowd by Challenging its Assumptions"
+      authors: "Amy Rechkemmer"
+      link: assets/gc/Amy_Rechkemmer.pdf
+      video: https://www.dropbox.com/s/vgr1ugbfi9iz8wr/Amy%20Elizabeth%20Rechkemmer.mov?dl=0
+    - title: "Disentangling Inherent Ambiguity and Disagreement in Crowdsourced Annotation"
+      authors: "Quanze Chen"
+      link: assets/gc/Quanze_Chen.pdf
+      video: https://www.dropbox.com/s/reaadr4fifkcbv8/Jim%20Chen.mp4?dl=0
+    - title: "Incorporating Human In The Loop For Voice Assistants"
+      authors: "Shih-Hong Huang"
+      link: assets/gc/Shih-Hong_Huang.pdf
+      video: https://www.dropbox.com/s/05rv9mof6xh2eox/Shih-Hong%20Huang.mp4?dl=0
+  wip-a:
+    - title: "A General-Purpose Crowdsourcing Computational Quality Control Toolkit for Python"
+      authors: "Dmitry Ustalov, Nikita Pavlichenko, Vladimir Losev, Iulian Giliazev and Evgeny Tulin"
+      id: 85
+      link: assets/wips_demos/HCOMP_2021_paper_85.pdf
+      video: https://slideslive.com/38969657
+    - title: "A Human Computation Approach for Ontology Restrictions Verification"
+      authors: "Stefani Tsaneva and Marta Sabou"
+      id: 90
+      link: assets/wips_demos/HCOMP_2021_paper_90.pdf
+      video: https://slideslive.com/38969660
+    - title: "A Paradigm Shift towards Crowd-based Healthcare System"
+      authors: "Sujoy Chatterjee, Thipendra P Singh, Amitava Choudhury and Anirban Mukhopadhyay"
+      id: 92
+      link: assets/wips_demos/HCOMP_2021_paper_92.pdf
+      video: https://slideslive.com/38969662
+    - title: "Double-Checking History: Designing Assessable Systems for Historical Photo Identification"
+      authors: "Vikram Mohanty and Kurt Luther"
+      id: 93
+      link: assets/wips_demos/HCOMP_2021_paper_93.pdf
+      video: https://slideslive.com/38969663
+    - title: "Crowdsourcing Diverse Paraphrases for Training Task-oriented Bots"
+      authors: "Jorge Ramírez, Auday Berro, Marcos Baez, Boualem Benatallah and Fabio Casati"
+      id: 94
+      link: assets/wips_demos/HCOMP_2021_paper_94.pdf
+      video: https://slideslive.com/38969664
+    - title: "Crowdsourcing Human Oversight on Image Tagging Algorithms: An initial study of image diversity"
+      authors: "Kyriakos Kyriakou, Pınar Barlas, Styliani Kleanthous, Evgenia Christoforou and Jahna Otterbacher"
+      id: 104
+      link: assets/wips_demos/HCOMP_2021_paper_104.pdf
+      video: https://slideslive.com/38969668
+    - title: "Morphological Matrices as a Tool for Crowdsourced Ideation"
+      authors: "Jonas Oppenlaender"
+      id: 105
+      link: assets/wips_demos/HCOMP_2021_paper_105.pdf
+      video: https://slideslive.com/38969669
+    - title: "Exploring the Role of Domain Experts in Characterizing and Mitigating Machine Learning Errors"
+      authors: "Pavel Hoogland, Oana Inel, Jie Yang, Margje Schuur, Jasper van Vliet and Piet van Hoffen"
+      id: 107
+      link: assets/wips_demos/HCOMP_2021_paper_107.pdf
+      video: https://slideslive.com/38969670
+    - title: "Crowdsourcing Exploratory Cues for Idea Browsing and Inspiration Discovery"
+      authors: "Xiaotong Tone Xu, Khuyen Le, Christopher Cha, Samuel Fleet and Steven Dow"
+      id: 109
+      link: assets/wips_demos/HCOMP_2021_paper_109.pdf
+      video: https://slideslive.com/38969672
+    - title: "FindItOut: A Multiplayer GWAP for Collecting Plural Knowledge"
+      authors: "Agathe Balayn, Gaole He, Andrea Hu, Jie Yang and Ujwal Gadiraju"
+      id: 112
+      link: assets/wips_demos/HCOMP_2021_paper_112.pdf
+      video: https://slideslive.com/38969675
+  wip-b: 
+    - title: "Hate2Explain: Crowdsourced Explanations as a Cultural Bridge in Understanding Hateful Memes"
+      authors: "Chao-Chun Han, Yi-Ching Huang, Nanyi Bi and Jane Hsu"
+      id: 110
+      link: assets/wips_demos/HCOMP_2021_paper_110.pdf
+      video: https://slideslive.com/38969673
+    - title: "iClarify - A Tool to Help Requesters Iteratively Improve Task Descriptions in Crowdsourcing"
+      authors: "Zahra Nouri, Nikhil Prakash, Ujwal Gadiraju and Henning Wachsmuth"
+      id: 111
+      link: assets/wips_demos/HCOMP_2021_paper_111.pdf
+      video: https://slideslive.com/38969674
+    - title: "How Much Do Platform Workers Value Reviews? An Experimental Method"
+      authors: "David Holtz, Liane Scult and Siddharth Suri"
+      id: 108
+      link: assets/wips_demos/HCOMP_2021_paper_108.pdf
+      video: https://slideslive.com/38969671
+    - title: "The Role of Anthropomorphic Visual Cues in Human Interactions with Conversational Agents"
+      authors: "Emilija Zlatkutė, Sihang Qiu, Jie Yang and Ujwal Gadiraju"
+      id: 86
+      link: assets/wips_demos/HCOMP_2021_paper_86.pdf
+      video: https://slideslive.com/38969658
+    - title: "Rsourcer: Scaling Feedback on Research Drafts"
+      authors: "Yuchao Jiang, Boualem Benatallah and Marcos Báez"
+      id: 88
+      link: assets/wips_demos/HCOMP_2021_paper_88.pdf
+      video: https://slideslive.com/38969659
+    - title: "Towards a Requester-centered Study on the Use of ‘Bots’ for Completing Tasks"
+      authors: "Jonas Oppenlaender and Simo Hosio"
+      id: 91
+      link: assets/wips_demos/HCOMP_2021_paper_91.pdf
+      video: https://slideslive.com/38969661
+    - title: "When Content Decides Where You Belong: Investigating Micro Communities on VSCO"
+      authors: "Vikram Mohanty and Geneviève Patterson"
+      id: 95
+      link: assets/wips_demos/HCOMP_2021_paper_95.pdf
+      video: https://slideslive.com/38969665
+    - title: "Supporting Dynamic Construction of Datasets with Annotator Suggestions"
+      authors: "Jeongeon Park, Eunyeong Ko, Donghoon Han, Jinyeong Yim and Juho Kim"
+      id: 97
+      link: assets/wips_demos/HCOMP_2021_paper_97.pdf
+      video: https://slideslive.com/38969666
+    - title: "HAEM: Obtaining Higher-Quality Classification Task Results with AI Co-Workers"
+      authors: "Yu Yamashita, Masaki Kobayashi, Kei Wakabayashi, Hiroyoshi Ito and Atsuyuki Morishima"
+      id: 98
+      link: assets/wips_demos/HCOMP_2021_paper_98.pdf
+      video: https://slideslive.com/38969667
+  demo:
+    - authors: "Coming Soon!"
+      title: ""
+  bluesky:
+    - authors: "Neo Christopher Chung"
+      title: "Human in the Loop for Machine Creativity"
+      link: assets/blue_sky/HCOMP_2021_paper_101.pdf
+      video: https://slideslive.com/38969676
+    - authors: "Burcu Sayin, Jie Yang, Andrea Passerini and Fabio Casati"
+      title: "The Science of Rejection: A Research Area for Human Computation"
+      link: assets/blue_sky/HCOMP_2021_paper_102.pdf
+      video: https://slideslive.com/38969677
+    - authors: "Yasaman Rohanifar, Syed Ishtiaque Ahmed, Sharifa Sultana, Prateek Chanda and Malay Bhattacharyya"
+      title: "Human Computation and Crowdsourcing for Earth"
+      link: assets/blue_sky/HCOMP_2021_paper_103.pdf
+      video: https://slideslive.com/38969678
+    
