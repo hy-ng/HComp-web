@@ -1,3 +1,45 @@
+- id: bi
+  last_name: Bi
+  full_name: Nanyi Bi
+  picture: img/photo/bi-150.jpg
+  affiliation: National Taiwan University
+  website: https://www.linkedin.com/in/nanyi-bi-516b8a16/
+
+- id: hettiachichi
+  last_name: Hettiachichi
+  full_name: Danula Hettiachichi
+  picture: img/photo/hettiachichi-150.jpg
+  affiliation: Royal Melbourne Institute of Technology
+  website: https://www.danulahettiachchi.com/
+
+- id: huffaker
+  last_name: Huffaker
+  full_name: Jordan Huffaker
+  picture: img/photo/huffaker-150.jpg
+  affiliation: University of Michigan
+  website: http://www.jordanhuffaker.com/
+
+- id: guo
+  last_name: Guo
+  full_name: Anhong Guo
+  picture: img/photo/guo-150.jpg
+  affiliation: University of Michigan
+  website: https://guoanhong.com/
+
+- id: huangjanet
+  last_name: Huang
+  full_name: Janet Yi-Ching Huang
+  picture: img/photo/huangjanet.jpg
+  affiliation: Eindhoven University of Technology
+  website: http://janetyc.github.io/
+
+- id: schaekermann
+  last_name: Schaekermann
+  full_name: Mike Schaekermann
+  picture: img/photo/schaekermann.jpg
+  affiliation: Google Research
+  website: https://mikeshake.me/
+
 - id: bozzon
   last_name: Bozzon
   full_name: Alessandro Bozzon
@@ -24,7 +66,7 @@
   full_name: Jane Hsu
   picture: img/photo/janehsu.png
   affiliation: National Taiwan University
-  website: http://agents.csie.ntu.edu.tw/~yjhsu/who.html
+  website: https://iagentntu.github.io/professor/Jane.html
 
 - id: gentile
   last_name: Gentile
@@ -302,8 +344,8 @@
   full_name: Ujwal Gadiraju
   id: gadiraju
   last_name: Gadiraju
-  picture: 'img/photo/ujwal-new.png'
-  website: 'http://www.l3s.de/~gadiraju/' 
+  picture: 'img/photo/gadiraju-150.jpg'
+  website: 'http://ujwalgadiraju.com/' 
 
 - affiliation: VSCO
   full_name: Geneviève Patterson
@@ -723,7 +765,7 @@
 - id: savage
   full_name: Saiph Savage
   last_name: Savage
-  affiliation: Northeastern University and UNAM
+  affiliation: Northeastern University
   website: http://www.saiph.org/
   picture: 'img/photo/saiph-150.jpg'
 
@@ -744,7 +786,7 @@
 - id: williams
   full_name: Alex Williams
   last_name: Williams
-  affiliation: University of Tennessee, Knoxville
+  affiliation: Amazon
   website: http://web.eecs.utk.edu/~acw/
   picture: 'img/photo/awilliams-150.jpg'
 
@@ -793,9 +835,9 @@
 - id: jotterbacher
   full_name: Jahna Otterbacher
   last_name: Otterbacher
-  affiliation: Open University of Cyprus & CYENS CoE
+  affiliation: Open University of Cyprus
   picture: 'img/photo/jotterbacher.jpg'
-  website: https://www.cycat.io
+  website: http://www.cycat.io/team/jahna-otterbacher/
 
 - id: mausam
   full_name: Mausam
