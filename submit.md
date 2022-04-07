@@ -63,7 +63,7 @@ All submitted papers must represent original work, not previously published or u
 
 Papers must be formatted in AAAI two-column, camera-ready style; please refer to the [AAAI 2022 Author Kit](https://www.aaai.org/Publications/Templates/AuthorKit22.zip) for details. The AAAI copyright block is not required on submissions but must be included on final accepted versions.
 
-Electronic abstract and paper submission through the [HCOMP-22 EasyChair paper submission site](https://easychair.org/conferences/?conf=hcomp2022) is required on or before the deadlines listed above. We cannot accept submissions by e-mail or fax. Authors will receive confirmation of receipt of their abstracts or papers, including an ID number, shortly after submission. HCOMP will contact authors again only if problems are encountered with papers. Inquiries regarding paper receipts must be made no later than July 1, 2022.
+Electronic abstract and paper submission through the [HCOMP-22 EasyChair paper submission site](https://easychair.org/conferences/?conf=hcomp22) is required on or before the deadlines listed above. We cannot accept submissions by e-mail or fax. Authors will receive confirmation of receipt of their abstracts or papers, including an ID number, shortly after submission. HCOMP will contact authors again only if problems are encountered with papers. Inquiries regarding paper receipts must be made no later than July 1, 2022.
 
 All papers must be anonymized (include no information identifying the authors or their institutions) for double-blind peer-review. To ensure fairness, authors should declare any conflicts-of-interest with PC members by selecting the “Declare Conflicts” link on the upper-right of your EasyChair submission page.
 
