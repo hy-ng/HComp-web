@@ -1,3 +1,17 @@
+- id: toxtli
+  last_name: Toxtli
+  full_name: Carlos Toxtli
+  picture: img/photo/toxtli-150.jpg
+  affiliation: Northeastern University / Clemson University
+  website: https://www.carlostoxtli.com/
+
+- id: rechkemmer
+  last_name: Rechkemmer
+  full_name: Amy Rechkemmer
+  picture: img/photo/rechkemmer-150.jpg
+  affiliation: Purdue University
+  website: https://www.cs.purdue.edu/people/graduate-students/arechke.html
+
 - id: bi
   last_name: Bi
   full_name: Nanyi Bi
@@ -81,7 +95,7 @@
   picture: img/photo/simperl-150.jpg
   affiliation: King's College London
   website: http://elenasimperl.eu
-  steering: HCOMP 2020 Co-Chair
+  steering: Committee Co-Chair and HCOMP 2020 Co-Chair
 
 - id: larson
   last_name: Larson
@@ -117,6 +131,7 @@
   full_name: Kurt Luther
   picture: 'img/photo/KurtLuther.jpeg'
   affiliation: Virginia Tech
+  steering: HCOMP 2021 Co-Chair
   website: http://crowd.cs.vt.edu/kurt-luther/
 
 - id: liu
@@ -163,7 +178,7 @@
   website: https://lia.epfl.ch/~goel/
 
 - id: law
-  steering: Committee Co-Chair and HCOMP 2019 Co-Chair
+  steering: HCOMP 2019 Co-Chair
   last_name: Law
   full_name: Edith Law
   picture: img/photo/edith.jpg
@@ -183,7 +198,7 @@
   full_name: Lora Aroyo
   picture: img/photo/aroyo.jpeg
   affiliation: Google
-  steering: HCOMP 2020 Co-Chair
+  steering: Committee Co-Chair and HCOMP 2020 Co-Chair
   website: http://lora-aroyo.org/
 
 - id: oomen
@@ -559,7 +574,7 @@
   website: 'http://juliehui.com'
 
 - affiliation: University of Texas at Austin and Amazon
-  steering: Committee Co-Chair and HCOMP 2016 Co-Chair
+  steering: HCOMP 2016 Co-Chair
   full_name: Matthew Lease
   id: lease
   last_name: Lease
@@ -660,6 +675,7 @@
   full_name: Ece Kamar
   id: kamar
   last_name: Kamar
+  steering: HCOMP 2021 Co-Chair
   picture: 'img/photo/ece.png'
   website: 'https://www.ecekamar.com'
 
