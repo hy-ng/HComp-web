@@ -450,7 +450,7 @@ The workshop day will focus on developing a research project (whether that’s a
 
 ## Contact
 - Saiph Savage (Northeastern University & UNAM), s.savage@northeastern.edu
-- Anhong Guo (University of Mighigan), anhong@umich.edu
+- Anhong Guo (University of Michigan), anhong@umich.edu
 
 
 
