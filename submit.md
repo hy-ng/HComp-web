@@ -11,7 +11,7 @@ year: 2022
 
 - Call for [Full Papers](#papers)
 - Call for [Works-In-Progress and Demonstration Papers](#wip)
-- Call for [Graduate Consortium](#doc)
+- Call for [Doctoral Consortium](#doc)
 - Call for [CrowdCamp](#ccamp)
 
 [//]: # (- Call for [Blue Sky Ideas]&#40;#bsi&#41;)
@@ -223,186 +223,138 @@ HCOMP 2022 will recognize one best paper and two runner-ups. Reviewers will be a
 &nbsp;
 {:.sub-page-border}
 
-Coming soon...
+## Important Dates
+- August 29: Works-in-Progress Papers and Demonstration papers due (23:59 UTC-12)
+- September 20: WiP and Demo notifications sent
+- October 7: WiP and Demo camera-ready papers due
 
-[//]: # (## Important Dates)
+## Overview
 
-[//]: # (<span style="color: green;">Deadline has been extended to September 10, 2021!</span>)
+The Works-in-Progress and Demonstration track focuses on recent findings or other types of innovative or thought-provoking work, hands-on demonstration, novel interactive technologies and experiences relevant to the HCOMP community. We encourage practitioners and researchers to submit Works-in-Progress & Demo Track as it provides a unique opportunity for sharing valuable ideas, eliciting useful feedback on early-stage work, and fostering discussions and collaborations among colleagues. 
+Submissions are welcome from any area of computer science, artificial intelligence, and human-computer interaction, to economics and the social sciences, all the way to digital humanities, policy, and ethics.
+ 
+The accepted papers in this track will be non-archival and will not be included in the HCOMP’s official conference proceedings. The authors could further develop the idea and submit the outcome to other conferences or journals.
 
-[//]: # (- September 10 &#40;extended&#41;: Works-in-Progress Papers and Demonstration papers due &#40;23:59 UTC-12&#41;)
+### Works-in-Progress
 
-[//]: # (- September 17: WiP and Demo notifications sent)
+A Work-in-Progress is a concise report of recent findings or other types of innovative or thought-provoking work relevant to the HCOMP community. The difference between Works-in-Progress and other contribution types is that Work-in-Progress submissions represent work that has not reached a level of completion that would warrant the full Refereed selection process. That said, appropriate submissions should make some contribution to the body of HCOMP knowledge, whether realized or promised. A significant benefit of a Work-in-Progress derives from the discussion between the author and conference attendees that will be fostered by the synchronous virtual presentation of the work. Work-in-Progress submissions are in the form of a roughly 2 page paper, see Submission section.
 
-[//]: # (- October 8: WiP and Demo camera-ready papers due &#40;23:59 UTC-12&#41;)
+### Demonstrations
 
-[//]: # ()
-[//]: # (## Overview)
+A demonstration is a high-visibility, high-impact forum of the HCOMP program that allows you to present your hands-on demonstration, share novel interactive technologies, and stage interactive experiences. Demonstrations will showcase this year’s most exciting human computation and collaborative human-AI prototypes and systems. If you have an interesting prototype, system, exhibit or installation, we want to know about it. Sharing hands-on experiences of your work is often the best way to communicate what you have created. The demonstration submission should describe the nature of the system as well as the expected form of interaction with the user and the audience. We advise preparing a demo video to address connectivity issues during the virtual demo session. Demonstrations submissions are in the form of a roughly 2 page paper, see Submission section.
 
-[//]: # (The Works-in-Progress and Demonstration track focuses on recent findings or other types of innovative or thought-provoking work, hands-on demonstration, novel interactive technologies and experiences relevant to the HCOMP community. We encourage practitioners and researchers to submit Works-in-Progress & Demo Track as it provides a unique opportunity for sharing valuable ideas, eliciting useful feedback on early-stage work, and fostering discussions and collaborations among colleagues. Submissions are welcome from any area of computer science, artificial intelligence, and human-computer interaction, to economics and the social sciences, all the way to digital humanities, policy, and ethics.)
+## Submission
 
-[//]: # ()
-[//]: # (### Works-in-Progress)
+Submissions must be done via the HCOMP-22 EasyChair Website under the Works-in-Progress and Demonstration track. Submissions to Easychair are required on or before the deadline listed above. We cannot accept submissions by e-mail or fax. Authors will receive confirmation of receipt of their submissions, including an ID number, shortly after submission. HCOMP will contact authors again only if problems are encountered with papers.
 
-[//]: # (A Work-in-Progress is a concise report of recent findings or other types of innovative or thought-provoking work relevant to the HCOMP community. The difference between Works-in-Progress and other contribution types is that Work-in-Progress submissions represent work that has not reached a level of completion that would warrant the full Refereed selection process. That said, appropriate submissions should make some contribution to the body of HCOMP knowledge, whether realized or promised. A significant benefit of a Work-in-Progress derives from the discussion between the author and conference attendees that will be fostered by the synchronous virtual presentation of the work. Work-in-Progress submissions are in the form of a roughly 2 page paper, see Submission section.)
+### Length
 
-[//]: # ()
-[//]: # (### Demonstrations)
+Works-in-Progress and Demonstration papers can be up to 2 pages (references can extend beyond the 2 pages).
 
-[//]: # (A demonstration is a high-visibility, high-impact forum of the HCOMP program that allows you to present your hands-on demonstration, share novel interactive technologies, and stage interactive experiences. Demonstrations will showcase this year’s most exciting human computation and collaborative human-AI prototypes and systems. If you have an interesting prototype, system, exhibit or installation, we want to know about it. Sharing hands-on experiences of your work is often the best way to communicate what you have created. The demonstration submission should describe the nature of the system as well as the expected form of interaction with the user and the audience. We advise preparing a demo video to address connectivity issues during the virtual demo session. Demonstrations submissions are in the form of a roughly 2 page paper, see Submission section.)
+### Formatting
 
-[//]: # ()
-[//]: # (## Submission )
+Papers must be formatted in AAAI two-column, camera-ready style; please refer to the AAAI 2022 Author Kit (https://www.aaai.org/Publications/Templates/AuthorKit22.zip) for details. Papers must be in trouble-free, high-resolution PDF format, formatted for US Letter (8.5″ x 11″) paper, using Type 1 or TrueType fonts. The AAAI copyright block is not required for works-in-progress or demo submissions, as they are not included in the formal proceedings. Please see below for information about publication.
 
-[//]: # ()
-[//]: # (Submissions must be done via the HCOMP-21 EasyChair Website under the Works-in-Progress and Demonstration track. Submissions to Easychair are required on or before the deadline listed above. We cannot accept submissions by e-mail or fax. Authors will receive confirmation of receipt of their submissions, including an ID number, shortly after submission. HCOMP will contact authors again only if problems are encountered with papers.)
+### Supplemental Materials
 
-[//]: # ()
-[//]: # (### Length)
+Authors are invited, but not required, to include supplemental materials such as executables and data files so that reviewers can reproduce results in the paper, images, additional videos, related papers, more detailed explanations, derivations, or results. These materials will be viewed only at the discretion of the reviewers, who are only obligated to read your paper itself.
 
-[//]: # (Works-in-Progress and Demonstration papers can be up to 2 pages &#40;references can extend beyond the 2 pages&#41;.)
+### NOT Anonymized
 
-[//]: # ()
-[//]: # (### Formatting)
+Authors should include information identifying themselves and their institutions for single-blind review.
 
-[//]: # (Papers must be formatted in AAAI two-column, camera-ready style; please refer to the AAAI 2021 Author Kit [https://www.aaai.org/Publications/Templates/AuthorKit21.zip]&#40;https://www.aaai.org/Publications/Templates/AuthorKit21.zip&#41; for details. Papers must be in trouble-free, high-resolution PDF format, formatted for US Letter &#40;8.5″ x 11″&#41; paper, using Type 1 or TrueType fonts. The AAAI copyright block is not required for works-in-progress or demo submissions, as they are not included in the formal proceedings. Please see below for information about publication.)
+### NOT Archival
 
-[//]: # ()
-[//]: # (### Supplemental Materials)
+Accepted papers will NOT be included in official conference proceedings, and so could be submitted later to other conferences or journals for official publication. Accepted papers will be made available online on the conference website.
 
-[//]: # (Authors are invited, but not required, to include supplemental materials such as executables and data files so that reviewers can reproduce results in the paper, images, additional videos, related papers, more detailed explanations, derivations, or results. These materials will be viewed only at the discretion of the reviewers, who are only obligated to read your paper itself.)
+## Contacts
 
-[//]: # ()
-[//]: # (### NOT Anonymized)
+Please contact the Works-in-progress and Demonstration Co-Chairs if you have any questions.
+- Ting-Hao 'Kenneth' Huang, at txh710@psu.edu
+- Jahna Otterbacher, at jahna.otterbacher@ouc.ac.cy
 
-[//]: # (Authors should include information identifying themselves and their institutions for single-blind review.)
-
-[//]: # ()
-[//]: # (### NOT Archival )
-
-[//]: # (Accepted papers will NOT be included in official conference proceedings, and so could be submitted later to other conferences or journals for official publication. Accepted papers will be made available online on the conference website.)
-
-[//]: # ()
-[//]: # (## Contacts)
-
-[//]: # ()
-[//]: # (Please contact the Works-in-progress and Demonstration Co-Chairs if you have any questions.)
-
-[//]: # ()
-[//]: # (- Danna Gurari, at danna.gurari@ischool.utexas.edu)
-
-[//]: # (- Adish Singla, at adishs@mpi-sws.org)
-
-# CALL FOR GRADUATE CONSORTIUM
+# CALL FOR DOCTORAL CONSORTIUM
 {:.sub-page-header}
 {:#doc}
 &nbsp;
 {:.sub-page-border}
 
-Coming soon...
+## IMPORTANT DATES
 
-[//]: # (## THE HCOMP 2021 GRADUATE CONSORTIUM &#40;14TH NOVEMBER 2021&#41;)
+- August 5: Doctoral Consortium applications due (anywhere on earth)
+- August 29: Doctoral Consortium notifications sent
+- November 6: Doctoral Consortium at HCOMP-22
 
-[//]: # ()
-[//]: # (<img src="/img/graduate-consortium.jpg" alt="Detroit Industry, North Wall fresco by Diego M. Rivera" width="100%"/>)
+## OBJECTIVE
 
-[//]: # ()
-[//]: # (We are proud to announce the 8th HCOMP Graduate Consortium. We invite both master’s and doctoral students in graduate programs related to crowdsourcing and human-computation to submit a research proposal by August 2nd, 2021 to be considered in the Graduate Consortium of the AAAI Conference on Human Computation and Crowdsourcing &#40;HCOMP 2021&#41;. The consortium will take place online and you can choose to participate in two ways: &#40;1&#41; graduate audience; or &#40;2&#41; “graduate colleague”. We are honored to announce that we have received sponsorship from the A.I. Journal to fully fund HCOMP conference registration for students participating as “graduate colleagues” &#40;you will be selected based on your abstract submissions.&#41;)
+HCOMP’s annual Doctoral Consortium provides doctoral students with a unique opportunity to meet each other and experienced researchers in the field. Students will be mentored by a group of faculty who are leaders in the diverse specialties that make up the HCOMP field. The objectives of the Doctoral Consortium are to provide students with an opportunity:
 
-[//]: # ()
-[//]: # (## OBJECTIVE)
+- To present and discuss their research with experienced researchers: the Doctoral Consortium Mentors;
+- To help doctoral students establish a supportive graduate student community among doctoral students at a similar stage of their dissertation research;
+- To provide a platform for broader exposure for their research, both in general and in support of a future job search.
 
-[//]: # (The HCOMP’21 graduate consortium provides graduate students with the unique opportunity to share their research with crowdsourcing and human computation experts, meet other graduate students, network, and receive mentoring from both industry and academia.)
+## AREAS OF INTEREST
 
-[//]: # ()
-[//]: # (## PARTICIPATING IN THE HCOMP GRADUATE CONSORTIUM)
+HCOMP is unique in the diversity of disciplines it draws upon, and contributes to, ranging from computer science, artificial intelligence, and human-computer interaction, to economics and the social sciences, all the way to digital humanities, policy, and ethics. This year, we especially encourage work that generates new insights into the connections between human computation and crowdsourcing, and humanity. For example, how to support the well-being and welfare of participants of human-in-the-loop systems? How to promote diversity and inclusion of the crowd workforce? How can crowdsourcing be used for social good, e.g., to address societal challenges and improve people’s lives? How can human computation and crowdsourcing studies advance the design of trustworthy, ethical, and responsible AI? How can crowd science inform the development of AI that extends human capabilities and augments human intelligence?
 
-[//]: # (If you wish to participate in the graduate consortium, complete this form: [https://tinyurl.com/2ax2zjxwj]&#40;https://tinyurl.com/2ax2zjxwj&#41;. The form will ask you general information about yourself, your research, motivations for participating in the graduate consortium, and the modality in which you wish to participate &#40;as audience or colleague&#41;. If you wish to participate as a colleague you  will be expected to to complete the online form and submit a 3 page abstract &#40;with references&#41; about your research. If you wish to participate as an audience member you only need to complete the form. )
+## ELIGIBILITY
 
-[//]: # ()
-[//]: # (### Expectations of Audience Type Participants. )
+Applicants must be currently enrolled in a full-time PhD program and have written, or be close to completing, a thesis proposal (or equivalent). We will give preference to students who have proposed or are about to propose but are far enough from completing their thesis that the feedback they receive at the event can impact their work. Before submitting, students should discuss this criterion with their advisor or supervisor.
 
-[//]: # (Student participating in this modality  will need to:)
+## ATTENDANCE
 
-[//]: # (- Complete the online form: [https://tinyurl.com/2ax2zjxw]&#40;https://tinyurl.com/2ax2zjxw&#41;)
+Those accepted are required to present their work at the Doctoral Consortium. Participants will also likely be required to present a poster on their work during the poster session at the main conference.
 
-[//]: # (- Participate in online group discussion about their work and that of their peers.)
+## SELECTION
 
-[//]: # (- Access to an Aspiring Top Researcher Bootcamp to become a successful scientist in the field of crowdsourcing and human computation. )
+Submissions will be reviewed by a Program Committee of Doctoral Committee Mentors, with selection based upon the expected potential of both the student and their proposed work, as well as the expected benefit to the student from participation. Priority will be given to students whose research goes beyond locally available expertise at their home institutions.
 
-[//]: # ()
-[//]: # (### Expectations of Colleague Type Participants.)
+## FINANCIAL SUPPORT
 
-[//]: # (- Complete the online form and Submit a short abstract about their research: [https://tinyurl.com/2ax2zjxw]&#40;https://tinyurl.com/2ax2zjxw&#41;)
+More information about financial support coming soon.
 
-[//]: # (- Give a short online talk about their research during the consortium)
+## APPLICATION
 
-[//]: # (- Participate in online group discussion about their work and that of their peers.)
+Applicants must submit a solely-authored paper in English containing: 1) a Doctoral Research Overview; and 2) a Supplemental Paragraph.
 
-[//]: # (- Receive one-on-one online mentoring from renowned crowdsourcing researchers.)
+## DOCTORAL RESEARCH OVERVIEW
 
-[//]: # (- Access to an Aspiring Top Researcher Bootcamp to become a successful scientist in the field of crowdsourcing and human computation. )
+Please summarize your doctoral research, including the following sections:
+- Motivation for the proposed research;
+- Background and related work (including key references);
+- Description of the proposed research, including key research questions and planned methodology to be used for investigating these research questions;
+- Proposed experiments if appropriate; Any preliminary evaluation and findings are welcomed, but this is not required.;
+- Specific research issues and/or challenges (do not skip these; the consortium is about helping you solve issues, not boasting about the issues you already solved!).
 
-[//]: # ()
-[//]: # (Additionally, students participating as colleagues will receive sponsorship from the A.I. Journal to fully fund their HCOMP conference registration fees. Note that only select candidates will be able to participate as colleagues. However, if you are not selected to be a colleague you will be able to participate as an audience member. )
+## SUPPLEMENTAL PARAGRAPH
 
-[//]: # ()
-[//]: # (## PREPARING YOUR ABSTRACT FOR COLLEAGUE PARTICIPATION)
+Please write a paragraph explaining:
+- Why you want to participate in the consortium at this point in your doctoral studies and how you expect to benefit from the consortium;
+- The status of your dissertation proposal (writing, submitted, presented, or approved);
+- Your expected (approximate) defense date.
 
-[//]: # (Applicants must submit a 3 page paper with references explaining their research.)
+## LENGTH AND ORGANIZATION
 
-[//]: # ()
-[//]: # (### Research Explanation. )
+Your paper should be no more than 4 pages in total: 3 pages for the Doctoral Research Overview (including all figures and references), and the 4th page being the Supplemental Paragraph. The first page must contain the title of the paper, full author name, affiliation and contact details, an abstract of up to 250 words, and up to 3 keywords describing the research topic areas.
 
-[//]: # (While final versions of accepted papers will be posted on the Graduate Consortium website and publicized in the HCOMP community, proceedings of the Doctoral Consortium will NOT be archived. As such, students may freely submit their research contributions for official publication in other venues.)
+## FORMATTING
 
-[//]: # ()
-[//]: # (The research explanation should include:)
+Papers must be formatted in AAAI two-column, camera-ready style; please refer to the AAAI 2022 Author Kit for details. Papers must be in trouble-free, high-resolution PDF format, formatted for US Letter (8.5” x 11”) paper, using Type 1 or TrueType fonts. It is the responsibility of the student to ensure that their submission uses no unusual formatting and is printable on a standard printer. The AAAI copyright block is not required for works-in-progress or demo submissions, as they are not included in the formal proceedings. Please see below for information regarding dissemination.
 
-[//]: # (- Motivation for the proposed research)
+## SUBMISSION
 
-[//]: # (- Background and related work &#40;including key references&#41;)
+Electronic submission through the HCOMP-22 EasyChair (https://easychair.org/conferences/?conf=hcomp22) paper submission site is required on or before the deadline listed above. We cannot accept submissions by e-mail or fax. Authors will receive confirmation of receipt of their submissions, including an ID number, shortly after submission. HCOMP will contact authors again only if problems are encountered with papers.
 
-[//]: # (- Description of proposed research, including key research questions and planned methodology to be used for investigating these research questions)
+## DISSEMINATION
 
-[//]: # (- Proposed experiments if appropriate; Any preliminary evaluation and findings are welcomed, but this is not required.)
+Submissions will be distributed only to mentors and other attendees of the doctoral consortium. Proceedings of the Doctoral Consortium will NOT be archived. As such, students may freely submit their research contributions for official publication in other venues. Participant names and university affiliations, as well as paper titles and abstracts, will be publicized on the conference website and in the conference program for the poster session.
 
-[//]: # (- Specific research issues and/or challenges the student would like to discuss)
+## DOCTORAL CONSORTIUM CHAIRS
 
-[//]: # ()
-[//]: # (### Format Requirements. )
+- Alex Williams (Amazon Science)
+- Chien-Ju Ho (Washington University of St. Louis)
 
-[//]: # (Submitted papers must be written in English, formatted according to AAAI Format guidelines, and submitted as a single PDF file &#40;embedding all required fonts&#41;. The paper should be no more than 3 pages in length including all figures and references.)
-
-[//]: # ()
-[//]: # (## SUBMISSION GUIDELINES)
-
-[//]: # (Submit your information via this form: [https://tinyurl.com/2ax2zjxw]&#40;https://tinyurl.com/2ax2zjxw&#41;.)
-
-[//]: # ()
-[//]: # (## SELECTION CRITERIA)
-
-[//]: # (All graduate students are invited to participate in the call. Submissions to Colleague Participation mode  will be evaluated based on the research summary that is submitted in terms of quality and merit and where the student is in their academic career. We will favor students who might benefit the most from participating in the consortium as colleagues. Students interested in participating in the consortium as audience members only need to complete their online form: [https://tinyurl.com/2ax2zjxw]&#40;https://tinyurl.com/2ax2zjxw&#41;. )
-
-[//]: # ()
-[//]: # (## IMPORTANT DATES)
-
-[//]: # (- August 2nd 2021  – Submission deadline &#40;Midnight anywhere on earth&#41;)
-
-[//]: # (- August 30th 2021 – Notification date)
-
-[//]: # (- September 19th 2021- Camera-ready deadline)
-
-[//]: # (- November 14th 2021– Consortium)
-
-[//]: # ()
-[//]: # (## GRADUATE CONSORTIUM CHAIRS)
-
-[//]: # (- Saiph Savage &#40;Northeastern University & UNAM&#41;)
-
-[//]: # (- David Sarne &#40;Bar-Ilan University&#41;)
-
-[//]: # ()
-[//]: # (Write questions or comments to: s.savage@northeastern.edu, david.sarne@gmail.com)
+Please feel free to direct all questions or comments to the following email addresses: acwio@amazon or chienju.ho@wustl.edu.
 
 # CALL FOR CROWDCAMP
 {:.sub-page-header}
