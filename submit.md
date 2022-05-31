@@ -224,7 +224,7 @@ HCOMP 2022 will recognize one best paper and two runner-ups. Reviewers will be a
 {:.sub-page-border}
 
 ## Important Dates
-- August 29: Works-in-Progress Papers and Demonstration papers due (23:59 UTC-12)
+- August 29: Works-in-Progress Papers and Demonstration papers due (23:59 AoE)
 - September 20: WiP and Demo notifications sent
 - October 7: WiP and Demo camera-ready papers due
 
@@ -362,9 +362,9 @@ Please feel free to direct all questions or comments to the following email addr
 &nbsp;
 {:.sub-page-border}
 
-- **Workshop Day:** November 6th, 2021
+- **Workshop Day:** November 6th, 2022
 
-- **Submission Deadline:** October 7th, 2021
+- **Submission Deadline:** October 7th, 2022
 
 <img src="/img/hcomp22-crowdcamp.jpg" alt="Detroit Industry, North Wall fresco by Diego M. Rivera" width="100%"/>
 
