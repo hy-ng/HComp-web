@@ -59,8 +59,6 @@ Topics of interest include:
 
 Authors are invited to submit papers of up to 10 pages, plus any number of additional pages containing references only.
 
-All submitted papers must represent original work, not previously published or under simultaneous peer-review for any other peer-reviewed archival conference or journal.
-
 Papers must be formatted in AAAI two-column, camera-ready style; please refer to the [AAAI 2022 Author Kit](https://www.aaai.org/Publications/Templates/AuthorKit22.zip) for details. The AAAI copyright block is not required on submissions but must be included on final accepted versions.
 
 Electronic abstract and paper submission through the [HCOMP-22 EasyChair paper submission site](https://easychair.org/conferences/?conf=hcomp22) is required on or before the deadlines listed above. We cannot accept submissions by e-mail or fax. Authors will receive confirmation of receipt of their abstracts or papers, including an ID number, shortly after submission. HCOMP will contact authors again only if problems are encountered with papers. Inquiries regarding paper receipts must be made no later than July 1, 2022.
@@ -68,6 +66,11 @@ Electronic abstract and paper submission through the [HCOMP-22 EasyChair paper s
 All papers must be anonymized (include no information identifying the authors or their institutions) for double-blind peer-review. To ensure fairness, authors should declare any conflicts-of-interest with PC members by selecting the “Declare Conflicts” link on the upper-right of your EasyChair submission page.
 
 Authors are invited, but not required, to include supplemental materials such as executables and data files so that reviewers can reproduce results in the paper, images, additional videos, related papers, more detailed explanations, derivations, or results. These materials will be viewed only at the discretion of the reviewers, who are only obligated to read your paper itself.
+
+<strong>Double Submission Policy:</strong> Papers submitted to the HCOMP conference must represent original work that has not been previously published or under simultaneous peer-review for any other peer-reviewed archival conference or journal. Specifically:
+- Papers that have appeared at a conference with published proceedings constitute previously published work.
+- Papers that overlap other papers that have appeared at a conference with published proceedings must contain significant new results.
+- Papers that have appeared at a workshop do not constitute previously published work, as long as the paper submitted to HCOMP is an extension of the workshop paper. Extensions might include new results, more in-depth analysis, evaluation that was not part of the workshop paper, or further experiments.
 
 ## Reviews
 
