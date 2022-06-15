@@ -49,8 +49,8 @@ Topics of interest include:
 
 ## Important Dates
 ### All times are midnight [AoE](https://time.is/Anywhere_on_Earth)
-- June 17, 2022: Abstract submission (required to submit a full paper)
-- June 24, 2022: Full papers due
+- June 24, 2022: Abstract submission (required to submit a full paper)
+- July 1, 2022: Full papers due
 - August 15, 2022: Notification of acceptance
 - August 29, 2022: Final camera-ready papers due
 - November 6-10, 2022: HCOMP 2022 Online
