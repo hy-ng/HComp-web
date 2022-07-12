@@ -58,7 +58,7 @@
   last_name: Bozzon
   full_name: Alessandro Bozzon
   picture: img/photo/bozzon.jpeg
-  affiliation: Delft University of Technology
+  affiliation: Delft University of Technology (TU Delft)
   website: http://www.wis.ewi.tudelft.nl/bozzon/
 
 - id: suri
@@ -174,8 +174,8 @@
   last_name: Goel
   full_name: Naman Goel
   picture: img/photo/naman.png
-  affiliation: EPFL, Switzerland
-  website: https://lia.epfl.ch/~goel/
+  affiliation: Oxford University
+  website: https://goelnaman.github.io/
 
 - id: law
   steering: HCOMP 2019 Co-Chair
@@ -226,7 +226,7 @@
   last_name: Inel
   full_name: Oana Inel
   picture: img/photo/inel.jpg
-  affiliation: Delft University of Technology
+  affiliation: University of Zurich
   website: https://oana-inel.github.io/
 
 - id: amaral
@@ -398,12 +398,12 @@
   picture: 'img/photo/dow.jpg'
   website: https://spdow.ucsd.edu
 
-- affiliation: Michigan State University
+- affiliation: Syracuse University
   full_name: Joshua Introne
   id: introne
   last_name: Introne
   picture: 'img/photo/JoshuaIntrone.jpg'
-  website: 'https://comartsci.msu.edu/our-people/joshua-e-introne'
+  website: 'https://ischool.syr.edu/joshua-introne/'
 
 - affiliation: Beihang University
   full_name: Hailong Sun
@@ -447,7 +447,7 @@
   picture: 'img/photo/chrislin.jpg'
   website: 'http://christopherhlin.com'
 
-- affiliation: Kyoto University/RIKEN
+- affiliation: Kyoto University
   full_name: Hisashi Kashima
   id: kashima
   last_name: Kashima
@@ -738,16 +738,10 @@
 - id: yang
   full_name: Jie Yang
   last_name: Yang
-  affiliation: Amazon Research
+  affiliation: Delft University of Technology (TU Delft)
   picture: 'img/photo/yang-150.jpg'
-  website: 'http://jyang.me/'
+  website: 'https://yangjiera.github.io/'
 
-- id: yang
-  full_name: Jie Yang
-  last_name: Yang
-  affiliation: Amazon Research
-  picture: 'img/photo/yang-150.jpg'
-  website: 'http://jyang.me/'
 
 - id: bocyte
   full_name: Rasa Bocyte
@@ -879,7 +873,7 @@
 - id: joppenlaender
   full_name: Jonas Oppenlaender
   last_name: Oppenlaender
-  affiliation: FIZ Karlsruhe
+  affiliation: University of Jyväskylä
   picture: 'img/photo/joppenlaender.jpg'
   website: http://www.jonaso.de
 
@@ -1077,3 +1071,136 @@
   picture: 'img/photo/tanu_sm.jpeg'
   website: https://faculty.washington.edu/tmitra/
   keynote: 'keynotes.html#tanumitra'
+
+- id: qili
+  full_name: Qi Li
+  last_name: Li
+  affiliation: Iowa State University
+  picture: 'img/photo/qi_li.jpg'
+  website: https://faculty.sites.iastate.edu/qli/
+
+- id: jingyanwang
+  full_name: Jingyan Wang
+  last_name: Wang
+  affiliation: Georgia Institute of Technology
+  picture: 'img/photo/jingyan_wang.jpg'
+  website: 'https://www.isye.gatech.edu/users/jingyan-wang'
+
+- id: wu
+  full_name: Sherry Wu
+  last_name: Wu
+  affiliation: University of Washington
+  picture: 'img/photo/sherry_wu.jpg'
+  website: 'https://homes.cs.washington.edu/~wtshuang/'
+
+- id: ashktorab
+  full_name: Zahra Ashktorab
+  last_name: Ashktorab
+  affiliation: IBM
+  picture: 'img/photo/zahra_ashktorab.jpg'
+  website: http://zahraashktorab.com/
+
+- id: green
+  full_name: Ben Green
+  last_name: Green
+  affiliation: University of Michigan
+  picture: 'img/photo/ben_green.jpg'
+  website: https://www.benzevgreen.com/
+
+- id: carton
+  full_name: Samuel Carton
+  last_name: Carton
+  affiliation: University of Chicago
+  picture: 'img/photo/samuel_carton.jpg'
+  website: https://shcarton.github.io/
+
+- id: roitero
+  full_name: Kevin Roitero
+  last_name: Roitero
+  affiliation: University of Udine
+  picture: 'img/photo/kevin_roitero.jpg'
+  website: https://kevinroitero.com/
+
+- id: gould
+  full_name: Sandy Gould
+  last_name: Gould
+  affiliation: Cardiff University
+  picture: 'img/photo/sandy_gould.jpg'
+  website: https://www.sjjg.uk/
+
+- id: becker
+  full_name: Joshua Becker
+  last_name: Becker
+  affiliation: University College London
+  picture: 'img/photo/joshua_becker.jpg'
+  website: https://www.joshua-becker.com/
+
+- id: chamberlain
+  full_name: Jon Chamberlain
+  last_name: Chamberlain
+  affiliation: University of Essex
+  picture: 'img/photo/jon_chamberlain.jpg'
+  website: https://www.jonchamberlain.com/
+
+- id: jacques
+  full_name: Jason T. Jacques
+  last_name: Jacques
+  affiliation: City University of London
+  picture: 'img/photo/placeholder.jpg'
+  website: https://jsonj.co.uk/science
+
+- id: sarasua
+  full_name: Cristina Sarasua
+  last_name: Sarasua
+  affiliation: University of Zurich
+  picture: 'img/photo/cristina_sarasua.jpg'
+  website: https://www.ifi.uzh.ch/en/ddis/people/sarasua.html
+
+- id: tajima
+  full_name: Keishi Tajima
+  last_name: Tajima
+  affiliation: Kyoto University
+  picture: 'img/photo/keishi_tajima.jpg'
+  website: http://www.dl.soc.i.kyoto-u.ac.jp/~tajima/
+
+- id: kashima
+  full_name: Hisashi Kashima
+  last_name: Kashima
+  affiliation: Kyoto University
+  picture: 'img/photo/hisashi_kashima.jpg'
+  website: https://hkashima.github.io/index_e.html
+
+- id: benatallah
+  full_name: Boualem Benatallah
+  last_name: Benatallah
+  affiliation: University of New South Wales
+  picture: 'img/photo/boualem_benatallah.jpg'
+  website: https://www.unsw.edu.au/staff/boualem-benatallah
+
+- id: luger
+  full_name: Sarah Luger
+  last_name: Luger
+  affiliation: Orange
+  picture: 'img/photo/sarah_luger.jpg'
+  website: https://www.linkedin.com/in/sarahluger
+
+- id: rhinehart
+  full_name: Olivia Rhinehart
+  last_name: Rhinehart
+  affiliation: Google
+  picture: 'img/photo/placeholder.jpg'
+  website:
+
+- id: juntaowang
+  full_name: Juntao Wang
+  last_name: Wang
+  affiliation: Harvard University
+  picture: 'img/photo/juntao_wang.jpg'
+  website: https://www.linkedin.com/in/juntao-wang
+
+- id: casati
+  full_name: Fabio Casati
+  last_name: Casati
+  affiliation: University of Trento
+  picture: 'img/photo/fabio_casati.jpg'
+  website: https://webapps.unitn.it/du/en/Persona/PER0000761/Pubblicazioni
