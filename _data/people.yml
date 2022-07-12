@@ -447,13 +447,6 @@
   picture: 'img/photo/chrislin.jpg'
   website: 'http://christopherhlin.com'
 
-- affiliation: Kyoto University
-  full_name: Hisashi Kashima
-  id: kashima
-  last_name: Kashima
-  picture: 'img/photo/kashima.jpg'
-  website: 'http://www.geocities.co.jp/kashi_pong/index_e.html'
-
 - affiliation: Northwestern University
   steering: HCOMP 2015 Co-Chair
   full_name: Elizabeth Gerber
