@@ -284,8 +284,8 @@ Please contact the Works-in-progress and Demonstration Co-Chairs if you have any
 
 ## IMPORTANT DATES
 
-- August 5: Doctoral Consortium applications due (anywhere on earth)
-- August 29: Doctoral Consortium notifications sent
+- August 22: Doctoral Consortium applications due (anywhere on earth)
+- September 5: Doctoral Consortium notifications sent
 - November 6: Doctoral Consortium at HCOMP-22
 
 ## OBJECTIVE
