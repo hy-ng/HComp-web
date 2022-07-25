@@ -410,7 +410,7 @@
   id: sun
   last_name: Sun
   picture: 'img/photo/sun.jpg'
-  website: 'http://act.buaa.edu.cn/hsun/'
+  website: http://shi.buaa.edu.cn/sunhailong/en
 
 - affiliation: Harvard University
   full_name: Berk Ustun
@@ -966,7 +966,7 @@
   last_name: Purohit
   affiliation: George Mason University
   picture: 'img/photo/hpurohit.jpg'
-  website: http://ist.gmu.edu/~hpurohit
+  website: https://www.gmu.edu/profiles/hpurohit
 
 - id: seidyimam
   full_name: Seid Muhie Yimam
@@ -1178,11 +1178,11 @@
   website: https://www.linkedin.com/in/sarahluger
 
 - id: rhinehart
-  full_name: Olivia Rhinehart
+  full_name: Olivia (Rhinehart) Redfield
   last_name: Rhinehart
   affiliation: Google
-  picture: 'img/photo/placeholder.jpg'
-  website:
+  picture: 'img/photo/olivia_rhinehart.jpg'
+  website: https://www.linkedin.com/in/oliviarhinehart
 
 - id: juntaowang
   full_name: Juntao Wang
