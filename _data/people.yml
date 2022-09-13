@@ -1138,8 +1138,8 @@
 - id: jacques
   full_name: Jason T. Jacques
   last_name: Jacques
-  affiliation: City University of London
-  picture: 'img/photo/placeholder.jpg'
+  affiliation: University of St Andrews
+  picture: 'img/photo/jason_jacques.jpg'
   website: https://jsonj.co.uk/science
 
 - id: sarasua
