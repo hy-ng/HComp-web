@@ -192,6 +192,7 @@
   picture: img/photo/jenn.png
   affiliation: Microsoft Research, New York, USA
   website: http://www.jennwv.com/
+  keynote: 'keynotes.html#vaughan'
 
 - id: aroyo
   last_name: Aroyo
@@ -494,6 +495,7 @@
   last_name: Bigham
   picture: 'img/photo/bigham.jpeg'
   website: 'https://www.jeffreybigham.com'
+  keynote: 'keynotes.html#bigham'
 
 - affiliation: IBM
   full_name: Anbang Xu
@@ -1197,3 +1199,11 @@
   affiliation: University of Trento
   picture: 'img/photo/fabio_casati.jpg'
   website: https://webapps.unitn.it/du/en/Persona/PER0000761/Pubblicazioni
+
+- id: scooper
+  affiliation: Northeastern University
+  full_name: Seth Cooper
+  last_name: Cooper
+  picture: 'img/photo/scooper.jpg'
+  website: 'https://www.khoury.northeastern.edu/people/seth-cooper/'
+  keynote: 'keynotes.html#scooper'
