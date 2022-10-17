@@ -35,7 +35,6 @@ redirect_from:
 
           <p class="lead">
             The 10th AAAI Conference on Human Computation and Crowdsourcing (HCOMP 2022) will be held November 6-10th as a virtual conference.
-
           </p>
 
           <p class="lead">
@@ -68,8 +67,6 @@ redirect_from:
             (2009–2010).
           </p>
 
-<!--          <p class="lead"><b><i>Looking for a new job? Check out the open positions from our sponsors <a class="theme-link" href="/open-positions-sponsors.html">here</a>!</i></b></p>-->
-
         </div>
 
         <div class="intro-paragraph">
@@ -80,26 +77,33 @@ redirect_from:
               </h2>
             </li>
           </ul>
-<!--          <p class="lead">-->
-<!--            We are pleased to announce six fantastic keynote speakers:-->
-<!--          </p>-->
           <div class="container keynotes">
             {% assign people = site.data.keynotes[page.year] %}
             {% include people.html people=people narrow=true keynote=true%}
           </div>
+        </div>
+
+        <div class="intro-paragraph">
+          <ul class="list-inline">
+            <li>
+              <h2 class="section-heading">
+                Crowdsourcing and Responsible AI Panel
+              </h2>
+            </li>
+          </ul>
+          <div class="container keynotes">
+            {% assign people = site.data.crowdsourcing_responsible_ai_panel[page.year] %}
+            {% include people.html people=people narrow=true%}
+          </div>
+        </div>
+
       </div>
-      </div>
-    </div>
     </div>
 
     <div class="col-md-3">
       <div class="sidebar-container">
         <p class="sub-heading">Important Dates</p>
         <p class="subheader">All times are midnight <a class="theme-link" href="https://time.is/Anywhere_on_Earth">AoE</a></p>
-        <p class="important-date">September 20, 2022</p>
-        <p style="font-weight:400;">Notification of acceptance (WiP and Demo papers)</p>
-        <p class="important-date">October 7, 2022</p>
-        <p style="font-weight:400;">CrowdCamp applications due</p>
 
         <!--p class="important-date">June 26, 2020</p>
         <p style="font-weight:400;"><strike>Workshop topic descriptions due</strike></p>

@@ -1207,3 +1207,17 @@
   picture: 'img/photo/scooper.jpg'
   website: 'https://www.khoury.northeastern.edu/people/seth-cooper/'
   keynote: 'keynotes.html#scooper'
+
+- id: gajos
+  last_name: Gajos
+  full_name: Krzysztof Gajos
+  picture: img/photo/gajos.jpg
+  affiliation: Harvard University
+  website: http://www.eecs.harvard.edu/~kgajos/
+
+- id: weller
+  last_name: Weller
+  full_name: Adrian Weller
+  picture: img/photo/weller.jpg
+  affiliation: University of Cambridge
+  website: http://mlg.eng.cam.ac.uk/adrian/
