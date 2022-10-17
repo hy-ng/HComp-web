@@ -26,7 +26,7 @@
   {% else %}
     {% assign remainder = forloop.index | minus: 1 | modulo: 4 %}
   {% endif %}
-  {% if remainder == 0 %}
+  {% if forloop.first %}
     <div class="row profile-row">
   {% endif %}
 
@@ -58,16 +58,7 @@
     <div class="col-md-1"></div>
   {% endif %}
 
-  {% if include.narrow %}
-    <!-- include narrow !-->
-    {% if remainder == 5 forloop.last %}
-      <!-- remainder 5 because 6 speakers !-->
-      </div>
-    {% endif %}
-  {% else %}
-    {% if remainder == 3 forloop.last %}
-      <!-- remainder 3 !-->
-      </div>
-    {% endif %}
+  {% if forloop.last %}
+    </div>
   {% endif %}
 {% endfor %}

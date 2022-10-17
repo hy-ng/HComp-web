@@ -67,10 +67,9 @@ redirect_from:
             Works-in-Progress and Demonstrations
           </h2>
 
-<!--          <h3 id="wip-a" href="#wip-a">-->
-<!--            Group A</h3>-->
+          <h3 id="wip-a" href="#wip-a">Group A</h3>
 
-          {% assign sorted = site.data.accepted[2022].wip | sort: 'title' %} {%
+          {% assign sorted = site.data.accepted[2022].wip.groupa | sort: 'title' %} {%
           for paper in sorted %}
           <b>
             {% if paper.link %}
@@ -88,6 +87,27 @@ redirect_from:
             </li>
           </ul>
           {% endfor %}
+
+          <h3 id="wip-a" href="#wip-a">Group B</h3>
+
+          {% assign sorted = site.data.accepted[2022].wip.groupb | sort: 'title' %} {%
+            for paper in sorted %}
+            <b>
+              {% if paper.link %}
+              <a class="theme-link" target="_blank" href= "{{ paper.link }}" >{{ paper.title }}</a>
+              {% else %}
+              {{ paper.title }}
+              {% endif %}
+            </b>
+            {% if paper.video %}
+            (<a class="theme-link" target="_blank" href="{{ paper.video }}">video</a>)
+            {% endif %}
+            <ul class="nobullet">
+              <li>
+                {{ paper.authors }}
+              </li>
+            </ul>
+            {% endfor %}
         </div>
       </div>
     </div>
