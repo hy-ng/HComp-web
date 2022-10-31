@@ -497,37 +497,69 @@
     groupa:
     - authors: "Suraj Mandal, Sujoy Chatterjee and Anirban Mukhopadhyay"
       title: "A Quantum Inspired Genetic Algorithm for Weighted Constrained Crowd Judgement Analysis"
+      id: 1331
+      link: assets/wips_demos/HCOMP_2022_paper_1331.pdf
     - authors: "Kai Kida, Hiroyoshi Ito, Masaki Matsubara, Nobutaka Suzuki and Atsuyuki Morishima"
       title: "Aggregating Crowd Intelligence over Open Source Information: An Inference Rule Centric Approach"
+      id: 1583
+      link: assets/wips_demos/HCOMP_2022_paper_1583.pdf
     - authors: "Yuri Nakao"
       title: "Toward Human-in-the-Loop AI fairness with Crowdsourcing: Effects of Crowdworkers' Characteristics and Fairness Metrics on AI Fairness Perception"
+      id: 2733
+      link: assets/wips_demos/HCOMP_2022_paper_2733.pdf
     - authors: "Daniil Likhobaba, Daniil Fedulov and Dmitry Ustalov"
       title: "Clustering and Evaluating Without Knowing How To: A Case Study of Fashion Datasets"
+      id: 3651
+      link: assets/wips_demos/HCOMP_2022_paper_3651.pdf
     - authors: "Shih-Hong Huang, Chieh-Yang Huang, Yuxin Deng, Hua Shen, Szu-Chi Kuan and Ting-Hao Kenneth Huang"
       title: "Too Slow to Be Useful? On Incorporating Humans in the Loop of Smart Speakers"
+      id: 7197
+      link: assets/wips_demos/HCOMP_2022_paper_7197.pdf
     - authors: "Tianyi Li, Ping Wang, Tian Shi and Andrey Esakia"
       title: "Exploring the Impact of Sub-Task Inter-Dependency on Crowdsourced Event Annotation"
+      id: 5907
+      link: assets/wips_demos/HCOMP_2022_paper_5907.pdf
     - authors: "Peter Ebert Christensen, Frederik Warburg, Menglin Jia and Serge Belongie"
       title: "Searching for Structure in Unfalsifiable Claims"
+      id: 8064
+      link: assets/wips_demos/HCOMP_2022_paper_8064.pdf
     - authors: "Seunggun Lee, Alexandra DeLucia, Ryan Guan, Rubing Li, Nikita Nangia, Shalaka Vaidya, Lining Zhang, Zijun Yuan, Praneeth Ganedi, Britney Ngaw, Aditya Singhal and João Sedoc"
       title: "Common Law Annotations: Investigating the Stability of Dialog Annotations"
+      id: 9023
+      link: assets/wips_demos/HCOMP_2022_paper_9023.pdf
     groupb:
     - authors: "Yunyi Xiao, Yu Yamashita, Hiroyoshi Ito, Masaki Matsubara and Atsuyuki Morishima"
       title: "Multi-Armed Bandit Approach to Task Assignment across Multi Crowdsourcing Platforms"
+      id: 407
+      link: assets/wips_demos/HCOMP_2022_paper_407.pdf
     - authors: "Chris Madge, Fatima Althani, Jussi Brightmore, Doruk Kicikoglu, Richard Bartle, Jon Chamberlain, Udo Kruschwitz and Massimo Poesio"
       title: "A Virtual World Game For Natural Language Annotation"
+      id: 612
+      link: assets/wips_demos/HCOMP_2022_paper_612.pdf
     - authors: "Mahuya Soe, Sujoy Chatterjee and Anirban Mukhopadhyay"
       title: "Crowdsourcing-based Feedback Analysis on Educational Management"
+      id: 1715
+      link: assets/wips_demos/HCOMP_2022_paper_1715.pdf
     - authors: "Yudai Kato, Marie Katsurai and Keishi Tajima"
       title: "Worker Qualifications for Image-Aesthetic-Assessment Tasks in Crowdsourcing"
+      id: 7980
+      link: assets/wips_demos/HCOMP_2022_paper_7980.pdf
     - authors: "Shaochen Yu, Lei Han, Marta Indulska, Shazia Sadiq and Gianluca Demartini"
       title: "Data-Scanner-4C: Format Inconsistency Identification by Means of Crowdsourcing"
+      id: 901
+      link: assets/wips_demos/HCOMP_2022_paper_901.pdf
     - authors: "Won Ik Cho, Yoon Kyung Lee, Seoyeon Bae, Jihwan Kim, Sangah Park, Moosung Kim, Sowon Hahn and Nam Soo Kim"
       title: "When Crowd Meets Persona: Creating a Large-Scale Open-Domain Persona Dialogue Corpus"
+      id: 4972
+      link: assets/wips_demos/HCOMP_2022_paper_4972.pdf
     - authors: "Katherine Collins, Umang Bhatt, Weiyang Liu, Bradley Love and Adrian Weller"
       title: "Human-in-the-loop mixup"
+      id: 6400
+      link: assets/wips_demos/HCOMP_2022_paper_6400.pdf
     - authors: "Jarvis Tse, Alex C. Williams, Joslin Goh, Timothy Player, James H. Brusuelas and Edith Law"
       title: "Mia: A Web Platform for Mixed-Initiative Annotation"
+      id: 9101
+      link: assets/wips_demos/HCOMP_2022_paper_9101.pdf
   doc:
     - authors: "Claudia Flores-Saviaga"
       title: "Organizing Crowds to Detect Manipulative Content"
