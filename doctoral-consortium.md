@@ -28,6 +28,7 @@ Each presentation will consist of a 5-minute presentation (from pre-recorded vid
 &nbsp;| Shaochen Yu || From the Lab to the Crowd: Hybrid Human-Machine Systems to Support Novice Data Workers in Data Quality Tasks |
 &nbsp;| Holly Rosser || What the Tech? Understanding How Technology Supports Learning In Citizen Science |
 &nbsp;| Senjuti Dutta || Supporting Multi-device Work Practices in Crowdwork |
+&nbsp;| Matthew Swindall || Crowdsourcing Image Datasets: An Examination of Ground-Truth in Labeling, Text Segmentation, & Sampling Bias |
 
 <br/>
 
