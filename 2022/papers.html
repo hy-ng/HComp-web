@@ -1,0 +1,115 @@
+---
+layout: base
+title: Accepted Papers
+year: 2022
+redirect_from:
+  - /2022/papers.html
+---
+
+<!-- Header -->
+<div class="submit-header">
+  <div class="intro-message"></div>
+</div>
+
+<!-- Page Content -->
+
+<div class="container">
+  <div class="row"></div>
+</div>
+
+<div class="container">
+  <div class="intro-text">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="intro-paragraph lead">
+          <h2 id="full" class="section-heading">Papers</h2>
+          
+          {% assign sorted = site.data.accepted[2022].full | sort: 'title' %} {%
+          for paper in sorted %}
+          <b>
+          {% if paper.link %}
+              <a class="theme-link" href= "{{ paper.link }}" >{{ paper.title }}</a>
+          {% else %}
+              {{ paper.title }}
+          {% endif %}
+          </b>
+          {% if paper.video %}
+          (<a href="{{ paper.video }}" class="theme-link" target="_blank">video</a>)
+          {% endif %}
+          <ul class="nobullet">
+            <li>
+              {{ paper.authors }}
+            </li>
+          </ul>
+          {% endfor %}
+
+          <h2 id="dc" class="section-heading">Doctoral Consortium</h2>
+          {% assign sorted = site.data.accepted[2022].doc | sort: 'title' %} {%
+          for paper in sorted %}
+          <b>
+            {% if paper.link %}
+            <a class="theme-link" href= "{{ paper.link }}" target="_blank">{{ paper.title }}</a>
+            {% else %}
+            {{ paper.title }}
+            {% endif %}
+          </b>
+          {% if paper.video %}
+          (<a class="theme-link" target="_blank" href="{{ paper.video }}">video</a>)
+          {% endif %}
+          <ul class="nobullet">
+            <li>
+              {{ paper.authors }}
+            </li>
+          </ul>
+          {% endfor %}
+
+          <h2 id="wip" class="section-heading">
+            Works-in-Progress and Demonstrations
+          </h2>
+
+          <h3 id="wip-a" href="#wip-a">Group A</h3>
+
+          {% assign sorted = site.data.accepted[2022].wip.groupa | sort: 'title' %} {%
+          for paper in sorted %}
+          <b>
+            {% if paper.link %}
+            <a class="theme-link" target="_blank" href= "{{ paper.link }}" >{{ paper.title }}</a>
+            {% else %}
+            {{ paper.title }}
+            {% endif %}
+          </b>
+          {% if paper.video %}
+          (<a class="theme-link" target="_blank" href="{{ paper.video }}">video</a>)
+          {% endif %}
+          <ul class="nobullet">
+            <li>
+              {{ paper.authors }}
+            </li>
+          </ul>
+          {% endfor %}
+
+          <h3 id="wip-b" href="#wip-a">Group B</h3>
+
+          {% assign sorted = site.data.accepted[2022].wip.groupb | sort: 'title' %} {%
+            for paper in sorted %}
+            <b>
+              {% if paper.link %}
+              <a class="theme-link" target="_blank" href= "{{ paper.link }}" >{{ paper.title }}</a>
+              {% else %}
+              {{ paper.title }}
+              {% endif %}
+            </b>
+            {% if paper.video %}
+            (<a class="theme-link" target="_blank" href="{{ paper.video }}">video</a>)
+            {% endif %}
+            <ul class="nobullet">
+              <li>
+                {{ paper.authors }}
+              </li>
+            </ul>
+            {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

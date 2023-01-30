@@ -1,0 +1,100 @@
+---
+layout: base
+title: Organizers
+year: 2022
+redirect_from:
+- /2022/organizers.html
+---
+<!-- Header -->
+<div class="organizers-header">
+  <div class="intro-message"></div>
+</div>
+
+<!-- Page Content -->
+
+<div class="container">
+  <h1 class="sub-page-header">Conference Organizers</h1>
+  <div class="sub-page-border"></div>
+</div>
+<div class="container organizers">
+  <h2 class="organizer-name">Conference Co-Chairs</h2>
+    <p class="lead" style="text-align:center">Contact: <a class="theme-link"
+        href="mailto:hcompconference@gmail.com">hcompconference@gmail.com</a></p>
+    {% assign people = site.data.chairs[page.year].general %}
+    {% include people.html people=people %}
+</div>
+<!--div class="container organizers">
+  <h2 class="organizer-name">Conference Local Chair</h4>
+    {% assign people = site.data.chairs[page.year].local %}
+    {% include people.html people=people %}
+</div-->
+<!--div class="container organizers">
+  <h2 class="organizer-name">Blue Sky Papers Co-Chairs</h4>
+    {% assign people = site.data.bluesky_chairs[page.year] %}
+    {% include people.html people=people %}
+</div-->
+<div class="container organizers">
+  <h2 class="organizer-name">Works-in-progress & Demonstrations Co-Chairs</h2>
+    {% assign people = site.data.wip_chairs[page.year] %}
+    {% include people.html people=people %}
+</div>
+<!--div class="container organizers">
+  <h2 class="organizer-name">Workshops Co-Chairs</h4>
+    {% assign people = site.data.workshop_chairs[page.year] %}
+    {% include people.html people=people %}
+</div-->
+<div class="container organizers">
+  <h2 class="organizer-name">Doctoral Consortium Co-Chairs</h2>
+    {% assign people = site.data.doc_cons_chairs[page.year] %}
+    {% include people.html people=people %}
+</div>
+<div class="container organizers">
+  <h2 class="organizer-name">Industry & Sponsorships Co-Chairs</h2>
+    {% assign people = site.data.industry_chairs[page.year] %}
+    {% include people.html people=people %}
+</div>
+<div class="container organizers">
+  <h2 class="organizer-name">Social Media and Publicity Co-Chairs</h2>
+    {% assign people = site.data.socialmedia_chairs[page.year] %}
+    {% include people.html people=people %}
+</div>
+<div class="container organizers">
+  <h2 class="organizer-name">CrowdCamp Co-Chairs</h2>
+    {% assign people = site.data.crowdcamp_chairs[page.year].chairs %}
+    {% include people.html people=people %}
+</div>
+<!--div class="container organizers">
+  <h2 class="organizer-name">CrowdCamp Support Team</h4>
+    {% assign people = site.data.crowdcamp_chairs[page.year].support %}
+    {% include people.html people=people %}
+</div-->
+<div class="container organizers">
+  <h2 class="organizer-name">Technology Co-Chairs</h2>
+    {% assign people = site.data.technology_chairs[page.year] %}
+    {% include people.html people=people %}
+</div>
+<div class="container organizers">
+  <h2 class="organizer-name">Website Co-Chairs</h2>
+    {% assign people = site.data.website_chairs[page.year] %}
+    {% include people.html people=people %}
+</div>
+<div class="container organizers">
+  <h2 class="organizer-name">Social & Engagement Co-Chair</h2>
+    {% assign people = site.data.social_engagement_chairs[page.year] %}
+    {% include people.html people=people %}
+</div>
+<div class="container organizers">
+  <h2 class="organizer-name">Associate Chairs</h2>
+    {% assign people = site.data.associate_chairs[page.year] %}
+    {% include people.html people=people %}
+</div>
+<div class="container organizers">
+  <h2 class="organizer-name">Program Committee</h2>
+    {% assign people = site.data.pc[page.year] %}
+    {% include people.html people=people %}
+</div>
+<div class="container organizers">
+  <h2 class="organizer-name">Conference Steering Committee (2022-2023)</h2>
+    {% assign people = site.data.steering[page.year] %}
+    {% include people.html people=people steering=true%}
+</div>
