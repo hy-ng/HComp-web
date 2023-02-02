@@ -5,6 +5,13 @@
   affiliation: Northeastern University / Clemson University
   website: https://www.carlostoxtli.com/
 
+- id: sayin
+  last_name: Sayin
+  full_name: Burcu Sayin
+  picture: img/photo/sayin.jpg
+  affiliation: University of Trento
+  website: https://burcusayin.github.io/
+
 - id: rechkemmer
   last_name: Rechkemmer
   full_name: Amy Rechkemmer
@@ -60,6 +67,15 @@
   picture: img/photo/bozzon.jpeg
   affiliation: Delft University of Technology (TU Delft)
   website: http://www.wis.ewi.tudelft.nl/bozzon/
+
+
+- id: bernstein
+  last_name: Bernstein
+  full_name: Michael Bernstein
+  picture: img/photo/bernstein.jpeg
+  affiliation: Stanford University
+  website: https://engineering.stanford.edu/people/michael-bernstein
+
 
 - id: suri
   last_name: Suri
