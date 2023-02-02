@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Submit
-year: 2022
+year: 2023
 ---
 
 # Call for Submissions
@@ -19,7 +19,7 @@ year: 2022
 
 ## OVERVIEW
 
-HCOMP is the home of the human computation and crowdsourcing community. It is the premier venue for presenting the latest findings from research and practice into frameworks, methods, and systems that bring together people and machine intelligence to achieve better results.
+HCOMP is the home of the human computation and crowdsourcing community. It is the premier venue for presenting the latest findings from research and practice into frameworks, methods, and systems that bring together people and machine intelligence to achieve better results. 
 
 While artificial intelligence (AI) and human-computer interaction (HCI) represent traditional mainstays of the conference, HCOMP believes strongly in fostering and promoting broad, interdisciplinary research. Our field is particularly unique in the diversity of disciplines it draws upon and contributes to, including human-centered qualitative studies and HCI design, social computing, artificial intelligence, economics, computational social science, digital humanities, policy, and ethics. We promote the exchange of advances in human computation and crowdsourcing not only among researchers but also engineers and practitioners, to encourage dialogue across disciplines and communities of practice.
 
@@ -49,19 +49,19 @@ Topics of interest include:
 
 ## Important Dates
 ### All times are midnight [AoE](https://time.is/Anywhere_on_Earth)
-- June 24, 2022: Abstract submission (required to submit a full paper)
-- July 1, 2022: Full papers due
-- August 15, 2022: Notification of acceptance
-- August 29, 2022: Final camera-ready papers due
-- November 6-10, 2022: HCOMP 2022 Online
+- June 2, 2023: Abstract submission (required to submit a full paper)
+- June 9, 2023: Full papers due
+- TBD: Notification of acceptance
+- TBD: Final camera-ready papers due
+- November 6-10, 2023: HCOMP 2023 Delft University of Technology
 
 ## Submission
 
 Authors are invited to submit papers of up to 10 pages, plus any number of additional pages containing references only.
 
-Papers must be formatted in AAAI two-column, camera-ready style; please refer to the [AAAI 2022 Author Kit](https://www.aaai.org/Publications/Templates/AuthorKit22.zip) for details. The AAAI copyright block is not required on submissions but must be included on final accepted versions.
+Papers must be formatted in AAAI two-column, camera-ready style; please refer to the [AAAI 2023 Author Kit](https://www.aaai.org/Publications/Templates/AuthorKit23.zip) for details. The AAAI copyright block is not required on submissions but must be included on final accepted versions.
 
-Electronic abstract and paper submission through the [HCOMP-22 EasyChair paper submission site](https://easychair.org/conferences/?conf=hcomp22) is required on or before the deadlines listed above. We cannot accept submissions by e-mail or fax. Authors will receive confirmation of receipt of their abstracts or papers, including an ID number, shortly after submission. HCOMP will contact authors again only if problems are encountered with papers. Inquiries regarding paper receipts must be made no later than July 1, 2022.
+Electronic abstract and paper submission through the [HCOMP-23 EasyChair paper submission site](https://easychair.org/conferences/?conf=hcomp23) is required on or before the deadlines listed above. We cannot accept submissions by e-mail or fax. Authors will receive confirmation of receipt of their abstracts or papers, including an ID number, shortly after submission. HCOMP will contact authors again only if problems are encountered with papers. Inquiries regarding paper receipts must be made no later than June 9, 2023.
 
 All papers must be anonymized (include no information identifying the authors or their institutions) for double-blind peer-review. To ensure fairness, authors should declare any conflicts-of-interest with PC members by selecting the “Declare Conflicts” link on the upper-right of your EasyChair submission page.
 
@@ -88,13 +88,21 @@ Accepted papers will also be listed on the conference website.
 
 ## Presenting your paper
 
-If your paper is accepted, you will be invited to present it at HCOMP 2022. 
+If your paper is accepted, you will be invited to present it at HCOMP 2023. 
 
 As noted earlier, at least one author of each accepted paper must register for the main conference to present the work or acceptance will be withdrawn. The deadline for that is the same as the camera-ready deadline.
 
 ## Paper awards
 
-HCOMP 2022 will recognize one best paper and two runner-ups. Reviewers will be asked to flag papers they deem worthy of a prize. The general chairs will set up a small panel that will read the papers, consider the comments of the reviewers and assess the talk to determine the winners.
+HCOMP 2023 will recognize one best paper and two runner-ups. Reviewers will be asked to flag papers they deem worthy of a prize. The general chairs will set up a small panel that will read the papers, consider the comments of the reviewers and assess the talk to determine the winners.
+
+
+
+
+
+<!-- burcu - hide the rest for now  -->
+<!--
+
 
 
 [//]: # (# CALL FOR BLUE SKY IDEAS)
@@ -342,7 +350,7 @@ Your paper should be no more than 4 pages in total: 3 pages for the Doctoral Res
 
 ## FORMATTING
 
-Papers must be formatted in AAAI two-column, camera-ready style; please refer to the AAAI 2022 Author Kit for details. Papers must be in trouble-free, high-resolution PDF format, formatted for US Letter (8.5” x 11”) paper, using Type 1 or TrueType fonts. It is the responsibility of the student to ensure that their submission uses no unusual formatting and is printable on a standard printer. The AAAI copyright block is not required for works-in-progress or demo submissions, as they are not included in the formal proceedings. Please see below for information regarding dissemination.
+Papers must be formatted in AAAI two-column, camera-ready style; please refer to the AAAI 2023 Author Kit for details. Papers must be in trouble-free, high-resolution PDF format, formatted for US Letter (8.5” x 11”) paper, using Type 1 or TrueType fonts. It is the responsibility of the student to ensure that their submission uses no unusual formatting and is printable on a standard printer. The AAAI copyright block is not required for works-in-progress or demo submissions, as they are not included in the formal proceedings. Please see below for information regarding dissemination.
 
 ## SUBMISSION
 
@@ -365,9 +373,9 @@ Please feel free to direct all questions or comments to the following email addr
 &nbsp;
 {:.sub-page-border}
 
-- **Workshop Day:** November 6th, 2022
+- **Workshop Day:** TBD
 
-- **Submission Deadline:** October 7th, 2022
+- **Submission Deadline:** TBD
 
 <img src="/img/hcomp22-crowdcamp.jpg" alt="Detroit Industry, North Wall fresco by Diego M. Rivera" width="100%"/>
 
@@ -406,6 +414,8 @@ The workshop day will focus on developing a research project (whether that’s a
 ## Contact
 - Saiph Savage (Northeastern University & UNAM), s.savage@northeastern.edu
 - Anhong Guo (University of Michigan), anhong@umich.edu
+
+-->
 
 
 
