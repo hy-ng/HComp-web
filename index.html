@@ -1,6 +1,6 @@
 ---
 layout: base
-year: 2022
+year: 2023
 redirect_from:
 - /2022/
 ---
@@ -16,7 +16,7 @@ redirect_from:
     </p>
     <p class="intro-header-sub-heading">
       <i class="fa fa-calendar icon-font"></i>&nbsp;&nbsp;November 6&ndash;10, 2023&nbsp;&nbsp;
-      <i class="fa fa-map-marker icon-font"></i>&nbsp;&nbsp;Virtual
+      <i class="fa fa-map-marker icon-font"></i>&nbsp;&nbsp;Delft, Netherlands
       <i class="fa fa-twitter icon-font"></i>&nbsp;&nbsp;<a class="text-white"
         href="https://twitter.com/hcomp_conf">@hcomp_conf</a> &ndash; <a class="text-white"
         href="https://twitter.com/search?q=%23hcomp2021">#HCOMP2023</a>
@@ -62,40 +62,14 @@ redirect_from:
 
           <p class="lead">
             HCOMP 2023 builds on a successful history of <a class="theme-link" href="past%20meetings.html"> past
-            meetings</a>: nine HCOMP conferences (2013–2021) and four earlier workshops, held at the AAAI Conference
+            meetings</a>: nine HCOMP conferences (2013–2022) and four earlier workshops, held at the AAAI Conference
             on Artificial Intelligence (2011–2012), and the ACM SIGKDD Conference on Knowledge Discovery and Data Mining
             (2009–2010).
           </p>
 
         </div>
 
-        <div class="intro-paragraph">
-          <ul class="list-inline">
-            <li>
-              <h2 class="section-heading">
-                <a class="theme-link" href="keynotes.html">Keynote Speakers</a>
-              </h2>
-            </li>
-          </ul>
-          <div class="container keynotes">
-            {% assign people = site.data.keynotes[page.year] %}
-            {% include people.html people=people narrow=true keynote=true%}
-          </div>
-        </div>
 
-        <div class="intro-paragraph">
-          <ul class="list-inline">
-            <li>
-              <h2 class="section-heading">
-                <a class="theme-link" href="panels.html">Crowdsourcing and Responsible AI Panel</a>
-              </h2>
-            </li>
-          </ul>
-          <div class="container keynotes">
-            {% assign people = site.data.crowdsourcing_responsible_ai_panel[page.year] %}
-            {% include people.html people=people narrow=true%}
-          </div>
-        </div>
 
       </div>
     </div>
