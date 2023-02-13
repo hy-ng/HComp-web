@@ -51,8 +51,8 @@ Topics of interest include:
 ### All times are midnight [AoE](https://time.is/Anywhere_on_Earth)
 - June 2, 2023: Abstract submission (required to submit a full paper)
 - June 9, 2023: Full papers due
-- TBD: Notification of acceptance
-- TBD: Final camera-ready papers due
+- August 7, 2023: Notification of acceptance
+- August 28, 2023: Final camera-ready papers due
 - November 6-10, 2023: HCOMP 2023 Delft University of Technology
 
 ## Submission
@@ -228,6 +228,8 @@ HCOMP 2023 will recognize one best paper and two runner-ups. Reviewers will be a
 
 [//]: # (- Alexander Quinn, aq@purdue.edu)
 
+-->
+
 # CALL FOR WORKS-IN-PROGRESS (WiP) AND DEMONSTRATION PAPERS
 {:.sub-page-header}
 {:#wip}
@@ -235,9 +237,10 @@ HCOMP 2023 will recognize one best paper and two runner-ups. Reviewers will be a
 {:.sub-page-border}
 
 ## Important Dates
-- August 29: Works-in-Progress Papers and Demonstration papers due (23:59 AoE)
-- September 20: WiP and Demo notifications sent
-- October 7: WiP and Demo camera-ready papers due
+- July 30: Works-in-Progress Papers and Demonstration papers due (23:59 AoE)
+- August 21: WiP and Demo notifications sent
+
+<!--[//]: # (- October 7: WiP and Demo camera-ready papers due)-->
 
 ## Overview
 
@@ -256,7 +259,7 @@ A demonstration is a high-visibility, high-impact forum of the HCOMP program tha
 
 ## Submission
 
-Submissions must be done via the HCOMP-22 EasyChair Website under the Works-in-Progress and Demonstration track. Submissions to Easychair are required on or before the deadline listed above. We cannot accept submissions by e-mail or fax. Authors will receive confirmation of receipt of their submissions, including an ID number, shortly after submission. HCOMP will contact authors again only if problems are encountered with papers.
+Submissions must be done via the HCOMP-23 EasyChair Website under the Works-in-Progress and Demonstration track. Submissions to Easychair are required on or before the deadline listed above. We cannot accept submissions by e-mail or fax. Authors will receive confirmation of receipt of their submissions, including an ID number, shortly after submission. HCOMP will contact authors again only if problems are encountered with papers.
 
 ### Length
 
@@ -278,11 +281,13 @@ Authors should include information identifying themselves and their institutions
 
 Accepted papers will NOT be included in official conference proceedings, and so could be submitted later to other conferences or journals for official publication. Accepted papers will be made available online on the conference website.
 
+<!--
 ## Contacts
 
 Please contact the Works-in-progress and Demonstration Co-Chairs if you have any questions.
 - Ting-Hao 'Kenneth' Huang, at txh710@psu.edu
 - Jahna Otterbacher, at jahna.otterbacher@ouc.ac.cy
+
 
 # CALL FOR DOCTORAL CONSORTIUM
 {:.sub-page-header}
