@@ -36,7 +36,7 @@ All times are midnight [AoE](https://time.is/Anywhere_on_Earth)
 
 ## SUBMISSION PROCESS
 
-We are thrilled to announce that the joint organization of CI and HCOMP will provide authors with the opportunity to access the best aspects of both conferences. With this collaboration, In addition to full papers, HCOMP will now accept extended abstracts for talks at the main conference. This change encourages social science researchers to participate and share their work. Meanwhile, CI will now enable authors to publish their papers archivally, thereby enhancing the conference's academic value. We believe this collaboration will enable authors to showcase their work more effectively and contribute to advancing the fields of human computation, crowdsourcing,  and computational intelligence.
+We are thrilled to announce that the joint organization of CI and HCOMP will provide authors with the opportunity to access the best aspects of both conferences. With this collaboration, HCOMP will now allow authors to publish their accepted papers as extended abstracts if desired so that they can submit their work elsewhere for archival publication, while retaining a presentation at the conference. This change encourages social science researchers to participate and share their work. Meanwhile, CI will now enable authors to publish their papers archivally, thereby enhancing the conference's academic value. We believe this collaboration will enable authors to showcase their work more effectively and contribute to advancing the fields of human computation, crowdsourcing,  and computational intelligence.
 
 To present a talk at the CI or HCOMP conference, authors must submit a full paper for review by the program committee. Accepted papers will be granted a presentation at the conference. Therefore, submitting a full paper is a mandatory requirement for authors who wish to present their work at the conference. 
 
@@ -80,6 +80,34 @@ Authors are invited to submit papers of up to 10 pages, plus any number of addit
 Authors are invited, but not required, to include supplemental materials such as executables and data files so that reviewers can reproduce results in the paper, images, additional videos, related papers, more detailed explanations, derivations, or results. These materials will be viewed only at the discretion of the reviewers, who are only obligated to read your paper itself.
 
 Authors will be required to transfer copyright of their paper to AAAI. Accepted full papers will be published in the HCOMP conference proceedings and included in the AAAI Digital Library.
+
+## SUBMISSIONS TO COLLECTIVE INTELLIGENCE
+
+[Submit to Collective Intelligence using Easychair here.](#)
+
+ <ins>**Topics**</ins>
+
+ACM Collective Intelligence has a transdisciplinary focus devoted to advancing the theoretical and empirical understanding of collective performance in diverse systems, including human organizations, hybrid AI-human teams, computer networks, adaptive matter, cellular systems, neural circuits, animal societies, nanobot swarms, and others. Contributions may include principles that apply across scales, as well as new ways of harnessing the collective to improve social, ecological, and economic outcomes. 
+
+Collective intelligence has typically published a broad range of work across the social and behavioral sciences and computing, but also welcomes work in areas such as the natural sciences and humanities. We seek perspectives that emphasize both traditional views of intelligence as well as optimality, satisficing, robustness, adaptability, and wisdom. In more technical terms, this includes issues related to collective output quality and assessment, aggregation of information and related topics (e.g., network structure and dynamics, higher-order vs. pairwise interactions, spatial and temporal synchronization, diversity, etc.), accumulation of information by individuals or components, environmental complexity, evolutionary considerations, and design of systems and platforms fostering collective intelligence. Methods may range from behavioral, to theoretical, to engineering.
+
+Topics of interest include:
+
+* Collective decision-making studies and systems, focused on topics such as citizen engagement, collective creativity, collaborative problem-solving, extended and distributed cognition, crowdsourcing, incentive mechanisms, innovation, knowledge creation, organizational design, participatory decision-making, prediction markets, social computing, strategy formation, forecasting, team structures, wisdom of crowds, and voting design
+* Artificial intelligence techniques that amplify or exhibit collective intelligence, such as adaptive dynamic systems, robotics, and multi-agent technology
+* Data science investigations of collectively intelligent systems, including biological systems, the emergence of intelligence, evolutionary intelligence
+* Ethics and values, including societal norms
+
+<ins>**Format**</ins>
+
+CI papers are of variable length. Paper length must be based on the weight of the contribution. A new idea presented in a compact format is more likely to be accepted than the same idea in a long format, and shorter, more focused papers are encouraged. As a guideline, please consider papers in the range of 10,000 words.
+
+[Collective Intelligence will adopt the ACM TAPS Workflow.](https://www.acm.org/publications/taps/word-template-workflow) For LaTeX authors, submissions should be made using the double-column format ([example PDF](https://uist.acm.org/2023/assets/files/latex-two-column-submission-sample.pdf)) using \documentclass[sigconf,review,anonymous]{acmart}. For Word authors, submissions should be made using either the double-column format ([submission template](https://uist.acm.org/2023/assets/files/word-two-column-submission-sample.docx), [example PDF](https://uist.acm.org/2023/assets/files/word-two-column-submission-sample.pdf)) or the single-column template ([submission template](https://uist.acm.org/2023/assets/files/word-one-column-submission-sample.docx), [example PDF](https://uist.acm.org/2023/assets/files/word-one-column-submission-sample.pdf)).
+Please ensure that you and your co-authors [obtain an ORCID ID](https://orcid.org/register), so you can complete the publishing process for your accepted paper.  ACM has been involved in ORCID from the start and we have recently made [a commitment to collect ORCID IDs from all of our published authors](https://authors.acm.org/author-resources/orcid-faqs). The collection process has started and will roll out as a requirement throughout 2022.  We are committed to improve author discoverability, ensure proper attribution and contribute to ongoing community efforts around name normalization; your ORCID ID will help in these efforts.
+
+Authors are invited, but not required, to include supplemental materials such as executables and data files so that reviewers can reproduce results in the paper, images, additional videos, related papers, more detailed explanations, derivations, or results. These materials will be viewed only at the discretion of the reviewers, who are only obligated to read your paper itself.
+
+By submitting your article to an ACM Publication, you are hereby acknowledging that you and your co-authors are subject to all [ACM Publications Policies](https://www.acm.org/publications/policies), including ACM's new [Publications Policy on Research Involving Human Participants and Subjects](https://www.acm.org/publications/policies/research-involving-human-participants-and-subjects). Alleged violations of this policy or any ACM Publications Policy will be investigated by ACM and may result in a full retraction of your paper, in addition to other potential penalties, as per ACM Publications Policy.
 
 
 ### SUBMISSION REQUIREMENTS AND PROCESSES
