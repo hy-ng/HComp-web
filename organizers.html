@@ -1,9 +1,10 @@
 ---
 layout: base
 title: Organizers
-year: 2022
+year: 2023
+steeringYear: 2022
 redirect_from:
-- /2022/organizers.html
+- /2023/organizers.html
 ---
 <!-- Header -->
 <div class="organizers-header">
@@ -49,13 +50,23 @@ redirect_from:
     {% include people.html people=people %}
 </div>
 <div class="container organizers">
+  <h2 class="organizer-name">Scholarship Opportunities Co-Chairs</h2>
+    {% assign people = site.data.scholarship_chairs[page.year] %}
+    {% include people.html people=people %}
+</div>
+<div class="container organizers">
   <h2 class="organizer-name">Industry & Sponsorships Co-Chairs</h2>
     {% assign people = site.data.industry_chairs[page.year] %}
     {% include people.html people=people %}
 </div>
 <div class="container organizers">
-  <h2 class="organizer-name">Social Media and Publicity Co-Chairs</h2>
+  <h2 class="organizer-name">Publicity and Networking Co-Chairs</h2>
     {% assign people = site.data.socialmedia_chairs[page.year] %}
+    {% include people.html people=people %}
+</div>
+<div class="container organizers">
+  <h2 class="organizer-name">Local Arrangements Co-Chairs</h2>
+    {% assign people = site.data.localArrangements_chairs[page.year] %}
     {% include people.html people=people %}
 </div>
 <div class="container organizers">
@@ -69,8 +80,8 @@ redirect_from:
     {% include people.html people=people %}
 </div-->
 <div class="container organizers">
-  <h2 class="organizer-name">Technology Co-Chairs</h2>
-    {% assign people = site.data.technology_chairs[page.year] %}
+  <h2 class="organizer-name">Follow the Crowd Blog Co-Chairs</h2>
+    {% assign people = site.data.followTheCrowd_chairs[page.year] %}
     {% include people.html people=people %}
 </div>
 <div class="container organizers">
@@ -78,23 +89,23 @@ redirect_from:
     {% assign people = site.data.website_chairs[page.year] %}
     {% include people.html people=people %}
 </div>
-<div class="container organizers">
+<!--div class="container organizers">
   <h2 class="organizer-name">Social & Engagement Co-Chair</h2>
     {% assign people = site.data.social_engagement_chairs[page.year] %}
     {% include people.html people=people %}
-</div>
-<div class="container organizers">
+</div-->
+<!--div class="container organizers">
   <h2 class="organizer-name">Associate Chairs</h2>
     {% assign people = site.data.associate_chairs[page.year] %}
     {% include people.html people=people %}
-</div>
-<div class="container organizers">
+</div-->
+<!--div class="container organizers">
   <h2 class="organizer-name">Program Committee</h2>
     {% assign people = site.data.pc[page.year] %}
     {% include people.html people=people %}
-</div>
+</div-->
 <div class="container organizers">
   <h2 class="organizer-name">Conference Steering Committee (2022-2023)</h2>
-    {% assign people = site.data.steering[page.year] %}
+    {% assign people = site.data.steering[page.steeringYear] %}
     {% include people.html people=people steering=true%}
 </div>
