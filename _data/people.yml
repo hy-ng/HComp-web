@@ -1,8 +1,8 @@
 - id: toxtli
   last_name: Toxtli
   full_name: Carlos Toxtli
-  picture: img/photo/toxtli-150.jpg
-  affiliation: Northeastern University / Clemson University
+  picture: img/photo/toxtli.jpg
+  affiliation: Clemson University
   website: https://www.carlostoxtli.com/
 
 - id: sayin
@@ -72,7 +72,7 @@
 - id: bernstein
   last_name: Bernstein
   full_name: Michael Bernstein
-  picture: img/photo/bernstein.jpeg
+  picture: img/photo/bernstein.jpg
   affiliation: Stanford University
   website: https://engineering.stanford.edu/people/michael-bernstein
 
@@ -145,7 +145,7 @@
 - id: luther
   last_name: Luther
   full_name: Kurt Luther
-  picture: 'img/photo/KurtLuther.jpeg'
+  picture: 'img/photo/luther.png'
   affiliation: Virginia Tech
   steering: HCOMP 2021 Co-Chair
   website: http://crowd.cs.vt.edu/kurt-luther/
@@ -242,7 +242,7 @@
 - id: inel
   last_name: Inel
   full_name: Oana Inel
-  picture: img/photo/inel.jpg
+  picture: img/photo/inel.png
   affiliation: University of Zurich
   website: https://oana-inel.github.io/
 
@@ -351,6 +351,20 @@
   picture: 'img/photo/omar.png'
   website: 'https://www.linkedin.com/in/omar-alonso-8a5235/'
 
+- affiliation: University College London
+  full_name: Anna Cox
+  id: cox
+  last_name: Cox
+  picture: 'img/photo/cox.png'
+  website: 'https://uclic.ucl.ac.uk/people/anna-cox'
+
+- affiliation: Carnegie Mellon University
+  full_name: Yasmine Kotturi
+  id: kotturi
+  last_name: Kotturi
+  picture: 'img/photo/kotturi.png'
+  website: 'https://ykotturi.github.io/'
+
 - affiliation: Snap Research
   full_name: Rajan Vaish
   id: vaish
@@ -370,13 +384,13 @@
   id: lee
   last_name: Lee
   picture: 'img/photo/david.jpg'
-  website: 'https://www.soe.ucsc.edu/people/davidtlee' 
+  website: 'https://tech4good.soe.ucsc.edu/#/people/David-Lee-2018' 
 
 - affiliation: Delft University of Technology
   full_name: Ujwal Gadiraju
   id: gadiraju
   last_name: Gadiraju
-  picture: 'img/photo/gadiraju-150.jpg'
+  picture: 'img/photo/gadiraju.png'
   website: 'http://ujwalgadiraju.com/' 
 
 - affiliation: VSCO
@@ -749,8 +763,8 @@
 - id: yang
   full_name: Jie Yang
   last_name: Yang
-  affiliation: Delft University of Technology (TU Delft)
-  picture: 'img/photo/yang-150.jpg'
+  affiliation: Delft University of Technology
+  picture: 'img/photo/yang.png'
   website: 'https://yangjiera.github.io/'
 
 
@@ -788,7 +802,7 @@
   last_name: Savage
   affiliation: Northeastern University
   website: http://www.saiph.org/
-  picture: 'img/photo/saiph-150.jpg'
+  picture: 'img/photo/savage.jpg'
 
 - id: chan
   full_name: Joel Chan
@@ -874,12 +888,26 @@
   picture: 'img/photo/minsukchang.png'
   website: https://minsukchang.com
 
-- id: ilykourentzou
+- id: lykourentzou
   full_name: Ioanna Lykourentzou
   last_name: Lykourentzou
   affiliation: Utrecht University
-  picture: 'img/photo/ilykourentzou.png'
+  picture: 'img/photo/lykourentzou.png'
   website: https://lykourentzou.com/index.html
+
+- id: kingsley
+  full_name: Sara Kingsley
+  last_name: Kingsley
+  affiliation: Carnegie Mellon University
+  picture: 'img/photo/kingsley.jpg'
+  website: https://www.hcii.cmu.edu/people/sara-kingsley
+
+- id: oppenlaender
+  full_name: Jonas Oppenlaender
+  last_name: Oppenlaender
+  affiliation: University of Jyväskylä
+  picture: 'img/photo/oppenlaender.jpg'
+  website: http://www.jonaso.de
 
 - id: joppenlaender
   full_name: Jonas Oppenlaender
@@ -894,6 +922,42 @@
   affiliation: University of Pennsylvania
   picture: 'img/photo/mwhiting.jpg'
   website: https://whiting.me/
+
+- id: whiting
+  full_name: Mark Whiting
+  last_name: Whiting
+  affiliation: University of Pennsylvania
+  picture: 'img/photo/whiting.jpeg'
+  website: https://whiting.me/
+
+- id: ngoon
+  full_name: Tricia Ngoon
+  last_name: Ngoon
+  affiliation: Carnegie Mellon University
+  picture: 'img/photo/ngoon.jpg'
+  website: https://tngoon.github.io/
+
+- id: saviaga
+  full_name: Claudia Flores Saviaga
+  last_name: Flores Saviaga
+  affiliation: Northeastern University
+  picture: 'img/photo/saviaga.jpg'
+  website: https://www.khoury.northeastern.edu/people/claudia-flores-saviaga/
+
+- id: khan
+  full_name: Javed Khan
+  last_name: Khan
+  affiliation: Sappi Europe
+  picture: 'img/photo/khan.jpg'
+  website: https://vjkhan.com/
+
+- id: gamage
+  full_name: Dilrukshi Gamage
+  last_name: Gamage
+  affiliation: Tokyo Insitute of Technology
+  picture: 'img/photo/gamage.jpg'
+  website: https://www.dilrukshigamage.org/
+
 
 - id: santosh
   full_name: Santosh Vempala
@@ -1129,7 +1193,7 @@
   full_name: Kevin Roitero
   last_name: Roitero
   affiliation: University of Udine
-  picture: 'img/photo/kevin_roitero.jpg'
+  picture: 'img/photo/roitero.jpeg'
   website: https://kevinroitero.com/
 
 - id: gould
@@ -1164,7 +1228,7 @@
   full_name: Cristina Sarasua
   last_name: Sarasua
   affiliation: University of Zurich
-  picture: 'img/photo/cristina_sarasua.jpg'
+  picture: 'img/photo/sarasua.png'
   website: https://www.ifi.uzh.ch/en/ddis/people/sarasua.html
 
 - id: tajima
