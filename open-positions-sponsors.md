@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Open Positions
-year: 2022
+year: 2023
 ---
 
 # Open Positions from Our Sponsors

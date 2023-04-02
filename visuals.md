@@ -1,7 +1,7 @@
 ---
 layout: page
 title: HCOMP Visuals
-year: 2022
+year: 2023
 ---
 
 # HCOMP Visuals

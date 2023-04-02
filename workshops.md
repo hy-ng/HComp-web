@@ -1,7 +1,7 @@
 ---
 layout: page
 title: WORKSHOPS
-year: 2022
+year: 2023
 ---
 
 # Workshops
