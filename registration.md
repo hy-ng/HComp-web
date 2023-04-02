@@ -1,7 +1,7 @@
 ---
 layout: page
 title: REGISTRATION
-year: 2022
+year: 2023
 ---
 
 # HCOMP-22 Registration

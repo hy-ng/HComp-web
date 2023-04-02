@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Doctoral Consortium 2022
-year: 2022
+year: 2023
 ---
 
 # HCOMP 2022 Doctoral Consortium (Nov 6, 2022)
