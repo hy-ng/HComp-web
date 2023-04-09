@@ -11,6 +11,7 @@ year: 2023
 
 - Call for [Full Papers](#papers)
 - Call for [Works-In-Progress and Demonstration Papers](#wip)
+- Call for [Doctoral Consortium](#doc)
 
 
 
@@ -207,7 +208,95 @@ Accepted papers will NOT be included in official conference proceedings, and the
 ## Contacts
 
 Please contact the Works-in-Progress and Demonstration Co-Chairs if you have any questions.
-- Kurt Luther, at kluther@vt.edu 
-- Ioanna Lykourentzou, at i.lykourentzou@uu.nl
+- Kurt Luther, at [kluther@vt.edu](mailto:kluther@vt.edu) 
+- Ioanna Lykourentzou, at [i.lykourentzou@uu.nl](mailto:i.lykourentzou@uu.nl)
 
+
+# CI+HCOMP CALL FOR DOCTORAL CONSORTIUM
+{:.sub-page-header}
+{:#doc}
+&nbsp;
+{:.sub-page-border}
+
+This year, the Collective Intelligence (CI) and Human Computation (HCOMP) conferences are being jointly organized and will have a joint Doctoral Consortium to provide doctoral students across both communities with a unique opportunity to meet each other and experienced researchers in the field. Students will be mentored by a group of faculty who are leaders in the diverse specialties that make up the CI and HCOMP fields. The objectives of the Doctoral Consortium are to provide students with an opportunity:
+
+- To present and discuss their research with experienced researchers: the Doctoral Consortium Mentors;
+- To help doctoral students establish a supportive graduate student community among doctoral students at a similar stage of their dissertation research;
+- To provide a platform for broader exposure for their research, both in general and in support of a future job search;
+
+The joint organization of CI and HCOMP this year is also a great opportunity to increase the visibility of doctoral student work and to build connections between the two communities.
+
+
+## IMPORTANT DATES
+
+- **June 14**: Doctoral Consortium early deadline for applications (anywhere on earth), recommended for those who may need more time to process visas
+- **June 28**: early Doctoral Consortium notifications sent (see below for funding deadline information)
+- **August 14**: Doctoral Consortium final deadline for applications (anywhere on earth)
+- **August 28**: final Doctoral Consortium notifications sent
+- **November 6**: Doctoral Consortium at HCOMP-CI 2023
+
+## AREAS OF INTEREST
+
+CI and HCOMP are similarly unique in the diversity of disciplines they draw upon and contribute to, ranging from computer science, artificial intelligence, and human-computer interaction, to economics, organizational behavior, and the social, all the way to digital humanities, policy, ethics, and biology. Any DC submissions fitting the topics of interest in the overall [Call for Submissions](#papers) are applicable. For example:
+
+Topics include collective decision-making studies and systems, artificial techniques that amplify or exhibit collective intelligence, data science investigations of collectively intelligent systems, ethics and values, including societal norms, crowdsourcing applications and techniques, techniques that enable and enhance human-in-the-loop systems, approaches to make crowd science FAIR (findable, accessible, interoperable, reproducible), studies about how people perform tasks individually, in groups, or as a crowd, studies into the reliability and other quality aspects of human-annotated and -curated datasets, studies into replicability of crowdsourcing and human computation experiments, methods that use human computation and crowdsourcing to build people-centric AI systems and applications, studies into fairness, accountability, transparency, ethics, and policy implications for crowdsourcing and human computation, studies about how people and intelligent systems interact and collaborate with each other, and studies that inform our understanding about the future of work.
+
+## ELIGIBILITY
+
+Applicants must be currently enrolled in a PhD program. The Doctoral Consortium accepts students from any stage in their candidature, but will prioritize candidates who have a clear topic and research approach and have made some progress, but are not so far along that they can no longer make changes. Before submitting, students should discuss this criterion with their advisor or supervisor.
+
+## ATTENDANCE
+
+Those accepted are required to present their work at the Doctoral Consortium. Participants will also likely be required to present a poster on their work during the poster session at the main conference.
+
+## SELECTION
+
+Submissions will be reviewed based upon the expected potential of both the student and their proposed work, as well as the expected benefit to the student from participation. Priority will be given to students whose research goes beyond locally available expertise at their home institutions.
+
+## FINANCIAL SUPPORT
+
+We encourage applicants to explore the Gary Marsden Travel Awards for financial support. Deadlines for applications are the 9th of July and the 9th of September. More information can be found on the [SIGCHI website](https://sigchi.org/awards/gary-marsden-travel-awards/). We note that the Gary Marsden Travel Award only applies to SIGCHI conferences. Since CI is a SIGCHI conference, and since the Doctoral Consortium is being held as a joint CI+HCOMP event this year, it should be eligible for that program.
+
+## APPLICATION
+
+Applicants must submit a solely-authored paper in English containing: 1) a Doctoral Research Overview; and 2) a Supplemental Paragraph.
+
+## DOCTORAL RESEARCH OVERVIEW
+
+Please summarize your doctoral research, including the following sections:
+
+- Motivation for the proposed research;
+- Background and related work (including key references);
+- Description of the proposed research, including key research questions and planned methodology to be used for investigating these research questions;
+- Proposed experiments if appropriate; Any preliminary evaluation and findings are welcomed, but this is not required.;
+- Specific research issues and/or challenges (do not skip these; the consortium is about helping you solve issues, not boasting about the issues you already solved!).
+
+## SUPPLEMENTAL PARAGRAPH
+
+Please write a paragraph explaining:
+Why you want to participate in the consortium at this point in your doctoral studies and how you expect to benefit from the consortium;
+Your expected (approximate) completion date.
+
+## LENGTH AND ORGANIZATION
+
+Your paper should be no more than 4 pages in total: 3 pages for the Doctoral Research Overview (including all figures and references), and the 4th page being the Supplemental Paragraph. The first page must contain the title of the paper, full author name, affiliation and contact details, an abstract of up to 250 words, and up to 3 keywords describing the research topic areas.
+
+## FORMATTING
+
+For consistency, we ask that all submissions to the CI+HCOMP Doctoral Consortium be formatted in the same way using the ACM template and process described for the CoIlective Intelligence subcommittee in the [CI+HCOMP 2023 Call for Papers](#papers).
+
+## SUBMISSION
+
+For simplicity, we ask that all submissions to the CI+HCOMP Doctoral Consortium be submitted through the same portal using the CI 2023 EasyChair (TBA) paper submission site. Submissions must be made on or before the deadlines listed above. We cannot accept submissions by e-mail or fax. Authors will receive confirmation of receipt of their submissions, including an ID number, shortly after submission. CI+HCOMP will contact authors again only if problems are encountered with papers.
+
+## DISSEMINATION
+
+Submissions will be distributed only to mentors and other attendees of the doctoral consortium. Proceedings of the Doctoral Consortium will NOT be archived. As such, students may freely submit their research contributions for official publication in other venues. Participant names and university affiliations, as well as paper titles and abstracts, will be publicized on the conference website and in the conference program for the poster session.
+
+## GRADUATE CONSORTIUM CHAIRS
+
+- Anna Cox (University of College London)
+- David Lee (University of California, Santa Cruz)
+
+Please feel free to direct all questions or comments to the following email addresses: [anna.cox@ucl.ac.uk](mailto:anna.cox@ucl.ac.uk) or [dlee105@ucsc.edu](mailto:dlee105@ucsc.edu).
 
