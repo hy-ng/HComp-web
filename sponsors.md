@@ -29,15 +29,18 @@ Your generous sponsorship will directly support to:
 - Job descriptions distributed among attendees. 
 - Acknowledgement on the conference website, in printed materials, in opening and closing  plenary sessions, and in onsite signage, as available. 
 
+
 ### Gold $7.5K (or greater) 
 - Two complimentary registrations. 
 - Job descriptions distributed among attendees. 
 - Acknowledgement on the conference website, in printed materials, in opening and closing  plenary sessions, and in onsite signage, as available. 
 
+
 ### Silver $4K (or greater) 
 - One complimentary registration. 
 - Job descriptions distributed among attendees. 
 - Acknowledgement on the conference website, in printed materials, in opening and closing  plenary sessions, and in onsite signage, as available. 
+
 
 ### Bronze $2K (or greater) 
 - Job descriptions distributed among attendees. 
