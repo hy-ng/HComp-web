@@ -28,7 +28,8 @@ Your generous sponsorship will directly support to:
 - 10 second advertisement, or acknowledgement of session chair before one session talks. ▪ Three complimentary registrations. 
 - Job descriptions distributed among attendees. 
 - Acknowledgement on the conference website, in printed materials, in opening and closing  plenary sessions, and in onsite signage, as available. 
-Gold $7.5K (or greater) 
+
+### Gold $7.5K (or greater) 
 - Two complimentary registrations. 
 - Job descriptions distributed among attendees. 
 - Acknowledgement on the conference website, in printed materials, in opening and closing  plenary sessions, and in onsite signage, as available. 
