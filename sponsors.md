@@ -4,6 +4,19 @@ title: Sponsors
 year: 2023
 ---
 
+# HCOMP Sponsors
+{:.sub-page-header}
+&nbsp;
+{:.sub-page-border}
+
+## <ins>Bronze</ins>
+{:.sub-page-header}
+
+<p align="center">
+  <img src="./img/sponsors/google.png" width="300" />
+</p>
+
+
 # HCOMP + CI 2023 Sponsorship 
 {:.sub-page-header}
 &nbsp;

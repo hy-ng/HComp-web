@@ -60,7 +60,7 @@ All times are midnight [AoE](https://time.is/Anywhere_on_Earth)
  
 ## SUBMISSIONS TO HCOMP
 
-[Submit to HCOMP using Easychair here.](#)
+[Submit to HCOMP using Easychair here.](https://easychair.org/conferences/?conf=hcomp23)
 
  <ins>**Topics**</ins>
 
@@ -91,9 +91,13 @@ Topics of interest include:
 
 <p style="text-align:justify;"> Authors will be required to transfer copyright of their paper to AAAI. Accepted full papers will be published in the HCOMP conference proceedings and included in the AAAI Digital Library. </p>
 
+<p style="text-align:justify;"> AAAI enables authors to use Open Responsible AI Licenses (Open RAIL), licenses designed to permit free and open access, re-use, and downstream distribution of derivatives of AI artifacts as long as the behavioral-use restrictions always apply (including to derivative works). Need Help Deciding if an AI Pubs License is Right for You? – <a href="https://www.licenses.ai/blog/2023/3/3/ai-pubs-rail-licenses">review this section</a>. Please consider this as a new way to share your work with the community. If you have questions, comments, or feedback, please contact the RAIL team here: <a href="https://www.licenses.ai/contact" >https://www.licenses.ai/contact</a>  </p>
+
+
+
 ## SUBMISSIONS TO COLLECTIVE INTELLIGENCE
 
-[Submit to Collective Intelligence using Easychair here.](#)
+[Submit to Collective Intelligence using Easychair here.](https://easychair.org/conferences/?conf=ci23)
 
  <ins>**Topics**</ins>
 
@@ -306,7 +310,7 @@ For consistency, we ask that all submissions to the CI+HCOMP Doctoral Consortium
 
 ## SUBMISSION
 
-For simplicity, we ask that all submissions to the CI+HCOMP Doctoral Consortium be submitted through the same portal using the CI 2023 EasyChair (TBA) paper submission site. Submissions must be made on or before the deadlines listed above. We cannot accept submissions by e-mail or fax. Authors will receive confirmation of receipt of their submissions, including an ID number, shortly after submission. CI+HCOMP will contact authors again only if problems are encountered with papers.
+For simplicity, we ask that all submissions to the CI+HCOMP Doctoral Consortium be submitted through the same portal using the <a href="https://easychair.org/conferences/?conf=ci23">CI 2023 EasyChair</a> paper submission site. Submissions must be made on or before the deadlines listed above. We cannot accept submissions by e-mail or fax. Authors will receive confirmation of receipt of their submissions, including an ID number, shortly after submission. CI+HCOMP will contact authors again only if problems are encountered with papers.
 
 ## DISSEMINATION
 
