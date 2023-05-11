@@ -281,6 +281,15 @@
   picture: 'img/photo/Morishima.jpg'
   website: 'https://fusioncomplab.org/people/atsuyuki/'
 
+
+- affiliation: George Mason University
+  full_name: Rahul Pandey
+  id: pandey
+  last_name: Pandey
+  picture: 'img/photo/pandey.jpeg'
+  website: 'https://mason.gmu.edu/~rpandey4/'
+
+
 - affiliation: Brainworks
   full_name: Markus Krause
   id: krause
@@ -682,6 +691,13 @@
   picture: 'img/photo/yukinoBaba.jpg'
   website: 'http://yukinobaba.jp'
 
+- affiliation: Ilmenau University of Technology
+  full_name: Matthias Hirth
+  id: hirth
+  last_name: Hirth
+  picture: 'img/photo/hirth.png'
+  website: 'https://www.tu-ilmenau.de/universitaet/fakultaeten/fakultaet-elektrotechnik-und-informationstechnik/profil/institute-und-fachgebiete/fachgebiet-nutzerzentrierte-analyse-von-multimediadaten/team/jun-prof-dr-matthias-hirth'
+
 - affiliation: Boston University
   full_name: Margrit Betke
   id: betke
@@ -724,6 +740,13 @@
   last_name: Wang
   picture: 'img/photo/jiannan-wang.jpg'
   website: 'http://www.cs.sfu.ca/~jnwang/'
+
+- affiliation: University of Oulu
+  full_name:  Simo Hosio
+  id: hosio
+  last_name: Hosio
+  picture: 'img/photo/hosio.png'
+  website: 'https://simohosio.com/'
 
 - id: deliddo
   last_name: De Liddo
@@ -824,6 +847,14 @@
   affiliation: Amazon
   website: http://web.eecs.utk.edu/~acw/
   picture: 'img/photo/awilliams-150.jpg'
+
+- id: chilton
+  full_name: Lydia Chilton
+  last_name: Chilton
+  affiliation: Columbia University
+  website: https://www.cs.columbia.edu/~chilton/chilton.html
+  picture: 'img/photo/chilton.jpg'
+
 
 - id: manikonda
   full_name: Lydia Manikonda
@@ -1301,3 +1332,10 @@
   picture: img/photo/weller.jpg
   affiliation: University of Cambridge
   website: http://mlg.eng.cam.ac.uk/adrian/
+
+- id: ceolin
+  last_name: Ceolin
+  full_name: Davide Ceolin
+  picture: img/photo/ceolin.jpg
+  affiliation: Centrum Wiskunde & Informatica
+  website: https://www.cwi.nl/en/people/davide-ceolin/
