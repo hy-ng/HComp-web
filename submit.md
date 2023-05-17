@@ -160,7 +160,7 @@ Please ensure that you and your co-authors [obtain an ORCID ID](https://orcid.or
 <p style="text-align:justify;"> Collective Intelligence and HCOMP 2023 will recognize the best paper winner and honorable mention(s). Reviewers will be asked to flag papers they deem worthy of a prize. The general chairs will set up a small panel that will read the papers, consider the reviewers' comments and assess the talk to determine the winners. </p>
 
 
-# CALL FOR WORKS-IN-PROGRESS (WiP) AND DEMONSTRATION PAPERS
+# CI + HCOMP CALL FOR WORKS-IN-PROGRESS (WiP) AND DEMONSTRATION PAPERS
 {:.sub-page-header}
 {:#wip}
 &nbsp;
@@ -192,7 +192,7 @@ Please ensure that you and your co-authors [obtain an ORCID ID](https://orcid.or
 
 ## Submission
 
-<p style="text-align:justify;"> Submissions must be done via the HCOMP/CI 2023 EasyChair Website under the Works-in-Progress and Demonstration track. Submissions to Easychair are required on or before the deadline listed above. We cannot accept submissions by e-mail. Authors will receive confirmation of receipt of their submissions, including an ID number, shortly after submission. HCOMP/CI will contact authors again only if problems are encountered with their papers. </p>
+<p style="text-align:justify;"> Submissions for both HCOMP and CI Works-In-Progress and Demo papers must be done via the <a href="https://easychair.org/conferences/?conf=hcomp23">HCOMP/CI 2023 EasyChair Website </a> under the Works-in-Progress and Demonstration track. Submissions to Easychair are required on or before the deadline listed above. We cannot accept submissions by e-mail. Authors will receive confirmation of receipt of their submissions, including an ID number, shortly after submission. HCOMP/CI will contact authors again only if problems are encountered with their papers. </p>
 
 
 ### Length
