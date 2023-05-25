@@ -12,6 +12,7 @@ year: 2023
 - Call for [Full Papers](#papers)
 - Call for [Works-In-Progress and Demonstration Papers](#wip)
 - Call for [Doctoral Consortium](#doc)
+- Call for [Workshops](#workshops)
 - Frequently Asked Questions [(FAQ)](#faq)
 
 
@@ -322,6 +323,62 @@ Submissions will be distributed only to mentors and other attendees of the docto
 - David Lee (University of California, Santa Cruz)
 
 Please feel free to direct all questions or comments to the following email addresses: [anna.cox@ucl.ac.uk](mailto:anna.cox@ucl.ac.uk) or [dlee105@ucsc.edu](mailto:dlee105@ucsc.edu).
+
+
+
+
+# CI+HCOMP CALL FOR WORKSHOPS
+{:.sub-page-header}
+{:#workshops}
+&nbsp;
+{:.sub-page-border}
+
+
+<p style="text-align:justify;"> We invite proposals for workshops at HCOMP 2023 / CI 2023. Workshops bring together communities with common research interests and agendas to discuss ongoing work and initiate new collaborations. Workshops may address research, best practices, tools, education, emerging themes and applications, and critical thinking about existing methodologies and frameworks. Topics should be within the general scope of HCOMP or CI (or both), but may include emerging research directions that have not yet been fully explored and may even be seen as controversial.  Workshops may also be a forum for other types of topic-specific activities, such as tutorials or roundtables. </p>
+
+## IMPORTANT DATES
+
+- **November 6**: Workshop day
+- **June 16**: Deadline (for workshop proposals)
+- **June 23**: Notification
+
+
+## WORKSHOP FORMAT
+
+<p style="text-align:justify;">Workshop format can include discussions of contributions from attendees (e.g., posters, lightning talks) as well as providing space for lively, informal debates (e.g., breakout groups, panel discussions). </p>
+
+<p style="text-align:justify;">Keep everyone involved! We especially encourage workshop formats with activities that keep attendees engaged throughout the workshop. Get creative! Consider incorporating demos, feedback on innovative task designs, or short-term collaborations. What can attendees create? … or solve? </p>
+
+## SUBMISSION INSTRUCTIONS
+
+
+If you would like to organize a workshop at HCOMP 2023 / CI 2023, please submit a PDF (2-4 pages) by June 16 via [EasyChair](https://easychair.org/conferences/?conf=hcomp23) (see below).
+
+1. Draft workshop announcement. This should include:
+    a. Title
+    b. Topics and subtopics that are in scope
+    c. Organizers’ names and affiliations
+    d. Duration (full-day or half-day)
+    e. Schedule (draft)
+    f. Deadline for submissions to your workshop (if applicable). Our suggested deadline is no later than September, 15, 2023.
+    g. Notification date for acceptance/rejection of submissions to your workshop (if applicable). Our suggested date is no later than October 1, 2023.
+2. How will you keep participants debating, interacting, and/or creating throughout the workshop?
+3. What proportion of the time (approximately) will be spent on non-interactive activities (e.g., listening to talks)?
+4. How will you advertise your workshop? We encourage organizers to consider sending announcements to channels that will reach a diverse group of people.
+5. What keynote speakers, panelists, or special invitees do you plan to invite?  Indicate if any have already been invited or (tentatively) accepted.
+
+Note: Priority will be given to workshops that include a diverse group of organizers across different dimensions including but not limited to affiliation, affiliation type (e.g., academia, industry), geographical location, and area of research.
+
+
+## SUBMISSIONS
+
+
+[https://easychair.org/conferences/?conf=hcomp23](https://easychair.org/conferences/?conf=hcomp23) Track: **workshops**.
+
+## CONTACT
+
+- Davide Ceolin, [davide.ceolin@cwi.nl](davide.ceolin@cwi.nl)
+- Alexander Quinn, [aq@purdue.edu](aq@purdue.edu)
 
 
 
