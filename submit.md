@@ -13,7 +13,8 @@ year: 2023
 - Call for [Works-In-Progress and Demonstration Papers](#wip)
 - Call for [Doctoral Consortium](#doc)
 - Call for [Workshops](#workshops)
-- Frequently Asked Questions [(FAQ)](#faq)
+- Call for [CrowdCamp 2023](#crowdcamp)
+- Frequently Asked Questions [(FAQs)](#faq)
 
 
 <!-- - Call for [Doctoral Consortium](#doc) 
@@ -380,9 +381,68 @@ Note: Priority will be given to workshops that include a diverse group of organi
 - Davide Ceolin, [davide.ceolin@cwi.nl](davide.ceolin@cwi.nl)
 - Alexander Quinn, [aq@purdue.edu](aq@purdue.edu)
 
+# CrowdCamp 2023
+{:.sub-page-header}
+{:#crowdcamp}
+&nbsp;
+{:.sub-page-border}
+
+Workshop day(s):
+- On-site (full-day): **November 6, 2023**: 
+- Virtual (2-day split schedule): **November 5-6, 2023**
+
+Sign-up Deadline: **October 1, 2023**
+
+## WHAT IS CROWDCAMP?
 
 
-# FAQ
+<p style="text-align:justify;"> CrowdCamp is a one-day hack-a-thon for researchers and practitioners with interests in crowdsourcing, human computation, collective intelligence, and AI. The focus is on creating a first prototype, study design, an idea for a new algorithm, a pilot study, or something else entirely within the workshop itself. Prior CrowdCamp projects have resulted in top-tier conference publications, blog posts, and on-going research.  </p>
+
+<p style="text-align:justify;"> As the theme for this year’s CrowdCamp, we propose generative AI which is revolutionizing various fields, including art, entertainment, and education. However, the full potential of generative AI is yet to be realized, and the role of human intelligence and crowd computing in shaping generative AI is critical for AI alignment. Similarly, there is a need for a timely response to systematically identify and mitigate safety concerns in all generative models that are currently available (see, for instance, <a href="https://www.dataperf.org/adversarial-nibbler">the Adversarial Nibbler data challenge</a>). </p>
+
+<p style="text-align:justify;"> The workshop will bring together researchers and practitioners from both the crowdsourcing and collective intelligence disciplines to explore innovative ideas as well as the challenges associated with generative AI models. We also welcome any other ideas that participants want to work on. </p>
+
+## CALL FOR PARTICIPATION
+
+<p style="text-align:justify;">  We invite students, faculty, and industry researchers to participate, from social scientists to programmers, ethnographers to designers, and anyone else interested. Everyone is welcome! </p>
+
+<p style="text-align:justify;">  To apply to participate, we ask that you complete <a href="https://docs.google.com/forms/d/e/1FAIpQLSfc3m-3POFNsWal2yuIxwD2SqIinu3j0ILOFG8EEUjdJ7tHPg/viewform?usp=sf_link">the CrowdCamp 2023 application form</a>. The application takes about 10 minutes to complete, and asks for: </p>
+
+- **One Hack-a-Thon Idea**: A project idea or application domain that you care about. This may be viewed by other participants, but if you are accepted to CrowdCamp, you will still be free to change your idea. We are looking for ideas that are specific rather than vague. The goal is to generate ideas that a group of 3-5 people can finish during the workshop. 
+- **Your Research Interests and Experience**: We are looking for a diverse group of people that will develop amazing projects during CrowdCamp. We therefore ask you to indicate your research interests and expertise in crowdsourcing – whether they be in HCI, AI, or in another field. 
+- **Your Ideal CrowdCamp Partner or Research Team**: We want to make sure you get an awesome partner / team for your CrowdCamp hack-a-thon. Depending on your project and research interests, we’d love to know if you’re looking for partner(s) with a particular type of expertise or whether you are joining with an existing team. Ideally, we would like to have people with different types of expertise (e.g., HCI and AI people) working together as a team! 
+- **Your Contact Information**: Name and email.
+
+## CROWDCAMP FORMAT
+
+<p style="text-align:justify;"> This year, CrowdCamp will be a hybrid experience. Accepted participants may choose to attend on-site or remotely. Throughout the day, there will be touchpoints where virtual and on-site groups can connect and showcase their work. We'll try to integrate the virtual teams via live streaming and shared sessions to create an inclusive environment for all attendees. More details to be shared shortly. </p>
+
+### Key Dates (all times are midnight AoE)
+
+- **Deadline for sign-up**:	October 1, 2023 (Note that the early and late conference registration deadlines are much earlier! You need to register to the conference to participate in CrowdCamp.)
+- **Notification**:		October 8, 2023
+
+### Contact
+
+- Oana Inel, at [inel@ifi.uzh.ch](mailto:inel@ifi.uzh.ch)
+- Jonas Oppenlaender, at [joppenlu@jyu.fi](mailto:joppenlu@jyu.fi)
+
+
+## Past Papers and Technical Reports
+
+<p style="text-align:justify;"> Past CrowdCamps have shown a strong track-record of bringing together diverse teams of researchers, engineers, and students who work passionately together on well-scoped project ideas. Many participants have continued working on their projects beyond CrowdCamp, generating impactful publications and fruitful collaborations. A few examples include: </p>
+
+- “Annotator Response Distributions as a Sampling Frame”: Christopher Homan, Tharindu Cyril Weerasooriya, Lora Aroyo, and Chris Welty. Workshop on Perspectivist Approaches to NLP@ LREC2022.
+- “Subcontracting Microwork”: Meredith Ringel Morris, Jeffrey P. Bigham, Robin Brewer, Jonathan Bragg, Anand Kulkarni, Jessie Li, Saiph Savage. ACM CHI 2017.
+- “Possible Confounds in Word-based Semantic Similarity Test Data”: Malay Bhattacharyya, Yoshihiko Suhara, Md Mustafizur Rahman, Markus Krause. CSCW 2017.
+- “Worker-Owned Cooperative Models for Training Artificial Intelligence”: Anand Sriraman, Jonathan Bragg, Anand Kulkarni. CSCW 2017.
+- “Computer Supported Collective Action”: Aaron Shaw, Haoqi Zhang, Andrés Monroy-Hernández, Sean Munson, Benjamin Hill, Elizabeth Gerber, Peter Kinnaird, Patrick Minder. ACM Interactions, March 2014.
+- "WeDo: End-to-end computer supported collective action": Haoqi, Zhang, Andrés Monroy-Hernández, Aaron Shaw, Sean Munson, Elizabeth Gerber, Benjamin Hill, Peter Kinnaird, Shelly Farnham, and Patrick Minder. AAAI Conference on Web and Social Media, 2014.
+- “The Future of Crowd Work”: Aniket Kittur, Jeffrey V. Nickerson, Michael Bernstein, Elizabeth Gerber, Aaron Shaw, John Zimmerman, Matt Lease, John Horton. ACM CSCW 2013.
+
+
+
+# FAQs
 {:.sub-page-header}
 {:#faq}
 &nbsp;

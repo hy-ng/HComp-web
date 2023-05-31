@@ -87,6 +87,11 @@ steeringYear: 2022
     {% assign people = site.data.website_chairs[page.year] %}
     {% include people.html people=people %}
 </div>
+<div class="container organizers">
+  <h2 class="organizer-name">Accessibility Co-Chairs</h2>
+    {% assign people = site.data.accessibility_chairs[page.year] %}
+    {% include people.html people=people %}
+</div>
 <!--div class="container organizers">
   <h2 class="organizer-name">Social & Engagement Co-Chair</h2>
     {% assign people = site.data.social_engagement_chairs[page.year] %}

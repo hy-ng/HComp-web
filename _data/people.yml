@@ -1,3 +1,17 @@
+- id: valencia
+  last_name: Valencia
+  full_name: Stephanie Valencia
+  picture: img/photo/valencia.jpg
+  affiliation: Carnegie Mellon University
+  website: https://stephanie-valencia.com/
+
+- id: mingzheli
+  last_name: Li
+  full_name: Franklin Mingzhe Li 
+  picture: img/photo/mingzheli.jpg
+  affiliation: Carnegie Mellon University
+  website: https://franklin-li.com/
+
 - id: toxtli
   last_name: Toxtli
   full_name: Carlos Toxtli
