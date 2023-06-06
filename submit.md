@@ -312,7 +312,7 @@ For consistency, we ask that all submissions to the CI+HCOMP Doctoral Consortium
 
 ## SUBMISSION
 
-For simplicity, we ask that all submissions to the CI+HCOMP Doctoral Consortium be submitted through the same portal using the <a href="https://easychair.org/conferences/?conf=ci23">CI 2023 EasyChair</a> paper submission site. Submissions must be made on or before the deadlines listed above. We cannot accept submissions by e-mail or fax. Authors will receive confirmation of receipt of their submissions, including an ID number, shortly after submission. CI+HCOMP will contact authors again only if problems are encountered with papers.
+For simplicity, we ask that all submissions to the CI+HCOMP Doctoral Consortium be submitted through the same portal using the <a href="https://easychair.org/conferences/?conf=hcomp23">HCOMP 2023 EasyChair</a> paper submission site. Submissions must be made on or before the deadlines listed above. We cannot accept submissions by e-mail or fax. Authors will receive confirmation of receipt of their submissions, including an ID number, shortly after submission. CI+HCOMP will contact authors again only if problems are encountered with papers.
 
 ## DISSEMINATION
 
