@@ -103,6 +103,11 @@ steeringYear: 2022
     {% include people.html people=people %}
 </div-->
 <div class="container organizers">
+  <h2 class="organizer-name">Senior Program Committee</h2>
+    {% assign people = site.data.spc[page.year] %}
+    {% include people.html people=people %}
+</div>
+<div class="container organizers">
   <h2 class="organizer-name">Program Committee</h2>
     {% assign people = site.data.pc[page.year] %}
     {% include people.html people=people %}
