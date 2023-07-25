@@ -340,8 +340,7 @@ Please feel free to direct all questions or comments to the following email addr
 ## IMPORTANT DATES
 
 - **November 6**: Workshop day
-- **June 16**: Deadline (for workshop proposals)
-- **June 23**: Notification
+- **June 30**: Deadline (for workshop proposals)
 
 
 ## WORKSHOP FORMAT
@@ -353,7 +352,7 @@ Please feel free to direct all questions or comments to the following email addr
 ## SUBMISSION INSTRUCTIONS
 
 
-If you would like to organize a workshop at HCOMP 2023 / CI 2023, please submit a PDF (2-4 pages) by June 16 via [EasyChair](https://easychair.org/conferences/?conf=hcomp23) (see below).
+If you would like to organize a workshop at HCOMP 2023 / CI 2023, please submit a PDF (2-4 pages) by June 30 via [EasyChair](https://easychair.org/conferences/?conf=hcomp23) (see below).
 
 1. Draft workshop announcement. This should include:
     a. Title
