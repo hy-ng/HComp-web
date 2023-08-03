@@ -170,14 +170,14 @@ Please ensure that you and your co-authors [obtain an ORCID ID](https://orcid.or
 
 
 ## Important Dates
-- August 14: Works-in-Progress Papers and Demonstration papers due (23:59 AoE)
-- August 28: WiP and Demo notifications sent
-- September 8: Accepted WIP and Demos on conference website
+- August 21: Works-in-Progress Papers and Demonstration papers due (23:59 AoE)
+- September 4: WiP and Demo notifications sent
+- September 14: Accepted WIP and Demos on conference website
 
 
 ## Overview
 
-<p style="text-align:justify;"> The Works-in-Progress and Demonstration track focuses on recent findings or other types of innovative or thought-provoking work, hands-on demonstration, novel methods, technologies and experiences relevant to the HCOMP and CI communities. We encourage practitioners and researchers to submit to the Works-in-Progress & Demo Track as it provides a unique opportunity for sharing valuable insights and ideas, eliciting useful feedback on early-stage work, and fostering discussions and collaborations among colleagues. Submissions are welcome from multiple fields, ranging from computer science, artificial intelligence, and human-computer interaction, to economics, business, and the social sciences, all the way to digital humanities, policy, and ethics. </p>
+<p style="text-align:justify;"> The Works-in-Progress and Demonstration track focuses on recent findings or other types of innovative or thought-provoking work, hands-on demonstration, novel methods, technologies and experiences relevant to the HCOMP and CI communities. We also welcome work published in other venues to encourage sharing work with HCOMP-CI’s interdisciplinary audience. We encourage practitioners and researchers to submit to the Works-in-Progress & Demo Track as it provides a unique opportunity for sharing valuable insights and ideas, eliciting useful feedback on early-stage work, and fostering discussions and collaborations among colleagues. Submissions are welcome from multiple fields, ranging from computer science, artificial intelligence, and human-computer interaction, to economics, business, and the social sciences, all the way to digital humanities, policy, and ethics. </p>
 
 <p style="text-align:justify;"> Accepted papers in this track will be non-archival and they will not be included in the official proceedings of the HCOMP/CI conference. They will be made available online on the conference website. Authors of accepted papers can thus benefit from exchanging insights on their work, while maintaining the option to further develop their idea and submit the outcome to other venues.  </p>
 
@@ -204,7 +204,7 @@ Works-in-Progress and Demonstration papers must be between 2 and 3 pages of cont
 
 ### Formatting
 
-Papers must be formatted in AAAI two-column, camera-ready style; please refer to the <a href="https://www.aaai.org/Publications/Templates/AuthorKit23.zip">AAAI 2023 Author Kit</a> for details. Papers must be in trouble-free, high-resolution PDF format, formatted for US Letter (8.5″ x 11″) paper, using Type 1 or TrueType fonts. The AAAI copyright block is not required for works-in-progress or demo submissions, as they are not included in the formal proceedings. Please see below for information about publication.
+HCOMP papers must be formatted in AAAI two-column, camera-ready style; please refer to the <a href="https://www.aaai.org/Publications/Templates/AuthorKit23.zip">AAAI 2023 Author Kit</a> for details. Papers must be in trouble-free, high-resolution PDF format, formatted for US Letter (8.5″ x 11″) paper, using Type 1 or TrueType fonts. The AAAI copyright block is not required for works-in-progress or demo submissions, as they are not included in the formal proceedings. Please see below for information about publication.
 
 
 ### Supplemental Materials
