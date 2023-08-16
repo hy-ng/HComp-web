@@ -15,7 +15,7 @@ Delft, Netherlands
 
 **Online registration is available at: [https://aaai.getregistered.net/hcomp-23](https://aaai.getregistered.net/hcomp-23)**
 
-PREREGISTRATION IS REQUIRED. The HCOMP 2023 technical conference registration fee includes admission to all technical paper sessions, invited talks, the social dinner on November 7th, the poster/demo session on November 7th, lunch and coffee breaks on November 6-8, and electronic access to the HCOMP 2023 Conference Proceedings. Full registrations also include access to the workshops on November 9th, which could also be attended separately.
+PREREGISTRATION IS REQUIRED. The HCOMP 2023 technical conference registration fee includes admission to all technical paper sessions, invited talks, the social dinner on November 7th, the poster/demo session on November 6th, lunch and coffee breaks on November 6-8, and electronic access to the HCOMP 2023 Conference Proceedings. Full registrations also include access to the workshops on November 9th, which could also be attended separately.
 
 ## HCOMP-23 TECHNICAL PROGRAM REGISTRATION
 
@@ -75,7 +75,7 @@ Admittance to the HCOMP 2023 Social Dinner is included in the HCOMP 2023 technic
 To register online, please complete the form at [https://aaai.getregistered.net/hcomp-23](https://aaai.getregistered.net/hcomp-23). If you qualify for student rates, you will be required to submit proof of student status (PDF) through the online system before you can complete your registration.
 
 ## Refund Requests
-The deadline for refund requests is October 13, 2023. All refund requests must be made in writing to AAAI at hcompreg@aaai.org. A $100.00 processing fee will be assessed for all refunds.
+The deadline for refund requests is October 6, 2023. All refund requests must be made in writing to AAAI at hcompreg@aaai.org. A $100.00 processing fee will be assessed for all refunds.
 
 ## VISA Information
 
