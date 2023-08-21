@@ -75,11 +75,11 @@ Admittance to the HCOMP 2023 Social Dinner is included in the HCOMP 2023 technic
 To register online, please complete the form at [https://aaai.getregistered.net/hcomp-23](https://aaai.getregistered.net/hcomp-23). If you qualify for student rates, you will be required to submit proof of student status (PDF) through the online system before you can complete your registration.
 
 ## Refund Requests
-The deadline for refund requests is October 6, 2023. All refund requests must be made in writing to AAAI at hcompreg@aaai.org. A $100.00 processing fee will be assessed for all refunds.
+The deadline for refund requests is October 6, 2023. All refund requests must be made in writing to AAAI at hcompreg@aaai.org. A $50.00 processing fee will be assessed for all refunds.
 
 ## VISA Information
 
-Letters of invitation can be requested by accepted HCOMP-23 authors or registrants with a completed registration with payment. If you are attending HCOMP-23 and require a letter of invitation, please send the following information to hcompreg@aaai.org:
+Letters of invitation can be requested by accepted HCOMP-23 authors or registrants with a paid, completed registration. You can access the visa letter request form via the link in your registration confirmation email.
 
 First/Given Name:
 
@@ -124,10 +124,12 @@ HCOMP-23 Registration
 
 AAAI
 
-2275 East Bayshore Road, Suite 160
+Association for the Advancement of Artificial Intelligence
 
-Palo Alto, CA 94303
+1101 Pennsylvania Ave, NW, Suite 300
 
-+1-650-328-3123
+Washington, DC 20004
 
-hcompreg@aaai.org:
+202.742.8360
+
+https://aaai.org
