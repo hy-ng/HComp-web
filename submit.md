@@ -387,10 +387,9 @@ Note: Priority will be given to workshops that include a diverse group of organi
 {:.sub-page-border}
 
 Workshop day(s):
-- On-site (full-day): **November 6, 2023**: 
-- Virtual (2-day split schedule): **November 5-6, 2023**
-
-Sign-up Deadline: **October 1, 2023**
+- On-site & virtual (full-day): **November 9, 2023**: 
+- Sign-up Deadline: **October 6, 2023**
+- Notification: **October 13, 2023**
 
 ## WHAT IS CROWDCAMP?
 
@@ -418,8 +417,8 @@ Sign-up Deadline: **October 1, 2023**
 
 ### Key Dates (all times are midnight AoE)
 
-- **Deadline for sign-up**:	October 1, 2023 (Note that the early and late conference registration deadlines are much earlier! You need to register to the conference to participate in CrowdCamp.)
-- **Notification**:		October 8, 2023
+- **Deadline for sign-up**:	October 6, 2023 (You need to register to the conference or the workshop day to participate in CrowdCamp. Note that the early conference registration deadline is much earlier!)
+- **Notification**:	October 13, 2023
 
 ### Contact
 
