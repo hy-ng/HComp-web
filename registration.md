@@ -34,6 +34,7 @@ PREREGISTRATION IS REQUIRED. The HCOMP 2023 technical conference registration fe
 | Student Non Member ||||||||||| $495 ||||||||||| $545 ||||||||||| $595 |
 
 <br>
+
 **Silver Rates (Includes one-year new or renewal [AAAI membership](https://aaai.org/membership/))** <br>
 
 | ||||||||||| <b>Early (by Sept 8)</b> ||||||||||| <b> Late (by Oct 6) </b> ||||||||||| <b> On-site (after Oct 6) </b>|
