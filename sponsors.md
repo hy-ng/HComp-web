@@ -9,12 +9,29 @@ year: 2023
 &nbsp;
 {:.sub-page-border}
 
+<br>
+
+## <ins>Silver</ins>
+{:.sub-page-header}
+
+<br>
+
+<p align="center">
+  <img src="./img/sponsors/BBGEngineering_black_.png" width="300" />
+</p>
+
+<br>
+<br>
+
+
+
 ## <ins>Bronze</ins>
 {:.sub-page-header}
 
 <p align="center">
   <img src="./img/sponsors/google.png" width="300" />
 </p>
+
 
 
 # HCOMP + CI 2023 Sponsorship 
