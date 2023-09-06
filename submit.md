@@ -466,3 +466,10 @@ Workshop day(s):
 
 <p style="text-align:justify;"> The review process for each conference will follow its typical procedure. This ensures that all papers are evaluated according to the same rigorous standards and criteria that are standard for each conference. </p>
 
+<b> 5. Can attendees see all the CI and HCOMP content if they register only for one conference? </b>
+
+<p style="text-align:justify;"> Yes. Attendees just have to register for ONE conference, either HCOMP or CI. </p>
+
+<b> 6. And for authors, Do we both have to register for both conferences? </b>
+
+<p style="text-align:justify;"> -No. You again only need to register for one conference. Make sure at least one author registers for the conference in which you have a paper.   Per ACM and AAAI requirements we need one author registered for the conference in which they are publishing the paper. </p>
