@@ -21,7 +21,51 @@ year: 2023
       <div class="col-md-12">
         <div class="intro-paragraph lead">
           <h2 id="full" class="section-heading">Papers</h2>
-            Coming soon...
+          
+          {% assign sorted = site.data.accepted[2023].full | sort: 'title' %} {%
+          for paper in sorted %}
+          <b>
+          {% if paper.link %}
+              <a class="theme-link" href= "{{ paper.link }}" >{{ paper.title }}</a>
+          {% else %}
+              {{ paper.title }}
+          {% endif %}
+          </b>
+          {% if paper.video %}
+          (<a href="{{ paper.video }}" class="theme-link" target="_blank">video</a>)
+          {% endif %}
+          <ul class="nobullet">
+            <li>
+              {{ paper.authors }}
+            </li>
+          </ul>
+          {% endfor %}
+
+          <h2 id="wip" class="section-heading">
+            Works-in-Progress and Demonstrations
+          </h2>
+
+          <h3 id="wip-a" href="#wip-a"></h3>
+
+          {% assign sorted = site.data.accepted[2023].wip.groupa | sort: 'title' %} {%
+          for paper in sorted %}
+          <b>
+            {% if paper.link %}
+            <a class="theme-link" target="_blank" href= "{{ paper.link }}" >{{ paper.title }}</a>
+            {% else %}
+            {{ paper.title }}
+            {% endif %}
+          </b>
+          {% if paper.video %}
+          (<a class="theme-link" target="_blank" href="{{ paper.video }}">video</a>)
+          {% endif %}
+          <ul class="nobullet">
+            <li>
+              {{ paper.authors }}
+            </li>
+          </ul>
+          {% endfor %}
+
         </div>
       </div>
     </div>
