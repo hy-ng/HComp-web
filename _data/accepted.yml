@@ -617,41 +617,80 @@
       title: "A Crowd–AI Collaborative Approach to Address Demographic Bias for Student Performance Prediction in Online Education"
   wip:
     groupa:
-    - authors: "Chase McDonald, Thuy Ngoc Nguyen, Carlos Botelho, Christopher Dishop, Anita Woolley and Cleotilde Gonzalez"
-      title: "Working Harder but not Smarter: Experimental Results on the Effects of Collective Intelligence Awareness"
-    - authors: "Chris Madge, Doruk Kicikoglu, Fatima Althani, Richard Bartle, Jon Chamberlain, Udo Kruschwitz and Massimo Poesio"
-      title: "Knowledge Tracing And Gamified Onboarding to Support (Language) Learning in a Platform With A Purpose for Collecting Linguistic Judgments"
-    - authors: "Nikolas Zöller, Stefan M. Herzog and Ralf H.J.M. Kurvers"
-      title: "Boosting collective intelligence in medical diagnostics:  Leveraging decision similarity as a predictor of accuracy when answers are open-ended rankings"
-    - authors: "Zhenyao Cai, Anthony Phonethibsavads and Shayan Doroudi"
-      title: "CrowdLit: Crowd-powered Literature Search"
-    - authors: "Shiyan Zhang and Jeffrey V. Nickerson"
-      title: "Creative Work, Technology and Occupational Innovation"
-    - authors: "Tomoya Kanda, Hiroyoshi Ito, Nobutaka Suzuki and Atsuyuki Morishima"
-      title: "A Logic-based Microtasking Approach for LLMs and Human Processing"
-    - authors: "Louis Rosenberg, Gregg Willcox, Ganesh Mani, Hans Schumann, Miles Bader and Kokoro Sagae"
-      title: "Conversational Swarm Intelligence, a Pilot Study"
-    - authors: "Claudel Rheault, Jerome Pasquero, Patrick Steeves and Karina Pannhasith"
-      title: "Bridging the Communication Gap between ML Engineers and Data Enrichment Workers"
-    - authors: "Céline Offerman, Willem van der Maden and Alessandro Bozzon"
-      title: "Annotating Aesthetics"
-    - authors: "Steven Rick, Gianni Giacomelli, Jennifer Heyman, Haoran Wen, Robert Laubacher, Nancy Taubenslag, Max Knicker, Younes Jeddi, Pranav Ragupathy and Thomas Malone"
-      title: "Supermind Ideator: Exploring generative AI to support creative problem-solving"
     - authors: "Ezequiel Lopez-Lopez and Ulrike Hahn"
       title: "Rapid Think Thanks (RTTs) -- A Collectively-Intelligent Methodology for Collective Deliberation"
+      id: 7003
+      link: assets/wips_demos/CI-23_paper_7003.pdf
+    - authors: "Steven Rick, Gianni Giacomelli, Jennifer Heyman, Haoran Wen, Robert Laubacher, Nancy Taubenslag, Max Knicker, Younes Jeddi, Pranav Ragupathy and Thomas Malone"
+      title: "Supermind Ideator: Exploring generative AI to support creative problem-solving"
+      id: 6936
+      link: assets/wips_demos/CI-23_paper_6936.pdf
+    - authors: "Shiyan Zhang and Jeffrey V. Nickerson"
+      title: "Creative Work, Technology and Occupational Innovation"
+      id: 1888
+      link: assets/wips_demos/CI-23_paper_1888.pdf
+    - authors: "Nikolas Zöller, Stefan M. Herzog and Ralf H.J.M. Kurvers"
+      title: "Boosting collective intelligence in medical diagnostics:  Leveraging decision similarity as a predictor of accuracy when answers are open-ended rankings"
+      id: 1055
+      link: assets/wips_demos/CI-23_paper_1055.pdf
+    - authors: "Chase McDonald, Thuy Ngoc Nguyen, Carlos Botelho, Christopher Dishop, Anita Woolley and Cleotilde Gonzalez"
+      title: "Working Harder but not Smarter: Experimental Results on the Effects of Collective Intelligence Awareness"
+      id: 774
+      link: assets/wips_demos/CI-23_paper_774.pdf
+    groupb:
+    - authors: "Chris Madge, Doruk Kicikoglu, Fatima Althani, Richard Bartle, Jon Chamberlain, Udo Kruschwitz and Massimo Poesio"
+      title: "Knowledge Tracing And Gamified Onboarding to Support (Language) Learning in a Platform With A Purpose for Collecting Linguistic Judgments"
+      id: 1012
+      link: assets/wips_demos/HCOMP-23_paper_1012.pdf
+    - authors: "Zhenyao Cai, Anthony Phonethibsavads and Shayan Doroudi"
+      title: "CrowdLit: Crowd-powered Literature Search"
+      id: 1562
+      link: assets/wips_demos/HCOMP-23_paper_1562.pdf
+    - authors: "Tomoya Kanda, Hiroyoshi Ito, Nobutaka Suzuki and Atsuyuki Morishima"
+      title: "A Logic-based Microtasking Approach for LLMs and Human Processing"
+      id: 2097
+      link: assets/wips_demos/HCOMP-23_paper_2097.pdf
+    - authors: "Louis Rosenberg, Gregg Willcox, Ganesh Mani, Hans Schumann, Miles Bader and Kokoro Sagae"
+      title: "Conversational Swarm Intelligence, a Pilot Study"
+      id: 2815
+      link: assets/wips_demos/HCOMP-23_paper_2815.pdf
+    - authors: "Claudel Rheault, Jerome Pasquero, Patrick Steeves and Karina Pannhasith"
+      title: "Bridging the Communication Gap between ML Engineers and Data Enrichment Workers"
+      id: 3159
+      link: assets/wips_demos/HCOMP-23_paper_3159.pdf
+    - authors: "Céline Offerman, Willem van der Maden and Alessandro Bozzon"
+      title: "Annotating Aesthetics"
+      id: 5631
+      link: assets/wips_demos/HCOMP-23_paper_5631.pdf
     - authors: "Evgenia Christoforou, Carla Fabiana Chiasserini and Jahna Otterbacher"
       title: "Investigating Public Acceptance of Shared Autonomous Vehicles: A Crowdsourcing Approach"
+      id: 7189
+      link: assets/wips_demos/HCOMP-23_paper_7189.pdf
     - authors: "Dennis Paulino, João Paiva, Joana Azevedo, Joana Ferreira, João Barroso and Hugo Paredes"
       title: "Training Crowd Workers to Avoid Cognitive Bias using a Web Game"
+      id: 7564
+      link: assets/wips_demos/HCOMP-23_paper_7564.pdf
     - authors: "Aaron Kessler, Tim Scheiber, Heinz Schmitz and Ioanna Lykourentzou"
       title: "Optimizing Team Formation in Educational Settings"
+      id: 7744
+      link: assets/wips_demos/HCOMP-23_paper_7744.pdf
     - authors: "Juan Pablo Reyes Ochoa and Emmanuel Peterle"
       title: "Rethinking the Design of Innovation Crowdsourcing Competitions: Strategies for Shaping Participation Structure and Maximizing Value Creation"
+      id: 7785
+      link: assets/wips_demos/HCOMP-23_paper_7785.pdf
     - authors: "Michael Grauwde, Mark Neerincx and Olya Kudina"
       title: "Conversational Agents for a Deliberative Age"
+      id: 7864
+      link: assets/wips_demos/HCOMP-23_paper_7864.pdf
     - authors: "Eric Zimmermann, Justin Szeto and Frederic Ratle"
       title: "An Empirical Study of Uncertainty in Polygon Annotation and the Impact of Quality Assurance"
+      id: 8130
+      link: assets/wips_demos/HCOMP-23_paper_8130.pdf
     - authors: "Vikram Mohanty, Jude Lim, Terryl Dodson and Kurt Luther"
       title: "Behind the Canvas: A Human-AI Workflow for Tracing 19th-Century Photographers and Studio Backdrops"
+      id: 8465
+      link: assets/wips_demos/HCOMP-23_paper_8465.pdf
     - authors: "Arjun Patel and Phoebe Liu"
       title: "Clicks Don’t Lie: Inferring Generative AI Usage in Crowdsourcing through User Input Events"
+      id: 8781
+      link: assets/wips_demos/HCOMP-23_paper_8781.pdf
