@@ -253,7 +253,7 @@ Please contact the Works-in-Progress and Demonstration Co-Chairs if you have any
 - **June 28**: Early Doctoral Consortium notifications sent (see below for funding deadline information)
 - **August 14**: Doctoral Consortium final deadline for applications (anywhere on earth)
 - **August 28**: Final Doctoral Consortium notifications sent
-- **November 6**: Doctoral Consortium at HCOMP-CI 2023
+- **November 9**: Doctoral Consortium at HCOMP-CI 2023
 
 ## AREAS OF INTEREST
 
@@ -339,7 +339,7 @@ Please feel free to direct all questions or comments to the following email addr
 
 ## IMPORTANT DATES
 
-- **November 6**: Workshop day
+- **November 9**: Workshop day
 - **June 30**: Deadline (for workshop proposals)
 
 
