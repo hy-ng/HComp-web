@@ -387,14 +387,101 @@ Note: Priority will be given to workshops that include a diverse group of organi
 {:.sub-page-border}
 
 Workshop day(s):
-- On-site & virtual (full-day): **November 9, 2023**: 
+- On-site (**November 9, 2023**) & virtual (**November 8 and 9, 2023**)
 - Sign-up Deadline: **October 6, 2023**
 - Notification: **October 13, 2023**
+
+## PRELIMINARY SCHEDULE
+
+<table class="table table-bordered" style="text-align: center;">
+            <thead class="thead-light">
+              <tr>
+		<th scope="col">Date</th>
+	        <th scope="col">Time (CET/UTC+2)</th>
+                <th scope="col">Session (Remote) Nov. 8, 2023</th>
+                <th scope="col">Session (On-site) Nov. 9, 2023</th>
+              </tr>
+            </thead>
+            <tbody style="font-weight: normal;">
+              <tr> 
+	          <td> 08.11.2023 </td>
+		  <td> 15:00 - 16:00</td>
+		  <td> Day overview, Participants introductions, Ideas introductions, Speed dating, Group formation</td>
+		  <td> - </td>
+	      </tr>
+	      <tr> 
+	          <td> 08.11.2023 </td>
+		  <td> 16:00 - 17:30</td>
+		  <td> Work session</td>
+		  <td> - </td>
+	      </tr>
+              <tr> 
+	          <td> 08.11.2023 </td>
+		  <td> 17:30 - 17:40</td>
+		  <td> Summary of first day</td>
+		  <td> - </td>
+	      </tr>
+              <tr> 
+	          <td> 09.11.2023 </td>
+		  <td> 09:00 - 10:00</td>
+		  <td> - </td>
+		  <td> Day overview, Participants introductions, Ideas introductions, Speed dating, Group formation </td>
+	      </tr>
+	      <tr> 
+	          <td> 09.11.2023 </td>
+		  <td> 10:00 - 10:30</td>
+		  <td> - </td>
+		  <td> Work session </td>
+	      </tr>
+	      <tr> 
+	          <td> 09.11.2023 </td>
+		  <td> 10:30 - 11:00</td>
+		  <td> - </td>
+		  <td> Coffee break </td>
+	      </tr>
+              <tr> 
+	          <td> 09.11.2023 </td>
+		  <td> 11:00 - 12:00</td>
+		  <td> - </td>
+		  <td> Work session </td>
+	      </tr>
+	      <tr> 
+	          <td> 09.11.2023 </td>
+		  <td> 12:00 - 13:00</td>
+		  <td> - </td>
+		  <td> Lunch break </td>
+	      </tr>
+ 	      <tr> 
+	          <td> 09.11.2023 </td>
+		  <td> 13:00 - 14:30</td>
+		  <td> - </td>
+		  <td> Work session </td>
+	      </tr>
+ 	      <tr> 
+	          <td> 09.11.2023 </td>
+		  <td> 14:30 - 14:50</td>
+		  <td> Feedback session (hybrid)</td>
+		  <td> Feedback session (hybrid)</td>
+	      </tr>
+	       <tr> 
+	          <td> 09.11.2023 </td>
+		  <td> 15:00 - 16:00</td>
+		  <td> Work session </td>
+		  <td> Work session </td>
+	      </tr>
+	      <tr> 
+	          <td> 09.11.2023 </td>
+		  <td> 16:00 - 17:30</td>
+		  <td> Final presentations + wrap-up (hybrid) </td>
+		  <td> Final presentations + wrap-up (hybrid) </td>
+	      </tr>
+            </tbody>
+          </table>
 
 ## WHAT IS CROWDCAMP?
 
 
-<p style="text-align:justify;"> CrowdCamp is a one-day hack-a-thon for researchers and practitioners with interests in crowdsourcing, human computation, collective intelligence, and AI. The focus is on creating a first prototype, study design, an idea for a new algorithm, a pilot study, or something else entirely within the workshop itself. Prior CrowdCamp projects have resulted in top-tier conference publications, blog posts, and on-going research.  </p>
+<p style="text-align:justify;"> CrowdCamp is a hybrid hack-a-thon for researchers and practitioners with interests in crowdsourcing, human computation, collective intelligence, and AI. The focus is on creating a first prototype, study design, an idea for a new algorithm, a pilot study, or something else entirely within the workshop itself. Prior CrowdCamp projects have resulted in top-tier conference publications, blog posts, and on-going research.  </p>
 
 <p style="text-align:justify;"> As the theme for this year’s CrowdCamp, we propose generative AI which is revolutionizing various fields, including art, entertainment, and education. However, the full potential of generative AI is yet to be realized, and the role of human intelligence and crowd computing in shaping generative AI is critical for AI alignment. Similarly, there is a need for a timely response to systematically identify and mitigate safety concerns in all generative models that are currently available (see, for instance, <a href="https://www.dataperf.org/adversarial-nibbler">the Adversarial Nibbler data challenge</a>). </p>
 
