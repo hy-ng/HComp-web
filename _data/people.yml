@@ -1353,3 +1353,10 @@
   picture: img/photo/ceolin.jpg
   affiliation: Centrum Wiskunde & Informatica
   website: https://www.cwi.nl/en/people/davide-ceolin/
+
+- id: margetts
+  last_name: Margetts
+  full_name: Helen Margetts
+  picture: img/photo/margetts.png
+  affiliation: University of Oxford
+  website: https://www.oii.ox.ac.uk/people/profiles/helen-margetts/
