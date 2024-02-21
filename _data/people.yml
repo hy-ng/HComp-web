@@ -1360,3 +1360,10 @@
   picture: img/photo/margetts.png
   affiliation: University of Oxford
   website: https://www.oii.ox.ac.uk/people/profiles/helen-margetts/
+
+- id: corti
+  last_name: Corti
+  full_name: Lorenzo
+  picture: img/photo/corti.png
+  affiliation: Delft University of Technology
+  website: https://lcorti.github.io/
