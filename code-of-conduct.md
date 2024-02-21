@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Code of Conduct
-year: 2023
+year: 2024
 ---
 
 # Code of Conduct
