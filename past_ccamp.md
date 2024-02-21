@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Past CrowdCamp Editions
-year: 2023
+year: 2024
 ---
 
 # CrowdCamp Past Editions

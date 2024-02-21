@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Social Events
-year: 2023
+year: 2024
 ---
 
 # Social Events

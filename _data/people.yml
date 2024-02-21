@@ -1363,7 +1363,14 @@
 
 - id: corti
   last_name: Corti
-  full_name: Lorenzo
+  full_name: Lorenzo Corti
   picture: img/photo/corti.png
   affiliation: Delft University of Technology
   website: https://lcorti.github.io/
+
+- id: kapania
+  last_name: Kapania
+  full_name: Shivani Kapania
+  picture: img/photo/kapania.jpg
+  affiliation: Carnegie Mellon University
+  website: https://www.shivanikapania.com/

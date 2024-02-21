@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Submit
-year: 2023
+year: 2024
 ---
 
 # Call for Submissions
