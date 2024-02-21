@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CrowdCamp 2022
-year: 2023
+year: 2024
 ---
 
 # CrowdCamp 2022 

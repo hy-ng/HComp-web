@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sponsors
-year: 2023
+year: 2024
 ---
 
 # HCOMP Sponsors
