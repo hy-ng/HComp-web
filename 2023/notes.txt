@@ -1,0 +1,4 @@
+- the crowdcamp_files folder has the photos that populate the images on the page (if you want to host them somewhere else their path needs to update in the html file)
+- crowdcamp.html uses the css files in the crowd-camp folder - you can change the path in the crowdcamp.html header to point to the server ones 
+- the image header of each page is loaded from the landing-page.css - if it does not load correctly, the path should be updated in the css file (see crowdcamp-files/landing-page.css) 
+- I copied the top page header from one of the 2017 pages. In the past crowdcamp had a link at the top. It's up to you if you want to add it to all the pages. 

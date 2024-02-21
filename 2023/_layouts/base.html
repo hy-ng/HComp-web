@@ -1,0 +1,168 @@
+{% assign title = 'HCOMP ' | append: page.year %}
+{% if page.title %}
+{% assign title = title | append: ': ' | append: page.title %}
+{% endif %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>{{ title }}</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!--   favicon link-->
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+  <!-- Custom CSS  -->
+  <link href="css/landing-page.css?{{site.time | date: '%s%N'}}" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,900" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-light navbar-default navbar-expand-md fixed-top" role="navigation">
+    {% if page.year == 2020 %}
+    <a class="navbar-brand topnav" href="index.html"><img width=80 height=50 src="img/hcomp-original.png"></a>
+    {% else %}
+    <a class="navbar-brand topnav" href="index.html">HCOMP {{ page.year }}</a>
+    {% endif %}
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> 
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse justify-content-end" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        {% if page.year == 2023 %}
+        <li>
+          <a {% if page.url == '/submit.html' %}class='active' {% endif %} href="submit.html">Submit</a>
+        </li>
+        <li>
+          <a {% if page.url == '/attend.html' %}class='active' {% endif %} href="attend.html">Attend</a>
+        </li>
+
+        <li>
+          <a {% if page.url == '/accessibility.html' %}class='active' {% endif %} href="accessibility.html">Accessibility</a>
+        </li>
+
+        <li>
+          <a {% if page.url == '/code-of-conduct.html' %}class='active' {% endif %} href="code-of-conduct.html">Code of Conduct</a>
+        </li>
+        
+        <li>
+          <a {% if page.url == '/program.html' %}class='active' {% endif %} href="program.html">Program</a>
+        </li>
+        
+        <li>
+          <a {% if page.url == '/organizers.html' %}class='active' {% endif %} href="organizers.html">Organizers</a>
+        </li>
+        
+        <li>
+          <a {% if page.url == '/sponsors.html' %}class='active' {% endif %} href="sponsors.html">Sponsors</a>
+        </li>
+        
+        <li>
+          <a {% if page.url == '/past%20meetings.html' %}class='active' {% endif %} href="past%20meetings.html">Past
+            Meetings</a>
+        </li>
+        {% else %}
+        <li>
+          <a {% if page.url == '/submit.html' %}class='active' {% endif %} href="submit.html">Submit</a>
+        </li>
+        <li>
+          <a {% if page.url == '/attend.html' %}class='active' {% endif %} href="attend.html">Attend</a>
+        </li>
+        <li>
+          <a {% if page.url == '/program.html' %}class='active' {% endif %} href="program.html">Program</a>
+        </li>
+        <li>
+          <a {% if page.url == '/organizers.html' %}class='active' {% endif %} href="organizers.html">Organizers</a>
+        </li>
+        <li>
+          <a {% if page.url == '/sponsors.html' %}class='active' {% endif %} href="sponsors.html">Sponsors</a>
+        </li>
+        <li>
+          <a {% if page.url == '/past%20meetings.html' %}class='active' {% endif %} href="past%20meetings.html">Past
+            Meetings</a>
+        </li>
+        {% endif %}
+      </ul>
+    </div>
+  </nav>
+
+  {{ content }}
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="intro-paragraph">
+          <ul class="list-inline">
+            <li>
+              <h2 class="section-heading">Stay CONNECTED: HCOMP COMMUNITY</h2>
+            </li>
+          </ul>
+          <p class="lead">
+            We welcome everyone who is interested in crowdsourcing and human computation to:
+          <ul class="lead">
+            <li>
+              Join <a class="theme-link" href='https://groups.google.com/forum/#!forum/crowd-hcomp'>crowd-hcomp</a>
+              Google Group (mailing list) to post and receive crowdsourcing and human computation email announcements
+              (e.g., calls-for-papers, job openings, etc.) including updates here about the conference. To subscribe
+              send an email to <a class="theme-link"
+                href="crowd-hcomp+subscribe@googlegroups.com">crowd-hcomp+subscribe@googlegroups.com</a>.
+            </li>
+            <li>
+              Check our <a href="https://groups.google.com/forum/#!forum/crowd-hcomp" class="theme-link">Google Group
+                webpage</a> to view the archive of past communications on the HCOMP mailing list.
+            </li>
+            <li>
+              Visit the <a href="https://blog.humancomputation.com/" class="theme-link">HCOMP blog</a> where we post
+              about new ideas for ideas related to crowd and social computing research.
+            </li>
+            <li>
+              Keep track of our twitter hashtag <a href="https://twitter.com/search?q=%23hcomp2023" class="theme-link">#HCOMP2023</a>.
+            </li>
+            <li>
+              Join the <a href="https://hcomp.slack.com/" class="theme-link">HCOMP Slack Community</a> to be in touch with researchers, industry players, practitioners, and crowd workers around Human Computation and relevant topics.
+            </li>
+          </ul>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer-container">
+    <div class="row">
+      <div class="col-lg-12">
+        <p class="copyright text-white">Copyright &copy; HCOMP {{ 'now' | date: "%Y" }}. All Rights Reserved</p>
+      </div>
+    </div>
+    </div>
+  </footer>
+
+
+
+  <!-- jQuery -->
+  <script src="js/jquery-3.3.1.slim.min.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
