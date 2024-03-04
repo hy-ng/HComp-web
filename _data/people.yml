@@ -1395,3 +1395,10 @@
   picture: img/photo/mohanty.jpg
   affiliation: Bosch Research
   website: https://vikrammohanty.com/
+
+- id: dutta
+  last_name: Dutta
+  full_name: Senjuti Dutta
+  picture: img/photo/dutta.jpg
+  affiliation: University of Tennessee, Knoxville
+  website: https://web.eecs.utk.edu/~sdutta6/
