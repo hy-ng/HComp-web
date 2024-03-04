@@ -1374,3 +1374,24 @@
   picture: img/photo/kapania.jpg
   affiliation: Carnegie Mellon University
   website: https://www.shivanikapania.com/
+
+- id: balayn
+  last_name: Balayn
+  full_name: Agathe Balayn
+  picture: img/photo/balayn.jpg
+  affiliation: ServiceNow
+  website: https://agathe-balayn.github.io/
+
+- id: spina
+  last_name: Spina
+  full_name: Damiano Spina
+  picture: img/photo/spina.jpeg
+  affiliation: RMIT University
+  website: https://www.damianospina.com/
+
+- id: mohanty
+  last_name: Mohanty
+  full_name: Vikram Mohanty
+  picture: img/photo/mohanty.jpg
+  affiliation: Bosch Research
+  website: https://vikrammohanty.com/
