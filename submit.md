@@ -9,12 +9,18 @@ year: 2024
 &nbsp;
 {:.sub-page-border}
 
+<!-- ## Overview -->
+
+<p style="text-align:justify;">
+	AAAI HCOMP is the premier venue for disseminating the latest research findings on human computation and crowdsourcing. Its focus is on research and practice into frameworks, methods, and systems that bring together people and machine intelligence to achieve better results. HCOMP 2024 will be held as an in-person conference in Pittsburgh, Pennsylvania from October 16-19, 2024.
+</p>
+
 - Call for [Full Papers](#papers)
-- Call for [Works-In-Progress and Demonstration Papers](#wip)
-- Call for [Doctoral Consortium](#doc)
-- Call for [Workshops](#workshops)
-- Call for [CrowdCamp 2023](#crowdcamp)
-- Frequently Asked Questions [(FAQs)](#faq)
+- (*Coming soon!* ) Call for [Works-In-Progress and Demonstration Papers](#wip)
+- (*Coming soon!* ) Call for [Doctoral Consortium](#doc)
+- (*Coming soon!* ) Call for [Workshops](#workshops)
+- (*Coming soon!* ) Call for [CrowdCamp 2024](#crowdcamp)
+<!-- - Frequently Asked Questions [(FAQs)](#faq) -->
 
 
 <!-- - Call for [Doctoral Consortium](#doc) 
@@ -25,113 +31,71 @@ year: 2024
 
 -->
 
-## OVERVIEW
-
-<p style="text-align:justify;"> This year, the Human Computation (HCOMP) and Collective Intelligence (CI) conferences are being jointly organized. We are excited about this opportunity to bring our two communities closer together, increase the visibility of work in this area, promote more multidisciplinary research, and create a diverse and engaging program. We look forward to your submissions and welcoming you to our joint conference. We hope to foster a fruitful and diverse exchange of ideas, research,  and experiences across the HCOMP and CI communities. </p>
-
-# CALL FOR FULL PAPERS
+# Call for Full Papers
 {:.sub-page-header}
 {:#papers}
 &nbsp;
 {:.sub-page-border}
 
-## IMPORTANT DATES
+## Important Dates
 
 All times are midnight [AoE](https://time.is/Anywhere_on_Earth)
-- June 2, 2023: Abstract submission (required to submit a full paper)
-- June 9, 2023: Full papers due
-- August 7, 2023: Notification of acceptance
-- August 28, 2023: Final camera-ready papers due
-- November 6-10, 2023: HCOMP+CI 2023 Delft University of Technology
+- June 5, 2024: Abstract submission (required to submit a full paper)
+- June 12, 2024: Full papers due
+- July 31, 2024: Notification of acceptance
+- October 16-19, 2024: HCOMP 2024 Pittsburgh, Pennsylvania
 
-## SUBMISSION PROCESS
+## Submission Website
 
-<p style="text-align:justify;"> We are thrilled to announce that the joint organization of CI and HCOMP will provide authors with the opportunity to access the best aspects of both conferences. With this collaboration, HCOMP will now allow authors to publish their accepted papers as extended abstracts if desired so that they can submit their work elsewhere for archival publication, while retaining a presentation at the conference. This change encourages social science researchers to participate and share their work. Meanwhile, CI will now enable authors to publish their papers archivally, thereby enhancing the conference's academic value. We believe this collaboration will enable authors to showcase their work more effectively and contribute to advancing the fields of human computation, crowdsourcing,  and computational intelligence. </p>
+[Submit to HCOMP 2024 using Easychair here.](https://easychair.org/conferences/?conf=hcomp24)
 
-<p style="text-align:justify;"> To present a talk at the CI or HCOMP conference, authors must submit a full paper for review by the program committee. Accepted papers will be granted a presentation at the conference. Therefore, submitting a full paper is a mandatory requirement for authors who wish to present their work at the conference.  </p>
-
-**Extended abstract option.** 
+<!-- **Extended abstract option.** 
 <p style="text-align:justify;">For some researchers and fields (e.g., social scientists or economists), it is beneficial to retain the option to publish the final paper outside of a conference venue. For other researchers, there is benefit from sharing work that was published in other venues with HCOMP-CI’s interdisciplinary audience. To support these researchers, there is an extended abstract option: publish only an extended abstract in the proceedings, should the paper be accepted. Extended abstracts still must submit a full paper for review. Electing for this extended abstraction option is a commitment to replacing the submitted full paper with a two page extended abstract at publication time. Submissions using this extended abstract option may be previously published elsewhere, or may be submitted for publication elsewhere later. Authors opting for the extended abstract option will have their papers juried rather than peer-reviewed; in other words, these articles will still be considered fully by the program committee, but authors will not receive reviews back—only a decision. Extended abstract papers will be treated like full papers in the conference schedule: they will receive a presentation slot. If the work is previously published, authors must clearly and visibly indicate the original paper and citation in their manuscript. </p>
 
 **Forward-to-journal option.**  
-<p style="text-align:justify;"> Typically, accepted conference papers will be published only in the proceedings, and if authors later want to extend or publish the work in another venue, they need to start a new review process. This year, however, we are excited to share that authors will have the opportunity to forward their papers, alongside their existing reviews and reviewers, for consideration to the ACM + SAGE Collective Intelligence journal. The journal will, at its discretion, keep or expand the existing set of reviewers for the article and consider the work for publication in the Collective Intelligence journal, accelerating the journal publication process. This option must be selected at submission time. Papers submitting under the extended abstract option will have reviewers forwarded, but since extended abstract option submissions do not receive written reviews, reviews will not be forwarded. Authors should bear in mind that, if the paper is also published archivally at the conference, the journal may ask for expanded content. </p>
-
-### SUBCOMMITTEE SUBMISSION: HCOMP and CI 
-
-<p style="text-align:justify;"> The conference is organized with one paper presentation track and two separate program subcommittees for paper submission and review. Authors may choose to submit to either the HCOMP or Collective Intelligence subcommittee. Each subcommittee reflects different areas of interest, as well as slightly different submission formats and instructions due to HCOMP being sponsored by AAAI and Collective Intelligence being sponsored by ACM. </p>
+<p style="text-align:justify;"> Typically, accepted conference papers will be published only in the proceedings, and if authors later want to extend or publish the work in another venue, they need to start a new review process. This year, however, we are excited to share that authors will have the opportunity to forward their papers, alongside their existing reviews and reviewers, for consideration to the ACM + SAGE Collective Intelligence journal. The journal will, at its discretion, keep or expand the existing set of reviewers for the article and consider the work for publication in the Collective Intelligence journal, accelerating the journal publication process. This option must be selected at submission time. Papers submitting under the extended abstract option will have reviewers forwarded, but since extended abstract option submissions do not receive written reviews, reviews will not be forwarded. Authors should bear in mind that, if the paper is also published archivally at the conference, the journal may ask for expanded content. </p> -->
  
-## SUBMISSIONS TO HCOMP
+## Relevance and Topics
 
-[Submit to HCOMP using Easychair here.](https://easychair.org/conferences/?conf=hcomp23)
+<p style="text-align:justify;"> While artificial intelligence (AI) and human-computer interaction (HCI) represent traditional mainstays of the conference, HCOMP believes strongly in fostering and promoting broad, interdisciplinary research. Our field is particularly unique in the diversity of disciplines it draws upon and contributes to, including human-centered qualitative studies, HCI design, social computing, machine learning, natural language processing, the broader realms of artificial intelligence (including LLMs and generative AI), economics, computational social science, digital humanities, policy, and ethics. We promote the exchange of advances in human computation and crowdsourcing not only among researchers but also engineers and practitioners, to encourage dialogue across disciplines and communities of practice. </p>
 
- <ins>**Topics**</ins>
-
-<p style="text-align:justify;"> AAAI HCOMP publishes research on human computation and crowdsourcing. Its focus is on research and practice into frameworks, methods and systems that bring together people and machine intelligence to achieve better results. </p>
-
-<p style="text-align:justify;"> While artificial intelligence (AI) and human-computer interaction (HCI) represent traditional mainstays of the conference, HCOMP believes strongly in fostering and promoting broad, interdisciplinary research. Our field is particularly unique in the diversity of disciplines it draws upon and contributes to, including human-centered qualitative studies and HCI design, social computing, artificial intelligence, economics, computational social science, digital humanities, policy, and ethics. We promote the exchange of advances in human computation and crowdsourcing not only among researchers, but also engineers and practitioners, to encourage dialogue across disciplines and communities of practice. Submissions may hence cover theory, studies, tools and applications that present novel, interesting, impactful interactions between people and computational systems. These cover a broad range of scenarios, from classical human computation, wisdom of the crowds, and all forms of crowdsourcing to people-centric AI methods, systems and applications. </p>
+<p style="text-align:justify;"> With the unprecedented proliferation of AI systems across all domains and the adoption of machine learning across disciplines, there is a renewed focus on how complex AI systems are built, machine learning models are trained, and relevant data pipelines are set up to ensure responsible practices throughout these lifecycles. The role of human input and intelligence is being widely discussed in the age of LLMs, and generative AI. Human input serves a multitude of important purposes in these contexts, ranging from generation of training data to validation, evaluation, and facilitating oversight. Ensuring that data work is carried out in a fair, ethical, unbiased, and responsible manner every step of the way can help create better AI systems. It is in this spirit that the AAAI HCOMP 2024 theme focuses on "Responsible Crowd Work for Better AI." </p>
 
 Topics of interest include:
 
-* <p style="text-align:justify;">  Crowdsourcing applications and techniques, including but not limited to: citizen science, collective action, collective intelligence, wisdom of the crowds, crowdsourcing contests, crowd creativity, crowdfunding, paid microtasks, crowd ideation, crowd sensing, prediction markets. </p>
-* <p style="text-align:justify;">  Techniques that enable and enhance human-in-the-loop systems, making them more efficient, accurate, and human-friendly, including task design, quality assurance, answer inference, biases and subjectivity, incentives,  gamification, task allocation, complex workflows, real-time crowdsourcing etc. </p>
-* <p style="text-align:justify;">  Approaches to make crowd science FAIR (Findable, Accessible, Interoperable, Reproducible) and studies assessing and commenting on the FAIRness of human computation and crowdsourcing practice. </p>
-* <p style="text-align:justify;">  Techniques that enable and enhance human-in-the-loop systems, making them more efficient, accurate, and human-friendly, including task design, quality assurance, answer inference, biases and subjectivity, incentives, gamification, task allocation, complex workflows, real-time crowdsourcing, etc. </p>
-* <p style="text-align:justify;">  Studies about how people perform tasks individually, in groups, or as a crowd, including those drawing on techniques from human-computer interaction, social computing, computer-supported cooperative work, design, cognitive sciences, behavioral sciences, economics, etc. </p>
-* <p style="text-align:justify;">  Studies into the reliability and other quality aspects of human-annotated and -curated datasets. </p>
-* <p style="text-align:justify;">  Studies into replicability of crowdsourcing and human computation experiments. </p>
-* <p style="text-align:justify;">  Methods that use human computation and crowdsourcing to build people-centric AI systems and applications, including topics such as explainability and interpretability. </p>
-* <p style="text-align:justify;">  Studies into fairness, accountability, transparency, ethics, and policy implications for crowdsourcing and human computation. </p>
-* <p style="text-align:justify;">  Studies about how people and intelligent systems interact and collaborate with each other and studies revealing the influences and impact of intelligent systems on society. </p>
-* <p style="text-align:justify;">  Studies that inform our understanding about the future of work, distributed work, the freelancer economy, open innovation and citizen-led innovation. </p>
+* <p style="text-align:justify;"> Methods to efficiently and effectively collect and use human feedback to build Generative AI models (e.g., pairwise judgments for RLHF, PPO, DPO, or statements for Constitutional AI). </p>
+* <p style="text-align:justify;"> Humans versus LLMs for data annotation (assessment of quality, trade-offs, biases, evaluation, etc.); the use of LLMs for crowd work (hybrid workflows, productivity and work efficiency, quality, biases, oversight, etc.) </p>
+* <p style="text-align:justify;"> Trust and reliance of crowd workers, data annotators, and other data work experts on LLM-based or generative AI tools. </p>
+* <p style="text-align:justify;"> Approaches to make crowd science FAIR (Findable, Accessible, Interoperable, Reproducible) and studies assessing and commenting on the FAIRness of human computation and crowdsourcing practice, replicability of crowdsourcing, and human computation experiments. </p>
+* <p style="text-align:justify;"> Techniques that enable and enhance human-in-the-loop systems, making them more efficient, accurate, and human-friendly, including task design, quality assurance, answer inference, biases and subjectivity, incentives, gamification, task allocation, complex workflows, real-time crowdsourcing, etc. </p>
+* <p style="text-align:justify;"> Methods, frameworks, techniques, and tools to help build appropriate reliance of humans on AI systems. </p>
+* <p style="text-align:justify;"> Studies about how people perform tasks individually, in groups, or as a crowd, including those drawing on techniques from human-computer interaction, social computing, computer-supported cooperative work, design, cognitive sciences, behavioral sciences, economics, etc. </p>
+* <p style="text-align:justify;"> Data quality aspects of human-annotated and -curated datasets. </p>
+* <p style="text-align:justify;"> Human computation and crowdsourcing to build people-centric AI systems and applications, including topics such as explainability and interpretability. </p>
+* <p style="text-align:justify;"> Fairness, accountability, transparency, ethics, and policy implications for crowdsourcing and human computation. </p>
+* <p style="text-align:justify;"> Studies about how people and intelligent systems interact and collaborate, coordinate, or compete, and studies exploring the influences and impact of intelligent systems on society.
+* <p style="text-align:justify;"> Crowdsourcing applications and techniques, including but not limited to citizen science, collective action, collective intelligence, the wisdom of crowds, crowdsourcing contests, crowd creativity, crowdfunding, paid microtasks, crowd ideation, crowd sensing, and prediction markets. </p>
+* <p style="text-align:justify;"> Studies that inform our understanding of the future of work, distributed work, the freelancer economy, open innovation, and citizen-led innovation. </p>
 
+<p style="text-align:justify;"> Submissions may, therefore, cover theory, user studies, tools, and applications that present novel, interesting, impactful interactions between people and computational systems. These cover a broad range of scenarios, from classical human computation, the wisdom of crowds, and all forms of crowdsourcing to people-centric AI methods, systems, and applications. </p>
 
-<ins>**Format**</ins>
+## Format
 
-<p style="text-align:justify;"> Authors are invited to submit papers of up to 10 pages, plus any number of additional pages containing references only. Papers must be formatted in AAAI two-column, camera-ready style; please refer to the <a href="https://www.aaai.org/Publications/Templates/AuthorKit23.zip">AAAI 2023 Author Kit</a> for details. The AAAI copyright block is not required on submissions but must be included on final accepted versions. Accepted full papers will be allocated ten (10) pages in the conference proceedings. Final papers found to exceed page limits and or otherwise violating the instructions to authors will not be included in the proceedings. </p>
+<p style="text-align:justify;"> Authors are invited to submit anonymized full papers of variable length up to a maximum of 8 pages (including all content, figures, and tables). Additional pages may contain references only (<i>i.e., max. 8 pages + references</i>). Shorter and focussed submissions are welcome and reviewers will assess the contributions of the work accordingly. Papers must be formatted in AAAI two-column, camera-ready style; please refer to the AAAI 2023 Author Kit for details (available templates: <a href="https://www.overleaf.com/latex/templates/aaai-2023-author-kit/wxnmhzcrjbpc">AAAI 2023 Author Kit on Overleaf</a> or <a href="https://aaai.org/authorkit24-2/">AAAI 2024 Author Kit.zip [Word | LaTeX]</a>). The AAAI copyright block is not required on submissions but must be included in the final accepted versions. </p>
 
-<p style="text-align:justify;"> Authors are invited, but not required, to include supplemental materials such as executables and data files so that reviewers can reproduce results in the paper, images, additional videos, related papers, more detailed explanations, derivations, or results. These materials will be viewed only at the discretion of the reviewers, who are only obligated to read your paper itself. </p>
+<p style="text-align:justify;"> Authors are invited, but not required, to include supplemental materials such as executables and data files so that reviewers can reproduce results in the paper, images, additional videos, related papers, more detailed explanations, derivations, or results. These materials will be viewed only at the reviewers’ discretion, who are only obligated to read the submitted papers. </p>
 
-<p style="text-align:justify;"> Authors will be required to transfer copyright of their paper to AAAI. Accepted full papers will be published in the HCOMP conference proceedings and included in the AAAI Digital Library. </p>
+<!-- <p style="text-align:justify;"> Authors will be required to transfer copyright of their paper to AAAI. Accepted full papers will be published in the HCOMP conference proceedings and included in the AAAI Digital Library. </p> -->
 
-<p style="text-align:justify;"> AAAI enables authors to use Open Responsible AI Licenses (Open RAIL), licenses designed to permit free and open access, re-use, and downstream distribution of derivatives of AI artifacts as long as the behavioral-use restrictions always apply (including to derivative works). Need Help Deciding if an AI Pubs License is Right for You? – <a href="https://www.licenses.ai/blog/2023/3/3/ai-pubs-rail-licenses">review this section</a>. Please consider this as a new way to share your work with the community. If you have questions, comments, or feedback, please contact the RAIL team here: <a href="https://www.licenses.ai/contact" >https://www.licenses.ai/contact</a>  </p>
+<p style="text-align:justify;"> Accepted full papers will be published in the HCOMP conference proceedings and included in the AAAI Digital Library. AAAI enables authors to use Open Responsible AI Licenses (Open RAIL), licenses designed to permit free and open access, re-use, and downstream distribution of derivatives of AI artifacts as long as the behavioral-use restrictions always apply (including to derivative works). Need Help Deciding if an AI Pubs License is Right for You? Take a look here:  <a href="https://www.licenses.ai/blog/2023/3/3/ai-pubs-rail-licenses">https://www.licenses.ai/blog/2023/3/3/ai-pubs-rail-licenses</a>. Please consider this as a way to share your work with the community. If you have questions, comments, or feedback, please contact the RAIL team here: 
+<a href="https://www.licenses.ai/contact">https://www.licenses.ai/contact</a>. </p>
 
+<p style="text-align:justify;"> If your paper is accepted, you will be required to present it in person at the AAAI HCOMP 2024 conference in Pittsburgh. At least one author of each accepted paper must register for the main conference to present the work or acceptance will be withdrawn. </p>
 
-
-## SUBMISSIONS TO COLLECTIVE INTELLIGENCE
-
-[Submit to Collective Intelligence using Easychair here.](https://easychair.org/conferences/?conf=ci23)
-
- <ins>**Topics**</ins>
-
-<p style="text-align:justify;"> ACM Collective Intelligence has a transdisciplinary focus devoted to advancing the theoretical and empirical understanding of collective performance in diverse systems, including human organizations, hybrid AI-human teams, computer networks, adaptive matter, cellular systems, neural circuits, animal societies, nanobot swarms, and others. Contributions may include principles that apply across scales, as well as new ways of harnessing the collective to improve social, ecological, and economic outcomes. </p>
-
-<p style="text-align:justify;"> Collective intelligence has typically published a broad range of work across the social and behavioral sciences and computing, but also welcomes work in areas such as the natural sciences and humanities. We seek perspectives that emphasize both traditional views of intelligence as well as optimality, satisficing, robustness, adaptability, and wisdom. In more technical terms, this includes issues related to collective output quality and assessment, aggregation of information and related topics (e.g., network structure and dynamics, higher-order vs. pairwise interactions, spatial and temporal synchronization, diversity, etc.), accumulation of information by individuals or components, environmental complexity, evolutionary considerations, and design of systems and platforms fostering collective intelligence. Methods may range from behavioral, to theoretical, to engineering. </p>
-
-Topics of interest include:
-
-* <p style="text-align:justify;"> Collective decision-making studies and systems, focused on topics such as citizen engagement, collective creativity, collaborative problem-solving, extended and distributed cognition, crowdsourcing, incentive mechanisms, innovation, knowledge creation, organizational design, participatory decision-making, prediction markets, social computing, strategy formation, forecasting, team structures, wisdom of crowds, and voting design </p>
-* <p style="text-align:justify;"> Artificial intelligence techniques that amplify or exhibit collective intelligence, such as adaptive dynamic systems, robotics, and multi-agent technology </p>
-* <p style="text-align:justify;"> Data science investigations of collectively intelligent systems, including biological systems, the emergence of intelligence, evolutionary intelligence </p>
-* <p style="text-align:justify;"> Ethics and values, including societal norms </p>
-
-<ins>**Format**</ins>
-
-<p style="text-align:justify;"> CI papers are of variable length. Paper length must be based on the weight of the contribution. A new idea presented in a compact format is more likely to be accepted than the same idea in a long format, and shorter, more focused papers are encouraged. As a guideline, please consider papers in the range of 10,000 words. </p>
-
-[Collective Intelligence will adopt the ACM TAPS Workflow.](https://www.acm.org/publications/taps/word-template-workflow) For LaTeX authors, submissions should be made using the double-column format ([example PDF](https://uist.acm.org/2023/assets/files/latex-two-column-submission-sample.pdf)) using \documentclass[sigconf,review,anonymous]{acmart}. For Word authors, submissions should be made using either the double-column format ([submission template](https://uist.acm.org/2023/assets/files/word-two-column-submission-sample.docx), [example PDF](https://uist.acm.org/2023/assets/files/word-two-column-submission-sample.pdf)) or the single-column template ([submission template](https://uist.acm.org/2023/assets/files/word-one-column-submission-sample.docx), [example PDF](https://uist.acm.org/2023/assets/files/word-one-column-submission-sample.pdf)).
-Please ensure that you and your co-authors [obtain an ORCID ID](https://orcid.org/register), so you can complete the publishing process for your accepted paper.  ACM has been involved in ORCID from the start and we have recently made [a commitment to collect ORCID IDs from all of our published authors](https://authors.acm.org/author-resources/orcid-faqs). The collection process has started and will roll out as a requirement throughout 2022.  We are committed to improve author discoverability, ensure proper attribution and contribute to ongoing community efforts around name normalization; your ORCID ID will help in these efforts.
-
-<p style="text-align:justify;"> Authors are invited, but not required, to include supplemental materials such as executables and data files so that reviewers can reproduce results in the paper, images, additional videos, related papers, more detailed explanations, derivations, or results. These materials will be viewed only at the discretion of the reviewers, who are only obligated to read your paper itself. </p>
-
-<p style="text-align:justify;"> By submitting your article to an ACM Publication, you are hereby acknowledging that you and your co-authors are subject to all [ACM Publications Policies](https://www.acm.org/publications/policies), including ACM's new [Publications Policy on Research Involving Human Participants and Subjects](https://www.acm.org/publications/policies/research-involving-human-participants-and-subjects). Alleged violations of this policy or any ACM Publications Policy will be investigated by ACM and may result in a full retraction of your paper, in addition to other potential penalties, as per ACM Publications Policy. </p>
-
-
-### SUBMISSION REQUIREMENTS AND PROCESSES
-
-<br>
+## SUBMISSION REQUIREMENTS AND PROCESSES
 
 **Anonymity.** 
-<p style="text-align:justify;"> All papers must be anonymized (including no information identifying the authors or their institutions) for double-blind peer review. </p>
+<p style="text-align:justify;"> HCOMP 2024 will adopt a double-blind review process. Submissions should omit any author names, affiliations, or other identifying information. Submissions not complying with this guidance will be desk-rejected. </p>
 
 **Preprint servers.** 
 <p style="text-align:justify;"> We do not have a policy against uploading preprints to SSRN or arXiv before they are submitted for review at the conference. Nevertheless, to ensure the integrity of the peer review process, we ask that no authors publicize the work until that process is complete. Please do not share confidential info specific to a current review process on social media or in similarly public forums. </p>
@@ -140,18 +104,27 @@ Please ensure that you and your co-authors [obtain an ORCID ID](https://orcid.or
 <p style="text-align:justify;"> To ensure fairness, authors should declare any conflicts of interest with PC members by selecting the “Declare Conflicts” link on the upper-right of your EasyChair submission page. </p>
 
 **Double Submission Policy**: 
-<p style="text-align:justify;"> Excepting papers submitting under the extended abstract option, all papers submitted to the conference must represent original work that has not been previously published or under simultaneous peer-review for any other peer-reviewed archival conference or journal. Specifically: </p>
+<p style="text-align:justify;"> Papers submitted to the HCOMP conference must represent original work that has not been previously published or that is not under simultaneous peer-review for any other peer-reviewed archival conference or journal. Note that: </p>
 
 * <p style="text-align:justify;"> Papers that have appeared at a conference with published proceedings constitute previously published work. </p>
-* <p style="text-align:justify;"> Papers overlapping papers that have appeared at a conference with published proceedings must contain significant new results. </p>
-* <p style="text-align:justify;"> Papers appearing at a workshop do not constitute previously published work as long as the paper submitted to HCOMP is an extension of the workshop paper. Extensions might include new results, more in-depth analysis, an evaluation not part of the workshop paper, or further experiments. </p>
+* <p style="text-align:justify;"> Papers that overlap with other papers that have appeared at a conference with published proceedings must contain significant new results. </p>
+* <p style="text-align:justify;"> Papers that have appeared at a workshop do not constitute previously published work, as long as the paper submitted to HCOMP is an extension of the workshop paper. Extensions might include new results, more in-depth analysis, an evaluation that was not part of the workshop paper, or further experiments. </p>
 
-**Reviews.** 
-<p style="text-align:justify;"> Each full paper submission will be reviewed by at least two members of the program committee and one AC. Reviewers will be instructed to evaluate paper submissions according to specific review criteria. We encourage authors to review them before submission. </p>
+**Review Criteria.**
+
+<p style="text-align:justify;"> Reviewers will be instructed to evaluate paper submissions according to specific <a href="/review-criteria.html">review criteria</a>, some of which is unique to HCOMP. Our intent in posting these review criteria online is to further improve transparency of the conference's peer-review process and to provide additional guidance to authors in preparing their submissions (especially for young researchers, as well as researchers from diverse disciplines). <br>
+We encourage authors to review these criteria and contact us with any questions or feedback. Tweet us <a class="theme-link" href="https://twitter.com/hcomp_conf">@hcomp_conf</a> or email us at <a class="theme-link" href="mailto:hcomp24@easychair.org">hcomp24@easychair.org</a>.
+</p>
+
+**Reviews.**
+
+<p style="text-align:justify;"> Each paper will be reviewed by at least three members of the program committee and one SPC member. Reviewers will be instructed to evaluate submissions according to specific review criteria. We encourage authors to review them before submission. </p>
 
 <p style="text-align:justify;"> To ensure relevance, authors should consider including research questions and contributions of broad interest to crowdsourcing and human computation, as well as discuss relevant open problems and prior work in the field. When the evaluation is conducted within a specific domain, authors are encouraged to discuss how findings might generalize to other communities and application areas using crowdsourcing and human computation. </p>
 
-**Attendance.** 
+**Attendance.**
+<p style="text-align:justify;"> To present a talk at HCOMP 2024, authors must submit a full paper for review by the program committee. Accepted papers will be granted a presentation at the conference. Therefore, submitting a full paper is a mandatory requirement for authors who wish to present their work at the conference. </p>
+
 <p style="text-align:justify;"> To be included in the proceedings and the conference program, at least one author must register in person for the main conference. The registration needs to occur by the camera-ready deadline.</p>
 
 **Presentation.** 
@@ -159,16 +132,18 @@ Please ensure that you and your co-authors [obtain an ORCID ID](https://orcid.or
 
 ## PAPER AWARDS
 
-<p style="text-align:justify;"> Collective Intelligence and HCOMP 2023 will recognize the best paper winner and honorable mention(s). Reviewers will be asked to flag papers they deem worthy of a prize. The general chairs will set up a small panel that will read the papers, consider the reviewers' comments and assess the talk to determine the winners. </p>
+<p style="text-align:justify;"> HCOMP 2024 will recognize one best paper, one best student paper, and up to two runner-ups. Reviewers will be asked to flag papers they deem worthy of a prize. The general chairs will set up a small committee that will read the nominated papers, consider the comments of the reviewers, and assess the presentation to determine the winners. </p>
 
 
-# CI + HCOMP CALL FOR WORKS-IN-PROGRESS (WiP) AND DEMONSTRATION PAPERS
+# HCOMP CALL FOR WORKS-IN-PROGRESS (WiP) AND DEMONSTRATION PAPERS
 {:.sub-page-header}
 {:#wip}
 &nbsp;
 {:.sub-page-border}
 
+<p style="text-align:justify;">To be announced. Stay tuned!</p>
 
+<!-- 
 ## Important Dates
 - August 21: Works-in-Progress Papers and Demonstration papers due (23:59 AoE)
 - September 4: WiP and Demo notifications sent
@@ -227,17 +202,18 @@ Authors should include information identifying themselves and their institutions
 
 Please contact the Works-in-Progress and Demonstration Co-Chairs if you have any questions.
 - Kurt Luther, at [kluther@vt.edu](mailto:kluther@vt.edu) 
-- Ioanna Lykourentzou, at [i.lykourentzou@uu.nl](mailto:i.lykourentzou@uu.nl)
+- Ioanna Lykourentzou, at [i.lykourentzou@uu.nl](mailto:i.lykourentzou@uu.nl) -->
 
 
-# CI+HCOMP CALL FOR DOCTORAL CONSORTIUM
+# HCOMP CALL FOR DOCTORAL CONSORTIUM
 {:.sub-page-header}
 {:#doc}
 &nbsp;
 {:.sub-page-border}
 
+<p style="text-align:justify;">To be announced. Stay tuned!</p>
 
-<p style="text-align:justify;"> This year, the Collective Intelligence (CI) and Human Computation (HCOMP) conferences are being jointly organized and will have a joint Doctoral Consortium to provide doctoral students across both communities with a unique opportunity to meet each other and experienced researchers in the field. Students will be mentored by a group of faculty who are leaders in the diverse specialties that make up the CI and HCOMP fields. The objectives of the Doctoral Consortium are to provide students with an opportunity: </p>
+<!-- <p style="text-align:justify;"> This year, the Collective Intelligence (CI) and Human Computation (HCOMP) conferences are being jointly organized and will have a joint Doctoral Consortium to provide doctoral students across both communities with a unique opportunity to meet each other and experienced researchers in the field. Students will be mentored by a group of faculty who are leaders in the diverse specialties that make up the CI and HCOMP fields. The objectives of the Doctoral Consortium are to provide students with an opportunity: </p>
 
 - To present and discuss their research with experienced researchers: the Doctoral Consortium Mentors;
 - To help doctoral students establish a supportive graduate student community among doctoral students at a similar stage of their dissertation research;
@@ -323,19 +299,20 @@ Submissions will be distributed only to mentors and other attendees of the docto
 - Anna Cox (University of College London)
 - David Lee (University of California, Santa Cruz)
 
-Please feel free to direct all questions or comments to the following email addresses: [anna.cox@ucl.ac.uk](mailto:anna.cox@ucl.ac.uk) or [dlee105@ucsc.edu](mailto:dlee105@ucsc.edu).
+Please feel free to direct all questions or comments to the following email addresses: [anna.cox@ucl.ac.uk](mailto:anna.cox@ucl.ac.uk) or [dlee105@ucsc.edu](mailto:dlee105@ucsc.edu). -->
 
 
 
 
-# CI+HCOMP CALL FOR WORKSHOPS
+# HCOMP CALL FOR WORKSHOPS
 {:.sub-page-header}
 {:#workshops}
 &nbsp;
 {:.sub-page-border}
 
+<p style="text-align:justify;">To be announced. Stay tuned!</p>
 
-<p style="text-align:justify;"> We invite proposals for workshops at HCOMP 2023 / CI 2023. Workshops bring together communities with common research interests and agendas to discuss ongoing work and initiate new collaborations. Workshops may address research, best practices, tools, education, emerging themes and applications, and critical thinking about existing methodologies and frameworks. Topics should be within the general scope of HCOMP or CI (or both), but may include emerging research directions that have not yet been fully explored and may even be seen as controversial.  Workshops may also be a forum for other types of topic-specific activities, such as tutorials or roundtables. </p>
+<!-- <p style="text-align:justify;"> We invite proposals for workshops at HCOMP 2023 / CI 2023. Workshops bring together communities with common research interests and agendas to discuss ongoing work and initiate new collaborations. Workshops may address research, best practices, tools, education, emerging themes and applications, and critical thinking about existing methodologies and frameworks. Topics should be within the general scope of HCOMP or CI (or both), but may include emerging research directions that have not yet been fully explored and may even be seen as controversial.  Workshops may also be a forum for other types of topic-specific activities, such as tutorials or roundtables. </p>
 
 ## IMPORTANT DATES
 
@@ -378,15 +355,17 @@ Note: Priority will be given to workshops that include a diverse group of organi
 ## CONTACT
 
 - Davide Ceolin, [davide.ceolin@cwi.nl](davide.ceolin@cwi.nl)
-- Alexander Quinn, [aq@purdue.edu](aq@purdue.edu)
+- Alexander Quinn, [aq@purdue.edu](aq@purdue.edu) -->
 
-# CrowdCamp 2023
+# CrowdCamp 2024
 {:.sub-page-header}
 {:#crowdcamp}
 &nbsp;
 {:.sub-page-border}
 
-Workshop day(s):
+<p style="text-align:justify;">To be announced. Stay tuned!</p>
+
+<!-- Workshop day(s):
 - On-site (**November 9, 2023**) & virtual (**November 8 and 9, 2023**)
 - Sign-up Deadline: **October 6, 2023**
 - Notification: **October 13, 2023**
@@ -560,3 +539,4 @@ Workshop day(s):
 <b> 6. And for authors, Do we both have to register for both conferences? </b>
 
 <p style="text-align:justify;"> -No. You again only need to register for one conference. Make sure at least one author registers for the conference in which you have a paper.   Per ACM and AAAI requirements we need one author registered for the conference in which they are publishing the paper. </p>
+-->
