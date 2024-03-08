@@ -1402,3 +1402,10 @@
   picture: img/photo/dutta.jpg
   affiliation: University of Tennessee, Knoxville
   website: https://web.eecs.utk.edu/~sdutta6/
+
+- id: jung
+  last_name: Jung
+  full_name: Ji-Youn Jung
+  picture: img/photo/jung.jpg
+  affiliation: Carnegie Mellon University
+  website: https://hcii.cmu.edu/people/ji-youn-jung
