@@ -105,6 +105,11 @@ div class="container organizers">
     {% assign people = site.data.associate_chairs[page.year] %}
     {% include people.html people=people %}
 </div-->
+<div class="container organizers">
+  <h2 class="organizer-name">Logo and Banner Designs</h2>
+    {% assign people = site.data.graphics[page.year] %}
+    {% include people.html people=people %}
+</div>
 <!-- <div class="container organizers">
   <h2 class="organizer-name">Senior Program Committee</h2>
     {% assign people = site.data.spc[page.year] %}
