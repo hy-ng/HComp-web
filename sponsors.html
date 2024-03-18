@@ -68,11 +68,7 @@ year: 2024
       <div class="col-md-12">
         <div class="intro-paragraph">
 
-          <ul class="list-inline">
-            <li>
-              <h2 class="section-heading">Sponsorship Overview</h2>
-            </li>
-          </ul>
+          
           <p class="lead">
             The 12th AAAI Conference on Human Computation and Crowdsourcing (HCOMP 2024) will be held from October 16-19th in Pittsburgh, Pennsylvania, USA, 
             and will particularly focus on the theme of <b>''Responsible Crowd Work for Better AI.''</b> 
@@ -279,6 +275,27 @@ overflow:hidden;padding:10px 5px;word-break:normal;color: #333333;
   </tbody>
   </table>
 </div>
+          <ul class="list-inline">
+            <li>
+              <h2 class="section-heading">Let's Talk</h2>
+            </li>
+          </ul>
+          <p class="lead">Get in touch with us: <a href="mailto:HCOMPSponsors@aaai.org">HCOMPSponsors@aaai.org</a></p>
+
+          <div class="container organizers">
+  <h2 class="organizer-name">Industry & Sponsorships Co-Chairs</h2>
+    {% assign people = site.data.industry_chairs[page.year] %}
+    {% include people.html people=people %}
+</div>
+
+          <div class="container organizers">
+  <h2 class="organizer-name">Conference Co-Chairs</h2>
+    <p class="lead" style="text-align:center">Contact: <a class="theme-link"
+        href="mailto:hcompconference@gmail.com">hcompconference@gmail.com</a></p>
+    {% assign people = site.data.chairs[page.year].general %}
+    {% include people.html people=people %}
+</div>
+          
         </div>
       </div>
     </div>
