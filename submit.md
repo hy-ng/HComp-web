@@ -18,7 +18,8 @@ year: 2024
 - Call for [Full Papers](#papers)
 - (*Coming soon!* ) Call for [Works-In-Progress and Demonstration Papers](#wip)
 - (*Coming soon!* ) Call for [Doctoral Consortium](#doc)
-- (*Coming soon!* ) Call for [Workshops](#workshops)
+- Call for [Workshops](#workshops)
+- Call for [Tutorials](#tutorials)
 - (*Coming soon!* ) Call for [CrowdCamp 2024](#crowdcamp)
 <!-- - Frequently Asked Questions [(FAQs)](#faq) -->
 
@@ -302,60 +303,140 @@ Submissions will be distributed only to mentors and other attendees of the docto
 Please feel free to direct all questions or comments to the following email addresses: [anna.cox@ucl.ac.uk](mailto:anna.cox@ucl.ac.uk) or [dlee105@ucsc.edu](mailto:dlee105@ucsc.edu). -->
 
 
-
-
-# HCOMP CALL FOR WORKSHOPS
+# Call for Workshops
 {:.sub-page-header}
 {:#workshops}
 &nbsp;
 {:.sub-page-border}
 
-<p style="text-align:justify;">To be announced. Stay tuned!</p>
+<p style="text-align:justify;">
+We invite proposals for workshops at HCOMP 2024. Workshops bring together communities with common research interests and agendas to discuss ongoing work and initiate new collaborations. Workshops may address research, best practices, tools, education, emerging themes and applications, and critical thinking about existing methodologies and frameworks. Topics should be within the general scope of HCOMP or CI (or both) but may include emerging research directions that have not yet been fully explored and may even be seen as controversial. We welcome submissions from both academia and industry.</p>
+<p style="text-align:justify;">
+Note that <b>workshops this year will be entirely in-person.</b>
+</p>
 
-<!-- <p style="text-align:justify;"> We invite proposals for workshops at HCOMP 2023 / CI 2023. Workshops bring together communities with common research interests and agendas to discuss ongoing work and initiate new collaborations. Workshops may address research, best practices, tools, education, emerging themes and applications, and critical thinking about existing methodologies and frameworks. Topics should be within the general scope of HCOMP or CI (or both), but may include emerging research directions that have not yet been fully explored and may even be seen as controversial.  Workshops may also be a forum for other types of topic-specific activities, such as tutorials or roundtables. </p>
+## Important Dates
+**All times are midnight [AoE](https://time.is/Anywhere_on_Earth)**
 
-## IMPORTANT DATES
-
-- **November 9**: Workshop day
-- **June 30**: Deadline (for workshop proposals)
-
+- June 25, 2024: Submission deadline for workshop proposals
+- July 15, 2024: Decisions sent to organisers
+- July 25, 2024: Deadline to provide additional workshop details
+- August 15, 2024: Call for participation released by workshop organizers
+- *TBA*: Workshop date (during the conference)
 
 ## WORKSHOP FORMAT
 
-<p style="text-align:justify;">Workshop format can include discussions of contributions from attendees (e.g., posters, lightning talks) as well as providing space for lively, informal debates (e.g., breakout groups, panel discussions). </p>
+<p style="text-align:justify;">The workshop format can include discussions of contributions from attendees (e.g., posters, lightning talks) as well as providing space for lively, informal debates (e.g., breakout groups, panel discussions), and any other group activities (e.g., collaborative brainstorming exercises, competitions etc.).</p>
 
-<p style="text-align:justify;">Keep everyone involved! We especially encourage workshop formats with activities that keep attendees engaged throughout the workshop. Get creative! Consider incorporating demos, feedback on innovative task designs, or short-term collaborations. What can attendees create? … or solve? </p>
+<p style="text-align:justify;">We look forward to new and exciting formats that can use the workshop timeslot and format for creative and non-traditional "workshops." </p>
+
+<p style="text-align:justify;">Keep everyone involved! We especially encourage workshop formats with activities that keep attendees engaged throughout the workshop. Get creative! Consider incorporating demos, feedback on innovative task designs, or short-term collaborations. What can attendees create? … or solve?</p>
+
+<p style="text-align:justify;">Workshops should be entirely in-person and should last a maximum of 4 hours.</p>
 
 ## SUBMISSION INSTRUCTIONS
 
+**Link to the submission site**: [https://easychair.org/conferences/?conf=hcomp24](https://easychair.org/conferences/?conf=hcomp24)
 
-If you would like to organize a workshop at HCOMP 2023 / CI 2023, please submit a PDF (2-4 pages) by June 30 via [EasyChair](https://easychair.org/conferences/?conf=hcomp23) (see below).
+If you would like to organize a workshop at HCOMP 2024, please submit a PDF (2-4 pages) by the submission deadline above.
 
-1. Draft workshop announcement. This should include:
-    a. Title
-    b. Topics and subtopics that are in scope
-    c. Organizers’ names and affiliations
-    d. Duration (full-day or half-day)
-    e. Schedule (draft)
-    f. Deadline for submissions to your workshop (if applicable). Our suggested deadline is no later than September, 15, 2023.
-    g. Notification date for acceptance/rejection of submissions to your workshop (if applicable). Our suggested date is no later than October 1, 2023.
-2. How will you keep participants debating, interacting, and/or creating throughout the workshop?
-3. What proportion of the time (approximately) will be spent on non-interactive activities (e.g., listening to talks)?
-4. How will you advertise your workshop? We encourage organizers to consider sending announcements to channels that will reach a diverse group of people.
-5. What keynote speakers, panelists, or special invitees do you plan to invite?  Indicate if any have already been invited or (tentatively) accepted.
+1. **Draft workshop announcement** (some details to be added to the conference website upon acceptance). This should include:
+   - Title 
+   - Workshop Abstract (less than 200 words)
+   - Topics and subtopics that are in scope 
+   - Goals of the workshop
+   - Organizers’ names and affiliations 
+   - Duration (how many hours) 
+   - Schedule (draft) 
+   - Deadline for submissions to your workshop (if applicable). Our suggested deadline is no later than August 15th. 
+   - Notification date for acceptance/rejection of submissions to your workshop (if applicable). Our suggested date is no later than September 15th.
 
-Note: Priority will be given to workshops that include a diverse group of organizers across different dimensions including but not limited to affiliation, affiliation type (e.g., academia, industry), geographical location, and area of research.
+2. **General type of workshop**: What will the workshop consist of?
+   - What activities will be organized, and how do they relate to the workshop's topic and goal?
+   - If relevant, what keynote speakers, panelists, or special invitees do you plan to invite? Indicate if any have already been invited or (tentatively) accepted.
 
+3. **During the workshop**
+   - How will you keep participants debating, interacting, and/or creating throughout the workshop?
+   - What proportion of the time (approximately) will be spent on non-interactive activities (e.g., listening to talks)?
 
-## SUBMISSIONS
+4. **How will you advertise your workshop?** We encourage organizers to consider sending announcements to channels that will reach a diverse group of people.
+   - Maximum number of participants
+   - Procedures for recruiting and selecting participants
+   - Equipment and supplies needed to run the workshop, including any logistical needs
 
+5. **Before the workshop**: How will you advertise your workshop? We encourage organizers to consider sending announcements to channels that will reach a diverse group of people.
 
-[https://easychair.org/conferences/?conf=hcomp23](https://easychair.org/conferences/?conf=hcomp23) Track: **workshops**.
+Submissions must be in PDF format up to a maximum of 4 pages (including all content, figures, and tables) and may contain references in additional pages. Submissions must be formatted in AAAI two-column, camera-ready style; please refer to the AAAI 2023 Author Kit for details (available templates: [AAAI 2023 Author Kit on Overleaf](https://www.overleaf.com/latex/templates/aaai-2023-author-kit/wxnmhzcrjbpc) or [AAAI 2024 Author Kit.zip [Word \| LaTeX]](https://aaai.org/authorkit24-2/)). The AAAI copyright block is not required on submissions but must be included in the final accepted versions.
+
+## SELECTION PROCESS
+<p style="text-align:justify;">Workshops will be selected through evaluation by a small jury and the workshop chairs. Jurors will provide insight to the workshop chairs considering fit and contribution to the HCOMP community as well as relation to other submitted workshops.</p>
+
+<p style="text-align:justify;">Priority will be given to workshops that include a diverse group of organizers across different dimensions, including but not limited to affiliation, affiliation type (e.g., academia, industry), geographical location, and the area of research.</p>
+
+<p style="text-align:justify;">Organizers will be notified whether their workshop has been accepted on 15th July 2024. Due to the multifaceted criteria for creating a workshop program, reviews will not be sent to potential workshop organizers.</p>
+
+<p style="text-align:justify;">Organizers of accepted workshops will be asked to provide details of the workshop for publication on the conference website containing the workshop title, names and affiliations of organizers, 200-word abstract, workshop website link (if any), and any participation requirements.</p>
+
+<p style="text-align:justify;">A final workshop description will be published in the HCOMP conference proceedings and included in the AAAI Digital Library. This final tutorial description should use the AAAI two-column, camera-ready Word/Latex templates and must be submitted by the 25th of July 2024.</p>
 
 ## CONTACT
+Please contact HCOMP 2024 Workshop Co-Chairs for any questions concerning workshop proposals.
 
-- Davide Ceolin, [davide.ceolin@cwi.nl](davide.ceolin@cwi.nl)
-- Alexander Quinn, [aq@purdue.edu](aq@purdue.edu) -->
+- Agathe Balayn ([a.m.a.balayn@tudelft.nl](mailto:a.m.a.balayn@tudelft.nl))
+- Danula Hettiachchi ([danula.hettiachchi@rmit.edu.au](mailto:danula.hettiachchi@rmit.edu.au))
+
+
+
+# Call For Tutorials
+{:.sub-page-header}
+{:#tutorials}
+&nbsp;
+{:.sub-page-border}
+
+<p style="text-align:justify;"> We welcome tutorials focusing on the application, use, and deployment of tools and frameworks proposed by HCOMP scholarship in real-world practice and/or research settings. Tutorials should focus on tools and frameworks that have already been deployed/evaluated in actual practice or in the wild, not merely at a ‘proof-of-concept’ stage. Tutorials related to research methodologies are also welcome. </p>
+
+<p style="text-align:justify;">Tutorials can also consist of specialized courses with significant depth in specific established and/or emerging areas of research and practice, including the various subfields relevant to the HCOMP community.</p>
+
+<p style="text-align:justify;">We particularly encourage submissions by practitioners who work on the ground and are concerned with human-computation systems in socially consequential domains.</p>
+
+<p style="text-align:justify;">The tutorial should provide an overview of the core tool/framework/area for the general HCOMP audience, situate it in the context where it is deployed, and used, and if applicable, discuss the consequences and ramifications of the tool after deployment (if applicable).</p>
+
+<p style="text-align:justify;">Tutorials can last 45min or 90min.</p>
+
+## Important Dates
+**All times are midnight [AoE](https://time.is/Anywhere_on_Earth)**
+
+- June 25, 2024: Submission deadline for tutorial proposals
+- July 15, 2024: Decisions sent to authors
+- *TBA*: Deadline to provide online tutorial material
+- *TBA*: Tutorial date
+
+## SUBMISSION FORMAT AND INSTRUCTIONS
+**Link to the submission site**: [https://easychair.org/conferences/?conf=hcomp24](https://easychair.org/conferences/?conf=hcomp24)
+
+The proposal should consist of a maximum of 2 pages not including references. Proposals should include:
+- **Title**
+- **Team**: Given the duration of tutorials, we encourage tutorials to be presented by one to three people, though more may be involved in its preparation. For the tutorial presenters, please include links to evidence of knowledge translation and communication abilities, such as previous workshops, academic or public-facing talks, tutorials, community organization, and other forms of facilitation.
+- **Abstract**: 1-2 paragraphs suitable for inclusion in the conference website and registration material.
+- **Description**: A detailed description of the topic you plan to cover, including references. Clearly articulate the main goals and outcomes of the tutorial. Note that this description will be given the highest weight during the selection.
+- **Proposed Length**: Please mention the proposed length (45 or 90 mins), but keep in mind that we might conditionally accept a proposal and suggest a different length.
+- **Timeline and Format**: A short timeline description of how you plan to break down the material over 45 or 90 minutes. Please specify whether you are proposing a lecture-style or a hands-on tutorial.
+- **Audience**: A description of the intended audience, prerequisite knowledge, and potential learning outcomes.
+- **Previous Iterations**: A web link or relevant information to the proposed tutorial if it has been delivered previously at any other conference or similar venue.
+- **Material**: Details regarding any supplementary material that will be made available to tutorial participants.
+
+Submissions must be in PDF format up to a maximum of 4 pages (including all content, figures, and tables) and may contain references in additional pages. Submissions must be formatted in AAAI two-column, camera-ready style; please refer to the AAAI 2023 Author Kit for details (available templates: [AAAI 2023 Author Kit on Overleaf](https://www.overleaf.com/latex/templates/aaai-2023-author-kit/wxnmhzcrjbpc) or [AAAI 2024 Author Kit.zip [Word \| LaTeX]](https://aaai.org/authorkit24-2/)). The AAAI copyright block is not required on submissions but must be included in the final accepted versions.
+
+## SELECTION PROCESS
+<p style="text-align:justify;">Tutorial proposals will be assessed by the Tutorial Chairs, with selections governed by quality and the need for a balanced and diverse program of interest to the HCOMP community.</p>
+
+<p style="text-align:justify;">A final tutorial description will be published in the HCOMP conference proceedings and included in the AAAI Digital Library. This final tutorial description should use the AAAI two-column, camera-ready Word/Latex templates and must be submitted by July 25, 2024.</p>
+
+## CONTACT
+Please contact HCOMP 2024 Tutorials Co-Chairs for any questions concerning workshop proposals.
+
+- Agathe Balayn ([a.m.a.balayn@tudelft.nl](mailto:a.m.a.balayn@tudelft.nl))
+- Danula Hettiachchi ([danula.hettiachchi@rmit.edu.au](mailto:danula.hettiachchi@rmit.edu.au))
 
 # CrowdCamp 2024
 {:.sub-page-header}
