@@ -310,7 +310,7 @@ Please feel free to direct all questions or comments to the following email addr
 {:.sub-page-border}
 
 <p style="text-align:justify;">
-We invite proposals for workshops at HCOMP 2024. Workshops bring together communities with common research interests and agendas to discuss ongoing work and initiate new collaborations. Workshops may address research, best practices, tools, education, emerging themes and applications, and critical thinking about existing methodologies and frameworks. Topics should be within the general scope of HCOMP or CI (or both) but may include emerging research directions that have not yet been fully explored and may even be seen as controversial. We welcome submissions from both academia and industry.</p>
+We invite proposals for workshops at HCOMP 2024. Workshops bring together communities with common research interests and agendas to discuss ongoing work and initiate new collaborations. Workshops may address research, best practices, tools, education, emerging themes and applications, and critical thinking about existing methodologies and frameworks. Topics should be within the general scope of HCOMP but may include emerging research directions that have not yet been fully explored and may even be seen as controversial. We welcome submissions from both academia and industry.</p>
 <p style="text-align:justify;">
 Note that <b>workshops this year will be entirely in-person.</b>
 </p>
@@ -319,9 +319,9 @@ Note that <b>workshops this year will be entirely in-person.</b>
 **All times are midnight [AoE](https://time.is/Anywhere_on_Earth)**
 
 - June 25, 2024: Submission deadline for workshop proposals
-- July 15, 2024: Decisions sent to organisers
+- July 15, 2024: Decisions sent to organizers
 - July 25, 2024: Deadline to provide additional workshop details
-- August 15, 2024: Call for participation released by workshop organizers
+- August 1, 2024: Call for participation released by workshop organizers
 - *TBA*: Workshop date (during the conference)
 
 ## WORKSHOP FORMAT
@@ -348,7 +348,7 @@ If you would like to organize a workshop at HCOMP 2024, please submit a PDF (2-4
    - Organizers’ names and affiliations 
    - Duration (how many hours) 
    - Schedule (draft) 
-   - Deadline for submissions to your workshop (if applicable). Our suggested deadline is no later than August 15th. 
+   - Deadline for submissions to your workshop (if applicable). Our suggested deadline is no later than August 30th. 
    - Notification date for acceptance/rejection of submissions to your workshop (if applicable). Our suggested date is no later than September 15th.
 
 2. **General type of workshop**: What will the workshop consist of?
