@@ -17,7 +17,7 @@ year: 2024
 
 - Call for [Full Papers](#papers)
 - (*Coming soon!* ) Call for [Works-In-Progress and Demonstration Papers](#wip)
-- (*Coming soon!* ) Call for [Doctoral Consortium](#doc)
+- Call for [Doctoral Consortium](#doc)
 - Call for [Workshops](#workshops)
 - Call for [Tutorials](#tutorials)
 - (*Coming soon!* ) Call for [CrowdCamp 2024](#crowdcamp)
