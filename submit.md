@@ -206,7 +206,7 @@ Please contact the Works-in-Progress and Demonstration Co-Chairs if you have any
 - Ioanna Lykourentzou, at [i.lykourentzou@uu.nl](mailto:i.lykourentzou@uu.nl) -->
 
 
-# HCOMP CALL FOR DOCTORAL CONSORTIUM
+# Call For Doctoral Consortium
 {:.sub-page-header}
 {:#doc}
 &nbsp;
