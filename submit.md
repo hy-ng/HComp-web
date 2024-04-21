@@ -219,37 +219,37 @@ Please contact the Works-in-Progress and Demonstration Co-Chairs if you have any
 
  <p style="text-align:justify;">The objectives of the DC are to provide students with the opportunity to: </p>
 
-- Present and discuss their research with experienced researchers (i.e., DC mentors);
-- Network with other doctoral researchers who are at a similar stage of their dissertation research;
-- Access a platform for broader exposure for their research, both in general and in support of a future job search.
+- <p style="text-align:justify;">Present and discuss their research with experienced researchers (i.e., DC mentors);</p>
+- <p style="text-align:justify;">Network with other doctoral researchers who are at a similar stage of their dissertation research;</p>
+- <p style="text-align:justify;">Access a platform for broader exposure for their research, both in general and in support of a future job search.</p>
 
 <p style="text-align:justify;">Participation in the HCOMP DC is a great opportunity to increase the visibility of a doctoral researcher’s work and to build connections with members of the HCOMP community.</p>
 
 ## IMPORTANT DATES
 
-- **June 13**: Doctoral Consortium application deadline (anywhere on earth)
-- **June 27**: Doctoral Consortium notifications sent (see below for funding information).
-- **October 19**: Doctoral Consortium at HCOMP 2024.
+- **June 13**: Doctoral Consortium application deadline (anywhere on earth)</p>
+- **June 27**: Doctoral Consortium notifications sent (see below for funding information).</p>
+- **October 19**: Doctoral Consortium at HCOMP 2024.</p>
 
 ## Areas of Interest
 
-HCOMP is unique in the diversity of disciplines that it draws upon and contributes to, ranging from computer science (especially artificial intelligence and human-computer interaction) to economics, organizational behavior, and the social sciences, all the way to digital humanities, policy, healthcare, digital health, and ethics. Any DC submissions fitting the topics of interest in the conference Call for Submissions [https://www.humancomputation.com/submit.html] are applicable. 
+<p style="text-align:justify;">HCOMP is unique in the diversity of disciplines that it draws upon and contributes to, ranging from computer science (especially artificial intelligence and human-computer interaction) to economics, organizational behavior, and the social sciences, all the way to digital humanities, policy, healthcare, digital health, and ethics. Any DC submissions fitting the topics of interest in the conference Call for Submissions [https://www.humancomputation.com/submit.html] are applicable. </p>
 
 ## Eligibility
 
-Applicants must currently be enrolled in a PhD program. The Doctoral Consortium accepts doctoral researchers from any stage in their candidature but will prioritize candidates who have established a clear topic and research approach and have made some progress, but who are not so far along that they can no longer make changes. Before submitting, candidates should discuss their criteria with their advisor. 
+<p style="text-align:justify;">Applicants must currently be enrolled in a PhD program. The Doctoral Consortium accepts doctoral researchers from any stage in their candidature but will prioritize candidates who have established a clear topic and research approach and have made some progress, but who are not so far along that they can no longer make changes. Before submitting, candidates should discuss their criteria with their advisor. </p>
 
 ## Attendance
 
-Those accepted are required to present their work at the DC, in-person (no virtual participation). Participants will also present a poster on their work during the poster session at the main conference. 
+<p style="text-align:justify;">Those accepted are required to present their work at the DC, in-person (no virtual participation). Participants will also present a poster on their work during the poster session at the main conference. </p>
 
 ## Selection
 
-Submissions will be reviewed based upon the expected potential of both the student and their proposed work, as well as the expected benefit to the applicant from participation. Priority will be given to applicants whose research goes beyond locally available expertise at their home institutions.
+<p style="text-align:justify;">Submissions will be reviewed based upon the expected potential of both the student and their proposed work, as well as the expected benefit to the applicant from participation. Priority will be given to applicants whose research goes beyond locally available expertise at their home institutions.</p>
 
 ## Financial Support
 
-We expect to be able to support a limited number of DC participants with free registration to the conference. Should you require such financial assistance, please indicate it in your application as outlined below. 
+<p style="text-align:justify;">We expect to be able to support a limited number of DC participants with free registration to the conference. Should you require such financial assistance, please indicate it in your application as outlined below. </p>
 
 ## Application
 
@@ -257,132 +257,42 @@ We expect to be able to support a limited number of DC participants with free re
 
 ### Doctoral Research Overview
 
-Please summarize your doctoral research, including the following sections:
+<p style="text-align:justify;">Please summarize your doctoral research, including the following sections:</p>
 
-- Motivation for the proposed research;
-- Background and related work (including key references);
-- Description of the proposed research, including key research questions and planned methodology to be used for investigating these research questions;
-- Proposed experiments if appropriate; Any preliminary evaluation and findings are welcomed, but this is not required.;
-- Specific research issues and/or challenges (do not skip these; the consortium is about helping you solve issues, not boasting about the issues you already solved).
+- <p style="text-align:justify;">Motivation for the proposed research;</p>
+- <p style="text-align:justify;">Background and related work (including key references);</p>
+- <p style="text-align:justify;">Description of the proposed research, including key research questions and planned methodology to be used for investigating these research questions;</p>
+- <p style="text-align:justify;">Proposed experiments if appropriate; Any preliminary evaluation and findings are welcomed, but this is not required.;</p>
+- <p style="text-align:justify;">Specific research issues and/or challenges (do not skip these; the consortium is about helping you solve issues, not boasting about the issues you already solved).</p>
 
 ### Supplemental Paragraph
 
-Please write a paragraph explaining: Why you want to participate in the consortium at this point in your doctoral studies and how you expect to benefit from the consortium; Your expected (approximate) completion date; If you require financial assistance in participating the conference, and the justification (note: we cannot support everyone, so please consider this option if you really need it).
+<p style="text-align:justify;">Please write a paragraph explaining: Why you want to participate in the consortium at this point in your doctoral studies and how you expect to benefit from the consortium; Your expected (approximate) completion date; If you require financial assistance in participating the conference, and the justification (note: we cannot support everyone, so please consider this option if you really need it).</p>
 
 ### Length and Organization
 
-Your paper should be no more than 4 pages in total: 3 pages for the Doctoral Research Overview (including all figures and references), and the 4th page being the Supplemental Paragraph. The first page must contain the title of the paper, full author name, affiliation and contact details, an abstract of up to 250 words, and up to 3 keywords describing the research topic areas.
+<p style="text-align:justify;">Your paper should be no more than 4 pages in total: 3 pages for the Doctoral Research Overview (including all figures and references), and the 4th page being the Supplemental Paragraph. The first page must contain the title of the paper, full author name, affiliation and contact details, an abstract of up to 250 words, and up to 3 keywords describing the research topic areas.</p>
 
 ### Formatting
 
-For consistency, we ask that all submissions to the HCOMP DC be formatted in the same way as described in the HCOMP 2024 Call for Papers [https://www.humancomputation.com/submit.html#papers].
+<p style="text-align:justify;">For consistency, we ask that all submissions to the HCOMP DC be formatted in the same way as described in the HCOMP 2024 Call for Papers [https://www.humancomputation.com/submit.html#papers].</p>
 
 ### Submission
 
-For simplicity, we ask that all submissions to the HCOMP Doctoral Consortium be submitted through the same portal using the HCOMP 2024 EasyChair paper submission site [https://easychair.org/conferences/?conf=hcomp24]. Submissions must be made on or before the deadlines listed above. We cannot accept submissions by e-mail or fax. Authors will receive confirmation of receipt of their submissions, including an ID number, shortly after submission. HCOMP will contact authors again only if problems are encountered with papers.
+<p style="text-align:justify;">For simplicity, we ask that all submissions to the HCOMP Doctoral Consortium be submitted through the same portal using the HCOMP 2024 EasyChair paper submission site [https://easychair.org/conferences/?conf=hcomp24]. Submissions must be made on or before the deadlines listed above. We cannot accept submissions by e-mail or fax. Authors will receive confirmation of receipt of their submissions, including an ID number, shortly after submission. HCOMP will contact authors again only if problems are encountered with papers.</p>
 
 ### Dissemination
 
-Submissions will be distributed only to mentors and other attendees of the doctoral consortium. Proceedings of the Doctoral Consortium will NOT be archived. As such, students may freely submit their research contributions for official publication in other venues. Participant names and university affiliations, as well as paper titles and abstracts, will be publicized on the conference website and in the conference program for the poster session.
+<p style="text-align:justify;">Submissions will be distributed only to mentors and other attendees of the doctoral consortium. Proceedings of the Doctoral Consortium will NOT be archived. As such, students may freely submit their research contributions for official publication in other venues. Participant names and university affiliations, as well as paper titles and abstracts, will be publicized on the conference website and in the conference program for the poster session.</p>
 
 ## Doctoral Consortium Chairs
 
-- Simo Hosio (University of Oulu & University of Tokyo)
-- Jahna Otterbacher (Open University of Cyprus, CYENS Centre of Excellence)
+- <p style="text-align:justify;">Simo Hosio (University of Oulu & University of Tokyo)</p>
+- <p style="text-align:justify;">Jahna Otterbacher (Open University of Cyprus, CYENS Centre of Excellence)</p>
 
-Please direct all questions to the following email addresses: [simo.hosio@oulu.fi](mailto:simo.hosio@oulu.fi) and [jahna.otterbacher@ouc.ac.cy](mailto:jahna.otterbacher@ouc.ac.cy)
-
-
+<p style="text-align:justify;">Please direct all questions to the following email addresses: [simo.hosio@oulu.fi](mailto:simo.hosio@oulu.fi) and [jahna.otterbacher@ouc.ac.cy](mailto:jahna.otterbacher@ouc.ac.cy)</p>
 
 
-<!-- <p style="text-align:justify;"> The Human Computation (HCOMP) conference Doctoral Consortium (DC) aims to provide doctoral students working in areas of interest to our community with a unique experience to engage with one another, as well as with experienced researchers in the field. Students will be mentored by senior researchers who are leaders in the diverse specialities of interest to HCOMP. 
- </p>
-
-- To present and discuss their research with experienced researchers: the Doctoral Consortium Mentors;
-- To help doctoral students establish a supportive graduate student community among doctoral students at a similar stage of their dissertation research;
-- To provide a platform for broader exposure for their research, both in general and in support of a future job search;
-
-
-<p style="text-align:justify;"> The joint organization of CI and HCOMP this year is also a great opportunity to increase the visibility of doctoral student work and to build connections between the two communities. </p>
-
-
-## IMPORTANT DATES
-
-- **June 14**: Doctoral Consortium early deadline for applications (anywhere on earth), recommended for those who may need more time to process visas
-- **June 28**: Early Doctoral Consortium notifications sent (see below for funding deadline information)
-- **August 14**: Doctoral Consortium final deadline for applications (anywhere on earth)
-- **August 28**: Final Doctoral Consortium notifications sent
-- **November 9**: Doctoral Consortium at HCOMP-CI 2023
-
-## AREAS OF INTEREST
-
-
-CI and HCOMP are similarly unique in the diversity of disciplines they draw upon and contribute to, ranging from computer science, artificial intelligence, and human-computer interaction, to economics, organizational behavior, and the social, all the way to digital humanities, policy, ethics, and biology. Any DC submissions fitting the topics of interest in the overall [Call for Submissions](#papers) are applicable. For example: 
-
-
-<p style="text-align:justify;"> Topics include collective decision-making studies and systems, artificial techniques that amplify or exhibit collective intelligence, data science investigations of collectively intelligent systems, ethics and values, including societal norms, crowdsourcing applications and techniques, techniques that enable and enhance human-in-the-loop systems, approaches to make crowd science FAIR (findable, accessible, interoperable, reproducible), studies about how people perform tasks individually, in groups, or as a crowd, studies into the reliability and other quality aspects of human-annotated and -curated datasets, studies into replicability of crowdsourcing and human computation experiments, methods that use human computation and crowdsourcing to build people-centric AI systems and applications, studies into fairness, accountability, transparency, ethics, and policy implications for crowdsourcing and human computation, studies about how people and intelligent systems interact and collaborate with each other, and studies that inform our understanding about the future of work. </p>
-
-## ELIGIBILITY
-
-
-<p style="text-align:justify;"> Applicants must be currently enrolled in a PhD program. The Doctoral Consortium accepts students from any stage in their candidature, but will prioritize candidates who have a clear topic and research approach and have made some progress, but are not so far along that they can no longer make changes. Before submitting, students should discuss this criterion with their advisor or supervisor. </p>
-
-## ATTENDANCE
-
-
-<p style="text-align:justify;"> Those accepted are required to present their work at the Doctoral Consortium. Participants will also likely be required to present a poster on their work during the poster session at the main conference. </p>
-
-## SELECTION
-
-
-<p style="text-align:justify;"> Submissions will be reviewed based upon the expected potential of both the student and their proposed work, as well as the expected benefit to the student from participation. Priority will be given to students whose research goes beyond locally available expertise at their home institutions. </p>
-
-## FINANCIAL SUPPORT
-
-We encourage applicants to explore the Gary Marsden Travel Awards for financial support. Deadlines for applications are the 9th of July and the 9th of September. More information can be found on the [SIGCHI website](https://sigchi.org/awards/gary-marsden-travel-awards/). We note that the Gary Marsden Travel Award only applies to SIGCHI conferences. Since CI is a SIGCHI conference, and since the Doctoral Consortium is being held as a joint CI+HCOMP event this year, it should be eligible for that program.
-
-## APPLICATION
-
-Applicants must submit a solely-authored paper in English containing: 1) a Doctoral Research Overview; and 2) a Supplemental Paragraph.
-
-## DOCTORAL RESEARCH OVERVIEW
-
-Please summarize your doctoral research, including the following sections:
-
-- Motivation for the proposed research;
-- Background and related work (including key references);
-- Description of the proposed research, including key research questions and planned methodology to be used for investigating these research questions;
-- Proposed experiments if appropriate; Any preliminary evaluation and findings are welcomed, but this is not required.;
-- Specific research issues and/or challenges (do not skip these; the consortium is about helping you solve issues, not boasting about the issues you already solved!).
-
-## SUPPLEMENTAL PARAGRAPH
-
-<p style="text-align:justify;"> Please write a paragraph explaining:
-Why you want to participate in the consortium at this point in your doctoral studies and how you expect to benefit from the consortium;
-Your expected (approximate) completion date. </p>
-
-## LENGTH AND ORGANIZATION
-
-<p style="text-align:justify;"> Your paper should be no more than 4 pages in total: 3 pages for the Doctoral Research Overview (including all figures and references), and the 4th page being the Supplemental Paragraph. The first page must contain the title of the paper, full author name, affiliation and contact details, an abstract of up to 250 words, and up to 3 keywords describing the research topic areas. </p>
-
-## FORMATTING
-
-For consistency, we ask that all submissions to the CI+HCOMP Doctoral Consortium be formatted in the same way using the ACM template and process described for the CoIlective Intelligence subcommittee in the [CI+HCOMP 2023 Call for Papers](#papers).
-
-## SUBMISSION
-
-For simplicity, we ask that all submissions to the CI+HCOMP Doctoral Consortium be submitted through the same portal using the <a href="https://easychair.org/conferences/?conf=hcomp23">HCOMP 2023 EasyChair</a> paper submission site. Submissions must be made on or before the deadlines listed above. We cannot accept submissions by e-mail or fax. Authors will receive confirmation of receipt of their submissions, including an ID number, shortly after submission. CI+HCOMP will contact authors again only if problems are encountered with papers.
-
-## DISSEMINATION
-
-Submissions will be distributed only to mentors and other attendees of the doctoral consortium. Proceedings of the Doctoral Consortium will NOT be archived. As such, students may freely submit their research contributions for official publication in other venues. Participant names and university affiliations, as well as paper titles and abstracts, will be publicized on the conference website and in the conference program for the poster session.
-
-## GRADUATE CONSORTIUM CHAIRS
-
-- Anna Cox (University of College London)
-- David Lee (University of California, Santa Cruz)
-
-Please feel free to direct all questions or comments to the following email addresses: [anna.cox@ucl.ac.uk](mailto:anna.cox@ucl.ac.uk) or [dlee105@ucsc.edu](mailto:dlee105@ucsc.edu). -->
 
 
 # Call for Workshops
