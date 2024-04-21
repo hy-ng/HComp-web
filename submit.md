@@ -226,6 +226,7 @@ Please contact the Works-in-Progress and Demonstration Co-Chairs if you have any
 <p style="text-align:justify;">Participation in the HCOMP DC is a great opportunity to increase the visibility of a doctoral researcher’s work and to build connections with members of the HCOMP community.</p>
 
 ## IMPORTANT DATES
+**All times are midnight [AoE](https://time.is/Anywhere_on_Earth)**
 
 - **June 13**: Doctoral Consortium application deadline (anywhere on earth)</p>
 - **June 27**: Doctoral Consortium notifications sent (see below for funding information).</p>
