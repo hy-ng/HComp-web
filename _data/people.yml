@@ -79,6 +79,7 @@
   last_name: Bozzon
   full_name: Alessandro Bozzon
   picture: img/photo/bozzon.jpeg
+  steering: HCOMP 2023 Co-Chair
   affiliation: Delft University of Technology (TU Delft)
   website: http://www.wis.ewi.tudelft.nl/bozzon/
 
@@ -88,6 +89,7 @@
   full_name: Michael Bernstein
   picture: img/photo/bernstein.jpg
   affiliation: Stanford University
+  steering: HCOMP 2023 Co-Chair
   website: https://engineering.stanford.edu/people/michael-bernstein
 
 
@@ -103,6 +105,7 @@
   full_name: Ming Yin
   picture: img/photo/Ming.jpg
   affiliation: Purdue University
+  steering: HCOMP 2022 Co-Chair
   website: http://mingyin.org/
 
 - id: hsu
@@ -110,6 +113,7 @@
   full_name: Jane Hsu
   picture: img/photo/janehsu.jpg
   affiliation: National Taiwan University
+  steering: HCOMP 2022 Co-Chair
   website: https://iagentntu.github.io/professor/Jane.html
 
 - id: gentile
@@ -336,6 +340,7 @@
   full_name: Gianluca Demartini
   id: demartini
   last_name: Demartini
+  steering: HCOMP 2024 Co-Chair
   picture: 'img/photo/demartini.png'
   website: 'http://www.gianlucademartini.net'
 
@@ -413,6 +418,7 @@
   full_name: Ujwal Gadiraju
   id: gadiraju
   last_name: Gadiraju
+  steering: HCOMP 2024 Co-Chair
   picture: 'img/photo/gadiraju.png'
   website: 'http://ujwalgadiraju.com/' 
 
@@ -838,6 +844,7 @@
   full_name: Saiph Savage
   last_name: Savage
   affiliation: Northeastern University
+  steering: HCOMP 2023 Co-Chair
   website: http://www.saiph.org/
   picture: 'img/photo/savage.jpg'
 
