@@ -14,10 +14,11 @@ year: 2024
 AAAI HCOMP is the premier venue for disseminating the latest research findings on human computation and crowdsourcing. Its focus is on research and practice into frameworks, methods, and systems that bring together people and machine intelligence to achieve better results. HCOMP 2024 will be held as an in-person conference in Pittsburgh, Pennsylvania from October 16-19, 2024.
 
 - Call for [Full Papers](#papers)
-- Call for [Works-In-Progress and Demonstration Papers](#wip)
+- Call for [Works-in-Progress and Demonstration Papers](#wip)
 - Call for [Doctoral Consortium](#doc)
 - Call for [Workshops](#workshops)
 - Call for [Tutorials](#tutorials)
+- Call for [Reproducibility Track](#reproducibility)
 - (*Coming soon!* ) Call for [CrowdCamp 2024](#crowdcamp)
 <!-- - Frequently Asked Questions [(FAQs)](#faq) -->
 
@@ -139,7 +140,7 @@ If your paper is accepted, we are delighted to invite you to present your work a
 HCOMP 2024 will recognize one best paper, one best student paper, and up to two runner-ups. Reviewers will be asked to flag papers they deem worthy of a prize. The general chairs will set up a small committee that will read the nominated papers, consider the comments of the reviewers, and assess the presentation to determine the winners.
 
 
-# HCOMP CALL FOR WORKS-IN-PROGRESS (WiP) AND DEMONSTRATION PAPERS
+# Call for Works-in-Progress and Demonstration Papers
 {:.sub-page-header}
 {:#wip}
 &nbsp;
@@ -204,7 +205,7 @@ Please contact the Works-in-Progress and Demonstration Co-Chairs if you have any
 - Sarah Luger, at [sarahluger@gmail.com](mailto:sarahluger@gmail.com)
 
 
-# Call For Doctoral Consortium
+# Call for Doctoral Consortium
 {:.sub-page-header}
 {:#doc}
 &nbsp;
@@ -222,9 +223,9 @@ Participation in the HCOMP DC is a great opportunity to increase the visibility 
 ## IMPORTANT DATES
 **All times are midnight [AoE](https://time.is/Anywhere_on_Earth)**
 
-- June 13: Doctoral Consortium application deadline (anywhere on earth)
-- June 27: Doctoral Consortium notifications sent (see below for funding information)
-- October 19: Doctoral Consortium at HCOMP 2024
+- June 13, 2024: Doctoral Consortium application deadline (anywhere on earth)
+- June 27, 2024: Doctoral Consortium notifications sent (see below for funding information)
+- October 19, 2024: Doctoral Consortium at HCOMP 2024
 
 ## Areas of Interest
 
@@ -369,7 +370,7 @@ Please contact HCOMP 2024 Workshop Co-Chairs for any questions concerning worksh
 
 
 
-# Call For Tutorials
+# Call for Tutorials
 {:.sub-page-header}
 {:#tutorials}
 &nbsp;
@@ -419,6 +420,44 @@ Please contact HCOMP 2024 Tutorials Co-Chairs for any questions concerning works
 
 - Agathe Balayn ([a.m.a.balayn@tudelft.nl](mailto:a.m.a.balayn@tudelft.nl))
 - Danula Hettiachchi ([danula.hettiachchi@rmit.edu.au](mailto:danula.hettiachchi@rmit.edu.au))
+
+# Call for Reproducibility Track
+{:.sub-page-header}
+{:#reproducibility}
+&nbsp;
+{:.sub-page-border}
+
+## Important Dates
+
+**All times are midnight [AoE](https://time.is/Anywhere_on_Earth)**
+- July 15, 2024: Abstracts and pre-registrations
+- July 26, 2024: Full papers due
+- August 16, 2024: Notifications of acceptance
+
+Issues of data quality and the provenance of crowdsourcing data have long been a focus within human computation research. Practitioners have typically relied on techniques such as redundancy, accuracy testing and attention checks to ensure a diverse and reliable set of responses from participants. In recent years, however, large language models (LLMs) like ChatGPT have changed the rules of the game in crowdsourcing, making it easy to produce human-sounding text and solve various human intelligence tasks (HITs) at the level of professional annotators. This technology thus threatens the reliability of crowdsourced data labelling as a means to collect manually curated datasets, which are critical for testing and evaluation of AI models and applications. This track solicits research pertaining to the provenance and reliability of crowdsourcing task data in the age of large language models.
+
+We welcome submissions that seek to replicate crowdsourcing studies. Studies should re-run past crowdsourcing experiments first completed prior to the release of modern LLMs and tools (e.g., ChatGPT). Wherever possible, HIT features such as task design, reward structures and policies should be the same as in the original study. Studies should also compare their results with those of the original study, while also including mechanisms for capturing and/or estimating the use of large language models and other AI tools (either through self-reported usage or by analysing submission traces).
+
+Experiments should report on and discuss how the quality and quantity of crowdworker contributions compare across experiments through metrics such as:
+* Accuracy
+* Time per HIT
+* Batch completion time
+* Acceptance and rejection rates
+* Agreement scores
+
+We particularly welcome submissions related to crowdsourcing tasks which are currently difficult for LLMs. These may include (but are not limited to):
+* Common-sense reasoning tasks
+* Subjective or judgement-based tasks
+* Tasks based on social or cultural contexts and nuance
+* Tasks requiring creativity
+* Tasks combining real-world and virtual activity
+
+Submissions should include the following:
+1. A link to the previous data and task methodology. This may take the form of a published paper or report.
+2. A paper (maximum 8-pages plus references in AAAI format) documenting the outcomes of the experiments including an analysis of LLM usage. Please refer to the AAAI 2023 Author Kit for details (available templates: [AAAI 2023 Author Kit on Overleaf](https://www.overleaf.com/latex/templates/aaai-2023-author-kit/wxnmhzcrjbpc) or [AAAI 2024 Author Kit.zip [Word \| LaTeX]](https://aaai.org/authorkit24-2/)).
+3. Wherever possible, a link to the new HIT design and gathered data (accounting for ethical and privacy issues).
+
+Successful submissions will be invited to present at HCOMP 2024. Authors of successful submissions who are unable to attend will be invited to submit a pre-recorded video presentation. Please note that while the track will be archival, proceedings from this track will not be published alongside the main conference proceedings and will instead be published in a separate proceedings series published by CEUR.
 
 # CrowdCamp 2024
 {:.sub-page-header}
