@@ -16,7 +16,7 @@ year: 2024
 </p>
 
 - Call for [Full Papers](#papers)
-- (*Coming soon!* ) Call for [Works-In-Progress and Demonstration Papers](#wip)
+- Call for [Works-In-Progress and Demonstration Papers](#wip)
 - Call for [Doctoral Consortium](#doc)
 - Call for [Workshops](#workshops)
 - Call for [Tutorials](#tutorials)
@@ -142,68 +142,61 @@ We encourage authors to review these criteria and contact us with any questions 
 &nbsp;
 {:.sub-page-border}
 
-<p style="text-align:justify;">To be announced. Stay tuned!</p>
-
-<!-- 
 ## Important Dates
-- August 21: Works-in-Progress Papers and Demonstration papers due (23:59 AoE)
-- September 4: WiP and Demo notifications sent
-- September 14: Accepted WIP and Demos on conference website
+- August 7: Works-in-Progress Papers and Demonstration papers due (23:59 AoE)
+- August 28: WiP and Demo notifications sent
+- September 25: Accepted WIP and Demos on conference website
 
 
 ## Overview
 
-<p style="text-align:justify;"> The Works-in-Progress and Demonstration track focuses on recent findings or other types of innovative or thought-provoking work, hands-on demonstration, novel methods, technologies and experiences relevant to the HCOMP and CI communities. We also welcome work published in other venues to encourage sharing work with HCOMP-CI’s interdisciplinary audience. We encourage practitioners and researchers to submit to the Works-in-Progress & Demo Track as it provides a unique opportunity for sharing valuable insights and ideas, eliciting useful feedback on early-stage work, and fostering discussions and collaborations among colleagues. Submissions are welcome from multiple fields, ranging from computer science, artificial intelligence, and human-computer interaction, to economics, business, and the social sciences, all the way to digital humanities, policy, and ethics. </p>
+<p style="text-align:justify;">The Works-in-Progress and Demonstration track focuses on recent findings or other types of innovative or thought-provoking work, hands-on demonstration, novel methods, technologies, and experiences relevant to the HCOMP communities. We also welcome work published in other venues to encourage sharing work with HCOMP's interdisciplinary audience. We encourage practitioners and researchers to submit to the Works-in-Progress & Demo Track as it provides a unique opportunity for sharing valuable insights and ideas, eliciting useful feedback on early-stage work, and fostering discussions and collaborations among colleagues. Submissions are welcome from multiple fields, ranging from computer science, artificial intelligence, and human-computer interaction, to economics, business, and the social sciences, all the way to digital humanities, policy, and ethics.</p>
 
-<p style="text-align:justify;"> Accepted papers in this track will be non-archival and they will not be included in the official proceedings of the HCOMP/CI conference. They will be made available online on the conference website. Authors of accepted papers can thus benefit from exchanging insights on their work, while maintaining the option to further develop their idea and submit the outcome to other venues.  </p>
+<p style="text-align:justify;">Accepted papers in this track will be non-archival and they will not be included in the official proceedings of the HCOMP conference. They will be made available online on the conference website. Authors of accepted papers can thus benefit from exchanging insights on their work, while maintaining the option to further develop their ideas and submit the outcome to other venues.</p>
 
 
 ### Works-in-Progress
 
-<p style="text-align:justify;"> A Work-in-Progress is a concise report of recent findings or other types of innovative or thought-provoking work relevant to the HCOMP and/or CI community. The difference between Works-in-Progress and other types of contribution is that Work-in-Progress submissions represent work that has not yet reached a level of completion that would warrant the full Refereed selection process. That said, appropriate submissions should make some contribution to the body of HCOMP/CI knowledge, whether realized or promised. A significant benefit of a Work-in-Progress derives from the discussion between the author and the conference attendees. Work-in-Progress submissions are in the form of a 2-3 page paper; see Submission section. Authors of accepted Works-In-Progress will present their paper in-person at the conference in the form of a poster. </p>
+<p style="text-align:justify;">A Work-in-Progress is a concise report of recent findings or other types of innovative or thought-provoking work relevant to the HCOMP community. The difference between Works-in-Progress and other types of contribution is that Work-in-Progress submissions represent work that has not yet reached a level of completion that would warrant the full Refereed selection process. That said, appropriate submissions should make some contribution to the body of HCOMP knowledge, whether realized or promised. A significant benefit of a Work-in-Progress derives from the discussion between the author and the conference attendees. Work-in-Progress submissions are in the form of a 2-3 page paper; see Submission section. Authors of accepted Works-In-Progress will present their papers in-person at the conference in the form of a poster.</p>
 
 
 ### Demonstrations
 
-<p style="text-align:justify;"> A demonstration is a high-visibility, high-impact forum of the HCOMP/CI program that allows you to present your hands-on demonstration, share novel technologies and tools, and stage interactive experiences. Demonstrations will showcase this year’s most exciting human computation, collaborative human-AI, and collective intelligence prototypes and systems. If you have an interesting prototype, system, exhibit or installation, we want to know about it. Sharing hands-on experiences of your work is often the best way to communicate what you have created. The demonstration submission should describe the nature of the system as well as the expected form of interaction with the user and the audience. Demonstrations submissions are in the form of a 2-3 page paper; see Submission section. </p>
+<p style="text-align:justify;">A demonstration is a high-visibility, high-impact forum of the HCOMP program that allows you to present your hands-on demonstration, share novel technologies and tools, and stage interactive experiences. Demonstrations will showcase this year’s most exciting human computation, collaborative human-AI, and collective intelligence prototypes and systems. If you have an interesting prototype, system, exhibit, or installation, we want to know about it. Sharing hands-on experiences of your work is often the best way to communicate what you have created. The demonstration submission should describe the nature of the system as well as the expected form of interaction with the user and the audience. Demonstration submissions are in the form of a 2-3 page paper; see Submission section.</p>
 
 
 ## Submission
 
-<p style="text-align:justify;"> Submissions for both HCOMP and CI Works-In-Progress and Demo papers must be done via the <a href="https://easychair.org/conferences/?conf=hcomp23">HCOMP/CI 2023 EasyChair Website </a> under the Works-in-Progress and Demonstration track. Submissions to Easychair are required on or before the deadline listed above. We cannot accept submissions by e-mail. Authors will receive confirmation of receipt of their submissions, including an ID number, shortly after submission. HCOMP/CI will contact authors again only if problems are encountered with their papers. </p>
+<p style="text-align:justify;">Submissions for HCOMP Works-In-Progress and Demo papers must be done via the HCOMP 2024 EasyChair Website under the Works-in-Progress and Demonstration track. Submissions to Easychair are required on or before the deadline listed above. We cannot accept submissions by email. Authors will receive confirmation of receipt of their submissions, including an ID number, shortly after submission. HCOMP will contact authors again only if problems are encountered with their papers.</p>
+
+<p style="text-align:justify;">In an effort to have as inclusive a program as possible, please reach out if you have any special circumstances that we should be aware of (e.g., visa requirements that would require an early review of your submission).</p>
 
 
 ### Length
 
-Works-in-Progress and Demonstration papers must be between 2 and 3 pages of content. References can extend beyond the page limit. 
-
+Works-in-Progress and Demonstration papers must be between 2 and 3 pages of content. References can extend beyond the page limit.
 
 ### Formatting
 
-HCOMP papers must be formatted in AAAI two-column, camera-ready style; please refer to the <a href="https://www.aaai.org/Publications/Templates/AuthorKit23.zip">AAAI 2023 Author Kit</a> for details. Papers must be in trouble-free, high-resolution PDF format, formatted for US Letter (8.5″ x 11″) paper, using Type 1 or TrueType fonts. The AAAI copyright block is not required for works-in-progress or demo submissions, as they are not included in the formal proceedings. Please see below for information about publication.
-
+HCOMP papers must be formatted in AAAI two-column, camera-ready style; please refer to the AAAI 2023 Author Kit for details (available templates: [AAAI 2023 Author Kit on Overleaf](https://www.overleaf.com/latex/templates/aaai-2023-author-kit/wxnmhzcrjbpc) or [AAAI 2024 Author Kit.zip [Word \| LaTeX]](https://aaai.org/authorkit24-2/)). Papers must be in trouble-free, high-resolution PDF format, formatted for US Letter (8.5″ x 11″) paper, using Type 1 or TrueType fonts. The AAAI copyright block is not required for works-in-progress or demo submissions, as they are not included in the formal proceedings. Please see below for information about publication.
 
 ### Supplemental Materials
 
-Authors are invited, but not required, to include supplemental materials such as executables and data files so that the results of the work can be reproduced. 
-
+Authors are invited, but not required, to include supplemental materials such as executables and data files so that the results of the work can be reproduced.
 
 ### NOT Anonymized
 
 Authors should include information identifying themselves and their institutions for single-blind review.
 
-
 ### NOT Archival
 
-
-<p style="text-align:justify;"> Accepted papers will NOT be included in official conference proceedings, and therefore they could be submitted later to other conferences or journals for official publication. Accepted papers will be made available online on the conference website.  </p>
-
+Accepted papers will NOT be included in official conference proceedings, and therefore they could be submitted later to other conferences or journals for official publication. Accepted papers will be made available online on the conference website.
 
 ## Contacts
 
 Please contact the Works-in-Progress and Demonstration Co-Chairs if you have any questions.
-- Kurt Luther, at [kluther@vt.edu](mailto:kluther@vt.edu) 
-- Ioanna Lykourentzou, at [i.lykourentzou@uu.nl](mailto:i.lykourentzou@uu.nl) -->
+- Harman Kaur, at [harmank@umn.edu](mailto:harmank@umn.edu)
+- Sarah Luger, at [sarahluger@gmail.com](mailto:sarahluger@gmail.com)
 
 
 # Call For Doctoral Consortium
