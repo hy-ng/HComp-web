@@ -149,9 +149,9 @@ HCOMP 2024 will recognize one best paper, one best student paper, and up to two 
 ## Important Dates
 **All times are midnight [AoE](https://time.is/Anywhere_on_Earth)**
 
-- August 7: Works-in-Progress Papers and Demonstration papers due (23:59 AoE)
-- August 28: WiP and Demo notifications sent
-- September 25: Accepted WIP and Demos on conference website
+- August 7, 2024: Works-in-Progress Papers and Demonstration papers due (23:59 AoE)
+- August 28, 2024: WiP and Demo notifications sent
+- September 25, 2024: Accepted WIP and Demos on conference website
 
 
 ## Overview
@@ -223,7 +223,7 @@ Participation in the HCOMP DC is a great opportunity to increase the visibility 
 ## IMPORTANT DATES
 **All times are midnight [AoE](https://time.is/Anywhere_on_Earth)**
 
-- June 13, 2024: Doctoral Consortium application deadline (anywhere on earth)
+- ~~June 13, 2024~~ June 27, 2024 (**extended!**): Doctoral Consortium application deadline (anywhere on earth)
 - June 27, 2024: Doctoral Consortium notifications sent (see below for funding information)
 - October 19, 2024: Doctoral Consortium at HCOMP 2024
 
