@@ -301,7 +301,7 @@ Note that **workshops this year will be entirely in-person**.
 ## Important Dates
 **All times are midnight [AoE](https://time.is/Anywhere_on_Earth)**
 
-- June 25, 2024: Submission deadline for workshop proposals
+- ~~June 25, 2024~~ July 2, 2024 (**extended!**): Submission deadline for workshop proposals
 - July 15, 2024: Decisions sent to organizers
 - July 25, 2024: Deadline to provide additional workshop details
 - August 1, 2024: Call for participation released by workshop organizers
@@ -389,7 +389,7 @@ Tutorials can last 45min or 90min.
 ## Important Dates
 **All times are midnight [AoE](https://time.is/Anywhere_on_Earth)**
 
-- June 25, 2024: Submission deadline for tutorial proposals
+- ~~June 25, 2024~~ July 2, 2024 (**extended!**): Submission deadline for tutorial proposals
 - July 15, 2024: Decisions sent to authors
 - *TBA*: Deadline to provide online tutorial material
 - *TBA*: Tutorial date
@@ -408,7 +408,7 @@ The proposal should consist of a maximum of 2 pages not including references. Pr
 - **Previous Iterations**: A web link or relevant information to the proposed tutorial if it has been delivered previously at any other conference or similar venue.
 - **Material**: Details regarding any supplementary material that will be made available to tutorial participants.
 
-Submissions must be in PDF format up to a maximum of 4 pages (including all content, figures, and tables) and may contain references in additional pages. Submissions must be formatted in AAAI two-column, camera-ready style; please refer to the AAAI 2023 Author Kit for details (available templates: [AAAI 2023 Author Kit on Overleaf](https://www.overleaf.com/latex/templates/aaai-2023-author-kit/wxnmhzcrjbpc) or [AAAI 2024 Author Kit.zip [Word \| LaTeX]](https://aaai.org/authorkit24-2/)). The AAAI copyright block is not required on submissions but must be included in the final accepted versions.
+Submissions must be in PDF format up to a maximum of 2 pages (including all content, figures, and tables) and may contain references in additional pages. Submissions must be formatted in AAAI two-column, camera-ready style; please refer to the AAAI 2023 Author Kit for details (available templates: [AAAI 2023 Author Kit on Overleaf](https://www.overleaf.com/latex/templates/aaai-2023-author-kit/wxnmhzcrjbpc) or [AAAI 2024 Author Kit.zip [Word \| LaTeX]](https://aaai.org/authorkit24-2/)). The AAAI copyright block is not required on submissions but must be included in the final accepted versions.
 
 ## SELECTION PROCESS
 Tutorial proposals will be assessed by the Tutorial Chairs, with selections governed by quality and the need for a balanced and diverse program of interest to the HCOMP community.
