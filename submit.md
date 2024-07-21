@@ -19,7 +19,7 @@ AAAI HCOMP is the premier venue for disseminating the latest research findings o
 - Call for [Workshops](#workshops)
 - Call for [Tutorials](#tutorials)
 - Call for [Reproducibility Track](#reproducibility)
-- (*Coming soon!* ) Call for [CrowdCamp 2024](#crowdcamp)
+- Call for [CrowdCamp 2024](#crowdcamp)
 <!-- - Frequently Asked Questions [(FAQs)](#faq) -->
 
 
@@ -465,7 +465,38 @@ Successful submissions will be invited to present at HCOMP 2024. Authors of succ
 &nbsp;
 {:.sub-page-border}
 
-To be announced. Stay tuned!
+## WHAT IS CROWDCAMP?
+
+CrowdCamp is a hackathon for researchers and practitioners interested in crowdsourcing, human computation, collective intelligence, and AI. The focus is on creating a prototype, a study design, an idea for a new algorithm, a pilot study, or something else entirely within the workshop itself. Prior CrowdCamp projects have resulted in top-tier conference publications, blog posts, and ongoing research.
+
+This year’s CrowdCamp will focus on the theme “Responsible Crowd Work for Better AI.” We leave this up to participants to decide how to interpret this theme. Projects could involve topics such as mitigating bias in the crowd work pipeline, facilitating greater inclusion and designing safer work practices for crowd workers, and developing novel systems for more efficient use of crowd labor. Projects may include generative AI in their solution, though it is by no means a requirement.
+
+The workshop will bring together researchers and practitioners across disciplines to explore innovative ideas and challenges that the fields of human computation and crowdsourcing are currently facing. We also welcome any other ideas that participants want to work on.
+
+## CALL FOR PARTICIPATION
+
+We invite students, faculty, and industry researchers to participate, from social scientists to programmers, ethnographers to designers, and anyone else interested. Everyone is welcome!
+
+To apply to participate, you must complete the CrowdCamp 2024 application form: CrowdCamp 2024 Application (google.com). The application takes about 10 minutes to complete and asks for:
+
+* **One Hack-a-Thon Idea:** You should provide a project idea or application domain you care about and want to see addressed. Other participants may view this, and if accepted to CrowdCamp, you will still be free to change your idea. We are looking for ideas that are specific rather than vague. The goal is to generate ideas that a group of 3-5 people can finish during the workshop.
+* **Your Research Interests and Experience:** We are looking for a diverse group who will develop unique projects during CrowdCamp. Therefore, we ask you to indicate your research interests and expertise in crowdsourcing – whether in HCI, AI, or another field.
+* **Your Ideal CrowdCamp Partner or Research Team:** We want to ensure you get a fantastic partner/team for your CrowdCamp hackathon. Depending on your project and research interests, we’d love to know if you’re looking for partner(s) with a particular type of expertise or whether you are joining an existing team. Ideally, we would like to have people with different kinds of expertise (e.g., HCI and AI people) working together as a team!
+* **Your Contact Information:** Name and email
+
+## CROWDCAMP FORMAT
+
+This year, CrowdCamp will be an all-day, in-person experience. Accepted participants are expected to attend on-site. While most teams will be formed on the day of the CrowdCamp, accepted participants can create teams before the convening if desired.
+Key Dates (all times are midnight AoE)
+* **Deadline for sign-up:** September 16th, 2024 (You need to register for the conference or the workshop day to participate in CrowdCamp. Note that the early conference registration deadline is much earlier!)
+* **Notification:** September 23rd, 2024
+* **CrowdCamp:** October 19th, 2024
+
+## Contact
+* Tianyi Li, at li4251@purdue.edu
+* Amy Rechkemmer, at arechke@purdue.edu
+* Mark Whiting, at markew@seas.upenn.edu
+
 
 <!-- Workshop day(s):
 - On-site (**November 9, 2023**) & virtual (**November 8 and 9, 2023**)
