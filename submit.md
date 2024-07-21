@@ -493,9 +493,9 @@ Key Dates (all times are midnight AoE)
 * **CrowdCamp:** October 19th, 2024
 
 ## Contact
-* Tianyi Li, at li4251@purdue.edu
-* Amy Rechkemmer, at arechke@purdue.edu
-* Mark Whiting, at markew@seas.upenn.edu
+* Tianyi Li, at li4251@purdue.edu(mailto:li4251@purdue.edu)
+* Amy Rechkemmer, at arechke@purdue.edu(mailto:arechke@purdue.edu)
+* Mark Whiting, at markew@seas.upenn.edu(mailto:markew@seas.upenn.edu)
 
 
 <!-- Workshop day(s):
