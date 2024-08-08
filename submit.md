@@ -149,9 +149,9 @@ HCOMP 2024 will recognize one best paper, one best student paper, and up to two 
 ## Important Dates
 **All times are midnight [AoE](https://time.is/Anywhere_on_Earth)**
 
-- August 7, 2024: Works-in-Progress Papers and Demonstration papers due (23:59 AoE)
-- August 28, 2024: WiP and Demo notifications sent
-- September 25, 2024: Accepted WIP and Demos on conference website
+- ~~August 7, 2024~~ August 28, 2024 (**extended!**): Works-in-Progress Papers and Demonstration papers due
+- ~~August 28, 2024~~ September 18, 2024 (**extended!**): WiP and Demo notifications sent
+- ~~September 25, 2024~~ October 2, 2024 (**extended!**): Accepted WIP and Demos on conference website
 
 
 ## Overview
