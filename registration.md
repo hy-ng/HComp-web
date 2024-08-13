@@ -1,93 +1,85 @@
 ---
 layout: page
-title: REGISTRATION
+title: Registration
 year: 2024
 ---
 
-# HCOMP-23 Registration
+# HCOMP 2024 Registration
 {:.sub-page-header}
 &nbsp;
 {:.sub-page-border}
 
-The Eleventh AAAI Conference on Human Computation and Crowdsourcing<br>
-November 6–9, 2023<br>
-Delft, Netherlands
+The 12th AAAI Conference on Human Computation and Crowdsourcing<br>
+October 16–19, 2024<br>
+Pittsburgh, Pennsylvania
 
-**Online registration is available at: [https://aaai.getregistered.net/hcomp-23](https://aaai.getregistered.net/hcomp-23)**
+**Online registration is available at: [https://aaai.getregistered.net/hcomp-24](https://aaai.getregistered.net/hcomp-24)**
 
-## HCOMP-23 TECHNICAL PROGRAM REGISTRATION
+## HCOMP 2024 TECHNICAL PROGRAM REGISTRATION
 
-PREREGISTRATION IS REQUIRED. The HCOMP 2023 technical conference registration fee includes admission to all technical paper sessions, invited talks, the social dinner on November 7th, the poster/demo session on November 6th, lunch and coffee breaks on November 6-8, and electronic access to the HCOMP 2023 Conference Proceedings. Technical registrants also receive a discount on attendance at the workshops on November 9.
+PREREGISTRATION IS REQUIRED. The HCOMP 2024 technical conference registration fee includes admission to all technical paper sessions, invited talks, and access to the electronic HCOMP 2024 proceedings.
 
-## HCOMP-23 REGISTRATION FEES
+## HCOMP 2024 REGISTRATION FEES
 
-
-| ||||||||||| Early (by Sept 8) ||||||||||| Late (by Oct 6) ||||||||||| On-site (after Oct 27)|
-| ||||||||||| -------------- ||||||||||| -------------- |
-| Member ||||||||||| $595 ||||||||||| $695 ||||||||||| $795 |
-| Student Member ||||||||||| $395 ||||||||||| $445 ||||||||||| $495 |
-| Non Member ||||||||||| $695 ||||||||||| $795 ||||||||||| $895 |
-| Student Non Member ||||||||||| $495 ||||||||||| $545 ||||||||||| $595 |
-| Silver Regular* ||||||||||| $740 ||||||||||| $840 ||||||||||| $940 |
-| Silver Student* ||||||||||| $470 ||||||||||| $520 ||||||||||| $570 |
+|                    ||| Early (by August 16) ||| Late (by Oct. 19) |
+|--------------------|||----------------------|||-----------------|
+| Member             ||| $595                 ||| $695            |
+| Student Member     ||| $395                 ||| $445            |
+| Non Member         ||| $695                 ||| $795            |
+| Student Non Member ||| $495                 ||| $545            |
+| Silver Regular*    ||| $740                 ||| $840            |
+| Silver Student*    ||| $470                 ||| $520            |
 
 Silver registration includes conference registration, plus a one-year online new or renewed [membership in AAAI](https://aaai.org/membership/#Rates).
 
 <br>
 
+<!-- 
 ## Full Conference (REMOTE)
-
 | ||||||||||| Early (by Sept 8) ||||||||||| Late (by Oct 6) |
 | ||||||||||| -------------- ||||||||||| -------------- |
 | Member ||||||||||| $200 ||||||||||| $225 |
 | Student Member ||||||||||| $125 ||||||||||| $150 |
 | Non Member ||||||||||| $225 ||||||||||| $250 |
 | Student Non Member ||||||||||| $150 ||||||||||| $175 |
-
-
 <br>
+-->
 
-## Workshops (November 9th)
+## Workshops (October 19, 2024)
 
 For a workshop description, please take a look at the complete information [here](https://www.humancomputation.com/attend.html#workshops).
 
-### Workshop Only Registration
+### One-Day Workshop Only Registration
 
 | Regular Workshop ||| $200 |
 | Student Workshop ||| $130 |
 
 <br>
 
+<!--
 ### Workshop with Technical Registration
 
 | Regular Workshop ||| $150 |
 | Student Workshop ||| $105 |
 
 <br>
-
-## Social Dinner
-
-Admittance to the HCOMP 2023 Social Dinner is included in the HCOMP 2023 technical conference registration. It is not included with the workshops only registration. Guests are welcome for the following fee:
-
-| Social Dinner Guest ||| $80 |
-
-<br>
+-->
 
 ## Students
 
 ### REGISTRATION / PROOF OF STUDENT STATUS
-To register online, please complete the form at [https://aaai.getregistered.net/hcomp-23](https://aaai.getregistered.net/hcomp-23). If you qualify for student rates, you will be required to submit proof of student status (PDF) through the online system before you can complete your registration.
+To register online, please complete the form at [https://aaai.getregistered.net/hcomp-24](https://aaai.getregistered.net/hcomp-24). If you qualify for student rates, you will be required to submit proof of student status (PDF) through the online system before you can complete your registration.
 
 <br>
 
 ## Refund Requests
-The deadline for refund requests is October 6, 2023. All refund requests must be made in writing to AAAI at hcompreg@aaai.org. A $50.00 processing fee will be assessed for all refunds.
+The deadline for refund requests is September 13, 2024. All refund requests must be made in writing to AAAI at [hcompreg@aaai.org](mailto:hcompreg@aaai.org). A $50.00 processing fee will be assessed for all refunds.
 
 <br> 
 
 ## VISA Information
 
-Letters of invitation can be requested by accepted HCOMP-23 authors or registrants with a paid, completed registration. You can access the visa letter request form via the link in your registration confirmation email.
+Letters of invitation can be requested by accepted HCOMP 2024 authors or registrants with a completed registration with payment. You can access the visa letter request form via the link in your registration confirmation email.
 
 First/Given Name:
 
@@ -132,7 +124,7 @@ For directional information, please see the Attend page.
 
 FOR QUESTIONS
 
-HCOMP-23 Registration
+HCOMP-24 Registration
 
 AAAI
 
