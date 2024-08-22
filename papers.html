@@ -22,8 +22,8 @@ year: 2024
         <div class="intro-paragraph lead">
           <h2 id="full" class="section-heading">Papers</h2>
           
-          {% assign sorted = site.data.accepted[2023].full | sort: 'title' %} {%
-          for paper in sorted %}
+          {% assign sorted = site.data.accepted[2024].full | sort: 'title' %}
+          {% for paper in sorted %}
           <b>
           {% if paper.link %}
               <a class="theme-link" href= "{{ paper.link }}" >{{ paper.title }}</a>
@@ -41,51 +41,30 @@ year: 2024
           </ul>
           {% endfor %}
 
-          <h2 id="wip" class="section-heading">
-            Works-in-Progress and Demonstrations
-          </h2>
+          {% if site.data.accepted[2024].wip %}
+            <h2 id="wip" class="section-heading">
+              Works-in-Progress and Demonstrations
+            </h2>
 
-          <h3 id="wip-a" href="#wip-a">CI</h3>
-
-          {% assign sorted = site.data.accepted[2023].wip.groupa | sort: 'title' %} {%
-          for paper in sorted %}
-          <b>
-            {% if paper.link %}
-            <a class="theme-link" target="_blank" href= "{{ paper.link }}" >{{ paper.title }}</a>
-            {% else %}
-            {{ paper.title }}
+            {% assign sorted = site.data.accepted[2024].wip | sort: 'title' %}
+            {% for paper in sorted %}
+            <b>
+              {% if paper.link %}
+              <a class="theme-link" target="_blank" href= "{{ paper.link }}" >{{ paper.title }}</a>
+              {% else %}
+              {{ paper.title }}
+              {% endif %}
+            </b>
+            {% if paper.video %}
+            (<a class="theme-link" target="_blank" href="{{ paper.video }}">video</a>)
             {% endif %}
-          </b>
-          {% if paper.video %}
-          (<a class="theme-link" target="_blank" href="{{ paper.video }}">video</a>)
+            <ul class="nobullet">
+              <li>
+                {{ paper.authors }}
+              </li>
+            </ul>
+            {% endfor %}
           {% endif %}
-          <ul class="nobullet">
-            <li>
-              {{ paper.authors }}
-            </li>
-          </ul>
-          {% endfor %}
-
-          <h3 id="wip-a" href="#wip-a">HCOMP</h3>
-
-          {% assign sorted = site.data.accepted[2023].wip.groupb | sort: 'title' %} {%
-          for paper in sorted %}
-          <b>
-            {% if paper.link %}
-            <a class="theme-link" target="_blank" href= "{{ paper.link }}" >{{ paper.title }}</a>
-            {% else %}
-            {{ paper.title }}
-            {% endif %}
-          </b>
-          {% if paper.video %}
-          (<a class="theme-link" target="_blank" href="{{ paper.video }}">video</a>)
-          {% endif %}
-          <ul class="nobullet">
-            <li>
-              {{ paper.authors }}
-            </li>
-          </ul>
-          {% endfor %}
 
         </div>
       </div>
