@@ -477,7 +477,7 @@ The workshop will bring together researchers and practitioners across discipline
 
 We invite students, faculty, and industry researchers to participate, from social scientists to programmers, ethnographers to designers, and anyone else interested. Everyone is welcome!
 
-To apply to participate, you must complete the CrowdCamp 2024 application form: CrowdCamp 2024 Application (google.com). The application takes about 10 minutes to complete and asks for:
+To apply to participate, you must complete the [CrowdCamp 2024 application form](https://forms.gle/4AigRLNLv2KjtDEo8). The application takes about 10 minutes to complete and asks for:
 
 * **One Hack-a-Thon Idea:** You should provide a project idea or application domain you care about and want to see addressed. Other participants may view this, and if accepted to CrowdCamp, you will still be free to change your idea. We are looking for ideas that are specific rather than vague. The goal is to generate ideas that a group of 3-5 people can finish during the workshop.
 * **Your Research Interests and Experience:** We are looking for a diverse group who will develop unique projects during CrowdCamp. Therefore, we ask you to indicate your research interests and expertise in crowdsourcing – whether in HCI, AI, or another field.
