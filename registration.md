@@ -49,7 +49,7 @@ Silver registration includes conference registration, plus a one-year online new
 
 For a workshop description, please take a look at the complete information [here](https://www.humancomputation.com/attend.html#workshops).
 
-### One-Day Workshop Only Registration
+### One-Day Workshop Only Registration (including CrowdCamp)
 
 | Regular Workshop ||| $200 |
 | Student Workshop ||| $130 |
