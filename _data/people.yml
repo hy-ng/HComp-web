@@ -1416,3 +1416,17 @@
   picture: img/photo/jung.jpg
   affiliation: Carnegie Mellon University
   website: https://hcii.cmu.edu/people/ji-youn-jung
+  
+- id: tianyi
+  last_name: Li
+  full_name: Tianyi Li
+  picture: img/photo/TianyiLi_Profile.png
+  affiliation: Purdue University
+  website: https://tl-tianyi-li.github.io/
+
+- id: whiting
+  last_name: Whiting
+  full_name: Mark E. Whiting
+  picture: img/photo/mark-whiting.jpg
+  affiliation: University of Pennsylvania
+  website: https://whiting.me/
