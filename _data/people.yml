@@ -968,20 +968,6 @@
   picture: 'img/photo/joppenlaender.jpg'
   website: http://www.jonaso.de
 
-- id: mwhiting
-  full_name: Mark Whiting
-  last_name: Whiting
-  affiliation: University of Pennsylvania
-  picture: 'img/photo/mwhiting.jpg'
-  website: https://whiting.me/
-
-- id: whiting
-  full_name: Mark Whiting
-  last_name: Whiting
-  affiliation: University of Pennsylvania
-  picture: 'img/photo/whiting.jpeg'
-  website: https://whiting.me/
-
 - id: ngoon
   full_name: Tricia Ngoon
   last_name: Ngoon
