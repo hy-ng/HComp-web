@@ -488,8 +488,9 @@ To apply to participate, you must complete the [CrowdCamp 2024 application form]
 
 This year, CrowdCamp will be an all-day, in-person experience. Accepted participants are expected to attend on-site. While most teams will be formed on the day of the CrowdCamp, accepted participants can create teams before the convening if desired.
 Key Dates (all times are midnight AoE)
-* **Deadline for sign-up:** September 16th, 2024 (You need to register for the conference or the workshop day to participate in CrowdCamp. Note that the early conference registration deadline is much earlier!)
-* **Notification:** September 23rd, 2024
+* **Deadline for sign-up:** ~~Round 1: September 16th, 2024 (passed).~~ Round 2: September 30th, 2024.
+* **Notification:** ~~Round 1: September 23rd, 2024,~~ Round 2: October 2nd, 2024.
+* **Registration:** You need to register for the conference or the workshop day to participate in CrowdCamp. CrowdCamp participants are eligible for Workshop-only registration fees.
 * **CrowdCamp:** October 19th, 2024
 
 ## Contact
