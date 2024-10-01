@@ -4,7 +4,7 @@
 
 Install [Jekyll](https://jekyllrb.com/) and related Github pages plugins by following this guide: <https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/>
 
-To continually watch for changes, run `bundle exec jekyll serve`.
+To continually watch for changes, run `bundle exec jekyll serve -l`.
 
 # Tasks
 
