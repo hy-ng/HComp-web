@@ -744,3 +744,11 @@ details[open] summary {
     border-bottom: 1px solid #aaa;
     margin-bottom: 0.5em;
 }
+
+.award-nominee {
+    background-color: #17305a;
+    color: white;
+    padding: 2px;
+    border-radius:5px;
+    font-size:12px;
+}
