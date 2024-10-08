@@ -720,3 +720,29 @@
       title: "Toward Context-aware Privacy Enhancing Technologies for Online Self-disclosure"
     - authors: "Zhuoran Lu, Hasan Amin, Zhuoyan Li and Ming Yin"
       title: "Mix and Match: Characterizing Heterogeneous Human Behavior in AI-assisted Decision Making"
+  wip:
+    - authors: "Wang Claire, Wesley Hanwen Deng, Jason Hong, Ken Holstein, and Motahhare Eslami"
+      title: "Designing a Crowdsourcing Pipeline to Verify Reports from User AI Audits"
+      link: assets/wip_2024/HCOMP_24_WIP_1.pdf
+    - authors: "Fuyuki Matsubara"
+      title: "BlitzMe: A Social Media Platform Combining Smile Recognition and Human Computation for Positive Mood Enhancement"
+      link: assets/wip_2024/HCOMP_24_WIP_2.pdf
+    - authors: "Mehul Maheshwari and Jacob Thebault-Spieker"
+      title: "Discerning Causes of Ratings Bias: A Platform for Bias Experimentation in Ratings-Based Reputation Systems"
+      link: assets/wip_2024/HCOMP_24_WIP_3.pdf
+    - authors: "Matheus Kunzler Maldaner, Wesley Hanwen Deng, Jason Hong, Ken Holstein, and Motahhare Eslami"
+      title: "MIRAGE: Multi-model Interface for Reviewing and Auditing Generative Text-to-Image AI"
+      link: assets/wip_2024/HCOMP_24_WIP_4.pdf
+    - authors: "Owen He, Ansh Jain, Axel Adonai Rodriguez-Leon, Arnav Taduvayi, and Matthew Louis Mauriello"
+      title: "From Crowdsourcing to Large Multimodal Models: Toward Enhancing Image Data Annotation with GPT-4V"
+      link: assets/wip_2024/HCOMP_24_WIP_5.pdf
+    - authors: "Yong-Siang Shih, Zach Zhao, Chenhao Niu, Bruce Iberg, James Sharpnack, and Mirza Basim Baig"
+      title: "AI-assisted Gaze Detection for Proctoring Online Exams"
+      link: assets/wip_2024/HCOMP_24_WIP_6.pdf    
+    - authors: "Takumi Tamura, Hiroyoshi Ito, Satoshi Oyama, and Atsuyuki Morishima"
+      title: "Simulation-based Exploration for Aggregation Algorithms in Human+AI Crowd: What factors should we consider for better results?"
+      link: assets/wip_2024/HCOMP_24_WIP_7.pdf
+    - authors: "Gabriella Thompson, Ebtesam Al Haque, Paulette Blanc, Meme Styles, Denae Ford, Angela D. R. Smith, and Brittany Johnson"
+      title: "An Investigation of Experiences Engaging the Margins in Data-Centric Innovation"
+      link: assets/wip_2024/HCOMP_24_WIP_8.pdf
+    
