@@ -329,12 +329,12 @@
   picture: 'img/photo/karpov-150.jpg'
   website: 'http://www.cs.utexas.edu/users/ai-lab/?igorkarpov'
 
-- affiliation: University of Michigan
+- affiliation: University of Minnesota
   full_name: Harmanpreet Kaur
   id: kaur
   last_name: Kaur
-  picture: 'img/photo/harman-150.jpg'
-  website: 'http://www-personal.umich.edu/~harmank/'
+  picture: 'img/photo/kaur.jpg'
+  website: 'https://harmanpk.github.io/'
 
 - affiliation: The University of Queensland, Australia
   full_name: Gianluca Demartini
