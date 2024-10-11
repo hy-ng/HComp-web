@@ -87,6 +87,9 @@ Letters of invitation can be requested by accepted HCOMP 2024 authors or registr
 
 Preregistration is required prior to arrival onsite by registering online. Onsite registration will be held in the hall of the conference event, October 16-19. All attendees must pick up their badges for admittance to programs.
 
-Registration hours are scheduled for Wednesday, Thursday, and Friday from 8:00am – 5:00pm; and Saturday (workshops) 8:00am – 12:00pm. Registration hours are subject to change depending on the final program.
+Registration hours are scheduled for 
+- Wednesday &mdash; 02:00pm - 06:00pm
+- Thursday and Friday &mdash; 08:00am – 05:00pm
+- Saturday &mdash; 08:00am – 02:00pm
 
-For directional information, please see the Attend page.
+For directional information, please see the [Attend](/attend.html) page.
