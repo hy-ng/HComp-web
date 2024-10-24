@@ -694,6 +694,7 @@
   full:
     - authors: "Edyta Bogucka, Sanja Scepanovic and Daniele Quercia"
       title: "The Atlas of AI Risks: Enhancing Public Understanding of AI Risks"
+      award: "honorable-mention"
     - authors: "Huda Banuqitah, Mark Dunlop, Maysoon Abulkhair and Sotirios Terzis"
       title: "An Exploratory Study of the Impact of Tasks Selection Strategies on Worker Performance in Crowdsourcing Microtasks"
     - authors: "Jessica Bo, Harsh Kumar, Michael Liut and Ashton Anderson"
@@ -704,6 +705,7 @@
       title: "User Profiling in Human-AI Design: An Empirical Case Study of Anchoring Bias, Individual Differences, and AI Attitudes"
     - authors: "Sara Kingsley, Jiayin Zhi, Wesley Hanwen Deng, Jaimie Lee, Sizhe Zhang, Motahhare Eslami, Kenneth Holstein, Jason I. Hong, Tianshi Li and Hong Shen"
       title: "Investigating What Factors Influence Users' Rating of Harmful Algorithmic Bias and Discrimination"
+      award: best-paper
     - authors: "Senjuti Dutta, Rhema Linder, Alex Williams, Anastasia Kuzminykh and Scott Ruoti"
       title: "Unveiling the Inter-Related Preferences of Crowdworkers: Implications for Personalized and Flexible Platform Design"
     - authors: "Shreyan Biswas, Ji-Youn Jung, Abhishek Unnam, Kuldeep Yadav, Shreyansh Gupta and Ujwal Gadiraju"
@@ -712,6 +714,7 @@
       title: "Combining Human and AI Strengths in Object Counting under Information Asymmetry"
     - authors: "Stefano Marchesin, Gianmaria Silvello and Omar Alonso"
       title: "Utility-Oriented Knowledge Graph Accuracy Estimation with Limited Annotations: A Case Study on DBpedia"
+      award: "honorable-mention"
     - authors: "Steven Moore, Norman Bier and John Stamper"
       title: "Assessing Educational Quality: Comparative Analysis of Crowdsourced, Expert, and AI-Driven Rubric Applications"
     - authors: "Thuy Ngoc Nguyen, Kasturi Jamale and Cleotilde Gonzalez"
