@@ -751,4 +751,23 @@ details[open] summary {
     padding: 2px;
     border-radius:5px;
     font-size:12px;
+    margin-left: 5px;
+}
+
+.best-paper {
+    background-color: blue;
+    color: white;
+    padding: 2px;
+    border-radius:5px;
+    font-size:12px;
+    margin-left: 5px;
+}
+
+.honorable-mention {
+    background-color: chocolate;
+    color: white;
+    padding: 2px;
+    border-radius:5px;
+    font-size:12px;
+    margin-left: 5px;
 }

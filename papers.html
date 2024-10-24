@@ -21,6 +21,11 @@ year: 2024
       <div class="col-md-12">
         <div class="intro-paragraph lead">
           <h2 id="full" class="section-heading">Papers</h2>
+          <p>
+            <a class="theme-link" href="https://ojs.aaai.org/index.php/HCOMP/issue/view/608">
+              See conference proceeding for HCOMP 2024 here 
+            </a>.
+          </p>
           
           {% assign sorted = site.data.accepted[2024].full | sort: 'title' %}
           {% for paper in sorted %}
@@ -28,7 +33,14 @@ year: 2024
           {% if paper.link %}
               <a class="theme-link" href= "{{ paper.link }}" >{{ paper.title }}</a>
           {% else %}
-              {{ paper.title }}
+            {% if paper.award %}
+              {% if paper.award=='best-paper' %}
+                <img src="img/best_paper.png" height="21"><span class="best-paper">Best Paper Award</span>
+              {% elsif paper.award=='honorable-mention' %}
+                <img src="img/honorable_mention.png" height="21"><span class="honorable-mention">Best Paper Honorable Mention</span>
+              {% endif %}
+            {% endif %}
+            {{ paper.title }}
           {% endif %}
           </b>
           {% if paper.video %}
