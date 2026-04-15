@@ -1,0 +1,1418 @@
+- id: valencia
+  last_name: Valencia
+  full_name: Stephanie Valencia
+  picture: img/photo/valencia.jpg
+  affiliation: Carnegie Mellon University
+  website: https://stephanie-valencia.com/
+
+- id: mingzheli
+  last_name: Li
+  full_name: Franklin Mingzhe Li 
+  picture: img/photo/mingzheli.jpg
+  affiliation: Carnegie Mellon University
+  website: https://franklin-li.com/
+
+- id: toxtli
+  last_name: Toxtli
+  full_name: Carlos Toxtli
+  picture: img/photo/toxtli.jpg
+  affiliation: Clemson University
+  website: https://www.carlostoxtli.com/
+
+- id: sayin
+  last_name: Sayin
+  full_name: Burcu Sayin
+  picture: img/photo/sayin.jpg
+  affiliation: University of Trento
+  website: https://burcusayin.github.io/
+
+- id: rechkemmer
+  last_name: Rechkemmer
+  full_name: Amy Rechkemmer
+  picture: img/photo/rechkemmer-150.jpg
+  affiliation: Purdue University
+  website: https://www.cs.purdue.edu/people/graduate-students/arechke.html
+
+- id: bi
+  last_name: Bi
+  full_name: Nanyi Bi
+  picture: img/photo/bi-150.jpg
+  affiliation: National Taiwan University
+  website: https://www.linkedin.com/in/nanyi-bi-516b8a16/
+
+- id: hettiachichi
+  last_name: Hettiachchi
+  full_name: Danula Hettiachchi
+  picture: img/photo/hettiachichi-150.jpg
+  affiliation: RMIT University
+  website: https://www.danulahettiachchi.com/
+
+- id: huffaker
+  last_name: Huffaker
+  full_name: Jordan Huffaker
+  picture: img/photo/huffaker-150.jpg
+  affiliation: University of Michigan
+  website: http://www.jordanhuffaker.com/
+
+- id: guo
+  last_name: Guo
+  full_name: Anhong Guo
+  picture: img/photo/guo-150.jpg
+  affiliation: University of Michigan
+  website: https://guoanhong.com/
+
+- id: huangjanet
+  last_name: Huang
+  full_name: Janet Yi-Ching Huang
+  picture: img/photo/huangjanet-150.jpg
+  affiliation: Eindhoven University of Technology
+  website: http://janetyc.github.io/
+
+- id: schaekermann
+  last_name: Schaekermann
+  full_name: Mike Schaekermann
+  picture: img/photo/schaekermann.jpg
+  affiliation: Google Research
+  website: https://mikeshake.me/
+
+- id: bozzon
+  last_name: Bozzon
+  full_name: Alessandro Bozzon
+  picture: img/photo/bozzon.jpeg
+  steering: HCOMP 2023 Co-Chair
+  affiliation: Delft University of Technology (TU Delft)
+  website: http://www.wis.ewi.tudelft.nl/bozzon/
+
+
+- id: bernstein
+  last_name: Bernstein
+  full_name: Michael Bernstein
+  picture: img/photo/bernstein.jpg
+  affiliation: Stanford University
+  steering: HCOMP 2023 Co-Chair
+  website: https://engineering.stanford.edu/people/michael-bernstein
+
+
+- id: suri
+  last_name: Suri
+  full_name: Siddharth Suri
+  picture: img/photo/Siddharth_Suri-150.jpg
+  affiliation: Microsoft
+  website: https://www.microsoft.com/en-us/research/people/suri/
+
+- id: yin
+  last_name: yin
+  full_name: Ming Yin
+  picture: img/photo/Ming.jpg
+  affiliation: Purdue University
+  steering: HCOMP 2022 Co-Chair
+  website: http://mingyin.org/
+
+- id: hsu
+  last_name: Hsu
+  full_name: Jane Hsu
+  picture: img/photo/janehsu.jpg
+  affiliation: National Taiwan University
+  steering: HCOMP 2022 Co-Chair
+  website: https://iagentntu.github.io/professor/Jane.html
+
+- id: gentile
+  last_name: Gentile
+  full_name: Anna Lisa Gentile
+  picture: img/photo/annalisa-150.jpg
+  affiliation: IBM
+  website: https://anligentile.github.io/
+
+- id: simperl
+  last_name: Simperl
+  full_name: Elena Simperl
+  picture: img/photo/simperl-150.jpg
+  affiliation: King's College London
+  website: http://elenasimperl.eu
+  steering: Committee Co-Chair and HCOMP 2020 Co-Chair
+
+- id: larson
+  last_name: Larson
+  full_name: Kate Larson
+  picture: img/photo/larson.jpg
+  affiliation: University of Waterloo
+  website: https://cs.uwaterloo.ca/~klarson/
+
+- id: parameswaran
+  last_name: Parameswaran
+  full_name: Aditya Parameswaran
+  picture: img/photo/Parameswaran.jpg
+  affiliation: University of Illinois (UIUC)
+  website: http://data-people.cs.illinois.edu
+
+- id: ipeirotis 
+  steering: HCOMP 2015 &amp; 2011 Co-Chair
+  last_name: Ipeirotis 
+  full_name: Panos Ipeirotis 
+  picture: img/photo/Panos.jpg
+  affiliation: New York University
+  website: http://www.ipeirotis.com
+
+- id: xia
+  last_name: Xia
+  full_name: Lirong Xia
+  picture: img/photo/lirong.jpg
+  affiliation: RPI
+  website: http://www.cs.rpi.edu/~xial/
+
+- id: luther
+  last_name: Luther
+  full_name: Kurt Luther
+  picture: 'img/photo/luther.png'
+  affiliation: Virginia Tech
+  steering: HCOMP 2021 Co-Chair
+  website: http://crowd.cs.vt.edu/kurt-luther/
+
+- id: liu
+  last_name: Liu
+  full_name: Christina Liu
+  picture: img/photo/christina_liu-150.jpg
+  affiliation: Google
+  website: https://www.linkedin.com/in/christina-liu-506b4478/
+
+- id: wibowo
+  last_name: Wibowo
+  full_name: Kenny Wibowo
+  picture: img/photo/wibowo-150.jpg
+  affiliation: Google
+  website: https://wibow.io/
+
+- id: lasecki
+  last_name: Lasecki
+  full_name: Walter Lasecki
+  picture: img/photo/walterlasecki.jpg
+  affiliation: University of Michigan
+  website: https://web.eecs.umich.edu/~wlasecki/
+
+
+- id: goel
+  last_name: Goel
+  full_name: Ashish Goel
+  picture: img/photo/ashishg.jpg
+  affiliation: Stanford University
+  website: http://web.stanford.edu/~ashishg/
+
+- id: bragg
+  last_name: Bragg
+  full_name: Jonathan Bragg
+  picture: img/photo/jbragg.jpg
+  affiliation: Allen Institute for AI
+  website: https://www.jonathanbragg.com/
+
+- id: naman
+  last_name: Goel
+  full_name: Naman Goel
+  picture: img/photo/naman.png
+  affiliation: Oxford University
+  website: https://goelnaman.github.io/
+
+- id: law
+  steering: HCOMP 2019 Co-Chair
+  last_name: Law
+  full_name: Edith Law
+  picture: img/photo/edith.jpg
+  affiliation: University of Waterloo, Canada
+  website: http://edithlaw.ca/
+
+- id: vaughan
+  steering: HCOMP 2019 Co-Chair
+  last_name: Vaughan
+  full_name: Jenn Wortman Vaughan
+  picture: img/photo/jenn.png
+  affiliation: Microsoft Research, New York, USA
+  website: http://www.jennwv.com/
+  keynote: 'keynotes.html#vaughan'
+
+- id: aroyo
+  last_name: Aroyo
+  full_name: Lora Aroyo
+  picture: img/photo/aroyo.jpeg
+  affiliation: Google
+  steering: Committee Co-Chair and HCOMP 2020 Co-Chair
+  website: http://lora-aroyo.org/
+
+- id: oomen
+  last_name: Oomen
+  full_name: Johan Oomen
+  picture: img/photo/oomen.jpg
+  affiliation: Netherlands Institute for Sound and Vision
+  website: https://www.beeldengeluid.nl/en/knowledge/experts/johan-oomen/
+
+- id: bennet
+  last_name: Bennet
+  full_name: Paul Bennet
+  picture: img/photo/Paul%20Bennett.jpg
+  affiliation: Microsoft Research
+  website: http://research.microsoft.com/en-us/um/people/pauben/
+
+- id: verbruggen
+  last_name: Verbruggen
+  full_name: Erwin Verbruggen
+  picture: img/photo/verbruggen-150.jpg
+  affiliation: Netherlands Institute for Sound and Vision
+  website: https://www.beeldengeluid.nl/en/knowledge/experts/erwin-verbruggen
+
+- id: inel
+  last_name: Inel
+  full_name: Oana Inel
+  picture: img/photo/inel.png
+  affiliation: University of Zurich
+  website: https://oana-inel.github.io/
+
+- id: amaral
+  last_name: Amaral
+  full_name: Gabriel Amaral
+  picture: img/photo/amaral.jpg
+  affiliation: King's College London
+  website: https://gabrielmaia7.github.io/
+
+- id: ho
+  last_name: Ho
+  full_name: Chien-Ju Ho
+  picture: img/photo/chienju.png
+  affiliation: Washington University in St. Louis
+  website: http://chienjuho.com/
+
+- id: nushi
+  last_name: Nushi
+  full_name: Besmira Nushi
+  picture: img/photo/besmira.jpg
+  affiliation: Microsoft Research, Redmond
+  website: https://besmiranushi.com/
+
+- affiliation: Google
+  full_name: "\uFEFFAnja Gruenheid"
+  id: gruenheid
+  last_name: Gruenheid
+  picture: 'img/photo/Gruenheid.jpg'
+  website: 'https://sites.google.com/view/anjagruenheid/home'
+
+- affiliation: University of Tsukuba
+  full_name: Atsuyuki Morishima
+  id: morishima
+  last_name: Morishima
+  picture: 'img/photo/Morishima.jpg'
+  website: 'https://fusioncomplab.org/people/atsuyuki/'
+
+
+- affiliation: George Mason University
+  full_name: Rahul Pandey
+  id: pandey
+  last_name: Pandey
+  picture: 'img/photo/pandey.jpeg'
+  website: 'https://mason.gmu.edu/~rpandey4/'
+
+
+- affiliation: Brainworks
+  full_name: Markus Krause
+  id: krause
+  last_name: Krause
+  picture: 'img/photo/Markus.png'
+  website: 'https://www.mooqita.org'
+
+- affiliation: Karlsruhe Institute of Technology (KIT) 
+  full_name: Maribel Acosta
+  id: acosta
+  last_name: Acosta
+  picture: 'img/photo/acosta-150.jpg'
+  website: 'https://www.aifb.kit.edu/web/Maribel_Acosta/en'
+
+- affiliation: Google
+  full_name: Igor Karpov
+  id: karpov
+  last_name: Karpov
+  picture: 'img/photo/karpov-150.jpg'
+  website: 'http://www.cs.utexas.edu/users/ai-lab/?igorkarpov'
+
+- affiliation: University of Minnesota
+  full_name: Harmanpreet Kaur
+  id: kaur
+  last_name: Kaur
+  picture: 'img/photo/kaur.jpg'
+  website: 'https://harmanpk.github.io/'
+
+- affiliation: The University of Queensland, Australia
+  full_name: Gianluca Demartini
+  id: demartini
+  last_name: Demartini
+  steering: HCOMP 2024 Co-Chair
+  picture: 'img/photo/demartini.png'
+  website: 'http://www.gianlucademartini.net'
+
+- affiliation: Siemens, Austria
+  full_name: Marta Sabou
+  id: sabou
+  last_name: Sabou
+  picture: 'img/photo/marta-sabou-150.jpg'
+  website: 'http://kmi.open.ac.uk/people/member/marta-sabou'  
+
+- affiliation: ETH Zurich
+  full_name: Hoda Heidari
+  id: heidari
+  last_name: Heidari
+  picture: 'img/photo/hodaheidari.jpg'
+  website: 'https://las.inf.ethz.ch/people/hoda-heidari'
+
+- affiliation: Tsinghua University
+  full_name: Guoliang Li
+  id: li
+  last_name: Li
+  picture: 'img/photo/liguoliang.jpg'
+  website: 'http://dbgroup.cs.tsinghua.edu.cn/ligl/'
+
+- affiliation: Max Planck Institute for Software Systems
+  full_name: Adish Singla
+  id: singla
+  last_name: Singla
+  picture: 'img/photo/adish.png'
+  website: 'https://machineteaching.mpi-sws.org/adishsingla.html'
+
+- affiliation: Microsoft
+  full_name: Omar Alonso
+  id: alonso
+  last_name: Alonso
+  picture: 'img/photo/omar.png'
+  website: 'https://www.linkedin.com/in/omar-alonso-8a5235/'
+
+- affiliation: University College London
+  full_name: Anna Cox
+  id: cox
+  last_name: Cox
+  picture: 'img/photo/cox.png'
+  website: 'https://uclic.ucl.ac.uk/people/anna-cox'
+
+- affiliation: Carnegie Mellon University
+  full_name: Yasmine Kotturi
+  id: kotturi
+  last_name: Kotturi
+  picture: 'img/photo/kotturi.png'
+  website: 'https://ykotturi.github.io/'
+
+- affiliation: Snap Research
+  full_name: Rajan Vaish
+  id: vaish
+  last_name: Vaish
+  picture: 'img/photo/rajan.png'
+  website: 'http://www.rajanvaish.com/index.html' 
+
+- affiliation: Amazon, USA
+  full_name: Seyi Feyisetan
+  id: feyisetan
+  last_name: Feyisetan
+  picture: 'img/photo/feyisetan-150.jpg'
+  website: 'https://www.sociam.org/team-member/dr-seyi-feyisetan'  
+  
+- affiliation: UC Santa Cruz
+  full_name: David Lee
+  id: lee
+  last_name: Lee
+  picture: 'img/photo/david.jpg'
+  website: 'https://tech4good.soe.ucsc.edu/#/people/David-Lee-2018' 
+
+- affiliation: Delft University of Technology
+  full_name: Ujwal Gadiraju
+  id: gadiraju
+  last_name: Gadiraju
+  steering: HCOMP 2024 Co-Chair
+  picture: 'img/photo/gadiraju.png'
+  website: 'http://ujwalgadiraju.com/' 
+
+- affiliation: VSCO
+  full_name: Geneviève Patterson
+  id: patterson
+  last_name: Patterson
+  picture: 'img/photo/genevieve.png'
+  website: 'https://genp.github.io'
+
+- affiliation: University of Texas at Austin
+  full_name: Danna Gurari
+  id: gurari
+  last_name: Gurari
+  picture: 'img/photo/Danna.jpg'
+  website: https://home.cs.colorado.edu/~DrG/AboutMe.html
+
+- affiliation: The University of Sheffield
+  full_name: Alessandro Checco
+  id: checco
+  last_name: Checco
+  picture: 'img/photo/checco.jpg'
+  website: https://alessandrochecco.github.io
+
+- affiliation: Albert Heijn
+  full_name: Anca Dumitrache
+  id: dumitrache
+  last_name: Dumitrache
+  picture: 'img/photo/dumitrache-150.jpg'
+  website: 'http://ancad.ro/'
+
+- affiliation: UC San Diego
+  steering: HCOMP 2017 Co-Chair
+  full_name: Steven Dow
+  id: dow
+  last_name: Dow
+  picture: 'img/photo/dow.jpg'
+  website: https://spdow.ucsd.edu
+
+- affiliation: Syracuse University
+  full_name: Joshua Introne
+  id: introne
+  last_name: Introne
+  picture: 'img/photo/JoshuaIntrone.jpg'
+  website: 'https://ischool.syr.edu/joshua-introne/'
+
+- affiliation: Beihang University
+  full_name: Hailong Sun
+  id: sun
+  last_name: Sun
+  picture: 'img/photo/sun.jpg'
+  website: http://shi.buaa.edu.cn/sunhailong/en
+
+- affiliation: Harvard University
+  full_name: Berk Ustun
+  id: ustun
+  last_name: Ustun
+  picture: 'img/photo/berkustun.jpg'
+  website: 'http://www.berkustun.com'
+
+- affiliation: "Ecole Polytechnique F\xE9d\xE9rale de Lausanne"
+  full_name: L. Elisa Celis
+  id: celis
+  last_name: Celis
+  picture: 'img/photo/elisa.png'
+  website: 'https://theory.epfl.ch/celis/HOME.html'
+
+- affiliation: McGill University
+  full_name: Jerome Waldispuhl
+  id: waldispuhl
+  last_name: Waldispuhl
+  picture: 'img/photo/JeromeWaldispuhl.png'
+  website: 'https://www.cs.mcgill.ca/~jeromew/'
+
+- affiliation: Politecnico di Milano
+  full_name: Florian Daniel
+  id: daniel
+  last_name: Daniel
+  picture: 'img/photo/FlorianDaniel.jpg'
+  website: 'https://www.floriandaniel.it'
+
+- affiliation: Microsoft
+  full_name: Chris Lin
+  id: lin
+  last_name: Lin
+  picture: 'img/photo/chrislin.jpg'
+  website: 'http://christopherhlin.com'
+
+- affiliation: Northwestern University
+  steering: HCOMP 2015 Co-Chair
+  full_name: Elizabeth Gerber
+  id: gerber
+  last_name: Gerber
+  picture: 'img/photo/Elizabeth.png'
+  website: 'http://egerber.mech.northwestern.edu/'
+
+- affiliation: University of California, Berkeley
+  steering: HCOMP 2013 Co-Chair
+  full_name: Bjoern Hartman
+  id: hartman
+  last_name: Hartman
+  picture: img/photo/Bjoern.png
+  website: http://www.cs.berkeley.edu/~bjoern/
+
+- affiliation: Microsoft Research
+  steering: HCOMP 2013 Co-Chair
+  full_name: Eric Horvitz
+  id: horvitz
+  last_name: Horvitz
+  picture: img/photo/Horvitz.jpg
+  website: http://research.microsoft.com/en-us/um/people/horvitz/
+
+- affiliation: Microsoft Research
+  steering: HCOMP 2017 Co-Chair
+  full_name: Adam Kalai
+  picture: "img/photo/adam_kalai.jpg"
+  website: https://www.microsoft.com/en-us/research/people/adum/
+  last_name: Kalai
+  id: kalai
+
+- affiliation: Amazon
+  steering: HCOMP 2018 Co-Chair
+  full_name: Gabriella Kazai
+  picture: "img/photo/kazai.jpg"
+  website: http://www.gabriella-kazai.com
+  last_name: Kazai
+  id: kazai
+
+- affiliation: Carnegie Mellon University and Apple
+  steering: HCOMP 2014 Co-Chair
+  full_name: Jeffrey Bigham
+  id: bigham
+  last_name: Bigham
+  picture: 'img/photo/bigham.jpeg'
+  website: 'https://www.jeffreybigham.com'
+  keynote: 'keynotes.html#bigham'
+
+- affiliation: IBM
+  full_name: Anbang Xu
+  id: xu
+  last_name: Xu
+  picture: 'img/photo/anbangxu-150.jpg'
+  website: 'https://researcher.watson.ibm.com/researcher/view.php?person=us-anbangxu'
+
+- affiliation: Google
+  full_name: Praveen Paritosh
+  id: paritosh
+  last_name: Paritosh
+  picture: 'img/photo/Praveen.png'
+  website: 'https://ai.google/research/people/PraveenParitosh'
+
+- affiliation: University of Alberta
+  full_name: James Wright
+  id: wright
+  last_name: Wright
+  picture: 'img/photo/jameswright.jpg'
+  website: 'https://www.cs.ubc.ca/~jrwright/'
+
+- affiliation: The Hong Kong University of Science and Technology
+  full_name: Lei Chen
+  id: chen
+  last_name: Chen
+  picture: 'img/photo/lichen.jpg'
+  website: 'http://www.cs.ust.hk/~leichen/'
+
+- affiliation: Harvard University
+  steering: HCOMP 2012 Chair and 2018 Co-Chair
+  full_name: Yiling Chen
+  id: yiling_chen
+  last_name: Chen
+  picture: 'img/photo/Yiling.png'
+  website: 'http://yiling.seas.harvard.edu/'
+
+- affiliation: Singapore Management University
+  full_name: Shih-Fen Cheng
+  id: cheng
+  last_name: Cheng
+  picture: 'img/photo/shih-fencheng.jpg'
+  website: 'http://www.mysmu.edu/faculty/sfcheng/'
+
+- affiliation: Microsoft
+  full_name: Matteo Venanzi
+  id: venanzi
+  last_name: Venanzi
+  picture: 'img/photo/venanzi-150.jpg'
+  website: 'https://www.microsoft.com/en-us/research/people/mavena/'
+
+- affiliation: Purdue University
+  full_name: Alexander Quinn
+  id: quinn
+  last_name: Quinn
+  picture: 'img/photo/quinn-150.jpg'
+  website: 'http://alexquinn.org'
+
+- affiliation: IBM
+  full_name: Maja Vukovic
+  id: vukovic
+  last_name: Vukovic
+  picture: 'img/photo/maja.jpg'
+  website: 'https://researcher.watson.ibm.com/researcher/view.php?person=us-maja'
+
+- affiliation: University of Michigan
+  full_name: Julie Hui
+  id: hui
+  last_name: Hui
+  picture: 'img/photo/Julie.jpg'
+  website: 'http://juliehui.com'
+
+- affiliation: University of Texas at Austin and Amazon
+  steering: HCOMP 2016 Co-Chair
+  full_name: Matthew Lease
+  id: lease
+  last_name: Lease
+  picture: 'img/photo/mattlease.jpg'
+  website: 'https://www.ischool.utexas.edu/~ml/'
+
+- affiliation: New York University
+  full_name: Djellel Difallah
+  id: difallah
+  last_name: Difallah
+  picture: 'img/photo/djellel.jpg'
+  website: 'https://www.linkedin.com/in/djellel/'
+
+- affiliation: Pennsylvania State University
+  full_name: Ting-Hao (Kenneth) Huang
+  id: huangtinghao
+  last_name: Huang
+  picture: 'img/photo/Ting-HaoHuang.jpg'
+  website: 'https://crowd.ist.psu.edu'
+
+- affiliation: Google
+  full_name: Chris Welty
+  id: welty
+  last_name: Welty
+  picture: 'img/photo/welty.jpg'
+  website: https://research.google/people/104789/
+  keynote: 'keynotes.html#chris_welty'
+
+- affiliation: Artist
+  full_name: Anna Ridler
+  id: ridler
+  last_name: Ridler
+  picture: 'img/photo/anna_ridler-150.jpg'
+  website: 'https://annaridler.com/'
+  keynote: 'keynotes.html#anna_ridler'
+
+- affiliation: University of Amsterdam
+  full_name: Julia Noordegraaf
+  id: noordegraaf
+  last_name: Noordegraaf
+  picture: 'img/photo/julia_noordegraaf-150.jpg'
+  website: 'https://www.uva.nl/profiel/n/o/j.j.noordegraaf/j.j.noordegraaf.html/'
+  keynote: 'keynotes.html#julia_noordegraaf'
+
+- affiliation: Harvard University
+  steering: HCOMP 2014 Co-Chair
+  full_name: David Parkes
+  id: parkes
+  last_name: Parkes
+  picture: 'img/photo/David.png'
+  website: 'http://www.eecs.harvard.edu/~parkes/'
+
+- affiliation: Carnegie Mellon University
+  steering: HCOMP 2011 Co-Chair
+  full_name: Luis von Ahn
+  id: vonahn
+  last_name: von Ahn
+  picture: 'img/photo/Luis.png'
+  website: 'https://www.cs.cmu.edu/~biglou/'
+
+- affiliation: Northwestern University
+  full_name: Haoqi Zhang
+  id: zhang
+  last_name: Zhang
+  picture: 'img/photo/Haoqi.jpg'
+  website: 'http://users.eecs.northwestern.edu/~hq/'
+
+- affiliation: Spotify
+  full_name: Mounia Lalmas
+  id: lalmas
+  last_name: lalmas
+  picture: 'img/photo/mounia_lalmas-150.jpg'
+  website: 'https://mounia-lalmas.blog/mounia-lalmas/'
+  keynote: 'keynotes.html#mounia_lalmas'
+
+- affiliation: University of Tsukuba
+  full_name: Yukino Baba
+  id: baba
+  last_name: Baba
+  picture: 'img/photo/yukinoBaba.jpg'
+  website: 'http://yukinobaba.jp'
+
+- affiliation: Ilmenau University of Technology
+  full_name: Matthias Hirth
+  id: hirth
+  last_name: Hirth
+  picture: 'img/photo/hirth.png'
+  website: 'https://www.tu-ilmenau.de/universitaet/fakultaeten/fakultaet-elektrotechnik-und-informationstechnik/profil/institute-und-fachgebiete/fachgebiet-nutzerzentrierte-analyse-von-multimediadaten/team/jun-prof-dr-matthias-hirth'
+
+- affiliation: Boston University
+  full_name: Margrit Betke
+  id: betke
+  last_name: Betke
+  picture: 'img/photo/MargritBetke.jpg'
+  website: 'http://www.cs.bu.edu/~betke/'
+
+- affiliation: Brown University
+  full_name: Jeff Huang
+  id: huang
+  last_name: Huang
+  picture: 'img/photo/jeffhuang.jpeg'
+  website: 'https://jeffhuang.com'
+
+- affiliation: Microsoft
+  full_name: Ece Kamar
+  id: kamar
+  last_name: Kamar
+  steering: HCOMP 2021 Co-Chair
+  picture: 'img/photo/ece.png'
+  website: 'https://www.ecekamar.com'
+
+- affiliation: Harvard University
+  full_name: Goran Radanovic
+  id: radanovic
+  last_name: Radanovic
+  picture: 'img/photo/goran.jpg'
+  website: 'https://crcs.seas.harvard.edu/people/goran-radanovic-0'
+
+- affiliation: Facebook
+  full_name: Akash-Das Sarma
+  id: sarma
+  last_name: Sarma
+  picture: 'img/photo/sarma.jpeg'
+  website: 'https://www.linkedin.com/in/akash-das-sarma'
+
+- affiliation: Simon Fraser University
+  full_name: Jiannan Wang
+  id: wang
+  last_name: Wang
+  picture: 'img/photo/jiannan-wang.jpg'
+  website: 'http://www.cs.sfu.ca/~jnwang/'
+
+- affiliation: University of Oulu
+  full_name:  Simo Hosio
+  id: hosio
+  last_name: Hosio
+  picture: 'img/photo/hosio.png'
+  website: 'https://simohosio.com/'
+
+- id: deliddo
+  last_name: De Liddo
+  full_name: Anna De Liddo
+  picture: img/photo/deliddo-150.jpg
+  affiliation: The Open University
+  website: http://kmi.open.ac.uk/people/member/anna-de-liddo
+
+- affiliation: Microsoft
+  full_name: Saleema Amershi
+  id: amershi
+  last_name: Amershi
+  picture: 'img/photo/Saleema.jpg'
+  website: 'https://www.microsoft.com/en-us/research/people/samershi/'
+
+- id: bailey
+  full_name: Brian Bailey
+  last_name: Bailey
+  affiliation: UIUC
+  picture: 'img/photo/brianbailey.jpg'
+  website: 'http://orchid.cs.illinois.edu/people/bailey/index.html'
+
+- id: mason
+  full_name: Winter Mason
+  last_name: Mason
+  affiliation: Facebook
+  picture: 'img/photo/mason.jpeg'
+  website: 'http://smallsocialsystems.com/bio.html'
+
+- id: rodrigues
+  full_name: Filipe Rodrigues
+  last_name: Rodrigues
+  affiliation: Technical University of Denmark
+  picture: 'img/photo/rodrigues.png'
+  website: 'http://fprodrigues.com/'
+
+- id: yang
+  full_name: Jie Yang
+  last_name: Yang
+  affiliation: Delft University of Technology
+  picture: 'img/photo/yang.png'
+  website: 'https://yangjiera.github.io/'
+
+
+- id: bocyte
+  full_name: Rasa Bocyte
+  last_name: Bocyte
+  affiliation: Netherlands Institute for Sound and Vision
+  picture: 'img/photo/rasa-150.jpg'
+  website:  www.linkedin.com/in/rbocyte
+
+- id: perona
+  full_name: Pietro Perona
+  last_name: Perona
+  affiliation: Amazon
+  picture: 'img/photo/perona-150.jpg'
+  website:  http://eas.caltech.edu/people/perona
+  keynote: 'keynotes.html#pietro_perona'
+
+- id: braga
+  full_name: Daniela Braga
+  last_name: Braga
+  affiliation: DefinedCrowd
+  website: https://www.definedcrowd.com/
+  picture: 'img/photo/DanielaBraga-150.jpg'
+
+- id: sarne
+  full_name: David Sarne
+  last_name: Sarne
+  affiliation: Bar-Ilan University
+  website: https://u.cs.biu.ac.il/~sarned/
+  picture: 'img/photo/sarne-150.jpg'
+
+- id: savage
+  full_name: Saiph Savage
+  last_name: Savage
+  affiliation: Northeastern University
+  steering: HCOMP 2023 Co-Chair
+  website: http://www.saiph.org/
+  picture: 'img/photo/savage.jpg'
+
+- id: chan
+  full_name: Joel Chan
+  last_name: Chan
+  affiliation: University of Maryland
+  picture: 'img/photo/jchan-150.jpg'
+  website: http://joelchan.me/
+
+- id: poursabzi
+  full_name: Forough Poursabzi-Sangdeh
+  last_name: Poursabzi-Sangdeh
+  affiliation: Microsoft
+  picture: 'img/photo/foroughp-150.jpg'
+  website: https://foroughp.github.io/
+
+- id: williams
+  full_name: Alex Williams
+  last_name: Williams
+  affiliation: Amazon
+  website: http://web.eecs.utk.edu/~acw/
+  picture: 'img/photo/awilliams-150.jpg'
+
+- id: chilton
+  full_name: Lydia Chilton
+  last_name: Chilton
+  affiliation: Columbia University
+  website: https://www.cs.columbia.edu/~chilton/chilton.html
+  picture: 'img/photo/chilton.jpg'
+
+
+- id: manikonda
+  full_name: Lydia Manikonda
+  last_name: Manikonda
+  affiliation: Rensselaer Polytechnic Institute
+  website: https://lmanikon.github.io/
+  picture: 'img/photo/LManikonda-150.jpg'
+
+- id: foong
+  full_name: Eureka Foong
+  last_name: Foong
+  affiliation: The University of Tokyo
+  website: https://www.eurekafoong.com/
+  picture: 'img/photo/foong.jpg'
+
+- id: sangwonlee
+  full_name: Sang Won Lee
+  last_name: Lee
+  affiliation: Virginia Tech
+  website: https://people.cs.vt.edu/sangwonlee/
+  picture: 'img/photo/sangwonlee-150.jpg'
+
+- id: amypavel
+  full_name: Amy Pavel
+  last_name: Pavel
+  affiliation: Carnegie Mellon University
+  website: https://amypavel.com/
+  picture: 'img/photo/amypavel.png'
+
+- id: sdoroudi
+  full_name: Shayan Doroudi
+  last_name: Doroudi
+  affiliation: University of California, Irvine
+  picture: 'img/photo/shayand.jpg'
+  website: https://faculty.sites.uci.edu/doroudis/
+
+- id: jgoncalves
+  full_name: Jorge Goncalves
+  last_name: Goncalves
+  affiliation: University of Melbourne
+  picture: 'img/photo/jgoncalves.jpg'
+  website: https://www.jorgegoncalves.com
+
+- id: jotterbacher
+  full_name: Jahna Otterbacher
+  last_name: Otterbacher
+  affiliation: Open University of Cyprus
+  picture: 'img/photo/jotterbacher.jpg'
+  website: http://www.cycat.io/team/jahna-otterbacher/
+
+- id: mausam
+  full_name: Mausam
+  last_name: ~
+  affiliation: IIT Delhi
+  picture: 'img/photo/mausam.jpg'
+  website: https://www.cse.iitd.ac.in/~mausam/
+
+- id: minsukchang
+  full_name: Minsuk Chang
+  last_name: Chang
+  affiliation: NAVER AI Lab
+  picture: 'img/photo/minsukchang.png'
+  website: https://minsukchang.com
+
+- id: lykourentzou
+  full_name: Ioanna Lykourentzou
+  last_name: Lykourentzou
+  affiliation: Utrecht University
+  picture: 'img/photo/lykourentzou.png'
+  website: https://lykourentzou.com/index.html
+
+- id: kingsley
+  full_name: Sara Kingsley
+  last_name: Kingsley
+  affiliation: Carnegie Mellon University
+  picture: 'img/photo/kingsley.jpg'
+  website: https://www.hcii.cmu.edu/people/sara-kingsley
+
+- id: oppenlaender
+  full_name: Jonas Oppenlaender
+  last_name: Oppenlaender
+  affiliation: University of Jyväskylä
+  picture: 'img/photo/oppenlaender.jpg'
+  website: http://www.jonaso.de
+
+- id: joppenlaender
+  full_name: Jonas Oppenlaender
+  last_name: Oppenlaender
+  affiliation: University of Jyväskylä
+  picture: 'img/photo/joppenlaender.jpg'
+  website: http://www.jonaso.de
+
+- id: ngoon
+  full_name: Tricia Ngoon
+  last_name: Ngoon
+  affiliation: Carnegie Mellon University
+  picture: 'img/photo/ngoon.jpg'
+  website: https://tngoon.github.io/
+
+- id: saviaga
+  full_name: Claudia Flores Saviaga
+  last_name: Flores Saviaga
+  affiliation: Northeastern University
+  picture: 'img/photo/saviaga.jpg'
+  website: https://www.khoury.northeastern.edu/people/claudia-flores-saviaga/
+
+- id: khan
+  full_name: Javed Khan
+  last_name: Khan
+  affiliation: Sappi Europe
+  picture: 'img/photo/khan.jpg'
+  website: https://vjkhan.com/
+
+- id: gamage
+  full_name: Dilrukshi Gamage
+  last_name: Gamage
+  affiliation: Tokyo Insitute of Technology
+  picture: 'img/photo/gamage.jpg'
+  website: https://www.dilrukshigamage.org/
+
+
+- id: santosh
+  full_name: Santosh Vempala
+  last_name: Vempala
+  affiliation: Georgia Tech
+  picture: 'img/photo/santosh.jpg'
+  website: http://www.cc.gatech.edu/~vempala
+
+- id: eragan
+  full_name: Eric Ragan
+  last_name: Ragan
+  affiliation: University of Florida
+  picture: 'img/photo/eragan.png'
+  website: https://www.cise.ufl.edu/~eragan
+
+- id: coreyjackson
+  full_name: Corey Jackson
+  last_name: Jackson
+  affiliation: University of Wisconsin - Madison
+  picture: 'img/photo/coreyjackson.png'
+  website: http://coreybjackson.com/
+
+- id: bmcinnis
+  full_name: Brian McInnis
+  last_name: McInnis
+  affiliation: UC San Diego
+  picture: 'img/photo/bmcinnis.jpg'
+  website: https://bmcinnis.github.io/
+
+- id: btrushkowsky
+  full_name: Beth Trushkowsky
+  last_name: Trushkowsky
+  affiliation: Harvey Mudd College
+  picture: 'img/photo/btrushkowsky.jpg'
+  website: https://www.cs.hmc.edu/~beth/
+
+- id: mfeldman
+  full_name: Molly Feldman
+  last_name: Feldman
+  affiliation: Oberlin College
+  picture: 'img/photo/mfeldman.jpg'
+  website: http://feldmanmolly.com/
+
+- id: jjaywilliams
+  full_name: Joseph Jay Williams
+  last_name: Jay Williams
+  affiliation: University of Toronto
+  picture: 'img/photo/jjaywilliams.jpg'
+  website: http://www.josephjaywilliams.com/home
+
+- id: avisegal
+  full_name: Avi Segal
+  last_name: Segal
+  affiliation: Ben-Gurion University of the Negev
+  picture: 'img/photo/avisegal.jpeg'
+  website: ~
+
+- id: sblickhan
+  full_name: Samantha Blickhan
+  last_name: Blickhan
+  affiliation: Zooniverse and the Adler Planetarium
+  picture: 'img/photo/sblickhan.png'
+  website: https://www.zooniverse.org
+
+- id: bhanrahan
+  full_name: Benjamin Hanrahan
+  last_name: Hanrahan
+  affiliation: Pennsylvania State University
+  picture: 'img/photo/bhanrahan.jpg'
+  website: https://banrahan.ist.psu.edu/
+
+- id: gbansal
+  full_name: Gagan Bansal
+  last_name: Bansal
+  affiliation: University of Washington
+  picture: 'img/photo/gbansal.jpg'
+  website: https://homes.cs.washington.edu/~bansalg/webpage/
+
+- id: tianyili
+  full_name: Tianyi Li
+  last_name: Li
+  affiliation: Purdue University
+  picture: 'img/photo/tianyili.png'
+  website: https://tl-tianyi-li.github.io/
+
+- id: hpurohit
+  full_name: Hemant Purohit
+  last_name: Purohit
+  affiliation: George Mason University
+  picture: 'img/photo/hpurohit.jpg'
+  website: https://www.gmu.edu/profiles/hpurohit
+
+- id: seidyimam
+  full_name: Seid Muhie Yimam
+  last_name: Yimam
+  affiliation: Universität Hamburg, Germany
+  picture: 'img/photo/seidyimam.jpg'
+  website: https://seyyaw.github.io/cv/
+
+- id: jrzeszotarski
+  full_name: Jeff Rzeszotarski
+  last_name: Rzeszotarski
+  affiliation: Cornell University
+  picture: 'img/photo/jrzeszotarski.jpg'
+  website: https://infosci.cornell.edu/content/rzeszotarski
+
+- id: thebaultspieker
+  full_name: Jacob Thebault-Spieker
+  last_name: Thebault-Spieker
+  affiliation: University of Wisconsin - Madison
+  picture: 'img/photo/thebaultspieker.jpg'
+  website: http://jacob.thebault-spieker.com
+
+- id: rlinder
+  full_name: Rhema Linder
+  last_name: Linder
+  affiliation: University of Tennessee, Knoxville
+  picture: 'img/photo/rlinder.png'
+  website: https://infovisu.com/
+
+- id: jsong
+  full_name: Jean Song
+  last_name: Song
+  affiliation: DGIST
+  picture: 'img/photo/jsong.jpg'
+  website: https://jyskwon.github.io/
+
+- id: ckulkarni
+  full_name: Chinmay Kulkarni
+  last_name: Kulkarni
+  affiliation: Carnegie Mellon University
+  picture: 'img/photo/ckulkarni.jpg'
+  website: https://hcii.cmu.edu/people/chinmay-kulkarni
+
+- id: yjchang
+  full_name: Yung-Ju (Stanley) Chang
+  last_name: Chang
+  affiliation: National Yang Ming Chiao Tung University, Taiwan
+  picture: 'img/photo/yjchang.png'
+  website: https://www.cs.nycu.edu.tw/members/detail/armuro?locale=en
+
+- id: teevan
+  full_name: Jaime Teevan
+  last_name: Teevan
+  affiliation: Microsoft
+  picture: 'img/photo/teevan.jpeg'
+  website: https://www.microsoft.com/en-us/research/people/teevan/
+  keynote: 'keynotes.html#teevan'
+
+- id: juhokim
+  full_name: Juho Kim
+  last_name: Kim
+  affiliation: KAIST
+  picture: 'img/photo/juhokim.jpeg'
+  website: https://juhokim.com/
+  keynote: 'keynotes.html#juhokim'
+
+- id: chrislintott
+  full_name: Chris Lintott
+  last_name: Lintott
+  affiliation: University of Oxford / Zooniverse
+  picture: 'img/photo/chrislintott.jpeg'
+  website: https://www.physics.ox.ac.uk/our-people/lintott
+  keynote: 'keynotes.html#chrislintott'
+
+- id: olgamegorskaya
+  full_name: Olga Megorskaya
+  last_name: Megorskaya
+  affiliation: Toloka
+  picture: 'img/photo/olgamegorskaya.jpeg'
+  website: https://wearetechwomen.com/inspirational-woman-olga-megorskaya-ceo-co-founder-toloka/
+  keynote: 'keynotes.html#olgamegorskaya'
+
+- id: kumarchellapilla
+  full_name: Kumar Chellapilla
+  last_name: Chellapilla
+  affiliation: Amazon Web Services (AWS)
+  picture: 'img/photo/kumarchellapilla.jpeg'
+  website: https://www.linkedin.com/in/kumarchellapilla/
+  keynote: 'keynotes.html#kumarchellapilla'
+
+- id: tanumitra
+  full_name: Tanu Mitra
+  last_name: Mitra
+  affiliation: University of Washington
+  picture: 'img/photo/tanu_sm.jpeg'
+  website: https://faculty.washington.edu/tmitra/
+  keynote: 'keynotes.html#tanumitra'
+
+- id: qili
+  full_name: Qi Li
+  last_name: Li
+  affiliation: Iowa State University
+  picture: 'img/photo/qi_li.jpg'
+  website: https://faculty.sites.iastate.edu/qli/
+
+- id: jingyanwang
+  full_name: Jingyan Wang
+  last_name: Wang
+  affiliation: Georgia Institute of Technology
+  picture: 'img/photo/jingyan_wang.jpg'
+  website: 'https://www.isye.gatech.edu/users/jingyan-wang'
+
+- id: wu
+  full_name: Sherry Wu
+  last_name: Wu
+  affiliation: University of Washington
+  picture: 'img/photo/sherry_wu.jpg'
+  website: 'https://homes.cs.washington.edu/~wtshuang/'
+
+- id: ashktorab
+  full_name: Zahra Ashktorab
+  last_name: Ashktorab
+  affiliation: IBM
+  picture: 'img/photo/zahra_ashktorab.jpg'
+  website: http://zahraashktorab.com/
+
+- id: green
+  full_name: Ben Green
+  last_name: Green
+  affiliation: University of Michigan
+  picture: 'img/photo/ben_green.jpg'
+  website: https://www.benzevgreen.com/
+
+- id: carton
+  full_name: Samuel Carton
+  last_name: Carton
+  affiliation: University of Chicago
+  picture: 'img/photo/samuel_carton.jpg'
+  website: https://shcarton.github.io/
+
+- id: roitero
+  full_name: Kevin Roitero
+  last_name: Roitero
+  affiliation: University of Udine
+  picture: 'img/photo/roitero.jpeg'
+  website: https://kevinroitero.com/
+
+- id: gould
+  full_name: Sandy Gould
+  last_name: Gould
+  affiliation: Cardiff University
+  picture: 'img/photo/sandy_gould.jpg'
+  website: https://www.sjjg.uk/
+
+- id: becker
+  full_name: Joshua Becker
+  last_name: Becker
+  affiliation: University College London
+  picture: 'img/photo/joshua_becker.jpg'
+  website: https://www.joshua-becker.com/
+
+- id: chamberlain
+  full_name: Jon Chamberlain
+  last_name: Chamberlain
+  affiliation: University of Essex
+  picture: 'img/photo/jon_chamberlain.jpg'
+  website: https://www.jonchamberlain.com/
+
+- id: jacques
+  full_name: Jason T. Jacques
+  last_name: Jacques
+  affiliation: University of St Andrews
+  picture: 'img/photo/jason_jacques.jpg'
+  website: https://jsonj.co.uk/science
+
+- id: sarasua
+  full_name: Cristina Sarasua
+  last_name: Sarasua
+  affiliation: University of Zurich
+  picture: 'img/photo/sarasua.png'
+  website: https://www.ifi.uzh.ch/en/ddis/people/sarasua.html
+
+- id: tajima
+  full_name: Keishi Tajima
+  last_name: Tajima
+  affiliation: Kyoto University
+  picture: 'img/photo/keishi_tajima.jpg'
+  website: http://www.dl.soc.i.kyoto-u.ac.jp/~tajima/
+
+- id: kashima
+  full_name: Hisashi Kashima
+  last_name: Kashima
+  affiliation: Kyoto University
+  picture: 'img/photo/hisashi_kashima.jpg'
+  website: https://hkashima.github.io/index_e.html
+
+- id: benatallah
+  full_name: Boualem Benatallah
+  last_name: Benatallah
+  affiliation: University of New South Wales
+  picture: 'img/photo/boualem_benatallah.jpg'
+  website: https://www.unsw.edu.au/staff/boualem-benatallah
+
+- id: luger
+  full_name: Sarah Luger
+  last_name: Luger
+  affiliation: Orange
+  picture: 'img/photo/sarah_luger.jpg'
+  website: https://www.linkedin.com/in/sarahluger
+
+- id: rhinehart
+  full_name: Olivia (Rhinehart) Redfield
+  last_name: Rhinehart
+  affiliation: Google
+  picture: 'img/photo/olivia_rhinehart.jpg'
+  website: https://www.linkedin.com/in/oliviarhinehart
+
+- id: juntaowang
+  full_name: Juntao Wang
+  last_name: Wang
+  affiliation: Harvard University
+  picture: 'img/photo/juntao_wang.jpg'
+  website: https://www.linkedin.com/in/juntao-wang
+
+- id: casati
+  full_name: Fabio Casati
+  last_name: Casati
+  affiliation: University of Trento
+  picture: 'img/photo/fabio_casati.jpg'
+  website: https://webapps.unitn.it/du/en/Persona/PER0000761/Pubblicazioni
+
+- id: scooper
+  affiliation: Northeastern University
+  full_name: Seth Cooper
+  last_name: Cooper
+  picture: 'img/photo/scooper.jpg'
+  website: 'https://www.khoury.northeastern.edu/people/seth-cooper/'
+  keynote: 'keynotes.html#scooper'
+
+- id: gajos
+  last_name: Gajos
+  full_name: Krzysztof Gajos
+  picture: img/photo/gajos.jpg
+  affiliation: Harvard University
+  website: http://www.eecs.harvard.edu/~kgajos/
+
+- id: weller
+  last_name: Weller
+  full_name: Adrian Weller
+  picture: img/photo/weller.jpg
+  affiliation: University of Cambridge
+  website: http://mlg.eng.cam.ac.uk/adrian/
+
+- id: ceolin
+  last_name: Ceolin
+  full_name: Davide Ceolin
+  picture: img/photo/ceolin.jpg
+  affiliation: Centrum Wiskunde & Informatica
+  website: https://www.cwi.nl/en/people/davide-ceolin/
+
+- id: margetts
+  last_name: Margetts
+  full_name: Helen Margetts
+  picture: img/photo/margetts.png
+  affiliation: University of Oxford
+  website: https://www.oii.ox.ac.uk/people/profiles/helen-margetts/
+
+- id: corti
+  last_name: Corti
+  full_name: Lorenzo Corti
+  picture: img/photo/corti.png
+  affiliation: Delft University of Technology
+  website: https://lcorti.github.io/
+
+- id: kapania
+  last_name: Kapania
+  full_name: Shivani Kapania
+  picture: img/photo/kapania.jpg
+  affiliation: Carnegie Mellon University
+  website: https://www.shivanikapania.com/
+
+- id: balayn
+  last_name: Balayn
+  full_name: Agathe Balayn
+  picture: img/photo/balayn.jpg
+  affiliation: ServiceNow
+  website: https://agathe-balayn.github.io/
+
+- id: spina
+  last_name: Spina
+  full_name: Damiano Spina
+  picture: img/photo/spina.jpeg
+  affiliation: RMIT University
+  website: https://www.damianospina.com/
+
+- id: mohanty
+  last_name: Mohanty
+  full_name: Vikram Mohanty
+  picture: img/photo/mohanty.jpg
+  affiliation: Bosch Research
+  website: https://vikrammohanty.com/
+
+- id: dutta
+  last_name: Dutta
+  full_name: Senjuti Dutta
+  picture: img/photo/dutta.jpg
+  affiliation: University of Tennessee, Knoxville
+  website: https://web.eecs.utk.edu/~sdutta6/
+
+- id: jung
+  last_name: Jung
+  full_name: Ji-Youn Jung
+  picture: img/photo/jung.jpg
+  affiliation: Carnegie Mellon University
+  website: https://hcii.cmu.edu/people/ji-youn-jung
+  
+- id: tianyi
+  last_name: Li
+  full_name: Tianyi Li
+  picture: img/photo/TianyiLi_Profile.png
+  affiliation: Purdue University
+  website: https://tl-tianyi-li.github.io/
+
+- id: whiting
+  last_name: Whiting
+  full_name: Mark E. Whiting
+  picture: img/photo/mark-whiting.jpg
+  affiliation: University of Pennsylvania
+  website: https://whiting.me/
