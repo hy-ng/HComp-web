@@ -1,5 +1,6 @@
 safe: true
-url: https://www.humancomputation.com
+#url: https://www.humancomputation.com
+url: https://hy-ng.github.io/HComp-web/
 exclude: [README.md, CNAME, LICENSE, util, Gemfile, Gemfile.lock, vendor, vendor-bundle]
 plugins:
   - jekyll-redirect-from
