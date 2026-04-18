@@ -1,0 +1,144 @@
+---
+layout: page_2026
+title: Call for Sponsors
+year: 2026
+---
+
+<div class="container">
+  <h1 class="sub-page-header">HCOMP 2026 Sponsors</h1>
+  <div class="sub-page-border"></div>
+  <style>
+    .sponsor-logos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+        max-width: 900px;
+        margin: 3rem auto;
+        flex-wrap: wrap;
+    }
+
+    .logo-link {
+        border-bottom: none !important;
+    }
+
+    .logo-link:hover {
+        border-bottom: none !important;
+    }
+
+    .logo-link img {
+        height: auto;
+        width: 300px;
+        max-width: 100%;
+        object-fit: contain;
+        display: block;
+    }
+  </style>
+  <div class="sponsor-logos">
+      <a href="https://www.sigweb.org/" target="_blank" class="logo-link">
+          <img src="images/sigweb_logo.jpeg" alt="ACM SIGWEB Sponsor Logo">
+      </a>
+      <a href="https://sigchi.org/" target="_blank" class="logo-link">
+          <img src="images/sigchi_logo.png" alt="ACM SIGCHI Sponsor Logo">
+      </a>
+  </div>
+</div>
+
+<div class="container" style="margin-top: 60px;">
+  <h1 class="sub-page-header">Call for Sponsors</h1>
+  <div class="sub-page-border"></div>
+</div>
+
+<div class="container" markdown="1">
+  <p class="lead">
+    The <b>2026 ACM Conference on Human-AI Complementarity and Alignment (HCOMP 2026)</b> will be held from September 27-30, 2026 at the Virginia Tech Institute for Advanced Computing near Washington, DC, USA, and will be proudly co-located with <b>Collective Intelligence (CI) 2026</b>. We invite a wide range of works that will generate new insights into the role of human intelligence and input in the age of LLMs and generative AI, workflows for human-AI collaboration and teaming, the quality (or values) of human-annotated datasets, holistic approaches to deal with bias and fairness, and interpretability metrics that shape AI systems today.
+  </p>
+
+  <p class="lead">
+    HCOMP is a cross-disciplinary conference fostering an inclusive atmosphere that encourages active participation from both industry and academia to share their expertise, collaborate, and advance the field's frontiers. By co-locating with CI 2026 this year, we are bridging crowdsourcing, social computing, and human-computer interaction into an even broader intellectual community.
+  </p>
+
+  <p class="lead">
+    Your generous sponsorship will directly support to:
+  </p>
+  <ul class="lead">
+    <li>make the conference more accessible by keeping registration fees affordable for academic researchers, especially students,</li>
+    <li>invite influential keynote speakers,</li>
+    <li>organize social events that play a vital role in community building,</li>
+    <li>support essential conference logistics.</li>
+  </ul>
+
+  <h2 class="section-heading">Why become a sponsor?</h2>
+  <p class="lead">
+    Partnering with HCOMP 2026 as a sponsor offers your organization a unique opportunity to be at the forefront of innovation in human computation and crowdsourcing – a fundamentally important field in creating and propagating better AI. By supporting this premier event, you will not only amplify your presence within a global community of leaders in artificial intelligence and human-centered computing but also contribute significantly to the advancement of research and development.
+  </p>
+
+  <ul class="lead">
+    <li><b>Elevate Your Brand:</b> Gain unparalleled visibility and branding opportunities at the flagship conference in human computation and crowdsourcing.</li>
+    <li><b>Connect with Talent:</b> Access a global community of students, researchers, industry practitioners, and emerging talents in AI.</li>
+    <li><b>Shape the Future of AI:</b> Play a pivotal role in advancing responsible, safe, transparent, and ethical AI through supporting cutting-edge research.</li>
+    <li><b>Exclusive Networking:</b> Engage directly with top-tier academics and industry leaders in an inclusive and collaborative environment.</li>
+    <li><b>Brand Recognition:</b> Ensure your brand is front and center.</li>
+  </ul>
+  
+  <h2 class="section-heading">Sponsorship Tiers</h2>
+  
+  <h3 class="section-heading">Platinum ($10,000 or greater contribution)</h3>
+  <ul class="lead">
+    <li>Named event or session, such as a reception, poster session, student event, industry panel, or paper sessions.</li>
+    <li>A 10-second advertisement or acknowledgment by the session chair before talks commence in a session.</li>
+    <li>Named award (e.g., <b>[Company Name]</b> Best Paper Award).</li>
+    <li>Three complimentary registrations.</li>
+    <li>Sponsor booth at the poster session.</li>
+    <li>Job descriptions distributed among attendees.</li>
+    <li>Acknowledgement on the conference website and social media, in printed materials, and in onsite signage.</li>
+  </ul>
+  
+  <h3 class="section-heading">Gold ($7,500 or greater contribution)</h3>
+  <ul class="lead">
+    <li>Named award (e.g., <b>[Company Name]</b> Best Student Paper Award).</li>
+    <li>Two complimentary registrations.</li>
+    <li>Sponsor booth at the poster session.</li>
+    <li>Job descriptions distributed among attendees.</li>
+    <li>Acknowledgement on the conference website, social media, and printed materials.</li>
+  </ul>
+  
+  <h3 class="section-heading">Silver ($5,000 or greater contribution)</h3>
+  <ul class="lead">
+    <li>One complimentary registration.</li>
+    <li>Sponsor booth at the poster session.</li>
+    <li>Job descriptions distributed among attendees.</li>
+    <li>Acknowledgement on the conference website, social media, and printed materials.</li>
+  </ul>
+  
+  <h3 class="section-heading">Bronze ($2,000 or greater contribution)</h3>
+  <ul class="lead">
+    <li>Job descriptions distributed among attendees.</li>
+    <li>Acknowledgement on the conference website, social media, and printed materials.</li>
+  </ul>
+  
+  <h3 class="section-heading">Exclusive Add-on: Named Student Scholarship (+$5K or greater)</h3>
+  <p class="lead">
+    In addition to the various sponsorship tiers, we would like to provide you with the exclusive opportunity to extend further support to our students in the form of scholarships. This sponsorship add-on will allow your organization to have its brand associated with the scholarship. Students receiving this scholarship will be expected to recognize your organization's support during their conference presentations. The scholarships will be primarily dedicated to covering travel and accommodation expenses, prioritizing students from underrepresented groups.
+    <br/><br/>
+    <i>All values are expressed in US dollars.</i>
+  </p>
+
+<br/>
+
+| Feature | Platinum | Gold | Silver | Bronze |
+| :--- | :---: | :---: | :---: | :---: |
+| **Investment in US $** | 10k | 7.5k | 5k | 2k |
+| **Complimentary Registrations** | 3 | 2 | 1 | ✘ |
+| **Named Event/Session** | ✔ | ✘ | ✘ | ✘ |
+| **Acknowledgement by Session Chairs** | ✔ | ✘ | ✘ | ✘ |
+| **Named Award** | ✔ | ✔ | ✘ | ✘ |
+| **Booth at Poster Session** | ✔ | ✔ | ✔ | ✘ |
+| **Job Description** | ✔ | ✔ | ✔ | ✔ |
+| **Acknowledgement** | ✔ | ✔ | ✔ | ✔ |
+
+<br/>
+
+  <h2 class="section-heading">Let's Talk!</h2>
+  <p class="lead">Get in touch with us: <a class="theme-link" href="mailto:HCOMPSponsors@aaai.org">HCOMPSponsors@aaai.org</a></p>
+</div>
