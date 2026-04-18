@@ -41,7 +41,8 @@ year: 2026
     <a href="https://sigchi.org/" target="_blank" class="logo-link">
       <img src="images/sigchi_logo.png" alt="ACM SIGCHI Sponsor Logo">
     </a>
-    <div style="width: 250px; height: 120px; border: 3px dashed #d9d9d9; border-radius: 10px; display: flex; flex-direction: column; justify-content: center; align-items: center; background-color: rgba(0,0,0,0.01); color: #777;">
+    <div
+      style="width: 250px; height: 120px; border: 3px dashed #d9d9d9; border-radius: 10px; display: flex; flex-direction: column; justify-content: center; align-items: center; background-color: rgba(0,0,0,0.01); color: #777;">
       <p style="font-weight: 700; font-size: 1.3rem; margin-bottom: 2px; color: var(--primary-color);">...and you?</p>
       <p style="font-size: 1rem; margin-bottom: 0; font-weight: 500;">Join as a 2026 Sponsor</p>
     </div>
@@ -122,6 +123,135 @@ year: 2026
     </div>
   </div>
 
+  <style>
+    @keyframes scrollPhotos {
+      0% {
+        transform: translateX(0);
+      }
+
+      100% {
+        transform: translateX(calc(-50% - 10px));
+      }
+    }
+
+    .photo-marquee-container {
+      overflow: hidden;
+      white-space: nowrap;
+      width: 100%;
+      margin-bottom: 4rem;
+      position: relative;
+      -webkit-mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+      mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+    }
+
+    .photo-marquee-track {
+      display: inline-flex;
+      gap: 20px;
+      animation: scrollPhotos 50s linear infinite;
+    }
+
+    .photo-marquee-track:hover {
+      animation-play-state: paused;
+    }
+
+    .photo-placeholder {
+      width: 320px;
+      height: 220px;
+      background-color: #f9f9fa;
+      border-radius: 12px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border: 3px dashed #ddd;
+      flex-shrink: 0;
+      white-space: normal;
+    }
+
+    .photo-card {
+      width: 320px;
+      flex-shrink: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .photo-item {
+      width: 320px;
+      height: 220px;
+      border-radius: 12px;
+      object-fit: cover;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+      margin-bottom: 8px;
+    }
+
+    .photo-caption {
+      font-size: 0.95rem;
+      color: #666;
+      font-weight: 600;
+      text-align: center;
+    }
+  </style>
+
+  <!-- EVENT PHOTOS MARQUEE TRACK -->
+  <div class="photo-marquee-container">
+    <div class="photo-marquee-track">
+      <!-- SET 1: THE 8 REAL PHOTOS -->
+      <div class="photo-card"><img src="images/Promo/01_CI-2025-venue.jpg" class="photo-item" alt="CI 2025">
+        <div class="photo-caption">CI 2025</div>
+      </div>
+      <div class="photo-card"><img src="images/Promo/02_CI-2024-event.jpg" class="photo-item" alt="CI 2024">
+        <div class="photo-caption">CI 2024</div>
+      </div>
+      <div class="photo-card"><img src="images/Promo/03_HCOMP-2024-event.jpg" class="photo-item" alt="HCOMP 2024">
+        <div class="photo-caption">HCOMP 2024</div>
+      </div>
+      <div class="photo-card"><img src="images/Promo/04_HCOMP-2024-award.jpg" class="photo-item"
+          alt="HCOMP 2024 Awards">
+        <div class="photo-caption">HCOMP 2024's Test of Time Award</div>
+      </div>
+      <div class="photo-card"><img src="images/Promo/05_HCOMP-CI_2023-venue.jpg" class="photo-item" alt="HCOMP CI 2023">
+        <div class="photo-caption">HCOMP & CI 2023</div>
+      </div>
+      <div class="photo-card"><img src="images/Promo/06_HCOMP-CI_2023-event.jpg" class="photo-item" alt="HCOMP CI 2023">
+        <div class="photo-caption">HCOMP & CI 2023</div>
+      </div>
+      <div class="photo-card"><img src="images/Promo/07_HCOMP-2013-sponsor.jpg" class="photo-item" alt="HCOMP 2013">
+        <div class="photo-caption">HCOMP 2013</div>
+      </div>
+      <div class="photo-card"><img src="images/Promo/08_HCOMP-2013-venue.jpg" class="photo-item" alt="HCOMP 2013 Venue">
+        <div class="photo-caption">HCOMP 2013</div>
+      </div>
+
+      <!-- EXACT DUPLICATES OF SET 1 -->
+      <div class="photo-card"><img src="images/Promo/01_CI-2025-venue.jpg" class="photo-item" alt="CI 2025">
+        <div class="photo-caption">CI 2025</div>
+      </div>
+      <div class="photo-card"><img src="images/Promo/02_CI-2024-event.jpg" class="photo-item" alt="CI 2024">
+        <div class="photo-caption">CI 2024</div>
+      </div>
+      <div class="photo-card"><img src="images/Promo/03_HCOMP-2024-event.jpg" class="photo-item" alt="HCOMP 2024">
+        <div class="photo-caption">HCOMP 2024</div>
+      </div>
+      <div class="photo-card"><img src="images/Promo/04_HCOMP-2024-award.jpg" class="photo-item"
+          alt="HCOMP 2024 Awards">
+        <div class="photo-caption">HCOMP 2024's Test of Time Award</div>
+      </div>
+      <div class="photo-card"><img src="images/Promo/05_HCOMP-CI_2023-venue.jpg" class="photo-item" alt="HCOMP CI 2023">
+        <div class="photo-caption">HCOMP & CI 2023</div>
+      </div>
+      <div class="photo-card"><img src="images/Promo/06_HCOMP-CI_2023-event.jpg" class="photo-item" alt="HCOMP CI 2023">
+        <div class="photo-caption">HCOMP & CI 2023</div>
+      </div>
+      <div class="photo-card"><img src="images/Promo/07_HCOMP-2013-sponsor.jpg" class="photo-item" alt="HCOMP 2013">
+        <div class="photo-caption">HCOMP 2013</div>
+      </div>
+      <div class="photo-card"><img src="images/Promo/08_HCOMP-2013-venue.jpg" class="photo-item" alt="HCOMP 2013 Venue">
+        <div class="photo-caption">HCOMP 2013</div>
+      </div>
+    </div>
+  </div>
+
   <div
     style="background: linear-gradient(135deg, rgba(134, 31, 65, 0.05), rgba(134, 31, 65, 0.15)); padding: 2.5rem; border-radius: 12px; margin-bottom: 3rem; border-left: 6px solid var(--primary-color); box-shadow: 0 5px 15px rgba(0,0,0,0.05);">
     <h2 class="section-heading" style="margin-top: 0; color: var(--primary-color);">Why 2026 Is Different?</h2>
@@ -157,10 +287,10 @@ year: 2026
   <div class="row" style="margin-bottom: 2rem; margin-top: 1.5rem;">
     <div class="col-md-4" style="margin-bottom: 1.5rem;">
       <div
-        style="background-color: #f9f9fa; border-top: 5px solid var(--primary-color); padding: 2rem; text-align: center; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); height: 100%;">
+        style="background-color: #f9f9fa; border-top: 5px solid var(--primary-color); padding: 2rem; text-align: center; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center;">
         <p style="font-size: 3rem; font-weight: 800; color: var(--primary-color); margin-bottom: 0; line-height: 1;">
           180-220</p>
-        <p class="lead" style="font-size: 1.15rem; font-weight: 600; margin-top: 15px;">Expected Global Participants</p>
+        <p class="lead" style="font-size: 1.15rem; font-weight: 600; margin-top: 15px; margin-bottom: 0;">Expected Global Participants</p>
       </div>
     </div>
     <div class="col-md-4" style="margin-bottom: 1.5rem;">
@@ -168,7 +298,7 @@ year: 2026
         style="background-color: #f9f9fa; border-top: 5px solid var(--primary-color); padding: 1.5rem 2rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); height: 100%;">
         <p
           style="font-size: 1.25rem; font-weight: bold; color: var(--primary-color); margin-bottom: 15px; text-align: center;">
-          <i class="fa fa-globe"></i> Interdisciplinary Reach
+          <i></i> Interdisciplinary Reach
         </p>
         <ul style="text-align: left; margin-bottom: 0; padding-left: 1rem; color: #444; line-height: 1.6;">
           <li>AI & Machine Learning</li>
