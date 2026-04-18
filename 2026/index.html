@@ -1,532 +1,193 @@
 ---
-layout: null
+layout: base
+year: 2026
 ---
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2026 ACM HCOMP Conference</title>
-    <style>
-        :root {
-            /* Virginia Tech Inspired Brand Colors */
-            --primary-color: #861F41;
-            --secondary-color: #E87722;
-            --dark-bg: #1a1a1a;
-            --light-bg: #f9f9f9;
-            --text-main: #333333;
-            --text-muted: #555555;
-            --white: #ffffff;
-        }
+<!-- Header -->
+<div class="intro-header intro-header-2026">
+  <div class="intro-header-container">
+    <h1 class="section-heading intro-header-heading">HCOMP 2026</h1>
+    <div class="sub-page-border"></div>
+    <p class="intro-header-sub-heading">
+      The 2026 ACM Conference on Human-AI Complementarity and Alignment
+    </p>
+    <p class="intro-header-sub-heading">
+      <i class="fa fa-calendar icon-font"></i>&nbsp;&nbsp;September 27&ndash;30, 2026&nbsp;&nbsp;
+      <i class="fa fa-map-marker icon-font"></i>&nbsp;&nbsp;Virginia Tech Institute for Advanced Computing &ndash; Near Washington, DC, USA
+    </p>
+  </div>
+</div>
 
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
+<!-- Main Content -->
+<div class="container">
+  <div class="row">
 
-        body {
-            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            color: var(--text-main);
-            background-color: var(--white);
-        }
+    <!-- Left Column: Main Content -->
+    <div class="col-md-9">
+      <div class="intro-text">
+        <div class="intro-paragraph">
 
-        h1,
-        h2,
-        h3,
-        h4 {
-            line-height: 1.2;
-            margin-bottom: 1rem;
-        }
+          <h2 class="section-heading">Welcome to HCOMP 2026!</h2>
 
-        /* Hero Section */
-        .hero {
-            position: relative;
-            height: 100vh;
-            min-height: 600px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            color: var(--white);
-            /* Highlighted Image as Background */
-            background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.8)),
-                url('images/ab1.jpg');
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-            padding: 0 20px;
-        }
-
-        .hero-content {
-            max-width: 900px;
-            z-index: 1;
-        }
-
-        .hero h1 {
-            font-size: clamp(2.5rem, 5vw, 4rem);
-            font-weight: 800;
-            letter-spacing: 1px;
-            margin-bottom: 0.5rem;
-        }
-
-        .hero h2 {
-            font-size: clamp(1.2rem, 3vw, 2rem);
-            font-weight: 400;
-            margin-bottom: 2rem;
-            color: rgba(255, 255, 255, 0.9);
-        }
-
-        .hero .location {
-            font-size: 1.1rem;
-            font-weight: 300;
-            margin-bottom: 2rem;
-            display: inline-block;
-            background: rgba(255, 255, 255, 0.1);
-            padding: 10px 20px;
-            border-radius: 50px;
-            border: 1px solid rgba(255, 255, 255, 0.2);
-        }
-
-        .location-link {
-            color: inherit;
-            text-decoration: underline;
-            text-decoration-color: rgba(255, 255, 255, 0.4);
-            text-underline-offset: 4px;
-            transition: text-decoration-color 0.2s ease;
-        }
-
-        .location-link:hover {
-            text-decoration-color: var(--white);
-        }
-
-        .hero .date-badge {
-            display: inline-block;
-            background-color: var(--primary-color);
-            color: var(--white);
-            padding: 12px 30px;
-            font-size: 1.2rem;
-            font-weight: bold;
-            border-radius: 4px;
-            border-bottom: 4px solid var(--secondary-color);
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-
-        /* Container & Layout */
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 5rem 20px;
-        }
-
-        .section-title {
-            text-align: center;
-            font-size: 2.5rem;
-            color: var(--primary-color);
-            margin-bottom: 3rem;
-            position: relative;
-        }
-
-        .section-title::after {
-            content: '';
-            display: block;
-            width: 60px;
-            height: 4px;
-            background-color: var(--secondary-color);
-            margin: 15px auto 0;
-            border-radius: 2px;
-        }
-
-        /* About Section */
-        .about-text {
-            font-size: 1.15rem;
-            text-align: center;
-            max-width: 900px;
-            margin: 0 auto 2rem;
-            color: var(--text-muted);
-        }
-
-        .inline-link {
-            color: var(--primary-color);
-            text-decoration: none;
-            font-weight: 600;
-            border-bottom: 1px solid rgba(134, 31, 65, 0.3);
-            transition: color 0.2s ease, border-bottom-color 0.2s ease;
-        }
-
-        .inline-link:hover {
-            color: var(--secondary-color);
-            border-bottom-color: var(--secondary-color);
-        }
-
-        .highlight-box {
-            background-color: var(--light-bg);
-            border-left: 5px solid var(--primary-color);
-            padding: 2rem;
-            border-radius: 0 8px 8px 0;
-            margin-top: 3rem;
-            font-size: 1.1rem;
-        }
-
-        .highlight-box strong {
-            color: var(--primary-color);
-        }
-
-        .action-btn {
-            display: inline-block;
-            background-color: var(--primary-color);
-            color: var(--white);
-            padding: 12px 28px;
-            text-decoration: none;
-            border-radius: 4px;
-            font-weight: bold;
-            font-size: 1.1rem;
-            margin-top: 2.5rem;
-            transition: background-color 0.3s ease, transform 0.2s ease;
-        }
-
-        .action-btn:hover {
-            background-color: var(--secondary-color);
-            transform: translateY(-2px);
-        }
-
-        /* Important Dates */
-        .dates-section {
-            background-color: var(--light-bg);
-        }
-
-        .timeline {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
-            margin-top: 2rem;
-        }
-
-        .date-card {
-            background: var(--white);
-            padding: 2rem;
-            border-radius: 8px;
-            text-align: center;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
-            transition: transform 0.3s ease;
-        }
-
-        .date-card:hover {
-            transform: translateY(-5px);
-        }
-
-        .date-card h3 {
-            color: var(--secondary-color);
-            font-size: 1.5rem;
-            margin-bottom: 0.5rem;
-        }
-
-        .date-card p {
-            font-size: 1.1rem;
-            font-weight: 500;
-            color: var(--text-main);
-        }
-
-        /* Committees Section */
-        .committees-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 3rem;
-        }
-
-        .committee-group {
-            background: var(--white);
-            padding: 2.5rem;
-            border-radius: 8px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
-            border-top: 4px solid var(--primary-color);
-        }
-
-        .committee-group h3 {
-            color: var(--primary-color);
-            font-size: 1.4rem;
-            margin-bottom: 1.5rem;
-            border-bottom: 1px solid #eee;
-            padding-bottom: 0.5rem;
-        }
-
-        .role-section {
-            margin-bottom: 1.8rem;
-        }
-
-        .role-section:last-child {
-            margin-bottom: 0;
-        }
-
-        .role {
-            font-size: 0.85rem;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            color: var(--secondary-color);
-            font-weight: 700;
-            display: block;
-            margin-bottom: 0.5rem;
-        }
-
-        .person {
-            margin-bottom: 0.8rem;
-            padding-left: 10px;
-            border-left: 2px solid #eee;
-        }
-
-        .person:last-child {
-            margin-bottom: 0;
-        }
-
-        .name-link {
-            font-size: 1.2rem;
-            font-weight: 600;
-            color: var(--primary-color);
-            text-decoration: none;
-            display: block;
-            transition: color 0.2s ease;
-        }
-
-        .name-link:hover {
-            color: var(--secondary-color);
-            text-decoration: underline;
-        }
-
-        .affiliation {
-            font-size: 0.95rem;
-            color: var(--text-muted);
-            display: block;
-            font-style: italic;
-        }
-
-        /* Sponsors Section */
-        .sponsors-section {
-            padding: 4rem 20px;
-            text-align: center;
-            background-color: var(--white);
-        }
-
-        .sponsor-logos {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 4rem;
-            /* Spacing between logos */
-            max-width: 900px;
-            margin: 0 auto;
-        }
-
-        .logo-link img {
-            height: auto;
-            width: 300px;
-            max-width: 100%;
-            object-fit: contain;
-            display: block;
-        }
-
-        /* Footer */
-        footer {
-            background-color: var(--dark-bg);
-            color: var(--white);
-            text-align: center;
-            padding: 2rem 20px;
-        }
-
-        footer p {
-            opacity: 0.7;
-            font-size: 0.9rem;
-        }
-    </style>
-</head>
-
-<body>
-
-    <header class="hero">
-        <div class="hero-content">
-            <h1>HCOMP 2026</h1>
-            <h2>The 2026 ACM Conference on<br />Human-AI Complementarity and Alignment</h2>
-            <div class="location">
-                📍 <a href="https://iac.vt.edu/about/Location.html" target="_blank" class="location-link">Virginia Tech
-                    Institute for Advanced Computing</a><br>
-                Near Washington, DC, USA
-            </div>
-            <br>
-            <div class="date-badge">
-                September 27-30, 2026
-            </div>
-        </div>
-    </header>
-
-    <section class="container" id="about">
-        <h2 class="section-title">About the Conference</h2>
-        <p class="about-text">
+          <p class="lead">
             ACM HCOMP is the premier venue for disseminating the latest research findings on human-AI complementarity
             and alignment. Our community studies and designs systems that combine the complementary strengths of human
             and artificial intelligence to achieve outcomes neither could achieve alone, in ways that are ethical, safe,
             and intentional.
-        </p>
-        <p class="about-text">
-            This research builds on a foundation established by the HCOMP community during its first decade as an <a
-                href="https://aaai.org/conference/hcomp/" target="_blank" class="inline-link">AAAI conference series</a>
+          </p>
+
+          <p class="lead">
+            This research builds on a foundation established by the HCOMP community during its first decade as an
+            <a class="theme-link" href="https://aaai.org/conference/hcomp/" target="_blank">AAAI conference series</a>
             focused on human computation and crowdsourcing.
-        </p>
+          </p>
 
-        <div class="highlight-box">
-            This year, the conference will be co-located and tightly integrated with the <a
-                href="http://ci.acm.org/2026/" target="_blank"
-                style="color: var(--primary-color); font-weight: bold; text-decoration: none;">2026 ACM Collective
-                Intelligence (CI) Conference</a>, creating a unique synergy between researchers in human-AI
-            collaboration and collective intelligence.
-        </div>
+          <div class="colocation-box">
+            <strong>Co-located with CI 2026:</strong> This year, the conference will be tightly integrated with the
+            <a href="http://ci.acm.org/2026/" target="_blank" class="theme-link">2026 ACM Collective Intelligence (CI) Conference</a>,
+            creating a unique synergy between researchers in human-AI collaboration and collective intelligence.
+          </div>
 
-        <div style="text-align: center;">
-            <a href="./2024/past%20meetings.html" target="_blank" class="action-btn">View Past HCOMP Conferences</a>
-        </div>
-    </section>
+          <p class="lead">
+            HCOMP 2026 builds on a successful history of <a class="theme-link" href="../2024/past%20meetings.html">past
+            meetings</a>: eleven HCOMP conferences (2013–2024) and four earlier workshops, held at the AAAI Conference
+            on Artificial Intelligence (2011–2012), and the ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+            (2009–2010).
+          </p>
 
-    <section class="dates-section">
-        <div class="container">
-            <h2 class="section-title">Important Dates</h2>
-            <div class="timeline">
-                <div class="date-card">
-                    <h3>April 2026</h3>
-                    <p>Call for Papers (CFP) Posted</p>
-                </div>
-                <div class="date-card">
-                    <h3>June 2026</h3>
-                    <p>Paper Submission Deadline</p>
-                </div>
-                <div class="date-card">
-                    <h3>September 27-30, 2026</h3>
-                    <p>Conference Dates</p>
-                </div>
-            </div>
-        </div>
-    </section>
+          <!-- Organizing Committees -->
+          <h2 class="section-heading" id="committee">Organizing Committees</h2>
 
-    <section class="container" id="committee">
-        <h2 class="section-title">Organizing Committees</h2>
-        <div class="committees-grid">
+          <div class="row committee-section">
 
-            <div class="committee-group">
+            <!-- HCOMP 2026 Committee -->
+            <div class="col-md-6">
+              <div class="committee-card">
                 <h3>HCOMP 2026</h3>
 
-                <div class="role-section">
-                    <span class="role">General Chair</span>
-                    <div class="person">
-                        <a href="https://crowd.ist.psu.edu/" class="name-link">Ting-Hao 'Kenneth' Huang</a>
-                        <span class="affiliation">Penn State University</span>
-                    </div>
+                <span class="role-label">General Chair</span>
+                <div class="person-entry">
+                  <a href="https://crowd.ist.psu.edu/" class="person-name theme-link-org">Ting-Hao 'Kenneth' Huang</a>
+                  <span class="person-affil">Penn State University</span>
                 </div>
 
-                <div class="role-section">
-                    <span class="role">Program Co-Chairs</span>
-                    <div class="person">
-                        <a href="https://chienjuho.com/" class="name-link">Chien-Ju Ho</a>
-                        <span class="affiliation">Washington University in St. Louis</span>
-                    </div>
-                    <div class="person">
-                        <a href="https://tl-tianyi-li.github.io/" class="name-link">Tianyi Li</a>
-                        <span class="affiliation">Purdue University</span>
-                    </div>
+                <span class="role-label">Program Co-Chairs</span>
+                <div class="person-entry">
+                  <a href="https://chienjuho.com/" class="person-name theme-link-org">Chien-Ju Ho</a>
+                  <span class="person-affil">Washington University in St. Louis</span>
+                </div>
+                <div class="person-entry">
+                  <a href="https://tl-tianyi-li.github.io/" class="person-name theme-link-org">Tianyi Li</a>
+                  <span class="person-affil">Purdue University</span>
                 </div>
 
-                <div class="role-section">
-                    <span class="role">Workshops Co-Chair</span>
-                    <div class="person">
-                        <a href="https://senjutidutta.com/" class="name-link">Senjuti Dutta</a>
-                        <span class="affiliation">University of Colorado Boulder</span>
-                    </div>
+                <span class="role-label">Workshops Co-Chair</span>
+                <div class="person-entry">
+                  <a href="https://senjutidutta.com/" class="person-name theme-link-org">Senjuti Dutta</a>
+                  <span class="person-affil">University of Colorado Boulder</span>
                 </div>
 
-                <div class="role-section">
-                    <span class="role">CrowdCamp Co-Chair</span>
-                    <div class="person">
-                        <a href="https://bmcinnis.github.io/" class="name-link">Brian McInnis</a>
-                        <span class="affiliation">University of Texas at Austin</span>
-                    </div>
+                <span class="role-label">CrowdCamp Co-Chair</span>
+                <div class="person-entry">
+                  <a href="https://bmcinnis.github.io/" class="person-name theme-link-org">Brian McInnis</a>
+                  <span class="person-affil">University of Texas at Austin</span>
                 </div>
 
-                <div class="role-section">
-                    <span class="role">Publicity Co-Chair</span>
-                    <div class="person">
-                        <a href="https://richardhgl.github.io/" class="name-link">Gaole He</a>
-                        <span class="affiliation">National University of Singapore</span>
-                    </div>
+                <span class="role-label">Publicity Co-Chair</span>
+                <div class="person-entry">
+                  <a href="https://richardhgl.github.io/" class="person-name theme-link-org">Gaole He</a>
+                  <span class="person-affil">National University of Singapore</span>
                 </div>
+              </div>
             </div>
 
-            <div class="committee-group">
-                <h3>Collective Intelligence (CI) 2026</h3>
+            <!-- CI 2026 Committee -->
+            <div class="col-md-6">
+              <div class="committee-card" style="border-top-color: #E87722;">
+                <h3 style="color: #E87722;">Collective Intelligence (CI) 2026</h3>
 
-                <div class="role-section">
-                    <span class="role">General Chair</span>
-                    <div class="person">
-                        <a href="https://crowd.cs.vt.edu/kurt-luther/" class="name-link">Kurt Luther</a>
-                        <span class="affiliation">Virginia Tech</span>
-                    </div>
+                <span class="role-label">General Chair</span>
+                <div class="person-entry">
+                  <a href="https://crowd.cs.vt.edu/kurt-luther/" class="person-name theme-link-org">Kurt Luther</a>
+                  <span class="person-affil">Virginia Tech</span>
                 </div>
 
-                <div class="role-section">
-                    <span class="role">Program Co-Chairs</span>
-                    <div class="person">
-                        <a href="https://researchprofiles.ku.dk/en/persons/jason-william-burton/"
-                            class="name-link">Jason W. Burton</a>
-                        <span class="affiliation">University of Copenhagen</span>
-                    </div>
-                    <div class="person">
-                        <a href="https://lykourentzou.com/index.html" class="name-link">Ioanna Lykourentzou</a>
-                        <span class="affiliation">Utrecht University</span>
-                    </div>
+                <span class="role-label">Program Co-Chairs</span>
+                <div class="person-entry">
+                  <a href="https://researchprofiles.ku.dk/en/persons/jason-william-burton/" class="person-name theme-link-org">Jason W. Burton</a>
+                  <span class="person-affil">University of Copenhagen</span>
+                </div>
+                <div class="person-entry">
+                  <a href="https://lykourentzou.com/index.html" class="person-name theme-link-org">Ioanna Lykourentzou</a>
+                  <span class="person-affil">Utrecht University</span>
                 </div>
 
-                <div class="role-section">
-                    <span class="role">Workshops Co-Chair</span>
-                    <div class="person">
-                        <a href="https://vikrammohanty.com/" class="name-link">Vikram Mohanty</a>
-                        <span class="affiliation">Carnegie Mellon University</span>
-                    </div>
+                <span class="role-label">Workshops Co-Chair</span>
+                <div class="person-entry">
+                  <a href="https://vikrammohanty.com/" class="person-name theme-link-org">Vikram Mohanty</a>
+                  <span class="person-affil">Carnegie Mellon University</span>
                 </div>
 
-                <div class="role-section">
-                    <span class="role">CrowdCamp Co-Chair</span>
-                    <div class="person">
-                        <a href="https://www.cs.jhu.edu/~yaxing/" class="name-link">Yaxing Yao</a>
-                        <span class="affiliation">Johns Hopkins University</span>
-                    </div>
+                <span class="role-label">CrowdCamp Co-Chair</span>
+                <div class="person-entry">
+                  <a href="https://www.cs.jhu.edu/~yaxing/" class="person-name theme-link-org">Yaxing Yao</a>
+                  <span class="person-affil">Johns Hopkins University</span>
                 </div>
 
-                <div class="role-section">
-                    <span class="role">Publicity Co-Chair</span>
-                    <div class="person">
-                        <a href="https://www.saiph.org/" class="name-link">Saiph Savage</a>
-                        <span class="affiliation">Northeastern University</span>
-                    </div>
+                <span class="role-label">Publicity Co-Chair</span>
+                <div class="person-entry">
+                  <a href="https://www.saiph.org/" class="person-name theme-link-org">Saiph Savage</a>
+                  <span class="person-affil">Northeastern University</span>
                 </div>
+              </div>
             </div>
 
-        </div>
-    </section>
+          </div><!-- /.row committee-section -->
 
-    <section class="sponsors-section">
-        <h2 class="section-title">Sponsors</h2>
-        <div class="sponsor-logos">
-            <a href="https://www.sigweb.org/" target="_blank" class="logo-link">
-                <img src="images/sigweb_logo.jpeg" alt="ACM SIGWEB Sponsor Logo">
+          <!-- Sponsors -->
+          <h2 class="section-heading" id="sponsors">Sponsors</h2>
+          <div class="sponsor-logo-row">
+            <a href="https://www.sigweb.org/" target="_blank">
+              <img src="images/sigweb_logo.jpeg" alt="ACM SIGWEB Sponsor Logo">
             </a>
-            <a href="https://sigchi.org/" target="_blank" class="logo-link">
-                <img src="images/sigchi_logo.png" alt="ACM SIGCHI Sponsor Logo">
+            <a href="https://sigchi.org/" target="_blank">
+              <img src="images/sigchi_logo.png" alt="ACM SIGCHI Sponsor Logo">
             </a>
+          </div>
+
         </div>
-    </section>
+      </div>
+    </div><!-- /.col-md-9 -->
 
-    <footer>
-        <p>&copy; 2026 Association for Computing Machinery. All rights reserved.</p>
-    </footer>
+    <!-- Right Sidebar -->
+    <div class="col-md-3">
+      <div class="sidebar-container">
 
-</body>
+        <p class="sub-heading">Announcements</p>
+        <p style="font-weight: normal;">
+          The <b>Call for Papers</b> is posted! More information coming soon.
+        </p>
 
-</html>
+        <p class="sub-heading">Quick Links</p>
+        <p style="font-weight:400;">View the <a class="theme-link" href="organizers.html">organizing committee</a>.</p>
+        <p style="font-weight:400;">View the list of <a class="theme-link" href="../2024/past%20meetings.html">past meetings</a>.</p>
+        <p style="font-weight:400;">Learn about <a class="theme-link" href="http://ci.acm.org/2026/" target="_blank">CI 2026</a> co-location.</p>
+        <p style="font-weight:400;">Explore the <a class="theme-link" href="https://iac.vt.edu/about/Location.html" target="_blank">Virginia Tech IAC venue</a>.</p>
+
+        <p class="sub-heading">Important Dates</p>
+        <p class="subheader" style="font-weight:400; font-size:13px;">All times are midnight <a class="theme-link" href="https://time.is/Anywhere_on_Earth">AoE</a>.</p>
+
+        <p class="important-date">April 2026</p>
+        <p style="font-weight:400;">Call for Papers (CFP) Posted</p>
+
+        <p class="important-date">June 2026</p>
+        <p style="font-weight:400;">Paper Submission Deadline</p>
+
+        <p class="important-date">Sep 27&ndash;30, 2026</p>
+        <p style="font-weight:400;">HCOMP 2026 &amp; CI 2026</p>
+
+      </div>
+    </div><!-- /.col-md-3 -->
+
+  </div><!-- /.row -->
+</div><!-- /.container -->
