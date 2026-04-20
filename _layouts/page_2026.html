@@ -199,6 +199,13 @@
             color: var(--primary-color);
         }
 
+        .navbar-nav a.disabled {
+            color: #aaa !important;
+            pointer-events: none;
+            cursor: default;
+            opacity: 0.6;
+        }
+
         /* Subpage Banner */
         .subpage-hero {
             height: 200px;
@@ -467,8 +474,8 @@
         </button>
         <div class="navbar-nav" id="nav-links">
             <a href="submit.html" {% if page.url contains 'submit' %}class="active" {% endif %}>Submit</a>
-            <a href="attend.html" {% if page.url contains 'attend' %}class="active" {% endif %}>Attend</a>
-            <a href="program.html" {% if page.url contains 'program' %}class="active" {% endif %}>Program</a>
+            <a href="#" class="disabled">Attend</a>
+            <a href="#" class="disabled">Program</a>
             <a href="code-of-conduct.html" {% if page.url contains 'code-of-conduct' %}class="active" {% endif %}>Code
                 of Conduct</a>
             <a href="organizers.html" {% if page.url contains 'organizers' %}class="active" {% endif %}>Organizers</a>

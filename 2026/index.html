@@ -549,6 +549,13 @@ layout: null
         .navbar-nav a.active {
             color: var(--primary-color);
         }
+
+        .navbar-nav a.disabled {
+            color: #aaa !important;
+            pointer-events: none;
+            cursor: default;
+            opacity: 0.6;
+        }
     </style>
 </head>
 
@@ -564,8 +571,8 @@ layout: null
         </button>
         <div class="navbar-nav" id="nav-links">
             <a href="submit.html">Submit</a>
-            <a href="attend.html">Attend</a>
-            <a href="program.html">Program</a>
+            <a href="#" class="disabled">Attend</a>
+            <a href="#" class="disabled">Program</a>
             <a href="code-of-conduct.html">Code of Conduct</a>
             <a href="organizers.html">Organizers</a>
             <a href="sponsors.html">Sponsors</a>
