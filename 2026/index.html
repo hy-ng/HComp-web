@@ -556,6 +556,40 @@ layout: null
             cursor: default;
             opacity: 0.6;
         }
+
+        /* Hero CTA Button */
+        .btn-cta {
+            display: inline-block;
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 14px 35px;
+            font-size: 1.2rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-decoration: none;
+            border-radius: 50px;
+            margin-top: 2rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(232, 119, 34, 0.4);
+        }
+
+        .btn-cta:hover {
+            background-color: #d16b1f;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(232, 119, 34, 0.6);
+            color: white;
+            text-decoration: none;
+        }
+
+        .deadline-text {
+            display: block;
+            margin-top: 10px;
+            font-size: 0.95rem;
+            color: white;
+            font-weight: 500;
+            opacity: 0.9;
+        }
     </style>
 </head>
 
@@ -588,7 +622,6 @@ layout: null
                     Institute for Advanced Computing</a><br>
                 Near Washington, DC, USA
             </div>
-            <br>
             <div class="date-badge">
                 September 27-30, 2026
             </div>
@@ -632,17 +665,27 @@ layout: null
             <h2 class="section-title">Important Dates</h2>
             <div class="timeline">
                 <div class="date-card">
-                    <h3>April 2026</h3>
-                    <p>Call for Papers (CFP) Posted</p>
+                    <h3>June 1, 2026</h3>
+                    <p>Abstract Submission Deadline</p>
+                </div>
+                <div class="date-card primary">
+                    <h3>June 8, 2026</h3>
+                    <p>Full Paper Submission Deadline</p>
                 </div>
                 <div class="date-card">
-                    <h3>June 2026</h3>
-                    <p>Paper Submission Deadline</p>
+                    <h3>July 31, 2026</h3>
+                    <p>Decision Notifications</p>
                 </div>
                 <div class="date-card">
                     <h3>September 27-30, 2026</h3>
                     <p>Conference Dates</p>
                 </div>
+            </div>
+
+            <!-- Secondary CTA for researchers evaluating the timeline -->
+            <div style="text-align: center; margin-top: 3rem;">
+                <p style="font-weight: 500; margin-bottom: 1rem; color: #555;">Ready to contribute to HCOMP 2026?</p>
+                <a href="submit.html" class="btn-cta" style="margin-top: 0;">Submit Your Paper</a>
             </div>
         </div>
     </section>
