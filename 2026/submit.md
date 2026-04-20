@@ -17,7 +17,7 @@ HCOMP 2026 will be held as a co-located event with ACM Collective Intelligence (
 - Call for [Posters and Demos](#posters) (Coming Soon!)
 - Call for [Doctoral Consortium](#dc) (Coming Soon!)
 - Call for [Workshops](#workshops) (Coming Soon!)
-- Call for [CrowdCamp 2026](#crowdcamp) (Coming Soon!)
+- Call for [CrowdCamp](#crowdcamp) (Coming Soon!)
 
 ---
 
