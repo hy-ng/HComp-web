@@ -1,6 +1,6 @@
 ---
 layout: page_2026
-title: Submit
+title: Call for Participation
 year: 2026
 ---
 
