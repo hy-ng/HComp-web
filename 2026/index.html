@@ -377,6 +377,7 @@ layout: null
             /* Spacing between logos */
             max-width: 900px;
             margin: 0 auto;
+            flex-wrap: wrap;
         }
 
         .logo-link img {
@@ -385,6 +386,50 @@ layout: null
             max-width: 100%;
             object-fit: contain;
             display: block;
+        }
+
+        .sponsor-cta-box {
+            width: 250px;
+            height: 120px;
+            border: 3px dashed #d9d9d9;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.01);
+            color: #777;
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            cursor: pointer;
+        }
+
+        .sponsor-cta-box:hover {
+            border-color: var(--primary-color);
+            background-color: rgba(134, 31, 65, 0.03);
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        .sponsor-cta-box p {
+            margin: 0;
+            pointer-events: none;
+        }
+
+        .sponsor-cta-box .cta-text-main {
+            font-weight: 700;
+            font-size: 1.3rem;
+            margin-bottom: 2px;
+            color: var(--primary-color);
+            transition: color 0.3s ease;
+        }
+
+        .sponsor-cta-box .cta-text-sub {
+            font-size: 1rem;
+            font-weight: 500;
+        }
+
+        .sponsor-cta-box:hover .cta-text-main {
+            color: var(--secondary-color);
         }
 
         /* Footer */
@@ -595,109 +640,8 @@ layout: null
         </div>
     </section>
 
-    <section class="container" id="committee">
-        <h2 class="section-title">Organizing Committees</h2>
-        <div class="committees-grid">
 
-            <div class="committee-group">
-                <h3>HCOMP 2026</h3>
 
-                <div class="role-section">
-                    <span class="role">General Chair</span>
-                    <div class="person">
-                        <a href="https://crowd.ist.psu.edu/" class="name-link">Ting-Hao 'Kenneth' Huang</a>
-                        <span class="affiliation">The Pennsylvania State University</span>
-                    </div>
-                </div>
-
-                <div class="role-section">
-                    <span class="role">Program Co-Chairs</span>
-                    <div class="person">
-                        <a href="https://chienjuho.com/" class="name-link">Chien-Ju Ho</a>
-                        <span class="affiliation">Washington University in St. Louis</span>
-                    </div>
-                    <div class="person">
-                        <a href="https://tl-tianyi-li.github.io/" class="name-link">Tianyi Li</a>
-                        <span class="affiliation">Purdue University</span>
-                    </div>
-                </div>
-
-                <div class="role-section">
-                    <span class="role">Workshops Co-Chair</span>
-                    <div class="person">
-                        <a href="https://senjutidutta.com/" class="name-link">Senjuti Dutta</a>
-                        <span class="affiliation">University of Colorado Boulder</span>
-                    </div>
-                </div>
-
-                <div class="role-section">
-                    <span class="role">CrowdCamp Co-Chair</span>
-                    <div class="person">
-                        <a href="https://bmcinnis.github.io/" class="name-link">Brian McInnis</a>
-                        <span class="affiliation">University of Texas at Austin</span>
-                    </div>
-                </div>
-
-                <div class="role-section">
-                    <span class="role">Publicity Co-Chair</span>
-                    <div class="person">
-                        <a href="https://richardhgl.github.io/" class="name-link">Gaole He</a>
-                        <span class="affiliation">National University of Singapore</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="committee-group">
-                <h3>Collective Intelligence (CI) 2026</h3>
-
-                <div class="role-section">
-                    <span class="role">General Chair</span>
-                    <div class="person">
-                        <a href="https://crowd.cs.vt.edu/kurt-luther/" class="name-link">Kurt Luther</a>
-                        <span class="affiliation">Virginia Tech</span>
-                    </div>
-                </div>
-
-                <div class="role-section">
-                    <span class="role">Program Co-Chairs</span>
-                    <div class="person">
-                        <a href="https://researchprofiles.ku.dk/en/persons/jason-william-burton/"
-                            class="name-link">Jason W. Burton</a>
-                        <span class="affiliation">University of Copenhagen</span>
-                    </div>
-                    <div class="person">
-                        <a href="https://lykourentzou.com/index.html" class="name-link">Ioanna Lykourentzou</a>
-                        <span class="affiliation">Utrecht University</span>
-                    </div>
-                </div>
-
-                <div class="role-section">
-                    <span class="role">Workshops Co-Chair</span>
-                    <div class="person">
-                        <a href="https://vikrammohanty.com/" class="name-link">Vikram Mohanty</a>
-                        <span class="affiliation">Carnegie Mellon University</span>
-                    </div>
-                </div>
-
-                <div class="role-section">
-                    <span class="role">CrowdCamp Co-Chair</span>
-                    <div class="person">
-                        <a href="https://www.cs.jhu.edu/~yaxing/" class="name-link">Yaxing Yao</a>
-                        <span class="affiliation">Johns Hopkins University</span>
-                    </div>
-                </div>
-
-                <div class="role-section">
-                    <span class="role">Publicity Co-Chair</span>
-                    <div class="person">
-                        <a href="https://www.saiph.org/" class="name-link">Saiph Savage</a>
-                        <span class="affiliation">Northeastern University</span>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
 
     <section class="sponsors-section">
         <h2 class="section-title">Sponsors</h2>
@@ -707,6 +651,12 @@ layout: null
             </a>
             <a href="https://sigchi.org/" target="_blank" class="logo-link">
                 <img src="images/sigchi_logo.png" alt="ACM SIGCHI Sponsor Logo">
+            </a>
+            <a href="sponsors.html" class="logo-link" style="text-decoration: none;">
+                <div class="sponsor-cta-box">
+                    <p class="cta-text-main">...and you?</p>
+                    <p class="cta-text-sub">Join as a 2026 Sponsor</p>
+                </div>
             </a>
         </div>
     </section>
