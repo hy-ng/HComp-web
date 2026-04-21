@@ -20,6 +20,189 @@ year: 2026
 
 ---
 
+
+<!-- SUB-NAVBAR -->
+<style>
+  .sticky-subnav {
+    position: sticky;
+    top: 75px; 
+    z-index: 999;
+    background: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08); 
+    border-bottom: 1px solid #eee;
+    padding: 0;
+    margin-bottom: 2rem;
+    
+    /* Initially Hidden */
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .sticky-subnav.show-nav {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+
+  .subnav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    padding: 0 15px;
+  }
+
+  /* Remove display: none to show scrollbar on mobile if needed, 
+     or keep it hidden but add visual cues. 
+     For now, let's keep it but ensure links don't shrink. */
+  .subnav-container::-webkit-scrollbar {
+    height: 3px;
+  }
+  .subnav-container::-webkit-scrollbar-thumb {
+    background: rgba(134, 31, 65, 0.2);
+    border-radius: 3px;
+  }
+
+  .subnav-link {
+    padding: 15px 20px;
+    color: #555;
+    text-decoration: none !important;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 3px solid transparent;
+    transition: all 0.3s ease;
+    display: inline-block;
+    flex-shrink: 0; /* Prevent links from shrinking */
+  }
+
+  .subnav-link:hover {
+    color: var(--primary-color);
+  }
+
+  .subnav-link.active {
+    color: var(--primary-color);
+    border-bottom-color: var(--primary-color);
+    background: rgba(134, 31, 65, 0.03);
+  }
+
+  @media (max-width: 768px) {
+    .sticky-subnav {
+      top: 55px; /* Adjust to match actual mobile navbar height */
+    }
+    .subnav-link {
+      padding: 12px 18px;
+      font-size: 0.8rem;
+    }
+    /* Add a subtle indicator that there is more to scroll */
+    .sticky-subnav::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 40px;
+      height: 100%;
+      background: linear-gradient(to right, transparent, rgba(255,255,255,0.8));
+      pointer-events: none;
+      z-index: 10;
+    }
+  }
+</style>
+
+<div class="sticky-subnav">
+  <div class="subnav-container" id="subnav">
+    <a href="#info" class="subnav-link active">Information</a>
+    <a href="#topics" class="subnav-link">Topics</a>
+    <a href="#papers" class="subnav-link">Papers/Talks</a>
+    <a href="#posters" class="subnav-link">Posters/Demos</a>
+    <a href="#dc" class="subnav-link">Doctoral Consortium</a>
+    <a href="#workshops" class="subnav-link">Workshops</a>
+    <a href="#crowdcamp" class="subnav-link">CrowdCamp</a>
+    <a href="#general" class="subnav-link">Submission Info</a>
+  </div>
+</div>
+
+<script>
+  window.addEventListener('DOMContentLoaded', () => {
+    const subnav = document.querySelector('.sticky-subnav');
+    const sections = document.querySelectorAll('h1[id]');
+    const navLinks = document.querySelectorAll('.subnav-link');
+    
+    // Reveal Nav on Scroll with dynamic trigger
+    const infoSection = document.querySelector('#info');
+    const footer = document.querySelector('footer');
+    
+    const handleScroll = () => {
+      const scrollPos = window.scrollY;
+      const infoPos = infoSection ? infoSection.offsetTop - 150 : 300;
+
+      if (scrollPos > infoPos) {
+        subnav.classList.add('show-nav');
+      } else {
+        subnav.classList.remove('show-nav');
+      }
+    };
+
+    window.addEventListener('scroll', () => {
+      window.requestAnimationFrame(handleScroll);
+    });
+
+    // Smooth scroll override for subnav
+    navLinks.forEach(link => {
+
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const id = link.getAttribute('href');
+        const target = document.querySelector(id);
+        if (target) {
+          const offset = 140; // Main Nav + Sub Nav + New Padding
+          const bodyRect = document.body.getBoundingClientRect().top;
+          const elementRect = target.getBoundingClientRect().top;
+          const elementPosition = elementRect - bodyRect;
+          const offsetPosition = elementPosition - offset;
+
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth'
+          });
+        }
+      });
+    });
+
+    const observerOptions = {
+      root: null,
+      rootMargin: '-150px 0px -70% 0px', // Adjusted for slightly larger offset
+      threshold: 0
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const id = entry.target.getAttribute('id');
+          navLinks.forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href') === `#${id}`) {
+              link.classList.add('active');
+              // Auto-scroll the subnav to keep active link visible
+              link.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+            }
+          });
+        }
+      });
+    }, observerOptions);
+
+    sections.forEach(section => observer.observe(section));
+  });
+</script>
+
+
+
 # Conference Information
 {:#info}
 {:.sub-page-header}
