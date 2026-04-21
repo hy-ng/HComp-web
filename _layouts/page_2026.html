@@ -250,14 +250,18 @@
             margin-bottom: 0.5rem;
         }
 
-        /* Markdown Table Styles */
+        /* Markdown Table Styles (Responsive & Professional) */
         .page-content table {
             width: 100%;
             border-collapse: collapse;
             margin: 2.5rem 0;
-            font-size: 1.05rem;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+            font-size: 1rem;
             background-color: var(--white);
+            display: block;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            border: 1px solid #ddd;
+            border-radius: 8px;
         }
 
         .page-content th,
@@ -265,24 +269,26 @@
             padding: 14px 18px;
             border: 1px solid #e0e0e0;
             text-align: left;
+            min-width: 150px;
         }
 
         .page-content th {
-            background-color: var(--light-bg);
+            background-color: #f8f8f8;
             color: var(--primary-color);
             font-weight: 700;
-            border-bottom: 3px solid var(--secondary-color);
             text-transform: uppercase;
             letter-spacing: 0.5px;
+            border-bottom: 2px solid var(--secondary-color);
         }
 
         .page-content tr:nth-of-type(even) {
-            background-color: #fbfbfb;
+            background-color: #fafafa;
         }
 
         .page-content tr:hover {
             background-color: #f3f3f3;
         }
+
 
         .sub-page-header {
             font-size: 2.2rem;
@@ -473,7 +479,8 @@
             <span></span>
         </button>
         <div class="navbar-nav" id="nav-links">
-            <a href="submit.html" {% if page.url contains 'submit' %}class="active" {% endif %}>Call for Participation</a>
+            <a href="submit.html" {% if page.url contains 'submit' %}class="active" {% endif %}>Call for
+                Participation</a>
             <a href="#" class="disabled">Attend</a>
             <a href="#" class="disabled">Program</a>
             <a href="code-of-conduct.html" {% if page.url contains 'code-of-conduct' %}class="active" {% endif %}>Code
