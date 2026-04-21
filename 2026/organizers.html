@@ -144,7 +144,8 @@ year: 2026
 </style>
 
 <!-- ================= HCOMP 2026 ================= -->
-<div class="container organizers" id="hcomp-oc">
+<section id="hcomp-oc">
+<div class="container organizers">
   <h2 class="organizer-name"><span class="hcomp-text">HCOMP</span> 2026 General Chair</h2>
   <div class="row profile-row">
     <div class="col-md-12">
@@ -220,9 +221,11 @@ year: 2026
     </div>
   </div>
 </div>
+</section>
 
 <!-- ================= CI 2026 ================= -->
-<div class="container organizers" style="margin-top: 60px;" id="ci-oc">
+<section id="ci-oc">
+<div class="container organizers" style="margin-top: 60px;">
   <div class="sub-page-border"></div>
 </div>
 
@@ -289,6 +292,7 @@ year: 2026
     </div>
   </div>
 </div>
+</section>
 
 <script>
   window.addEventListener('DOMContentLoaded', () => {
@@ -368,7 +372,7 @@ year: 2026
       });
     }, observerOptions);
 
-    document.querySelectorAll('.container.organizers[id]').forEach(section => {
+    document.querySelectorAll('section[id]').forEach(section => {
       observer.observe(section);
     });
   });
