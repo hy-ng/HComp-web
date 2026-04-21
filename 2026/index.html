@@ -8,6 +8,10 @@ layout: null
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>2026 ACM HCOMP Conference</title>
+
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,900" rel="stylesheet">
     <style>
         :root {
             --primary-color: #861F41;
@@ -448,7 +452,7 @@ layout: null
             font-size: 0.9rem;
         }
 
-        /* Navigation (Copied from 2024) */
+        /* Navigation (Elite Style) */
         .navbar {
             position: fixed;
             top: 0;
@@ -473,6 +477,10 @@ layout: null
             font-family: 'Open Sans', sans-serif;
             text-transform: uppercase;
             white-space: nowrap;
+            /* Match Bootstrap's default brand padding for height consistency */
+            padding-top: .3125rem;
+            padding-bottom: .3125rem;
+            line-height: inherit;
         }
 
         .hamburger {
@@ -503,7 +511,7 @@ layout: null
             }
 
             .navbar-nav {
-                flex-direction: column;
+                flex-direction: column !important;
                 width: 100%;
                 background: white;
                 max-height: 0;
@@ -534,6 +542,7 @@ layout: null
         .navbar-nav {
             display: flex;
             align-items: center;
+            flex-direction: row;
         }
 
         .navbar-nav a {
