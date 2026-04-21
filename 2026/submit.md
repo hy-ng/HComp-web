@@ -235,33 +235,13 @@ year: 2026
     // Initial arrow check
     setTimeout(updateArrows, 500);
 
-    // Custom Smooth Scroll Function for "Elite" Feel
-    const smoothScrollTo = (targetY) => {
-      const startY = window.scrollY;
-      const distance = targetY - startY;
-      const duration = 1000;
-      let start = null;
-
-      const animation = (currentTime) => {
-        if (!start) start = currentTime;
-        const timeElapsed = currentTime - start;
-        const run = easeOutExpo(timeElapsed, startY, distance, duration);
-        window.scrollTo(0, run);
-        if (timeElapsed < duration) requestAnimationFrame(animation);
-      };
-
-      // Ease out Expo function
-      function easeOutExpo(t, b, c, d) {
-        return t === d ? b + c : c * (-Math.pow(2, -10 * t / d) + 1) + b;
-      }
-
-      requestAnimationFrame(animation);
-    };
-
     // Smooth scroll override for subnav
+    let isScrolling = false;
     navLinks.forEach(link => {
       link.addEventListener('click', (e) => {
         e.preventDefault();
+        if (isScrolling) return;
+
         const id = link.getAttribute('href');
         const target = document.querySelector(id);
         if (target) {
@@ -272,6 +252,36 @@ year: 2026
         }
       });
     });
+
+    const smoothScrollTo = (targetY) => {
+      isScrolling = true;
+      // Disable CSS smooth scroll to prevent fighting with JS animation
+      const html = document.documentElement;
+      html.style.scrollBehavior = 'auto';
+
+      const startY = window.scrollY;
+      const distance = targetY - startY;
+      const duration = 800; 
+      let start = null;
+
+      const animation = (currentTime) => {
+        if (!start) start = currentTime;
+        const timeElapsed = currentTime - start;
+        const run = easeOutExpo(timeElapsed, startY, distance, duration);
+        window.scrollTo(0, run);
+        if (timeElapsed < duration) {
+          requestAnimationFrame(animation);
+        } else {
+          isScrolling = false;
+          html.style.scrollBehavior = ''; // Reset to CSS default
+        }
+      };
+
+      function easeOutExpo(t, b, c, d) {
+        return t === d ? b + c : c * (-Math.pow(2, -10 * t / d) + 1) + b;
+      }
+      requestAnimationFrame(animation);
+    };
 
     const observerOptions = {
       root: null,
@@ -287,8 +297,8 @@ year: 2026
             link.classList.remove('active');
             if (link.getAttribute('href') === `#${id}`) {
               link.classList.add('active');
-              // Auto-center the active link in the navbar
-              link.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+              // Auto-center the active link in the navbar (instant scroll to avoid conflict)
+              link.scrollIntoView({ behavior: 'auto', block: 'nearest', inline: 'center' });
             }
           });
         }
