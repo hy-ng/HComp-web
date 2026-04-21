@@ -297,16 +297,30 @@ year: 2026
       threshold: 0
     };
 
+    let currentActiveId = '';
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           const id = entry.target.getAttribute('id');
+          if (id === currentActiveId) return;
+          currentActiveId = id;
+
           navLinks.forEach(link => {
-            link.classList.remove('active');
-            if (link.getAttribute('href') === `#${id}`) {
-              link.classList.add('active');
-              // Auto-center the active link in the navbar (instant scroll to avoid conflict)
-              link.scrollIntoView({ behavior: 'auto', block: 'nearest', inline: 'center' });
+            const isActive = link.getAttribute('href') === `#${id}`;
+            link.classList.toggle('active', isActive);
+            
+            if (isActive) {
+              // Auto-center the active link in the navbar (manual calc for efficiency)
+              const navContainer = document.getElementById('subnav');
+              if (navContainer) {
+                const linkOffset = link.offsetLeft;
+                const containerWidth = navContainer.offsetWidth;
+                const linkWidth = link.offsetWidth;
+                navContainer.scrollTo({
+                  left: linkOffset - (containerWidth / 2) + (linkWidth / 2),
+                  behavior: 'auto'
+                });
+              }
             }
           });
         }
