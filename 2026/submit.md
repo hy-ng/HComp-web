@@ -291,43 +291,48 @@ year: 2026
       requestAnimationFrame(animation);
     };
 
-    const observerOptions = {
-      root: null,
-      rootMargin: '-150px 0px -70% 0px', // Adjusted for slightly larger offset
-      threshold: 0
-    };
-
+    // Continuous Verification Scroll-Spy
     let currentActiveId = '';
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          const id = entry.target.getAttribute('id');
-          if (id === currentActiveId) return;
-          currentActiveId = id;
-
-          navLinks.forEach(link => {
-            const isActive = link.getAttribute('href') === `#${id}`;
-            link.classList.toggle('active', isActive);
-            
-            if (isActive) {
-              // Auto-center the active link in the navbar (manual calc for efficiency)
-              const navContainer = document.getElementById('subnav');
-              if (navContainer) {
-                const linkOffset = link.offsetLeft;
-                const containerWidth = navContainer.offsetWidth;
-                const linkWidth = link.offsetWidth;
-                navContainer.scrollTo({
-                  left: linkOffset - (containerWidth / 2) + (linkWidth / 2),
-                  behavior: 'auto'
-                });
-              }
-            }
-          });
+    const updateActiveState = () => {
+      const h1Sections = document.querySelectorAll('h1[id]');
+      let activeSectionId = '';
+      
+      h1Sections.forEach(sec => {
+        const rect = sec.getBoundingClientRect();
+        // A section is considered active if we have scrolled past its header (plus offset)
+        if (rect.top <= 250) {
+          activeSectionId = sec.getAttribute('id');
         }
       });
-    }, observerOptions);
 
-    sections.forEach(section => observer.observe(section));
+      if (activeSectionId && activeSectionId !== currentActiveId) {
+        currentActiveId = activeSectionId;
+        navLinks.forEach(link => {
+          const isActive = link.getAttribute('href') === `#${activeSectionId}`;
+          link.classList.toggle('active', isActive);
+          
+          if (isActive) {
+            // Auto-center the active link in the navbar
+            const navContainer = document.getElementById('subnav');
+            if (navContainer) {
+              const linkOffset = link.offsetLeft;
+              const containerWidth = navContainer.offsetWidth;
+              const linkWidth = link.offsetWidth;
+              navContainer.scrollTo({
+                left: linkOffset - (containerWidth / 2) + (linkWidth / 2),
+                behavior: 'auto'
+              });
+            }
+          }
+        });
+      }
+    };
+
+    window.addEventListener('scroll', () => {
+      window.requestAnimationFrame(updateActiveState);
+    });
+    // Initial check
+    updateActiveState();
   });
 </script>
 
