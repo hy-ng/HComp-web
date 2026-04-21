@@ -330,7 +330,10 @@ year: 2026
         const id = btn.getAttribute('href');
         const target = document.querySelector(id);
         if (target) {
-          const offset = 130; // Offset for main navbar + subnav
+          const mainNavHeight = document.querySelector('.navbar').offsetHeight;
+          const subNavHeight = subnav.offsetHeight;
+          const offset = mainNavHeight + subNavHeight - 5; 
+
           const elementPosition = target.getBoundingClientRect().top + window.scrollY;
           const offsetPosition = elementPosition - offset;
           smoothScrollTo(offsetPosition);

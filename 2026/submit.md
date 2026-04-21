@@ -33,6 +33,11 @@ year: 2026
     margin-bottom: 2rem;
     border-bottom: none !important; /* Remove any container border */
     
+    /* Break out of container to be full-screen width */
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    left: 0;
+
     /* Initially Hidden */
     opacity: 0;
     visibility: hidden;
@@ -245,7 +250,10 @@ year: 2026
         const id = link.getAttribute('href');
         const target = document.querySelector(id);
         if (target) {
-          const offset = 135; 
+          const mainNavHeight = document.querySelector('.navbar').offsetHeight;
+          const subNavHeight = subnav.offsetHeight;
+          const offset = mainNavHeight + subNavHeight - 5; // Slight overlap for cleaner look
+          
           const elementPosition = target.getBoundingClientRect().top + window.scrollY;
           const offsetPosition = elementPosition - offset;
           smoothScrollTo(offsetPosition);

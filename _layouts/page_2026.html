@@ -508,6 +508,24 @@
         document.getElementById('hamburger').addEventListener('click', function () {
             document.getElementById('nav-links').classList.toggle('show');
         });
+
+        // Dynamic Sticky Positioning for Sub-navbars
+        // This ensures sub-navs always sit perfectly under the main navbar across all devices
+        const updateSubnavPosition = () => {
+            const mainNav = document.querySelector('.navbar');
+            const subnavs = document.querySelectorAll('.sticky-subnav');
+            if (mainNav && subnavs.length > 0) {
+                const height = mainNav.offsetHeight;
+                subnavs.forEach(nav => {
+                    nav.style.top = (height - 1) + 'px'; // 1px overlap to eliminate tiny gaps
+                });
+                document.documentElement.style.setProperty('--navbar-height', height + 'px');
+            }
+        };
+
+        window.addEventListener('DOMContentLoaded', updateSubnavPosition);
+        window.addEventListener('load', updateSubnavPosition);
+        window.addEventListener('resize', updateSubnavPosition);
     </script>
 </body>
 
