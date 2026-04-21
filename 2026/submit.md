@@ -29,9 +29,9 @@ year: 2026
     z-index: 999;
     background: white;
     box-shadow: 0 4px 12px rgba(0,0,0,0.08); 
-    border-bottom: 1px solid #eee;
     padding: 0;
     margin-bottom: 2rem;
+    border-bottom: none !important; /* Remove any container border */
     
     /* Initially Hidden */
     opacity: 0;
@@ -55,6 +55,7 @@ year: 2026
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
     padding: 0 15px;
+    border-bottom: none !important; /* Eliminate internal container borders */
   }
 
   /* Remove display: none to show scrollbar on mobile if needed, 
@@ -64,8 +65,8 @@ year: 2026
     height: 3px;
   }
   .subnav-container::-webkit-scrollbar-thumb {
-    background: rgba(134, 31, 65, 0.2);
-    border-radius: 3px;
+    /* background: rgba(134, 31, 65, 0.2); */
+    /* border-radius: 3px; */
   }
 
   .subnav-link {
@@ -76,46 +77,103 @@ year: 2026
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    border-bottom: 3px solid transparent;
-    transition: all 0.3s ease;
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
     display: inline-block;
-    flex-shrink: 0; /* Prevent links from shrinking */
+    flex-shrink: 0;
+    position: relative;
+    opacity: 0.8;
+    border: none !important; /* Aggressive override for all borders */
+    border-bottom: none !important;
+    outline: none !important;
   }
 
-  .subnav-link:hover {
+  .subnav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 100%;
+    height: 3px;
+    background: var(--primary-color);
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transform: translateX(-50%) scaleX(0);
+    transform-origin: center;
+  }
+
+  .subnav-link:hover, .subnav-link.active {
     color: var(--primary-color);
+    opacity: 1;
+  }
+
+  .subnav-link.active::after {
+    transform: translateX(-50%) scaleX(1);
+  }
+
+  /* Specific override to kill the global .page-content a border */
+  .page-content .sticky-subnav a,
+  .page-content .sticky-subnav a:hover,
+  .page-content .sticky-subnav a.active {
+    border-bottom: none !important;
   }
 
   .subnav-link.active {
+    background: rgba(134, 31, 65, 0.05);
+    transform: translateY(-1px);
+  }
+
+  .nav-arrow {
+    position: absolute;
+    top: 0;
+    width: 40px;
+    height: 100%;
+    background: white;
+    border: none;
+    cursor: pointer;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: var(--primary-color);
-    border-bottom-color: var(--primary-color);
-    background: rgba(134, 31, 65, 0.03);
+    font-size: 1.1rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+
+  .nav-arrow.visible {
+    opacity: 0.9;
+    visibility: visible;
+  }
+
+  .nav-arrow:hover {
+    background: #f8f8f8;
+    color: var(--secondary-color);
+  }
+
+  .nav-arrow.left { 
+    left: 0; 
+    background: linear-gradient(to right, white 70%, transparent);
+  }
+
+  .nav-arrow.right { 
+    right: 0; 
+    background: linear-gradient(to left, white 70%, transparent);
   }
 
   @media (max-width: 768px) {
     .sticky-subnav {
-      top: 55px; /* Adjust to match actual mobile navbar height */
+      top: 60px; /* Aligned with the main navbar height */
     }
     .subnav-link {
       padding: 12px 18px;
       font-size: 0.8rem;
     }
-    /* Add a subtle indicator that there is more to scroll */
-    .sticky-subnav::after {
-      content: '';
-      position: absolute;
-      top: 0;
-      right: 0;
-      width: 40px;
-      height: 100%;
-      background: linear-gradient(to right, transparent, rgba(255,255,255,0.8));
-      pointer-events: none;
-      z-index: 10;
-    }
   }
 </style>
 
 <div class="sticky-subnav">
+  <button class="nav-arrow left" id="prev-btn" aria-label="Scroll left"><i class="fa fa-chevron-left"></i></button>
   <div class="subnav-container" id="subnav">
     <a href="#info" class="subnav-link active">Information</a>
     <a href="#topics" class="subnav-link">Topics</a>
@@ -126,6 +184,7 @@ year: 2026
     <a href="#crowdcamp" class="subnav-link">CrowdCamp</a>
     <a href="#general" class="subnav-link">Submission Info</a>
   </div>
+  <button class="nav-arrow right" id="next-btn" aria-label="Scroll right"><i class="fa fa-chevron-right"></i></button>
 </div>
 
 <script>
@@ -136,8 +195,6 @@ year: 2026
     
     // Reveal Nav on Scroll with dynamic trigger
     const infoSection = document.querySelector('#info');
-    const footer = document.querySelector('footer');
-    
     const handleScroll = () => {
       const scrollPos = window.scrollY;
       const infoPos = infoSection ? infoSection.offsetTop - 150 : 300;
@@ -152,25 +209,66 @@ year: 2026
     window.addEventListener('scroll', () => {
       window.requestAnimationFrame(handleScroll);
     });
+    
+    // --- ARROW NAVIGATION & AUTO-CENTERING ---
+    const prevBtn = document.getElementById('prev-btn');
+    const nextBtn = document.getElementById('next-btn');
+    const container = document.getElementById('subnav');
+
+    const updateArrows = () => {
+      const scrollLeft = container.scrollLeft;
+      const maxScroll = container.scrollWidth - container.clientWidth;
+      prevBtn.classList.toggle('visible', scrollLeft > 20);
+      nextBtn.classList.toggle('visible', scrollLeft < maxScroll - 20);
+    };
+
+    container.addEventListener('scroll', updateArrows);
+    window.addEventListener('resize', updateArrows);
+    
+    prevBtn.addEventListener('click', () => {
+      container.scrollBy({ left: -250, behavior: 'smooth' });
+    });
+    nextBtn.addEventListener('click', () => {
+      container.scrollBy({ left: 250, behavior: 'smooth' });
+    });
+
+    // Initial arrow check
+    setTimeout(updateArrows, 500);
+
+    // Custom Smooth Scroll Function for "Elite" Feel
+    const smoothScrollTo = (targetY) => {
+      const startY = window.scrollY;
+      const distance = targetY - startY;
+      const duration = 1000;
+      let start = null;
+
+      const animation = (currentTime) => {
+        if (!start) start = currentTime;
+        const timeElapsed = currentTime - start;
+        const run = easeOutExpo(timeElapsed, startY, distance, duration);
+        window.scrollTo(0, run);
+        if (timeElapsed < duration) requestAnimationFrame(animation);
+      };
+
+      // Ease out Expo function
+      function easeOutExpo(t, b, c, d) {
+        return t === d ? b + c : c * (-Math.pow(2, -10 * t / d) + 1) + b;
+      }
+
+      requestAnimationFrame(animation);
+    };
 
     // Smooth scroll override for subnav
     navLinks.forEach(link => {
-
       link.addEventListener('click', (e) => {
         e.preventDefault();
         const id = link.getAttribute('href');
         const target = document.querySelector(id);
         if (target) {
-          const offset = 140; // Main Nav + Sub Nav + New Padding
-          const bodyRect = document.body.getBoundingClientRect().top;
-          const elementRect = target.getBoundingClientRect().top;
-          const elementPosition = elementRect - bodyRect;
+          const offset = 135; 
+          const elementPosition = target.getBoundingClientRect().top + window.scrollY;
           const offsetPosition = elementPosition - offset;
-
-          window.scrollTo({
-            top: offsetPosition,
-            behavior: 'smooth'
-          });
+          smoothScrollTo(offsetPosition);
         }
       });
     });
@@ -189,7 +287,7 @@ year: 2026
             link.classList.remove('active');
             if (link.getAttribute('href') === `#${id}`) {
               link.classList.add('active');
-              // Auto-scroll the subnav to keep active link visible
+              // Auto-center the active link in the navbar
               link.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
             }
           });

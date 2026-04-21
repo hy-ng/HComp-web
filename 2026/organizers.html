@@ -5,57 +5,100 @@ year: 2026
 ---
 
 <!-- Page Content -->
-<div class="container">
+<div class="container" id="top-content">
   <h1 class="sub-page-header">Organizing Committees</h1>
   <div class="sub-page-border"></div>
   <p class="lead" style="text-align:center; margin-bottom: 2rem;">We are tremendously grateful to all of the volunteers
     organizing the co-located <strong><span class="hcomp-text">HCOMP 2026</span></strong> and <strong><span
         class="ci-text">Collective Intelligence (CI) 2026</span></strong> conferences!</p>
-  <div style="text-align: center; margin-bottom: 4rem;">
-    <a href="#hcomp-oc" class="jump-btn hcomp-btn">HCOMP 2026 OC</a>
-    <a href="#ci-oc" class="jump-btn ci-btn">CI 2026 OC</a>
+</div>
+
+<!-- STICKY SUB-NAVBAR FOR ORGANIZERS -->
+<style>
+  .sticky-subnav {
+    position: sticky;
+    top: 75px; 
+    z-index: 999;
+    background: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08); 
+    padding: 0;
+    margin-bottom: 3rem;
+    border-bottom: none !important;
+    
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .sticky-subnav.show-nav {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  .subnav-container {
+    width: 100%;
+    max-width: none;
+    display: flex;
+    padding: 0;
+    border-bottom: none !important;
+  }
+
+  .subnav-link {
+    flex: 1;
+    padding: 18px 0;
+    color: #555;
+    text-decoration: none !important;
+    font-size: 0.95rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: none !important;
+    border-bottom: none !important;
+    background: white;
+  }
+
+  /* Specific color themes for active states - Full Block Color */
+  .subnav-link.hcomp-active {
+    background-color: #d48806 !important;
+    color: white !important;
+  }
+
+  .subnav-link.ci-active {
+    background-color: #00458b !important;
+    color: white !important;
+  }
+
+  /* Specific override to kill the global .page-content a border */
+  .page-content .sticky-subnav a {
+    border-bottom: none !important;
+  }
+
+  @media (max-width: 768px) {
+    .sticky-subnav {
+      top: 60px;
+    }
+    .subnav-link {
+      padding: 12px 20px;
+      font-size: 0.8rem;
+    }
+  }
+</style>
+
+<div class="sticky-subnav" id="organizer-nav">
+  <div class="subnav-container">
+    <a href="#hcomp-oc" class="subnav-link">HCOMP 2026 OC</a>
+    <a href="#ci-oc" class="subnav-link">CI 2026 OC</a>
   </div>
 </div>
 
 <style>
-  .jump-btn {
-    display: inline-block;
-    padding: 12px 30px;
-    margin: 0 10px;
-    background-color: transparent;
-    border-radius: 6px;
-    font-weight: 800;
-    text-decoration: none;
-    transition: all 0.3s ease;
-    border: 3px solid;
-    /* Use the specific border colors below */
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-  }
-
-  /* HCOMP Gold Button */
-  .hcomp-btn {
-    border-color: #d48806;
-    color: #d48806;
-  }
-
-  .hcomp-btn:hover {
-    background-color: #d48806;
-    color: #ffffff !important;
-    text-decoration: none;
-  }
-
-  /* CI Blue Button */
-  .ci-btn {
-    border-color: #00458b;
-    color: #00458b;
-  }
-
-  .ci-btn:hover {
-    background-color: #00458b;
-    color: #ffffff !important;
-    text-decoration: none;
-  }
 
   /* Identification Styles */
   .hcomp-text {
@@ -246,3 +289,87 @@ year: 2026
     </div>
   </div>
 </div>
+
+<script>
+  window.addEventListener('DOMContentLoaded', () => {
+    const subnav = document.querySelector('.sticky-subnav');
+    const jumpButtons = document.querySelectorAll('.jump-btn, .subnav-link');
+    const navLinks = document.querySelectorAll('.subnav-link');
+
+    // Reveal Nav on Scroll
+    const topContent = document.querySelector('#top-content');
+    const handleScroll = () => {
+      const scrollPos = window.scrollY;
+      const triggerPos = topContent ? topContent.offsetHeight : 300;
+      if (scrollPos > triggerPos) {
+        subnav.classList.add('show-nav');
+      } else {
+        subnav.classList.remove('show-nav');
+      }
+    };
+    window.addEventListener('scroll', () => {
+      window.requestAnimationFrame(handleScroll);
+    });
+
+    // Custom Smooth Scroll Function for "Elite" Feel
+    const smoothScrollTo = (targetY) => {
+      const startY = window.scrollY;
+      const distance = targetY - startY;
+      const duration = 1000;
+      let start = null;
+
+      const animation = (currentTime) => {
+        if (!start) start = currentTime;
+        const timeElapsed = currentTime - start;
+        const run = easeOutExpo(timeElapsed, startY, distance, duration);
+        window.scrollTo(0, run);
+        if (timeElapsed < duration) requestAnimationFrame(animation);
+      };
+
+      function easeOutExpo(t, b, c, d) {
+        return t === d ? b + c : c * (-Math.pow(2, -10 * t / d) + 1) + b;
+      }
+      requestAnimationFrame(animation);
+    };
+
+    jumpButtons.forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        const id = btn.getAttribute('href');
+        const target = document.querySelector(id);
+        if (target) {
+          const offset = 130; // Offset for main navbar + subnav
+          const elementPosition = target.getBoundingClientRect().top + window.scrollY;
+          const offsetPosition = elementPosition - offset;
+          smoothScrollTo(offsetPosition);
+        }
+      });
+    });
+
+    // Intersection Observer for Active State Coloring
+    const observerOptions = {
+      root: null,
+      rootMargin: '-150px 0px -70% 0px',
+      threshold: 0
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const id = entry.target.getAttribute('id');
+          navLinks.forEach(link => {
+            link.classList.remove('hcomp-active', 'ci-active');
+            if (link.getAttribute('href') === `#${id}`) {
+              if (id === 'hcomp-oc') link.classList.add('hcomp-active');
+              if (id === 'ci-oc') link.classList.add('ci-active');
+            }
+          });
+        }
+      });
+    }, observerOptions);
+
+    document.querySelectorAll('.container.organizers[id]').forEach(section => {
+      observer.observe(section);
+    });
+  });
+</script>
