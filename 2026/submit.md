@@ -472,7 +472,7 @@ Authors of accepted full papers and talks will be invited to give oral presentat
 
 In the submission form, authors of full papers and talks may check an option to be automatically considered for a poster or demo presentation if the submission is not accepted for an oral presentation.
 
-### Paper, Talk, and Reviewer Awards
+### Awards
 
 HCOMP and CI 2026 will each recognize one best full paper, one best talk, and one best student work (of either type). Program Committee members will be asked to flag submissions they deem worthy of a recognition. The Program Chairs will form a small committee that will read the nominated submissions, consider the comments in the reviews, and select the winners.
 
