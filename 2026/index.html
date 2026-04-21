@@ -3,15 +3,19 @@ layout: null
 ---
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>2026 ACM HCOMP Conference</title>
+
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,900" rel="stylesheet">
     <style>
         :root {
-            /* Virginia Tech Inspired Brand Colors */
-            --primary-color: #861F41; 
-            --secondary-color: #E87722; 
+            --primary-color: #861F41;
+            --secondary-color: #E87722;
             --dark-bg: #1a1a1a;
             --light-bg: #f9f9f9;
             --text-main: #333333;
@@ -25,6 +29,12 @@ layout: null
             padding: 0;
         }
 
+        html {
+            scroll-padding-top: 100px;
+            /* Pre-scrolls anchor targets below navbar */
+            scroll-behavior: smooth;
+        }
+
         body {
             font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
             line-height: 1.6;
@@ -32,7 +42,10 @@ layout: null
             background-color: var(--white);
         }
 
-        h1, h2, h3, h4 {
+        h1,
+        h2,
+        h3,
+        h4 {
             line-height: 1.2;
             margin-bottom: 1rem;
         }
@@ -48,8 +61,8 @@ layout: null
             text-align: center;
             color: var(--white);
             /* Highlighted Image as Background */
-            background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.8)), 
-                        url('images/ab1.jpg');
+            background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.8)),
+                url('images/ab1.jpg');
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
@@ -59,6 +72,9 @@ layout: null
         .hero-content {
             max-width: 900px;
             z-index: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
 
         .hero h1 {
@@ -116,6 +132,61 @@ layout: null
             max-width: 1200px;
             margin: 0 auto;
             padding: 5rem 20px;
+        }
+
+        .scroll-indicator {
+            position: absolute;
+            bottom: 40px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: rgba(255, 255, 255, 0.7);
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: 500;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            transition: color 0.3s ease;
+            z-index: 10;
+        }
+
+        .scroll-indicator:hover {
+            color: white;
+            text-decoration: none;
+        }
+
+        .scroll-indicator span {
+            margin-bottom: 8px;
+        }
+
+        .scroll-indicator .arrow {
+            width: 15px;
+            height: 15px;
+            border-bottom: 2px solid white;
+            border-right: 2px solid white;
+            transform: rotate(45deg);
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+
+            0%,
+            20%,
+            50%,
+            80%,
+            100% {
+                transform: translateY(0) rotate(45deg);
+            }
+
+            40% {
+                transform: translateY(-10px) rotate(45deg);
+            }
+
+            60% {
+                transform: translateY(-5px) rotate(45deg);
+            }
         }
 
         .section-title {
@@ -206,7 +277,7 @@ layout: null
             padding: 2rem;
             border-radius: 8px;
             text-align: center;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
             transition: transform 0.3s ease;
         }
 
@@ -237,7 +308,7 @@ layout: null
             background: var(--white);
             padding: 2.5rem;
             border-radius: 8px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
             border-top: 4px solid var(--primary-color);
         }
 
@@ -309,17 +380,63 @@ layout: null
             display: flex;
             justify-content: center;
             align-items: center;
-            gap: 4rem; /* Spacing between logos */
+            gap: 4rem;
+            /* Spacing between logos */
             max-width: 900px;
             margin: 0 auto;
+            flex-wrap: wrap;
         }
 
         .logo-link img {
-            height: auto; 
-            width: 300px; 
-            max-width: 100%; 
+            height: auto;
+            width: 300px;
+            max-width: 100%;
             object-fit: contain;
             display: block;
+        }
+
+        .sponsor-cta-box {
+            width: 250px;
+            height: 120px;
+            border: 3px dashed #d9d9d9;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.01);
+            color: #777;
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            cursor: pointer;
+        }
+
+        .sponsor-cta-box:hover {
+            border-color: var(--primary-color);
+            background-color: rgba(134, 31, 65, 0.03);
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        .sponsor-cta-box p {
+            margin: 0;
+            pointer-events: none;
+        }
+
+        .sponsor-cta-box .cta-text-main {
+            font-weight: 700;
+            font-size: 1.3rem;
+            margin-bottom: 2px;
+            color: var(--primary-color);
+            transition: color 0.3s ease;
+        }
+
+        .sponsor-cta-box .cta-text-sub {
+            font-size: 1rem;
+            font-weight: 500;
+        }
+
+        .sponsor-cta-box:hover .cta-text-main {
+            color: var(--secondary-color);
         }
 
         /* Footer */
@@ -334,40 +451,224 @@ layout: null
             opacity: 0.7;
             font-size: 0.9rem;
         }
+
+        /* Navigation (Elite Style) */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: white;
+            border-bottom: 1px solid #ddd;
+            box-shadow: 1px 1px 15px rgba(0, 0, 0, .1);
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .navbar-brand {
+            color: var(--primary-color);
+            font-size: 21px;
+            font-weight: 700;
+            text-decoration: none;
+            transition: all 0.5s ease;
+            font-family: 'Open Sans', sans-serif;
+            text-transform: uppercase;
+            white-space: nowrap;
+            /* Match Bootstrap's default brand padding for height consistency */
+            padding-top: .3125rem;
+            padding-bottom: .3125rem;
+            line-height: inherit;
+        }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            border: none;
+            background: transparent;
+            padding: 5px;
+        }
+
+        .hamburger span {
+            width: 25px;
+            height: 3px;
+            background-color: var(--primary-color);
+            margin-bottom: 4px;
+            border-radius: 2px;
+            transition: all 0.3s ease;
+        }
+
+        @media (max-width: 1100px) {
+            .navbar {
+                flex-wrap: wrap;
+            }
+
+            .hamburger {
+                display: flex;
+            }
+
+            .navbar-nav {
+                flex-direction: column !important;
+                width: 100%;
+                background: white;
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
+                padding-top: 0;
+                padding-bottom: 0;
+            }
+
+            .navbar-nav.show {
+                max-height: 400px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+            }
+
+            .navbar-nav a {
+                margin: 12px 0;
+                margin-left: 0;
+                text-align: center;
+                width: 100%;
+            }
+        }
+
+        .navbar-brand:hover {
+            color: var(--secondary-color);
+        }
+
+        .navbar-nav {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+        }
+
+        .navbar-nav a {
+            color: #333;
+            margin-left: 30px;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            text-decoration: none;
+            font-weight: 600;
+            font-family: 'Open Sans', sans-serif;
+            transition: all 0.5s ease;
+        }
+
+        .navbar-nav a:hover,
+        .navbar-nav a.active {
+            color: var(--primary-color);
+        }
+
+        .navbar-nav a.disabled {
+            color: #aaa !important;
+            pointer-events: none;
+            cursor: default;
+            opacity: 0.6;
+        }
+
+        /* Hero CTA Button */
+        .btn-cta {
+            display: inline-block;
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 14px 35px;
+            font-size: 1.2rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-decoration: none;
+            border-radius: 50px;
+            margin-top: 2rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(232, 119, 34, 0.4);
+        }
+
+        .btn-cta:hover {
+            background-color: #d16b1f;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(232, 119, 34, 0.6);
+            color: white;
+            text-decoration: none;
+        }
+
+        .deadline-text {
+            display: block;
+            margin-top: 10px;
+            font-size: 0.95rem;
+            color: white;
+            font-weight: 500;
+            opacity: 0.9;
+        }
     </style>
 </head>
+
 <body>
 
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a class="navbar-brand" href="index.html">HCOMP 2026</a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="navbar-nav" id="nav-links">
+            <a href="submit.html">Call for Participation</a>
+            <a href="#" class="disabled">Attend</a>
+            <a href="#" class="disabled">Program</a>
+            <a href="code-of-conduct.html">Code of Conduct</a>
+            <a href="organizers.html">Organizers</a>
+            <a href="sponsors.html">Sponsors</a>
+            <a href="past-meetings.html">Past Meetings</a>
+        </div>
+    </nav>
     <header class="hero">
         <div class="hero-content">
             <h1>HCOMP 2026</h1>
             <h2>The 2026 ACM Conference on<br />Human-AI Complementarity and Alignment</h2>
             <div class="location">
-                📍 <a href="https://iac.vt.edu/about/Location.html" target="_blank" class="location-link">Virginia Tech Institute for Advanced Computing</a><br>
-                Near Washington, DC, USA
+                📍 <a href="https://iac.vt.edu/about/Location.html" target="_blank" class="location-link">Virginia Tech
+                    Institute for Advanced Computing</a><br>
+                Near Washington, DC
             </div>
-            <br>
             <div class="date-badge">
                 September 27-30, 2026
             </div>
         </div>
+
+        <a href="#about" class="scroll-indicator">
+            <span>Scroll down for details</span>
+            <div class="arrow"></div>
+        </a>
     </header>
 
     <section class="container" id="about">
         <h2 class="section-title">About the Conference</h2>
         <p class="about-text">
-            ACM HCOMP is the premier venue for disseminating the latest research findings on human-AI complementarity and alignment. Our community studies and designs systems that combine the complementary strengths of human and artificial intelligence to achieve outcomes neither could achieve alone, in ways that are ethical, safe, and intentional. 
+            ACM HCOMP is the premier venue for disseminating the latest research findings on human-AI complementarity
+            and alignment. Our community studies and designs systems that combine the complementary strengths of human
+            and artificial intelligence to achieve outcomes neither could achieve alone, in ways that are ethical, safe,
+            and intentional.
         </p>
         <p class="about-text">
-            This research builds on a foundation established by the HCOMP community during its first decade as an <a href="https://aaai.org/conference/hcomp/" target="_blank" class="inline-link">AAAI conference series</a> focused on human computation and crowdsourcing.
+            This research builds on a foundation established by the HCOMP community during its first decade as an <a
+                href="https://aaai.org/conference/hcomp/" target="_blank" class="inline-link">AAAI conference series</a>
+            focused on human computation and crowdsourcing.
         </p>
 
         <div class="highlight-box">
-            This year, the conference will be co-located and tightly integrated with the <a href="http://ci.acm.org/2026/" target="_blank" style="color: var(--primary-color); font-weight: bold; text-decoration: none;">2026 ACM Collective Intelligence (CI) Conference</a>, creating a unique synergy between researchers in human-AI collaboration and collective intelligence.
+            This year, the conference will be co-located and tightly integrated with the <a
+                href="http://ci.acm.org/2026/" target="_blank"
+                style="color: var(--primary-color); font-weight: bold; text-decoration: none;">2026 ACM Collective
+                Intelligence (CI) Conference</a>, creating a unique synergy between researchers in human-AI
+            collaboration and collective intelligence.
         </div>
 
         <div style="text-align: center;">
-            <a href="https://www.humancomputation.com/2024/past%20meetings.html" target="_blank" class="action-btn">View Past HCOMP Conferences</a>
+            <a href="past-meetings.html" class="action-btn">View Past HCOMP Conferences</a>
         </div>
     </section>
 
@@ -376,139 +677,166 @@ layout: null
             <h2 class="section-title">Important Dates</h2>
             <div class="timeline">
                 <div class="date-card">
-                    <h3>April 2026</h3>
-                    <p>Call for Papers (CFP) Posted</p>
+                    <h3>June 1, 2026</h3>
+                    <p>Abstract Submission Deadline</p>
+                </div>
+                <div class="date-card primary">
+                    <h3>June 8, 2026</h3>
+                    <p>Full Paper Submission Deadline</p>
                 </div>
                 <div class="date-card">
-                    <h3>June 2026</h3>
-                    <p>Paper Submission Deadline</p>
+                    <h3>July 31, 2026</h3>
+                    <p>Decision Notifications</p>
                 </div>
                 <div class="date-card">
                     <h3>September 27-30, 2026</h3>
                     <p>Conference Dates</p>
                 </div>
             </div>
+
+            <!-- Secondary CTA for researchers evaluating the timeline -->
+            <div style="text-align: center; margin-top: 3rem;">
+                <p style="font-weight: 500; margin-bottom: 1rem; color: #555;">Discover all the ways you can participate
+                    in HCOMP 2026</p>
+                <a href="submit.html" class="btn-cta" style="margin-top: 0;">View Call for Participation</a>
+            </div>
         </div>
     </section>
 
-    <section class="container" id="committee">
-        <h2 class="section-title">Organizing Committees</h2>
-        <div class="committees-grid">
-            
-            <div class="committee-group">
-                <h3>HCOMP 2026</h3>
-                
-                <div class="role-section">
-                    <span class="role">General Chair</span>
-                    <div class="person">
-                        <a href="https://crowd.ist.psu.edu/" class="name-link">Ting-Hao 'Kenneth' Huang</a>
-                        <span class="affiliation">Penn State University</span>
-                    </div>
-                </div>
 
-                <div class="role-section">
-                    <span class="role">Program Co-Chairs</span>
-                    <div class="person">
-                        <a href="https://chienjuho.com/" class="name-link">Chien-Ju Ho</a>
-                        <span class="affiliation">Washington University in St. Louis</span>
-                    </div>
-                    <div class="person">
-                        <a href="https://tl-tianyi-li.github.io/" class="name-link">Tianyi Li</a>
-                        <span class="affiliation">Purdue University</span>
-                    </div>
-                </div>
 
-                <div class="role-section">
-                    <span class="role">Workshops Co-Chair</span>
-                    <div class="person">
-                        <a href="https://senjutidutta.com/" class="name-link">Senjuti Dutta</a>
-                        <span class="affiliation">University of Colorado Boulder</span>
-                    </div>
-                </div>
 
-                <div class="role-section">
-                    <span class="role">CrowdCamp Co-Chair</span>
-                    <div class="person">
-                        <a href="https://bmcinnis.github.io/" class="name-link">Brian McInnis</a>
-                        <span class="affiliation">University of Texas at Austin</span>
-                    </div>
-                </div>
+    <style>
+        .sponsor-logos-container {
+            max-width: 1100px;
+            margin: 0 auto;
+            text-align: center;
+        }
 
-                <div class="role-section">
-                    <span class="role">Publicity Co-Chair</span>
-                    <div class="person">
-                        <a href="https://richardhgl.github.io/" class="name-link">Gaole He</a>
-                        <span class="affiliation">National University of Singapore</span>
-                    </div>
-                </div>
-            </div>
+        .sponsor-logos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 4rem;
+            margin-bottom: 3rem;
+            flex-wrap: wrap;
+        }
 
-            <div class="committee-group">
-                <h3>Collective Intelligence (CI) 2026</h3>
-                
-                <div class="role-section">
-                    <span class="role">General Chair</span>
-                    <div class="person">
-                        <a href="https://crowd.cs.vt.edu/kurt-luther/" class="name-link">Kurt Luther</a>
-                        <span class="affiliation">Virginia Tech</span>
-                    </div>
-                </div>
+        .logo-link {
+            border-bottom: none !important;
+            transition: transform 0.3s ease;
+        }
 
-                <div class="role-section">
-                    <span class="role">Program Co-Chairs</span>
-                    <div class="person">
-                        <a href="https://researchprofiles.ku.dk/en/persons/jason-william-burton/" class="name-link">Jason W. Burton</a>
-                        <span class="affiliation">University of Copenhagen</span>
-                    </div>
-                    <div class="person">
-                        <a href="https://lykourentzou.com/index.html" class="name-link">Ioanna Lykourentzou</a>
-                        <span class="affiliation">Utrecht University</span>
-                    </div>
-                </div>
+        .logo-link img {
+            height: auto;
+            max-width: 100%;
+            object-fit: contain;
+            display: block;
+            margin: 0 auto;
+        }
 
-                <div class="role-section">
-                    <span class="role">Workshops Co-Chair</span>
-                    <div class="person">
-                        <a href="https://vikrammohanty.com/" class="name-link">Vikram Mohanty</a>
-                        <span class="affiliation">Carnegie Mellon University</span>
-                    </div>
-                </div>
+        /* Hierarchy Sizing */
+        .tier-platinum .logo-link img {
+            width: 350px;
+            max-height: 150px;
+        }
 
-                <div class="role-section">
-                    <span class="role">CrowdCamp Co-Chair</span>
-                    <div class="person">
-                        <a href="https://www.cs.jhu.edu/~yaxing/" class="name-link">Yaxing Yao</a>
-                        <span class="affiliation">Johns Hopkins University</span>
-                    </div>
-                </div>
+        .tier-gold .logo-link img {
+            width: 315px;
+            max-height: 135px;
+        }
 
-                <div class="role-section">
-                    <span class="role">Publicity Co-Chair</span>
-                    <div class="person">
-                        <a href="https://www.saiph.org/" class="name-link">Saiph Savage</a>
-                        <span class="affiliation">Northeastern University</span>
-                    </div>
-                </div>
-            </div>
+        .tier-silver .logo-link img {
+            width: 280px;
+            max-height: 120px;
+        }
 
-        </div>
-    </section>
+        .tier-bronze .logo-link img {
+            width: 250px;
+            max-height: 100px;
+        }
 
+        .tier-societies .logo-link img {
+            width: 220px;
+            max-height: 90px;
+            opacity: 0.85;
+        }
+
+        .logo-link:hover {
+            transform: scale(1.05);
+        }
+    </style>
     <section class="sponsors-section">
         <h2 class="section-title">Sponsors</h2>
-        <div class="sponsor-logos">
-            <a href="https://www.sigweb.org/" target="_blank" class="logo-link">
-                <img src="images/sigweb_logo.jpeg" alt="ACM SIGWEB Sponsor Logo">
-            </a>
-            <a href="https://sigchi.org/" target="_blank" class="logo-link">
-                <img src="images/sigchi_logo.png" alt="ACM SIGCHI Sponsor Logo">
-            </a>
+        <div class="sponsor-logos-container">
+            <!-- Platinum (Hidden) -->
+            <!-- <div class="tier-platinum">
+                <div class="sponsor-logos">
+                </div>
+            </div> -->
+
+            <!-- Gold (Hidden) -->
+            <!-- <div class="tier-gold">
+                <div class="sponsor-logos">
+                </div>
+            </div> -->
+
+            <!-- Silver & Support -->
+            <div class="tier-silver">
+                <div class="sponsor-logos">
+                    <a href="https://ifm.ai/" target="_blank" class="logo-link">
+                        <img src="images/Sponsors/ifm-logo.svg" alt="Institute of Foundation Models Logo">
+                    </a>
+                    <a href="https://aij.ijcai.org/funding-opportunities-for-promoting-ai-research/" target="_blank"
+                        class="logo-link">
+                        <img src="images/Sponsors/ARTINT_Logo2_c_web_more.jpg" alt="AI Journal Logo">
+                    </a>
+                </div>
+            </div>
+
+
+            <!-- Bronze (Hidden) -->
+            <!-- <div class="tier-bronze">
+                <div class="sponsor-logos">
+                </div>
+            </div> -->
+
+            <!-- Societies -->
+            <div class="tier-societies">
+
+                <div class="sponsor-logos">
+                    <a href="https://www.sigweb.org/" target="_blank" class="logo-link">
+                        <img src="images/sigweb_logo.jpeg" alt="ACM SIGWEB Sponsor Logo">
+                    </a>
+                    <a href="https://sigchi.org/" target="_blank" class="logo-link">
+                        <img src="images/sigchi_logo.png" alt="ACM SIGCHI Sponsor Logo">
+                    </a>
+                    <a href="sponsors.html" class="logo-link" style="text-decoration: none;">
+                        <div class="sponsor-cta-box" style="width: 250px; height: 100px;">
+                            <p class="cta-text-main">...and you?</p>
+                            <p class="cta-text-sub">Join as a 2026 Sponsor</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
+
+
+
+
+
+
 
     <footer>
         <p>&copy; 2026 Association for Computing Machinery. All rights reserved.</p>
     </footer>
 
+    <script>
+        document.getElementById('hamburger').addEventListener('click', function () {
+            document.getElementById('nav-links').classList.toggle('show');
+        });
+    </script>
 </body>
+
 </html>

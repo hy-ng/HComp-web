@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>{{ title }}</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!--   favicon link-->
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+    <!-- Custom CSS  -->
+    <link href="css/landing-page.css?{{site.time | date: '%s%N'}}" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,900" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary-color: #861F41;
+            --secondary-color: #E87722;
+            --dark-bg: #1a1a1a;
+            --light-bg: #f9f9f9;
+            --text-main: #333333;
+            --text-muted: #555555;
+            --white: #ffffff;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-padding-top: 100px;
+            /* Pre-scrolls anchor targets below navbar */
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            font-weight: 400;
+            line-height: 1.6;
+            color: var(--text-main);
+            background-color: var(--white);
+            padding-top: 60px;
+            /* Prevents fixed navbar from overlapping content */
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            line-height: 1.2;
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+            font-weight: 700;
+        }
+
+        .page-content {
+            flex: 1 0 auto;
+            width: 100%;
+        }
+
+        .page-content h1 {
+            margin-top: 2.0rem;
+        }
+
+        .page-content h2 {
+            margin-top: 1.5rem;
+        }
+
+        .page-content>*:first-child {
+            margin-top: 0 !important;
+        }
+
+        /* Container & Layout */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0.25rem 20px;
+        }
+
+        /* Navigation (Copied from 2024) */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: white;
+            border-bottom: 1px solid #ddd;
+            box-shadow: 1px 1px 15px rgba(0, 0, 0, .1);
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .navbar-brand {
+            color: var(--primary-color);
+            font-size: 21px;
+            font-weight: 700;
+            text-decoration: none;
+            transition: all 0.5s ease;
+            font-family: 'Open Sans', sans-serif;
+            text-transform: uppercase;
+            white-space: nowrap;
+        }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            border: none;
+            background: transparent;
+            padding: 5px;
+        }
+
+        .hamburger span {
+            width: 25px;
+            height: 3px;
+            background-color: var(--primary-color);
+            margin-bottom: 4px;
+            border-radius: 2px;
+            transition: all 0.3s ease;
+        }
+
+        @media (max-width: 1100px) {
+            .navbar {
+                flex-wrap: wrap;
+            }
+
+            .hamburger {
+                display: flex;
+            }
+
+            .navbar-nav {
+                flex-direction: column !important;
+                width: 100%;
+                background: white;
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
+                padding-top: 0;
+                padding-bottom: 0;
+            }
+
+            .navbar-nav.show {
+                max-height: 400px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+            }
+
+            .navbar-nav a {
+                margin: 12px 0;
+                margin-left: 0;
+                text-align: center;
+                width: 100%;
+            }
+        }
+
+        .navbar-brand:hover {
+            color: var(--secondary-color);
+        }
+
+        .navbar-nav {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+        }
+
+        .navbar-nav a {
+            color: #333;
+            margin-left: 30px;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            text-decoration: none;
+            font-weight: 600;
+            font-family: 'Open Sans', sans-serif;
+            transition: all 0.5s ease;
+        }
+
+        .navbar-nav a:hover,
+        .navbar-nav a.active {
+            color: var(--primary-color);
+        }
+
+        .navbar-nav a.disabled {
+            color: #aaa !important;
+            pointer-events: none;
+            cursor: default;
+            opacity: 0.6;
+        }
+
+        /* Subpage Banner */
+        .subpage-hero {
+            height: 200px;
+            min-height: 200px;
+            flex-shrink: 0;
+            /* Prevents compression on extremely long or short pages due to body flex */
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/ab1.jpg') no-repeat center center;
+            background-size: cover;
+            width: 100%;
+        }
+
+        /* Page Content Specific Setup */
+        .page-content {
+            margin-top: 2rem;
+            margin-bottom: 4rem;
+        }
+
+        .page-content a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+            border-bottom: 1px solid rgba(134, 31, 65, 0.3);
+            transition: color 0.2s ease, border-bottom-color 0.2s ease;
+        }
+
+        .page-content a:hover {
+            color: var(--secondary-color);
+            border-bottom-color: var(--secondary-color);
+        }
+
+        .page-content p {
+            margin-bottom: 1.5rem;
+        }
+
+        .page-content ul,
+        .page-content ol {
+            margin-bottom: 1.5rem;
+            padding-left: 2rem;
+        }
+
+        .page-content li {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Markdown Table Styles (Responsive & Professional) */
+        .page-content table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 2.5rem 0;
+            font-size: 1rem;
+            background-color: var(--white);
+            display: block;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+
+        .page-content th,
+        .page-content td {
+            padding: 14px 18px;
+            border: 1px solid #e0e0e0;
+            text-align: left;
+            min-width: 150px;
+        }
+
+        .page-content th {
+            background-color: #f8f8f8;
+            color: var(--primary-color);
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            border-bottom: 2px solid var(--secondary-color);
+        }
+
+        .page-content tr:nth-of-type(even) {
+            background-color: #fafafa;
+        }
+
+        .page-content tr:hover {
+            background-color: #f3f3f3;
+        }
+
+
+        .sub-page-header {
+            font-size: 2.2rem;
+            text-align: center;
+            margin-top: 3.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .sub-page-header::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 4px;
+            background-color: var(--secondary-color);
+            margin: 15px auto 3rem;
+            border-radius: 2px;
+        }
+
+        .sub-page-border {
+            display: none;
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--dark-bg);
+            color: var(--white);
+            text-align: center;
+            padding: 2rem 20px;
+        }
+
+        footer p {
+            opacity: 0.7;
+            font-size: 0.9rem;
+        }
+
+        mark {
+            background-color: transparent;
+            color: inherit;
+            font-weight: bold;
+        }
+
+        /* Organizers Legacy Structure Support */
+        .organizers-header {
+            height: 10px;
+        }
+
+        .profile-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 2rem;
+            gap: 20px;
+        }
+
+        /* Bootstrap grid flex fallbacks */
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .col-md-1,
+        .col-md-3,
+        .col-md-4,
+        .col-md-5,
+        .col-md-6,
+        .col-md-12 {
+            display: flex;
+            flex-direction: column;
+            padding: 15px;
+            box-sizing: border-box;
+        }
+
+        .profile-row>div {
+            align-items: center;
+            text-align: center;
+        }
+
+        .col-md-12 {
+            width: 100%;
+        }
+
+        .col-md-6 {
+            width: 50%;
+        }
+
+        .col-md-5 {
+            width: calc(40% - 20px);
+        }
+
+        .col-md-4 {
+            width: calc(33.333% - 20px);
+        }
+
+        .col-md-3 {
+            width: calc(25% - 20px);
+        }
+
+        @media (max-width: 850px) {
+
+            .col-md-3,
+            .col-md-4,
+            .col-md-5,
+            .col-md-6 {
+                width: 100%;
+            }
+        }
+
+        ul.list-inline {
+            padding-left: 0 !important;
+            list-style: none !important;
+            margin-bottom: 0.5rem;
+        }
+
+        ul.list-inline>li {
+            display: inline-block;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        /* Compress Past Meetings and Proceedings Grid */
+        .intro-paragraph.text-center .col-md-6 {
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+
+        .intro-paragraph.text-center p {
+            margin-bottom: 5px;
+        }
+
+        .intro-paragraph.text-center .theme-link-org {
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+
+        .photo-size {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border: 4px solid var(--white);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            margin-bottom: 1.5rem;
+        }
+
+        .rounded-circle {
+            border-radius: 50%;
+        }
+
+        .theme-link-org {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.4rem;
+            transition: color 0.3s ease;
+        }
+
+        .theme-link-org:hover {
+            color: var(--secondary-color);
+        }
+
+        .organizers .lead {
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            margin-bottom: 0;
+            line-height: 1.4;
+        }
+
+        .organizer-name {
+            text-align: center;
+            font-size: 2rem;
+            color: var(--primary-color);
+            margin-top: 4rem;
+            margin-bottom: 2rem;
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a class="navbar-brand" href="index.html">HCOMP 2026</a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="navbar-nav" id="nav-links">
+            <a href="submit.html" {% if page.url contains 'submit' %}class="active" {% endif %}>Call for
+                Participation</a>
+            <a href="#" class="disabled">Attend</a>
+            <a href="#" class="disabled">Program</a>
+            <a href="code-of-conduct.html" {% if page.url contains 'code-of-conduct' %}class="active" {% endif %}>Code
+                of Conduct</a>
+            <a href="organizers.html" {% if page.url contains 'organizers' %}class="active" {% endif %}>Organizers</a>
+            <a href="sponsors.html" {% if page.url contains 'sponsors' %}class="active" {% endif %}>Sponsors</a>
+            <a href="past-meetings.html">Past Meetings</a>
+        </div>
+    </nav>
+
+    <!-- Subpage Hero Banner -->
+    <div class="subpage-hero"></div>
+
+    <!-- Page Content -->
+    <main class="page-content container">
+        {{ content }}
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Association for Computing Machinery. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById('hamburger').addEventListener('click', function () {
+            document.getElementById('nav-links').classList.toggle('show');
+        });
+
+        // Dynamic Sticky Positioning for Sub-navbars
+        // This ensures sub-navs always sit perfectly under the main navbar across all devices
+        const updateSubnavPosition = () => {
+            const mainNav = document.querySelector('.navbar');
+            const subnavs = document.querySelectorAll('.sticky-subnav');
+            if (mainNav && subnavs.length > 0) {
+                const height = mainNav.offsetHeight;
+                subnavs.forEach(nav => {
+                    nav.style.top = (height - 1) + 'px'; // 1px overlap to eliminate tiny gaps
+                });
+                document.documentElement.style.setProperty('--navbar-height', height + 'px');
+            }
+        };
+
+        window.addEventListener('DOMContentLoaded', updateSubnavPosition);
+        window.addEventListener('load', updateSubnavPosition);
+        window.addEventListener('resize', updateSubnavPosition);
+    </script>
+</body>
+
+</html>
