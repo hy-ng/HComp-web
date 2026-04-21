@@ -371,30 +371,35 @@ year: 2026
       requestAnimationFrame(animation);
     };
 
-    // Intersection Observer for Active State Coloring
-    const observerOptions = {
-      root: null,
-      rootMargin: '-150px 0px -70% 0px',
-      threshold: 0
-    };
-
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          const id = entry.target.getAttribute('id');
-          navLinks.forEach(link => {
-            link.classList.remove('hcomp-active', 'ci-active');
-            if (link.getAttribute('href') === `#${id}`) {
-              if (id === 'hcomp-oc') link.classList.add('hcomp-active');
-              if (id === 'ci-oc') link.classList.add('ci-active');
-            }
-          });
+    // Robust Scroll-Spy for Active State Coloring (Multiple Checking)
+    let currentActiveId = '';
+    const updateActiveState = () => {
+      const sections = document.querySelectorAll('section[id]');
+      let activeSectionId = '';
+      
+      sections.forEach(sec => {
+        const rect = sec.getBoundingClientRect();
+        // Section is "active" if it occupies the top-middle part of the screen (around 150px-250px down)
+        // This is robust for fast scrolling and directional changes at margins
+        if (rect.top <= 250 && rect.bottom >= 150) {
+          activeSectionId = sec.getAttribute('id');
         }
       });
-    }, observerOptions);
 
-    document.querySelectorAll('section[id]').forEach(section => {
-      observer.observe(section);
+      if (activeSectionId && activeSectionId !== currentActiveId) {
+        currentActiveId = activeSectionId;
+        navLinks.forEach(link => {
+          const isActive = link.getAttribute('href') === `#${activeSectionId}`;
+          link.classList.toggle('hcomp-active', isActive && activeSectionId === 'hcomp-oc');
+          link.classList.toggle('ci-active', isActive && activeSectionId === 'ci-oc');
+        });
+      }
+    };
+
+    window.addEventListener('scroll', () => {
+      window.requestAnimationFrame(updateActiveState);
     });
+    // Initial check
+    updateActiveState();
   });
 </script>
