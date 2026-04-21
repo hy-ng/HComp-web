@@ -8,48 +8,178 @@ year: 2026
   <h1 class="sub-page-header">HCOMP 2026 Sponsors</h1>
   <div class="sub-page-border"></div>
   <style>
+    .sponsor-section {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .sub-page-header {
+      margin-top: 1rem !important;
+    }
+
+
+    .tier-header {
+      font-size: 1.5rem;
+      text-align: center;
+      margin-bottom: 2rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .tier-platinum,
+    .tier-platinum h2,
+    .tier-platinum h3 {
+      color: #506670 !important;
+      /* Cool Platinum Grey */
+    }
+
+    .tier-gold,
+    .tier-gold h2,
+    .tier-gold h3 {
+      color: #b8860b !important;
+      /* Metallic Gold */
+    }
+
+    .tier-silver,
+    .tier-silver h2,
+    .tier-silver h3 {
+      color: #808080 !important;
+      /* Neutral Silver Grey */
+    }
+
+    .tier-bronze,
+    .tier-bronze h2,
+    .tier-bronze h3 {
+      color: #8b4513 !important;
+      /* Bronze/Saddle Brown */
+    }
+
+    .tier-societies,
+    .tier-societies h2,
+    .tier-societies h3 {
+      color: var(--primary-color) !important;
+    }
+
+
+
+
     .sponsor-logos {
       display: flex;
       justify-content: center;
       align-items: center;
       gap: 4rem;
-      max-width: 900px;
-      margin: 3rem auto;
+      max-width: 1000px;
+      margin: 0 auto 3rem;
       flex-wrap: wrap;
     }
 
     .logo-link {
       border-bottom: none !important;
+      transition: transform 0.3s ease;
     }
 
     .logo-link:hover {
       border-bottom: none !important;
+      transform: scale(1.05);
     }
 
     .logo-link img {
       height: auto;
-      width: 300px;
-      max-width: 100%;
       object-fit: contain;
       display: block;
+      margin: 0 auto;
+      transition: transform 0.3s ease;
+    }
+
+    /* Hierarchy Sizing */
+    .tier-platinum .logo-link img {
+      width: 350px;
+      max-height: 150px;
+    }
+
+    .tier-gold .logo-link img {
+      width: 315px;
+      max-height: 135px;
+    }
+
+    .tier-silver .logo-link img {
+      width: 280px;
+      max-height: 120px;
+    }
+
+    .tier-bronze .logo-link img {
+      width: 250px;
+      max-height: 100px;
+    }
+
+    .tier-societies .logo-link img {
+      width: 220px;
+      max-height: 90px;
+      opacity: 0.85;
+    }
+
+
+    .logo-link:hover img {
+      transform: scale(1.05);
     }
   </style>
-  <div class="sponsor-logos">
-    <a href="https://www.sigweb.org/" target="_blank" class="logo-link">
-      <img src="images/sigweb_logo.jpeg" alt="ACM SIGWEB Sponsor Logo">
-    </a>
-    <a href="https://sigchi.org/" target="_blank" class="logo-link">
-      <img src="images/sigchi_logo.png" alt="ACM SIGCHI Sponsor Logo">
-    </a>
-    <div
-      style="width: 250px; height: 120px; border: 3px dashed #d9d9d9; border-radius: 10px; display: flex; flex-direction: column; justify-content: center; align-items: center; background-color: rgba(0,0,0,0.01); color: #777;">
-      <p style="font-weight: 700; font-size: 1.3rem; margin-bottom: 2px; color: var(--primary-color);">...and you?</p>
-      <p style="font-size: 1rem; margin-bottom: 0; font-weight: 500;">Join as a 2026 Sponsor</p>
+
+
+  <div class="sponsor-section">
+    <!-- PLATINUM (Hidden until sponsor added) -->
+    <!-- <div class="tier-platinum">
+      <h2 class="tier-header">Platinum</h2>
+      <div class="sponsor-logos">
+      </div>
+    </div> -->
+
+    <!-- GOLD (Hidden until sponsor added) -->
+    <!-- <div class="tier-gold">
+      <h2 class="tier-header">Gold</h2>
+      <div class="sponsor-logos">
+      </div>
+    </div> -->
+
+    <!-- SILVER -->
+    <div class="tier-silver">
+      <h2 class="tier-header">Silver</h2>
+      <div class="sponsor-logos" style="gap: 5rem;">
+        <a href="https://ifm.ai/" target="_blank" class="logo-link">
+          <img src="images/Sponsors/ifm-logo.svg" alt="Institute of Foundation Models Logo">
+        </a>
+        <a href="https://www.sciencedirect.com/journal/artificial-intelligence" target="_blank" class="logo-link">
+          <img src="images/Sponsors/ARTINT_Logo2_c_web_more.jpg" alt="AI Journal Logo">
+        </a>
+      </div>
+    </div>
+
+    <!-- BRONZE (Hidden until sponsor added) -->
+    <!-- <div class="tier-bronze">
+      <h2 class="tier-header">Bronze</h2>
+      <div class="sponsor-logos">
+      </div>
+    </div> -->
+
+
+
+    <!-- SOCIETIES -->
+    <div class="tier-societies">
+      <h2 class="tier-header">Sponsoring Societies</h2>
+      <div class="sponsor-logos">
+        <a href="https://www.sigweb.org/" target="_blank" class="logo-link">
+          <img src="images/sigweb_logo.jpeg" alt="ACM SIGWEB Sponsor Logo">
+        </a>
+        <a href="https://sigchi.org/" target="_blank" class="logo-link">
+          <img src="images/sigchi_logo.png" alt="ACM SIGCHI Sponsor Logo">
+        </a>
+      </div>
     </div>
   </div>
 </div>
 
 <div class="container" style="margin-top: 10px;">
+
   <h1 class="sub-page-header">Call for Sponsors</h1>
   <div class="sub-page-border"></div>
 </div>
@@ -319,8 +449,8 @@ year: 2026
 
 
   <h2 class="section-heading">Sponsorship Tiers</h2>
-
-  <h3 class="section-heading">Platinum (USD $10,000+)</h3>
+  <br>
+  <h3 class="section-heading tier-platinum">Platinum (USD $10,000+)</h3>
   <ul class="lead">
     <li>Named event or session</li>
     <li>Named award</li>
@@ -329,23 +459,24 @@ year: 2026
     <li><i>Plus Silver package</i></li>
   </ul>
 
-  <h3 class="section-heading">Gold (USD $5,000+)</h3>
+  <h3 class="section-heading tier-platinum">Gold (USD $5,000+)</h3>
   <ul class="lead">
     <li>1 complimentary registration</li>
     <li><i>Plus Silver package</i></li>
   </ul>
 
-  <h3 class="section-heading">Silver (USD $1,000+)</h3>
+  <h3 class="section-heading tier-silver">Silver (USD $1,000+)</h3>
   <ul class="lead">
     <li>Booth at poster session</li>
     <li>Job postings distributed</li>
     <li><i>Plus Bronze package</i></li>
   </ul>
 
-  <h3 class="section-heading">Bronze (USD $500+)</h3>
+  <h3 class="section-heading tier-bronze">Bronze (USD $500+)</h3>
   <ul class="lead">
     <li>Branding across website, materials, plenaries, and signage</li>
   </ul>
+
 
   <!-- <h3 class="section-heading">Exclusive Add-on: Named Student Scholarship (+$5K or greater)</h3>
   <p class="lead">
@@ -412,12 +543,14 @@ year: 2026
       <thead>
         <tr style="background-color: #f8f8f8;">
           <th class="tg-left">Feature</th>
-          <th class="tg-0pky">Platinum</th>
-          <th class="tg-0pky">Gold</th>
-          <th class="tg-0pky">Silver</th>
-          <th class="tg-0pky">Bronze</th>
+          <th class="tg-0pky tier-platinum">Platinum</th>
+          <th class="tg-0pky tier-platinum">Gold</th>
+          <th class="tg-0pky tier-silver">Silver</th>
+          <th class="tg-0pky tier-bronze">Bronze</th>
         </tr>
       </thead>
+
+
       <tbody>
         <tr>
           <td class="tg-left">Investment in USD $</td>

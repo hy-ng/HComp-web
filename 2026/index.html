@@ -623,7 +623,7 @@ layout: null
             <div class="location">
                 📍 <a href="https://iac.vt.edu/about/Location.html" target="_blank" class="location-link">Virginia Tech
                     Institute for Advanced Computing</a><br>
-                Alexandria, Virginia, USA
+                Near Washington, DC
             </div>
             <div class="date-badge">
                 September 27-30, 2026
@@ -697,23 +697,127 @@ layout: null
 
 
 
+    <style>
+        .sponsor-logos-container {
+            max-width: 1100px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .sponsor-logos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 4rem;
+            margin-bottom: 3rem;
+            flex-wrap: wrap;
+        }
+
+        .logo-link {
+            border-bottom: none !important;
+            transition: transform 0.3s ease;
+        }
+
+        .logo-link img {
+            height: auto;
+            max-width: 100%;
+            object-fit: contain;
+            display: block;
+            margin: 0 auto;
+        }
+
+        /* Hierarchy Sizing */
+        .tier-platinum .logo-link img {
+            width: 350px;
+            max-height: 150px;
+        }
+
+        .tier-gold .logo-link img {
+            width: 315px;
+            max-height: 135px;
+        }
+
+        .tier-silver .logo-link img {
+            width: 280px;
+            max-height: 120px;
+        }
+
+        .tier-bronze .logo-link img {
+            width: 250px;
+            max-height: 100px;
+        }
+
+        .tier-societies .logo-link img {
+            width: 220px;
+            max-height: 90px;
+            opacity: 0.85;
+        }
+
+        .logo-link:hover {
+            transform: scale(1.05);
+        }
+    </style>
     <section class="sponsors-section">
         <h2 class="section-title">Sponsors</h2>
-        <div class="sponsor-logos">
-            <a href="https://www.sigweb.org/" target="_blank" class="logo-link">
-                <img src="images/sigweb_logo.jpeg" alt="ACM SIGWEB Sponsor Logo">
-            </a>
-            <a href="https://sigchi.org/" target="_blank" class="logo-link">
-                <img src="images/sigchi_logo.png" alt="ACM SIGCHI Sponsor Logo">
-            </a>
-            <a href="sponsors.html" class="logo-link" style="text-decoration: none;">
-                <div class="sponsor-cta-box">
-                    <p class="cta-text-main">...and you?</p>
-                    <p class="cta-text-sub">Join as a 2026 Sponsor</p>
+        <div class="sponsor-logos-container">
+            <!-- Platinum (Hidden) -->
+            <!-- <div class="tier-platinum">
+                <div class="sponsor-logos">
                 </div>
-            </a>
+            </div> -->
+
+            <!-- Gold (Hidden) -->
+            <!-- <div class="tier-gold">
+                <div class="sponsor-logos">
+                </div>
+            </div> -->
+
+            <!-- Silver & Support -->
+            <div class="tier-silver">
+                <div class="sponsor-logos">
+                    <a href="https://ifm.ai/" target="_blank" class="logo-link">
+                        <img src="images/Sponsors/ifm-logo.svg" alt="Institute of Foundation Models Logo">
+                    </a>
+                    <a href="https://www.sciencedirect.com/journal/artificial-intelligence" target="_blank"
+                        class="logo-link">
+                        <img src="images/Sponsors/ARTINT_Logo2_c_web_more.jpg" alt="AI Journal Logo">
+                    </a>
+                </div>
+            </div>
+
+
+            <!-- Bronze (Hidden) -->
+            <!-- <div class="tier-bronze">
+                <div class="sponsor-logos">
+                </div>
+            </div> -->
+
+            <!-- Societies -->
+            <div class="tier-societies">
+
+                <div class="sponsor-logos">
+                    <a href="https://www.sigweb.org/" target="_blank" class="logo-link">
+                        <img src="images/sigweb_logo.jpeg" alt="ACM SIGWEB Sponsor Logo">
+                    </a>
+                    <a href="https://sigchi.org/" target="_blank" class="logo-link">
+                        <img src="images/sigchi_logo.png" alt="ACM SIGCHI Sponsor Logo">
+                    </a>
+                    <a href="sponsors.html" class="logo-link" style="text-decoration: none;">
+                        <div class="sponsor-cta-box" style="width: 250px; height: 100px;">
+                            <p class="cta-text-main">...and you?</p>
+                            <p class="cta-text-sub">Join as a 2026 Sponsor</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
+
+
+
+
+
+
 
     <footer>
         <p>&copy; 2026 Association for Computing Machinery. All rights reserved.</p>
