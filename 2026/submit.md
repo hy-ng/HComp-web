@@ -347,10 +347,10 @@ year: 2026
 The [2026 ACM Conference on Human-AI Complementarity and Alignment (HCOMP)](https://www.humancomputation.com/2026/) and the [2026 ACM Collective Intelligence (CI) Conference](https://ci.acm.org/2026/) will be held as co-located events from September 27-30, 2026, at the Virginia Tech Institute for Advanced Computing near Washington, DC, USA.
 
 ## **HCOMP 2026 General Chair**<br>
-Ting-Hao 'Kenneth' Huang, Penn State University
+**Ting-Hao 'Kenneth' Huang**, Penn State University
 
 ## **CI 2026 General Chair**<br>
-Kurt Luther, Virginia Tech
+**Kurt Luther**, Virginia Tech
 
 ---
 
@@ -394,8 +394,8 @@ Example topics for HCOMP include, but are not limited to, the following:
 *   Human roles in the development, assessment, and governance of AI systems
 
 ### **HCOMP 2026 Program Co-Chairs**<br>
-Chien-Ju Ho, Washington University in St. Louis<br>
-Tianyi Li, Purdue University
+**Chien-Ju Ho**, Washington University in St. Louis<br>
+**Tianyi Li**, Purdue University
 
 ## Collective Intelligence (CI)
 
@@ -428,8 +428,8 @@ Research into systems and tasks to support the following, but not limited to:
 *   Computer-human collaboration (e.g. hybrid systems, LLMs)
 
 ### **CI 2026 Program Co-Chairs**<br>
-Jason W. Burton, University of Copenhagen<br>
-Ioanna Lykourentzou, Utrecht University
+**Jason W. Burton**, University of Copenhagen<br>
+**Ioanna Lykourentzou**, Utrecht University
 
 ---
 
@@ -525,12 +525,12 @@ This represents a [65% discount](https://www.acm.org/publications/openaccess), f
 The list of Program Committee (PC) members for HCOMP and CI 2026 will be available soon. The program chairs are:
 
 ### **HCOMP 2026 Program Co-Chairs**<br>
-Chien-Ju Ho, Washington University in St. Louis<br>
-Tianyi Li, Purdue University
+**Chien-Ju Ho**, Washington University in St. Louis<br>
+**Tianyi Li**, Purdue University
 
 ### **CI 2026 Program Co-Chairs**<br>
-Jason W. Burton, University of Copenhagen<br>
-Ioanna Lykourentzou, Utrecht University
+**Jason W. Burton**, University of Copenhagen<br>
+**Ioanna Lykourentzou**, Utrecht University
 
 ---
 
