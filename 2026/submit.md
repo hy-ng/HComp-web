@@ -542,6 +542,14 @@ The list of Program Committee (PC) members for HCOMP and CI 2026 will be availab
 
 Coming soon!
 
+### **HCOMP 2026 Posters and Demos Co-Chairs**<br>
+**Oana Inel**, University of Zurich<br>
+**Hari Subramonyam**, Stanford University
+
+### **CI 2026 Posters and Demos Co-Chairs**<br>
+**Vineet Pandey**, University of Utah<br>
+**Xinlan Emily Hu**, MIT
+
 ---
 
 # Call for Doctoral Consortium
@@ -551,6 +559,12 @@ Coming soon!
 {:.sub-page-border}
 
 Coming soon!
+
+### **HCOMP 2026 Doctoral Consortium Co-Chair**<br>
+**Joel Chan**, University of Maryland
+
+### **CI 2026 Doctoral Consortium Co-Chair**<br>
+**Wesley Hanwen Deng**, Microsoft Research
 
 ---
 
@@ -562,6 +576,12 @@ Coming soon!
 
 Coming soon!
 
+### **HCOMP 2026 Workshops Co-Chair**<br>
+**Senjuti Dutta**, University of Colorado Boulder
+
+### **CI 2026 Workshops Co-Chair**<br>
+**Vikram Mohanty**, Carnegie Mellon University
+
 ---
 
 # Call for CrowdCamp
@@ -571,6 +591,14 @@ Coming soon!
 {:.sub-page-border}
 
 Coming soon!
+
+### **HCOMP 2026 CrowdCamp Co-Chairs**<br>
+**Brian McInnis**, University of Texas at Austin<br>
+**Stephanie Valencia**, University of Maryland, College Park
+
+### **CI 2026 CrowdCamp Co-Chairs**<br>
+**Yaxing Yao**, Johns Hopkins University<br>
+**Yasmine Kotturi**, University of Maryland, Baltimore County
 
 ---
 
