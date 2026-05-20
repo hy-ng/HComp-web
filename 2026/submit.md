@@ -523,29 +523,26 @@ This represents a [65% discount](https://www.acm.org/publications/openaccess), f
 ## Program Committees
 
 ### **HCOMP 2026 Program Committee**
-*   **Jérôme Waldispühl**, McGill University
-*   **Amy Rechkemmer**, Purdue University
-*   **Matthias Hirth**, TU Ilmenau
-*   **Bart Knijnenburg**, Clemson University
 *   **Omar Alonso**, Amazon
 *   **Boualem Benatallah**, School of Computing, Dublin City University, Ireland
-*   **Atsuyuki Morishima**, University of Tsukuba
-*   **Jie Yang**, Delft University of Technology
-*   **Adish Singla**, MPI-SWS
 *   **Marco Brambilla**, Politecnico di Milano
-*   **Hemant Purohit**, George Mason University
-*   **Maja Vukovic**, IBM
+*   **Samuel Carton**, University of Chicago
 *   **Fabio Casati**, Servicenow
 *   **Shih-Fen Cheng**, Singapore Management University
 *   **Katie Collins**, MIT
-*   **Hua Shen**
-*   **Mahsan Nourani**, Northeastern University
-*   **Rhema Linder**, University of Tennessee, Knoxville
 *   **Haym Hirsh**, Cornell University
-*   **Samuel Carton**, University of Chicago
-
-### **CI 2026 Program Committee**
-*Coming soon!*
+*   **Matthias Hirth**, TU Ilmenau
+*   **Bart Knijnenburg**, Clemson University
+*   **Rhema Linder**, University of Tennessee, Knoxville
+*   **Atsuyuki Morishima**, University of Tsukuba
+*   **Mahsan Nourani**, Northeastern University
+*   **Hemant Purohit**, George Mason University
+*   **Amy Rechkemmer**, Purdue University
+*   **Hua Shen**, NYU Shanghai
+*   **Adish Singla**, MPI-SWS
+*   **Maja Vukovic**, IBM
+*   **Jérôme Waldispühl**, McGill University
+*   **Jie Yang**, Delft University of Technology
 
 ---
 
