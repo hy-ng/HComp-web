@@ -522,15 +522,30 @@ This represents a [65% discount](https://www.acm.org/publications/openaccess), f
 
 ## Program Committees
 
-The list of Program Committee (PC) members for HCOMP and CI 2026 will be available soon. The program chairs are:
+### **HCOMP 2026 Program Committee**
+*   **Jérôme Waldispühl**, McGill University
+*   **Amy Rechkemmer**, Purdue University
+*   **Matthias Hirth**, TU Ilmenau
+*   **Bart Knijnenburg**, Clemson University
+*   **Omar Alonso**, Amazon
+*   **Boualem Benatallah**, School of Computing, Dublin City University, Ireland
+*   **Atsuyuki Morishima**, University of Tsukuba
+*   **Jie Yang**, Delft University of Technology
+*   **Adish Singla**, MPI-SWS
+*   **Marco Brambilla**, Politecnico di Milano
+*   **Hemant Purohit**, George Mason University
+*   **Maja Vukovic**, IBM
+*   **Fabio Casati**, Servicenow
+*   **Shih-Fen Cheng**, Singapore Management University
+*   **Katie Collins**, MIT
+*   **Hua Shen**
+*   **Mahsan Nourani**, Northeastern University
+*   **Rhema Linder**, University of Tennessee, Knoxville
+*   **Haym Hirsh**, Cornell University
+*   **Samuel Carton**, University of Chicago
 
-### **HCOMP 2026 Program Co-Chairs**<br>
-**Chien-Ju Ho**, Washington University in St. Louis<br>
-**Tianyi Li**, Purdue University
-
-### **CI 2026 Program Co-Chairs**<br>
-**Jason W. Burton**, University of Copenhagen<br>
-**Ioanna Lykourentzou**, Utrecht University
+### **CI 2026 Program Committee**
+*Coming soon!*
 
 ---
 
