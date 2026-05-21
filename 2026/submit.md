@@ -346,6 +346,10 @@ year: 2026
 
 The [2026 ACM Conference on Human-AI Complementarity and Alignment (HCOMP)](https://www.humancomputation.com/2026/) and the [2026 ACM Collective Intelligence (CI) Conference](https://ci.acm.org/2026/) will be held as co-located events from September 27-30, 2026, at the Virginia Tech Institute for Advanced Computing near Washington, DC, USA.
 
+## 2026 Conference Theme: "Connections"
+
+The theme of this year's co-located conference is **Connections**. <span style="background-color: #fff07bff; padding: 2px;">We encourage submissions that explore connections across disciplines; across humans, animals, and machines; between individuals and communities, and beyond.</span>
+
 ## **HCOMP 2026 General Chair**<br>
 **Ting-Hao 'Kenneth' Huang**, The Pennsylvania State University
 
@@ -524,7 +528,7 @@ This represents a [65% discount](https://www.acm.org/publications/openaccess), f
 
 ### **HCOMP 2026 Program Committee**
 *   **Omar Alonso**, Amazon
-*   **Boualem Benatallah**, School of Computing, Dublin City University, Ireland
+*   **Boualem Benatallah**, Dublin City University, Ireland
 *   **Marco Brambilla**, Politecnico di Milano
 *   **Samuel Carton**, University of Chicago
 *   **Fabio Casati**, Servicenow
