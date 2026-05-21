@@ -14,7 +14,7 @@ year: 2026
 - Call for [Papers and Talks](#papers)
 - Call for [Posters and Demos](#posters) (Coming Soon!)
 - Call for [Doctoral Consortium](#dc) (Coming Soon!)
-- Call for [Workshops](#workshops) (Coming Soon!)
+- Call for [Workshops](#workshops)
 - Call for [CrowdCamp](#crowdcamp) (Coming Soon!)
 - [General Submission Instructions](#general)
 
@@ -347,7 +347,7 @@ year: 2026
 The [2026 ACM Conference on Human-AI Complementarity and Alignment (HCOMP)](https://www.humancomputation.com/2026/) and the [2026 ACM Collective Intelligence (CI) Conference](https://ci.acm.org/2026/) will be held as co-located events from September 27-30, 2026, at the Virginia Tech Institute for Advanced Computing near Washington, DC, USA.
 
 ## **HCOMP 2026 General Chair**<br>
-**Ting-Hao 'Kenneth' Huang**, Penn State University
+**Ting-Hao 'Kenneth' Huang**, The Pennsylvania State University
 
 ## **CI 2026 General Chair**<br>
 **Kurt Luther**, Virginia Tech
@@ -452,9 +452,9 @@ Research into systems and tasks to support the following, but not limited to:
 
 The two primary submission formats—full papers and talks (formerly called "extended abstracts")—are intended to accommodate the different norms and requirements across the diverse fields represented in the HCOMP and Collective Intelligence communities. Submissions will be selected for inclusion based on their quality and the fit of their topic with the interests of the HCOMP and CI audiences. The key differences between formats (see below) relate to the amount of feedback authors will receive and opportunities for inclusion in archival conference proceedings.
 
-*   **Full papers (max 6000 words)** will be assigned to a Program Committee member who will recruit 3 external reviewers and write a meta-review. Reviewers will be instructed to write full reviews that evaluate submissions according to specific review criteria. Accepted full papers will be published in the archival 2026 ACM HCOMP or Collective Intelligence conference proceedings which will be available via the ACM Digital Library. These papers will be assigned individual digital object identifiers (DOIs) as citable publications. *Note: authors submitting to the full papers track are expected to collectively review at least 3 papers subject to submission volumes and PC member availability.*
+*   **Full papers (max 6000 words, excluding references)** will be assigned to a Program Committee member who will recruit 3 external reviewers and write a meta-review. Reviewers will be instructed to write full reviews that evaluate submissions according to specific review criteria. Accepted full papers will be published in the archival 2026 ACM HCOMP or Collective Intelligence conference proceedings which will be available via the ACM Digital Library. These papers will be assigned individual digital object identifiers (DOIs) as citable publications. *Note: authors submitting to the full papers track are expected to collectively review at least 3 papers subject to submission volumes and PC member availability.*
 
-*   **Talks (formerly "extended abstracts") (max 1500 words)** will receive short reviews by two members of the Program Committee focusing on relevance of, and enthusiasm for, the topic. Extended abstracts for accepted talks will be made available to conference participants on the 2026 HCOMP or CI websites. These abstracts will not be archived in the ACM Digital Library nor assigned individual DOIs for tracking future citations. This option may be attractive to social science researchers who wish to submit their work to a journal for archival publication in the future.
+*   **Talks (formerly "extended abstracts") (max 1500 words, excluding references)** will receive short reviews by two members of the Program Committee focusing on relevance of, and enthusiasm for, the topic. Extended abstracts for accepted talks will be made available to conference participants on the 2026 HCOMP or CI websites. These abstracts will not be archived in the ACM Digital Library nor assigned individual DOIs for tracking future citations. This option may be attractive to social science researchers who wish to submit their work to a journal for archival publication in the future.
 
 ### Selecting HCOMP or CI Track
 
@@ -462,7 +462,7 @@ When submitting a full paper or talk, authors will be required to select either 
 
 The submission options can be summarized in the following table:
 
-| **Submission Option** | **Track** | **Max word count** | **Archival?** | **Review process** | **Where published** |
+| **Submission Option** | **Track** | **Max word count (excluding references)** | **Archival?** | **Review process** | **Where published** |
 |---|---|---|---|---|---|
 | **Full papers** | Authors select HCOMP or CI track | 6000 | Yes; must be original research not previously published | 1 PC member coordinates 3 detailed external reviews | HCOMP or CI proceedings in ACM Digital Library w/ DOI |
 | **Talks** (formerly "extended abstracts") | Authors select HCOMP or CI track | 1500 | No; may be based on cited prior publications | 2 PC members provide brief reviews | PDF on conference website only (no DOI) |
@@ -522,15 +522,27 @@ This represents a [65% discount](https://www.acm.org/publications/openaccess), f
 
 ## Program Committees
 
-The list of Program Committee (PC) members for HCOMP and CI 2026 will be available soon. The program chairs are:
-
-### **HCOMP 2026 Program Co-Chairs**<br>
-**Chien-Ju Ho**, Washington University in St. Louis<br>
-**Tianyi Li**, Purdue University
-
-### **CI 2026 Program Co-Chairs**<br>
-**Jason W. Burton**, University of Copenhagen<br>
-**Ioanna Lykourentzou**, Utrecht University
+### **HCOMP 2026 Program Committee**
+*   **Omar Alonso**, Amazon
+*   **Boualem Benatallah**, School of Computing, Dublin City University, Ireland
+*   **Marco Brambilla**, Politecnico di Milano
+*   **Samuel Carton**, University of Chicago
+*   **Fabio Casati**, Servicenow
+*   **Shih-Fen Cheng**, Singapore Management University
+*   **Katie Collins**, MIT
+*   **Haym Hirsh**, Cornell University
+*   **Matthias Hirth**, TU Ilmenau
+*   **Bart Knijnenburg**, Clemson University
+*   **Rhema Linder**, University of Tennessee, Knoxville
+*   **Atsuyuki Morishima**, University of Tsukuba
+*   **Mahsan Nourani**, Northeastern University
+*   **Hemant Purohit**, George Mason University
+*   **Amy Rechkemmer**, Purdue University
+*   **Hua Shen**, NYU Shanghai
+*   **Adish Singla**, MPI-SWS
+*   **Maja Vukovic**, IBM
+*   **Jérôme Waldispühl**, McGill University
+*   **Jie Yang**, Delft University of Technology
 
 ---
 
@@ -542,6 +554,14 @@ The list of Program Committee (PC) members for HCOMP and CI 2026 will be availab
 
 Coming soon!
 
+### **HCOMP 2026 Posters and Demos Co-Chairs**<br>
+**Oana Inel**, University of Zurich<br>
+**Hari Subramonyam**, Stanford University
+
+### **CI 2026 Posters and Demos Co-Chairs**<br>
+**Vineet Pandey**, University of Utah<br>
+**Xinlan Emily Hu**, MIT
+
 ---
 
 # Call for Doctoral Consortium
@@ -552,6 +572,12 @@ Coming soon!
 
 Coming soon!
 
+### **HCOMP 2026 Doctoral Consortium Co-Chair**<br>
+**Joel Chan**, University of Maryland
+
+### **CI 2026 Doctoral Consortium Co-Chair**<br>
+**Wesley Hanwen Deng**, Microsoft Research
+
 ---
 
 # Call for Workshops
@@ -560,7 +586,71 @@ Coming soon!
 &nbsp;
 {:.sub-page-border}
 
-Coming soon!
+## Overview
+We invite proposals for workshops at HCOMP 2026 and CI 2026. Workshops are a gathering place for researchers, practitioners, and industry professionals to bring together communities with common research interests and agendas, discuss ongoing work, and initiate new collaborations.
+
+Workshops are an opportunity to move the field forward and build community. <span style="background-color: #fff07bff; padding: 2px;">They may address basic or applied research, best practices, tools, education, industry trends, emerging themes and applications, and critical thinking about existing methodologies and frameworks.</span> Topics should fall within the general scope of HCOMP, CI, or both (see Topics of Interest above), but we also highly encourage emerging research directions that have not yet been fully explored and may even be seen as controversial.
+
+We welcome traditional workshop formats that encourage lively debates and focused discussion, as well as other types of topic-specific activities, such as tutorials or roundtables. Each workshop should generate ideas that will give the HCOMP and CI communities a fresh way of thinking about the topic or suggest promising directions for future work.
+
+## Important Dates
+*(All deadlines are 11:59pm AoE)*
+*   **Workshop Proposals Due:** June 15, 2026
+*   **Workshop Acceptance Notifications:** June 22, 2026
+*   **Workshop Websites Live & CfP Announced:** June 29, 2026
+*   <span style="background-color: #ff8181ff; padding: 2px;">**Suggested Workshop Paper Submission Deadline:** July 23 - July 30, 2026 (Organizers may select their preferred deadline, provided they can meet the Aug 7 notification requirement)</span>
+*   <span style="background-color: #ff8181ff; padding: 2px;">**Workshop Paper Acceptance Notifications:** August 7, 2026</span>
+*   **Conference Early Registration Deadline:** August 22, 2026
+*   **Workshops Day:** September 27, 2026
+
+## Submission Guidelines
+
+### Submission Requirements
+*   **Suggested length:** 2-4 pages (excluding references)
+*   **Format:** See Submission Instructions
+*   Submit the proposal as a **single PDF file** via email to the Workshops Co-Chairs: [hcomp-ci-2026-workshops@acm.org](mailto:hcomp-ci-2026-workshops@acm.org)
+
+Proposals must include the following sections: Overview, Format and Activities, Organizers and Speakers, and Call for Participation (CfP) Plan. Please see below for details.
+
+### Overview
+Provide a concise summary of the proposed workshop, including:
+*   Workshop title and acronym.
+*   A brief abstract (up to 250 words) suitable for the conference website.
+*   Topics and subtopics that are in scope.
+*   Intended audience and the expected number of participants.
+*   This should include a strong rationale for the workshop, describe the issues to be addressed, and state concrete objectives.
+
+### Format and Activities
+*   Information on whether your workshop will be a full-day or half-day event.
+*   Explain the activities you plan to do during the workshop (e.g., keynote, workshop paper presentations, lightning talks, hands-on activities, etc.).
+*   An explanation of how you will keep participants engaged, interacting, and/or collaborating. Keep everyone involved! We especially encourage workshop formats with activities that maintain engagement throughout the event. Get creative! Consider incorporating demos, feedback on innovative task designs, or short-term collaborations. Think about what attendees can create or solve.
+*   State your plans for follow-up and creation of tangible outcomes (e.g., poster presentation, publication of a workshop report, plans for a special issue of a journal).
+*   Workshops must be in-person or hybrid; no virtual-only workshops.
+*   All workshop attendees (virtual or in person) need to pay the registration fee.
+*   *Note: This can be a tentative plan.*
+
+### Organizers and Speakers
+*   Organizers' names, affiliations, and contact information.
+*   A brief biography for each organizer, highlighting their background and past experience organizing similar events.
+*   At least 2 organizers required to attend in person; please indicate which organizers will attend in person and who won't.
+*   A list of potential keynote speakers, panelists, or special invitees, indicating if any have already been tentatively confirmed.
+*   *Note: Priority will be given to workshops that include a diverse group of organizers and speakers across different dimensions (e.g., academia/industry, demographics, and research area).*
+
+### Call for Participation (CfP) Plan
+*   A draft of the Call for Papers/Participation that will be distributed to the community (Keep it to 250 words).
+*   Information on how you plan to advertise your workshop to reach a diverse audience.
+
+## Evaluation Criteria
+Proposals will be evaluated based on the relevance of the topic to the HCOMP and CI communities, the potential to foster engaging and interactive discussions, the experience and diversity of the organizing committee, and the overall quality of the submitted plan.
+
+## Workshops Chairs
+Please contact the Workshops Co-Chairs for any questions concerning workshop proposals: [hcomp-ci-2026-workshops@acm.org](mailto:hcomp-ci-2026-workshops@acm.org)
+
+### **HCOMP 2026 Workshops Co-Chair**<br>
+**Senjuti Dutta**, University of Colorado Boulder
+
+### **CI 2026 Workshops Co-Chair**<br>
+**Vikram Mohanty**, Carnegie Mellon University
 
 ---
 
@@ -571,6 +661,14 @@ Coming soon!
 {:.sub-page-border}
 
 Coming soon!
+
+### **HCOMP 2026 CrowdCamp Co-Chairs**<br>
+**Brian McInnis**, University of Texas at Austin<br>
+**Stephanie Valencia**, University of Maryland, College Park
+
+### **CI 2026 CrowdCamp Co-Chairs**<br>
+**Yaxing Yao**, Johns Hopkins University<br>
+**Yasmine Kotturi**, University of Maryland, Baltimore County
 
 ---
 
