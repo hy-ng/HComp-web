@@ -206,7 +206,53 @@
             opacity: 0.6;
         }
 
-        /* Subpage Banner */
+        .dropdown {
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #fff;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+            z-index: 1001;
+            top: 100%;
+            left: 30px;
+            border-radius: 4px;
+            overflow: hidden;
+            border-top: 4px solid var(--secondary-color);
+        }
+
+        .dropdown-content a {
+            color: #333;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            margin-left: 0 !important;
+            text-align: left;
+            border-bottom: 1px solid #eee;
+            font-size: 13px;
+            text-transform: uppercase;
+        }
+        
+        .dropdown-content a:last-child {
+            border-bottom: none;
+        }
+
+        .dropdown-content a:hover,
+        .dropdown-content a.active {
+            background-color: #f9f9f9;
+            color: var(--primary-color);
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        /* Subpage Hero Banner */
         .subpage-hero {
             height: 200px;
             min-height: 200px;
@@ -215,6 +261,36 @@
             background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/ab1.jpg') no-repeat center center;
             background-size: cover;
             width: 100%;
+            display: flex;
+            align-items: flex-end;
+            padding-bottom: 20px;
+        }
+
+        .hero-breadcrumb-container {
+            width: 100%;
+        }
+
+        .hero-breadcrumb {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 0.85rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .hero-breadcrumb a {
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .hero-breadcrumb a:hover {
+            color: var(--secondary-color);
+        }
+
+        .hero-breadcrumb span {
+            color: white;
+            font-weight: 700;
         }
 
         /* Page Content Specific Setup */
@@ -483,28 +559,20 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar">
-        <a class="navbar-brand" href="index.html">HCOMP 2026</a>
-        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
-        <div class="navbar-nav" id="nav-links">
-            <a href="submit.html" {% if page.url contains 'submit' %}class="active" {% endif %}>Call for
-                Participation</a>
-            <a href="#" class="disabled">Attend</a>
-            <a href="#" class="disabled">Program</a>
-            <a href="code-of-conduct.html" {% if page.url contains 'code-of-conduct' %}class="active" {% endif %}>Code
-                of Conduct</a>
-            <a href="organizers.html" {% if page.url contains 'organizers' %}class="active" {% endif %}>Organizers</a>
-            <a href="sponsors.html" {% if page.url contains 'sponsors' %}class="active" {% endif %}>Sponsors</a>
-            <a href="past-meetings.html">Past Meetings</a>
-        </div>
-    </nav>
+    {% include navbar_2026.html %}
 
     <!-- Subpage Hero Banner -->
-    <div class="subpage-hero"></div>
+    <div class="subpage-hero">
+        <div class="container hero-breadcrumb-container">
+            <div class="hero-breadcrumb">
+                <a href="index.html">HCOMP 2026</a> 
+                {% if page.parent %}
+                    / <a href="{{ page.parent_url }}">{{ page.parent }}</a>
+                {% endif %}
+                / <span>{{ page.title }}</span>
+            </div>
+        </div>
+    </div>
 
     <!-- Page Content -->
     <main class="page-content container">

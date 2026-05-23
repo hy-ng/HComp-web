@@ -11,6 +11,7 @@ layout: null
 
     <!-- Custom Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,900" rel="stylesheet">
     <style>
         :root {
@@ -569,6 +570,52 @@ layout: null
             opacity: 0.6;
         }
 
+        .dropdown {
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #fff;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+            z-index: 1001;
+            top: 100%;
+            left: 30px;
+            border-radius: 4px;
+            overflow: hidden;
+            border-top: 4px solid var(--secondary-color);
+        }
+
+        .dropdown-content a {
+            color: #333;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            margin-left: 0 !important;
+            text-align: left;
+            border-bottom: 1px solid #eee;
+            font-size: 13px;
+            text-transform: uppercase;
+        }
+        
+        .dropdown-content a:last-child {
+            border-bottom: none;
+        }
+
+        .dropdown-content a:hover,
+        .dropdown-content a.active {
+            background-color: #f9f9f9;
+            color: var(--primary-color);
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
         /* Hero CTA Button */
         .btn-cta {
             display: inline-block;
@@ -608,23 +655,7 @@ layout: null
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar">
-        <a class="navbar-brand" href="index.html">HCOMP 2026</a>
-        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
-        <div class="navbar-nav" id="nav-links">
-            <a href="submit.html">Call for Participation</a>
-            <a href="#" class="disabled">Attend</a>
-            <a href="#" class="disabled">Program</a>
-            <a href="code-of-conduct.html">Code of Conduct</a>
-            <a href="organizers.html">Organizers</a>
-            <a href="sponsors.html">Sponsors</a>
-            <a href="past-meetings.html">Past Meetings</a>
-        </div>
-    </nav>
+    {% include navbar_2026.html %}
     <header class="hero">
         <div class="hero-content">
             <h1>HCOMP 2026</h1>
@@ -685,25 +716,43 @@ layout: null
     <section class="dates-section">
         <div class="container">
             <h2 class="section-title">Important Dates</h2>
+            <p style="text-align: center; font-style: italic; color: #555555; margin-top: -2rem; margin-bottom: 1rem;">
+                All dates are 11:59pm <abbr title="Anywhere on Earth time zone" style="text-decoration: underline dotted; border-bottom: none;">AoE</abbr> in 2026.
+            </p>
             <div class="timeline">
-                <div class="date-card">
-                    <h3>June 1, 2026</h3>
-                    <p>Abstract Submission Deadline</p>
-                </div>
-                <div class="date-card primary">
-                    <h3>June 8, 2026</h3>
-                    <p>Full Paper Submission Deadline</p>
-                </div>
-                <div class="date-card">
-                    <h3>July 31, 2026</h3>
-                    <p>Decision Notifications</p>
-                </div>
-                <div class="date-card">
-                    <h3>September 27-30, 2026</h3>
-                    <p>Conference Dates</p>
-                </div>
-            </div>
-
+    <div class="date-card">
+        <h3>June 1</h3>
+        <p><strong>Papers and Talks:</strong> Abstracts Due</p>
+    </div>
+    <div class="date-card">
+        <h3>June 8</h3>
+        <p><strong>Papers and Talks:</strong> Submissions Due</p>
+    </div>
+    <div class="date-card">
+        <h3>June 15</h3>
+        <p><strong>Workshops:</strong> Proposals Due</p>
+    </div>
+    <div class="date-card">
+        <h3>June 22</h3>
+        <p><strong>Workshops:</strong> Proposal Notifications</p>
+    </div>
+    <div class="date-card">
+        <h3>July 16</h3>
+        <p><strong>Posters and Demos:</strong> Submissions Due</p>
+    </div>
+    <div class="date-card">
+        <h3>July 31</h3>
+        <p><strong>Papers and Talks:</strong> Notifications</p>
+    </div>
+    <div class="date-card">
+        <h3>August 5</h3>
+        <p><strong>Posters and Demos:</strong> Notifications</p>
+    </div>
+    <div class="date-card">
+        <h3>August 13</h3>
+        <p><strong>Papers and Talks:</strong> Camera Ready Due</p>
+    </div>
+</div>
             <!-- Secondary CTA for researchers evaluating the timeline -->
             <div style="text-align: center; margin-top: 3rem;">
                 <p style="font-weight: 500; margin-bottom: 1rem; color: #555;">Discover all the ways you can participate
