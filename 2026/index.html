@@ -13,6 +13,7 @@ layout: null
     <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,900" rel="stylesheet">
+    <link href="css/components.css?{{site.time | date: '%s%N'}}" rel="stylesheet">
     <style>
         :root {
             --primary-color: #861F41;
@@ -243,23 +244,6 @@ layout: null
             color: var(--primary-color);
         }
 
-        .action-btn {
-            display: inline-block;
-            background-color: var(--primary-color);
-            color: var(--white);
-            padding: 12px 28px;
-            text-decoration: none;
-            border-radius: 4px;
-            font-weight: bold;
-            font-size: 1.1rem;
-            margin-top: 2.5rem;
-            transition: background-color 0.3s ease, transform 0.2s ease;
-        }
-
-        .action-btn:hover {
-            background-color: var(--secondary-color);
-            transform: translateY(-2px);
-        }
 
         /* Important Dates */
         .dates-section {
@@ -453,193 +437,6 @@ layout: null
             font-size: 0.9rem;
         }
 
-        /* Navigation (Elite Style) */
-        .navbar {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            background-color: white;
-            border-bottom: 1px solid #ddd;
-            box-shadow: 1px 1px 15px rgba(0, 0, 0, .1);
-            padding: 15px 30px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            z-index: 1000;
-        }
-
-        .navbar-brand {
-            color: var(--primary-color);
-            font-size: 21px;
-            font-weight: 700;
-            text-decoration: none;
-            transition: all 0.5s ease;
-            font-family: 'Open Sans', sans-serif;
-            text-transform: uppercase;
-            white-space: nowrap;
-            /* Match Bootstrap's default brand padding for height consistency */
-            padding-top: .3125rem;
-            padding-bottom: .3125rem;
-            line-height: inherit;
-        }
-
-        .hamburger {
-            display: none;
-            flex-direction: column;
-            cursor: pointer;
-            border: none;
-            background: transparent;
-            padding: 5px;
-        }
-
-        .hamburger span {
-            width: 25px;
-            height: 3px;
-            background-color: var(--primary-color);
-            margin-bottom: 4px;
-            border-radius: 2px;
-            transition: all 0.3s ease;
-        }
-
-        @media (max-width: 1100px) {
-            .navbar {
-                flex-wrap: wrap;
-            }
-
-            .hamburger {
-                display: flex;
-            }
-
-            .navbar-nav {
-                flex-direction: column !important;
-                width: 100%;
-                background: white;
-                max-height: 0;
-                overflow: hidden;
-                transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
-                padding-top: 0;
-                padding-bottom: 0;
-            }
-
-            .navbar-nav.show {
-                max-height: 400px;
-                padding-top: 15px;
-                padding-bottom: 15px;
-            }
-
-            .navbar-nav a {
-                margin: 12px 0;
-                margin-left: 0;
-                text-align: center;
-                width: 100%;
-            }
-        }
-
-        .navbar-brand:hover {
-            color: var(--secondary-color);
-        }
-
-        .navbar-nav {
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-        }
-
-        .navbar-nav a {
-            color: #333;
-            margin-left: 30px;
-            font-size: 13px;
-            text-transform: uppercase;
-            letter-spacing: 1.5px;
-            text-decoration: none;
-            font-weight: 600;
-            font-family: 'Open Sans', sans-serif;
-            transition: all 0.5s ease;
-        }
-
-        .navbar-nav a:hover,
-        .navbar-nav a.active {
-            color: var(--primary-color);
-        }
-
-        .navbar-nav a.disabled {
-            color: #aaa !important;
-            pointer-events: none;
-            cursor: default;
-            opacity: 0.6;
-        }
-
-        .dropdown {
-            position: relative;
-            display: flex;
-            align-items: center;
-        }
-
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: #fff;
-            min-width: 160px;
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
-            z-index: 1001;
-            top: 100%;
-            left: 30px;
-            border-radius: 4px;
-            overflow: hidden;
-            border-top: 4px solid var(--secondary-color);
-        }
-
-        .dropdown-content a {
-            color: #333;
-            padding: 12px 16px;
-            text-decoration: none;
-            display: block;
-            margin-left: 0 !important;
-            text-align: left;
-            border-bottom: 1px solid #eee;
-            font-size: 13px;
-            text-transform: uppercase;
-        }
-        
-        .dropdown-content a:last-child {
-            border-bottom: none;
-        }
-
-        .dropdown-content a:hover,
-        .dropdown-content a.active {
-            background-color: #f9f9f9;
-            color: var(--primary-color);
-        }
-
-        .dropdown:hover .dropdown-content {
-            display: block;
-        }
-
-        /* Hero CTA Button */
-        .btn-cta {
-            display: inline-block;
-            background-color: var(--secondary-color);
-            color: white;
-            padding: 14px 35px;
-            font-size: 1.2rem;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            text-decoration: none;
-            border-radius: 50px;
-            margin-top: 2rem;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(232, 119, 34, 0.4);
-        }
-
-        .btn-cta:hover {
-            background-color: #d16b1f;
-            transform: translateY(-3px);
-            box-shadow: 0 6px 20px rgba(232, 119, 34, 0.6);
-            color: white;
-            text-decoration: none;
-        }
 
         .deadline-text {
             display: block;
@@ -717,42 +514,43 @@ layout: null
         <div class="container">
             <h2 class="section-title">Important Dates</h2>
             <p style="text-align: center; font-style: italic; color: #555555; margin-top: -2rem; margin-bottom: 1rem;">
-                All dates are 11:59pm <abbr title="Anywhere on Earth time zone" style="text-decoration: underline dotted; border-bottom: none;">AoE</abbr> in 2026.
+                All dates are 11:59pm <abbr title="Anywhere on Earth time zone"
+                    style="text-decoration: underline dotted; border-bottom: none;">AoE</abbr> in 2026.
             </p>
             <div class="timeline">
-    <div class="date-card">
-        <h3>June 1</h3>
-        <p><strong>Papers and Talks:</strong> Abstracts Due</p>
-    </div>
-    <div class="date-card">
-        <h3>June 8</h3>
-        <p><strong>Papers and Talks:</strong> Submissions Due</p>
-    </div>
-    <div class="date-card">
-        <h3>June 15</h3>
-        <p><strong>Workshops:</strong> Proposals Due</p>
-    </div>
-    <div class="date-card">
-        <h3>June 22</h3>
-        <p><strong>Workshops:</strong> Proposal Notifications</p>
-    </div>
-    <div class="date-card">
-        <h3>July 16</h3>
-        <p><strong>Posters and Demos:</strong> Submissions Due</p>
-    </div>
-    <div class="date-card">
-        <h3>July 31</h3>
-        <p><strong>Papers and Talks:</strong> Notifications</p>
-    </div>
-    <div class="date-card">
-        <h3>August 5</h3>
-        <p><strong>Posters and Demos:</strong> Notifications</p>
-    </div>
-    <div class="date-card">
-        <h3>August 13</h3>
-        <p><strong>Papers and Talks:</strong> Camera Ready Due</p>
-    </div>
-</div>
+                <div class="date-card">
+                    <h3>June 1</h3>
+                    <p><strong>Papers and Talks:</strong> Abstracts Due</p>
+                </div>
+                <div class="date-card">
+                    <h3>June 8</h3>
+                    <p><strong>Papers and Talks:</strong> Submissions Due</p>
+                </div>
+                <div class="date-card">
+                    <h3>June 15</h3>
+                    <p><strong>Workshops:</strong> Proposals Due</p>
+                </div>
+                <div class="date-card">
+                    <h3>June 22</h3>
+                    <p><strong>Workshops:</strong> Proposal Notifications</p>
+                </div>
+                <div class="date-card">
+                    <h3>July 16</h3>
+                    <p><strong>Posters and Demos:</strong> Submissions Due</p>
+                </div>
+                <div class="date-card">
+                    <h3>July 31</h3>
+                    <p><strong>Papers and Talks:</strong> Notifications</p>
+                </div>
+                <div class="date-card">
+                    <h3>August 5</h3>
+                    <p><strong>Posters and Demos:</strong> Notifications</p>
+                </div>
+                <div class="date-card">
+                    <h3>August 13</h3>
+                    <p><strong>Papers and Talks:</strong> Camera Ready Due</p>
+                </div>
+            </div>
             <!-- Secondary CTA for researchers evaluating the timeline -->
             <div style="text-align: center; margin-top: 3rem;">
                 <p style="font-weight: 500; margin-bottom: 1rem; color: #555;">Discover all the ways you can participate

@@ -360,35 +360,12 @@ Coming soon!
 
 Submissions for all tracks (except workshop proposals) must be submitted through the EasyChair platform by the official deadline.
 
-<style>
-.action-btn {
-    display: inline-block;
-    background-color: var(--primary-color);
-    color: var(--white) !important;
-    padding: 12px 28px;
-    text-decoration: none !important;
-    border-radius: 4px;
-    font-weight: bold;
-    font-size: 1.1rem;
-    margin-top: 10px;
-    margin-bottom: 2rem;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-}
 
-.action-btn:hover {
-    background-color: var(--secondary-color);
-    transform: translateY(-2px);
-    color: var(--white) !important;
-}
-
-.action-btn:active {
-    transform: translateY(1px);
-}
-</style>
 
 <a href="https://easychair.org/conferences/?conf=ci2026andhcomp2026" class="action-btn">Submit via EasyChair</a>
 
 For **workshop proposal** submissions, please submit a **single PDF file** via email to **[hcomp-ci-2026-workshops@acm.org](mailto:hcomp-ci-2026-workshops@acm.org)**.
+
 
 ## Submission Templates
 

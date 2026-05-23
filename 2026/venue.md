@@ -57,7 +57,7 @@ year: 2026
 
 ---<!-- SUB-NAVBAR -->
 {% capture subnav_links %}
-    <a href="#venue" class="subnav-link active">AB1 Venue</a>
+    <a href="#venue" class="subnav-link active">VT's AB1</a>
     <a href="#transportation" class="subnav-link">Transportation</a>
     <a href="#vt" class="subnav-link">VT in D.C.</a>
     <a href="#alexandria" class="subnav-link">Alexandria</a>
