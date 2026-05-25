@@ -1,0 +1,40 @@
+    <nav class="navbar">
+        <a class="navbar-brand" href="index.html">HCOMP 2026</a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="navbar-nav" id="nav-links">
+            <a href="submit.html" {% if page.url contains 'submit' %}class="active" {% endif %}>Call for
+                Participation</a>
+            <div class="dropdown">
+                <a href="attend.html" {% if page.url contains 'venue' or page.url contains 'attend' %}class="active"{% endif %}>Attend <i class="fa fa-caret-down"></i></a>
+                <div class="dropdown-content">
+                    <a href="venue.html" {% if page.url contains 'venue' %}class="active"{% endif %}>Venue</a>
+                </div>
+            </div>
+            <a href="#" class="disabled">Program</a>
+            <a href="code-of-conduct.html" {% if page.url contains 'code-of-conduct' %}class="active" {% endif %}>Code
+                of Conduct</a>
+            <a href="organizers.html" {% if page.url contains 'organizers' %}class="active" {% endif %}>Organizers</a>
+            <a href="sponsors.html" {% if page.url contains 'sponsors' %}class="active" {% endif %}>Sponsors</a>
+            <a href="past-meetings.html">Past Meetings</a>
+        </div>
+    </nav>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Only target the arrow icon for expanding/collapsing
+        const dropdownIcons = document.querySelectorAll('.dropdown > a > i');
+        dropdownIcons.forEach(icon => {
+            icon.addEventListener('click', function(e) {
+                if (window.innerWidth <= 1100) {
+                    e.preventDefault();
+                    e.stopPropagation(); // Prevent the click from navigating the link
+                    this.closest('.dropdown').classList.toggle('mobile-open');
+                }
+            });
+        });
+    });
+</script>

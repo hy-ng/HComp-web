@@ -22,319 +22,17 @@ year: 2026
 
 
 <!-- SUB-NAVBAR -->
-<style>
-  .sticky-subnav {
-    position: sticky;
-    top: 75px; 
-    z-index: 999;
-    background: white;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08); 
-    padding: 0;
-    margin-bottom: 2rem;
-    border-bottom: none !important; /* Remove any container border */
-    
-    /* Break out of container to be full-screen width */
-    width: 100vw;
-    margin-left: calc(-50vw + 50%);
-    left: 0;
-
-    /* Initially Hidden */
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(-10px);
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-  .sticky-subnav.show-nav {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
-  }
-
-
-  .subnav-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    overflow-x: auto;
-    white-space: nowrap;
-    -webkit-overflow-scrolling: touch;
-    padding: 0 15px;
-    border-bottom: none !important; /* Eliminate internal container borders */
-  }
-
-  /* Remove display: none to show scrollbar on mobile if needed, 
-     or keep it hidden but add visual cues. 
-     For now, let's keep it but ensure links don't shrink. */
-  .subnav-container::-webkit-scrollbar {
-    height: 3px;
-  }
-  .subnav-container::-webkit-scrollbar-thumb {
-    /* background: rgba(134, 31, 65, 0.2); */
-    /* border-radius: 3px; */
-  }
-
-  .subnav-link {
-    padding: 15px 20px;
-    color: #555;
-    text-decoration: none !important;
-    font-size: 0.85rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
-    display: inline-block;
-    flex-shrink: 0;
-    position: relative;
-    opacity: 0.8;
-    border: none !important; /* Aggressive override for all borders */
-    border-bottom: none !important;
-    outline: none !important;
-  }
-
-  .subnav-link::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    width: 100%;
-    height: 3px;
-    background: var(--primary-color);
-    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
-    transform: translateX(-50%) scaleX(0);
-    transform-origin: center;
-  }
-
-  .subnav-link:hover, .subnav-link.active {
-    color: var(--primary-color);
-    opacity: 1;
-  }
-
-  .subnav-link.active::after {
-    transform: translateX(-50%) scaleX(1);
-  }
-
-  /* Specific override to kill the global .page-content a border */
-  .page-content .sticky-subnav a,
-  .page-content .sticky-subnav a:hover,
-  .page-content .sticky-subnav a.active {
-    border-bottom: none !important;
-  }
-
-  .subnav-link.active {
-    background: rgba(134, 31, 65, 0.05);
-    transform: translateY(-1px);
-  }
-
-  .nav-arrow {
-    position: absolute;
-    top: 0;
-    width: 40px;
-    height: 100%;
-    background: white;
-    border: none;
-    cursor: pointer;
-    z-index: 20;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--primary-color);
-    font-size: 1.1rem;
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.3s ease;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  }
-
-  .nav-arrow.visible {
-    opacity: 0.9;
-    visibility: visible;
-  }
-
-  .nav-arrow:hover {
-    background: #f8f8f8;
-    color: var(--secondary-color);
-  }
-
-  .nav-arrow.left { 
-    left: 0; 
-    background: linear-gradient(to right, white 70%, transparent);
-  }
-
-  .nav-arrow.right { 
-    right: 0; 
-    background: linear-gradient(to left, white 70%, transparent);
-  }
-
-  @media (max-width: 768px) {
-    .sticky-subnav {
-      top: 60px; /* Aligned with the main navbar height */
-    }
-    .subnav-link {
-      padding: 12px 18px;
-      font-size: 0.8rem;
-    }
-  }
-</style>
-
-<div class="sticky-subnav">
-  <button class="nav-arrow left" id="prev-btn" aria-label="Scroll left"><i class="fa fa-chevron-left"></i></button>
-  <div class="subnav-container" id="subnav">
+{% capture subnav_links %}
     <a href="#info" class="subnav-link active">Information</a>
     <a href="#topics" class="subnav-link">Topics</a>
     <a href="#papers" class="subnav-link">Papers/Talks</a>
     <a href="#posters" class="subnav-link">Posters/Demos</a>
     <a href="#dc" class="subnav-link">Doctoral Consortium</a>
-    <a href="#workshops" class="subnav-link">Workshops</a>
+    <a href="#workshops" class="subnav-link">Workshop</a>
     <a href="#crowdcamp" class="subnav-link">CrowdCamp</a>
     <a href="#general" class="subnav-link">Submission Info</a>
-  </div>
-  <button class="nav-arrow right" id="next-btn" aria-label="Scroll right"><i class="fa fa-chevron-right"></i></button>
-</div>
-
-<script>
-  window.addEventListener('DOMContentLoaded', () => {
-    const subnav = document.querySelector('.sticky-subnav');
-    const sections = document.querySelectorAll('h1[id]');
-    const navLinks = document.querySelectorAll('.subnav-link');
-    
-    // Reveal Nav on Scroll with dynamic trigger
-    const infoSection = document.querySelector('#info');
-    const handleScroll = () => {
-      const scrollPos = window.scrollY;
-      const infoPos = infoSection ? infoSection.offsetTop - 150 : 300;
-
-      if (scrollPos > infoPos) {
-        subnav.classList.add('show-nav');
-      } else {
-        subnav.classList.remove('show-nav');
-      }
-    };
-
-    window.addEventListener('scroll', () => {
-      window.requestAnimationFrame(handleScroll);
-    });
-    
-    // --- ARROW NAVIGATION & AUTO-CENTERING ---
-    const prevBtn = document.getElementById('prev-btn');
-    const nextBtn = document.getElementById('next-btn');
-    const container = document.getElementById('subnav');
-
-    const updateArrows = () => {
-      const scrollLeft = container.scrollLeft;
-      const maxScroll = container.scrollWidth - container.clientWidth;
-      prevBtn.classList.toggle('visible', scrollLeft > 20);
-      nextBtn.classList.toggle('visible', scrollLeft < maxScroll - 20);
-    };
-
-    container.addEventListener('scroll', updateArrows);
-    window.addEventListener('resize', updateArrows);
-    
-    prevBtn.addEventListener('click', () => {
-      container.scrollBy({ left: -250, behavior: 'smooth' });
-    });
-    nextBtn.addEventListener('click', () => {
-      container.scrollBy({ left: 250, behavior: 'smooth' });
-    });
-
-    // Initial arrow check
-    setTimeout(updateArrows, 500);
-
-    // Smooth scroll override for subnav
-    let isScrolling = false;
-    navLinks.forEach(link => {
-      link.addEventListener('click', (e) => {
-        e.preventDefault();
-        if (isScrolling) return;
-
-        const id = link.getAttribute('href');
-        const target = document.querySelector(id);
-        if (target) {
-          const mainNavHeight = document.querySelector('.navbar').offsetHeight;
-          const subNavHeight = subnav.offsetHeight;
-          const offset = mainNavHeight + subNavHeight - 5; // Slight overlap for cleaner look
-          
-          const elementPosition = target.getBoundingClientRect().top + window.scrollY;
-          const offsetPosition = elementPosition - offset;
-          smoothScrollTo(offsetPosition);
-        }
-      });
-    });
-
-    const smoothScrollTo = (targetY) => {
-      isScrolling = true;
-      // Disable CSS smooth scroll to prevent fighting with JS animation
-      const html = document.documentElement;
-      html.style.scrollBehavior = 'auto';
-
-      const startY = window.scrollY;
-      const distance = targetY - startY;
-      const duration = 800; 
-      let start = null;
-
-      const animation = (currentTime) => {
-        if (!start) start = currentTime;
-        const timeElapsed = currentTime - start;
-        const run = easeOutExpo(timeElapsed, startY, distance, duration);
-        window.scrollTo(0, run);
-        if (timeElapsed < duration) {
-          requestAnimationFrame(animation);
-        } else {
-          isScrolling = false;
-          html.style.scrollBehavior = ''; // Reset to CSS default
-        }
-      };
-
-      function easeOutExpo(t, b, c, d) {
-        return t === d ? b + c : c * (-Math.pow(2, -10 * t / d) + 1) + b;
-      }
-      requestAnimationFrame(animation);
-    };
-
-    // Continuous Verification Scroll-Spy
-    let currentActiveId = '';
-    const updateActiveState = () => {
-      const h1Sections = document.querySelectorAll('h1[id]');
-      let activeSectionId = '';
-      
-      h1Sections.forEach(sec => {
-        const rect = sec.getBoundingClientRect();
-        // A section is considered active if we have scrolled past its header (plus offset)
-        if (rect.top <= 250) {
-          activeSectionId = sec.getAttribute('id');
-        }
-      });
-
-      if (activeSectionId && activeSectionId !== currentActiveId) {
-        currentActiveId = activeSectionId;
-        navLinks.forEach(link => {
-          const isActive = link.getAttribute('href') === `#${activeSectionId}`;
-          link.classList.toggle('active', isActive);
-          
-          if (isActive) {
-            // Auto-center the active link in the navbar
-            const navContainer = document.getElementById('subnav');
-            if (navContainer) {
-              const linkOffset = link.offsetLeft;
-              const containerWidth = navContainer.offsetWidth;
-              const linkWidth = link.offsetWidth;
-              navContainer.scrollTo({
-                left: linkOffset - (containerWidth / 2) + (linkWidth / 2),
-                behavior: 'auto'
-              });
-            }
-          }
-        });
-      }
-    };
-
-    window.addEventListener('scroll', () => {
-      window.requestAnimationFrame(updateActiveState);
-    });
-    // Initial check
-    updateActiveState();
-  });
-</script>
+{% endcapture %}
+{% include sticky_subnav.html links=subnav_links %}
 
 
 
@@ -524,31 +222,7 @@ This represents a [65% discount](https://www.acm.org/publications/openaccess), f
 
 *Note: ACM is not lowering APCs, but is instead contributing funds to temporarily subsidize APC pricing as the community adjusts to the Open Access program.*
 
-## Program Committees
 
-### **HCOMP 2026 Program Committee**
-*   **Omar Alonso**, Amazon
-*   **Boualem Benatallah**, Dublin City University, Ireland
-*   **Marco Brambilla**, Politecnico di Milano
-*   **Samuel Carton**, University of Chicago
-*   **Fabio Casati**, Servicenow
-*   **Shih-Fen Cheng**, Singapore Management University
-*   **Katie Collins**, MIT
-*   **Haym Hirsh**, Cornell University
-*   **Matthias Hirth**, TU Ilmenau
-*   **Bart Knijnenburg**, Clemson University
-*   **Rhema Linder**, University of Tennessee, Knoxville
-*   **Atsuyuki Morishima**, University of Tsukuba
-*   **Mahsan Nourani**, Northeastern University
-*   **Hemant Purohit**, George Mason University
-*   **Amy Rechkemmer**, Purdue University
-*   **Hua Shen**, NYU Shanghai
-*   **Adish Singla**, MPI-SWS
-*   **Maja Vukovic**, IBM
-*   **Jérôme Waldispühl**, McGill University
-*   **Jie Yang**, Delft University of Technology
-
----
 
 # Call for Posters and Demos
 {:#posters}
@@ -681,6 +355,17 @@ Coming soon!
 {:.sub-page-header}
 &nbsp;
 {:.sub-page-border}
+
+## Submit Your Work
+
+Submissions for all tracks (except workshop proposals) must be submitted through the EasyChair platform by the official deadline.
+
+
+
+<a href="https://easychair.org/conferences/?conf=ci2026andhcomp2026" class="action-btn">Submit via EasyChair</a>
+
+For **workshop proposal** submissions, please submit a **single PDF file** via email to **[hcomp-ci-2026-workshops@acm.org](mailto:hcomp-ci-2026-workshops@acm.org)**.
+
 
 ## Submission Templates
 

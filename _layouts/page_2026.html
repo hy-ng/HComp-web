@@ -17,6 +17,7 @@
 
     <!-- Custom CSS  -->
     <link href="css/landing-page.css?{{site.time | date: '%s%N'}}" rel="stylesheet">
+    <link href="css/components.css?{{site.time | date: '%s%N'}}" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -93,120 +94,9 @@
             padding: 0.25rem 20px;
         }
 
-        /* Navigation (Copied from 2024) */
-        .navbar {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            background-color: white;
-            border-bottom: 1px solid #ddd;
-            box-shadow: 1px 1px 15px rgba(0, 0, 0, .1);
-            padding: 15px 30px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            z-index: 1000;
-        }
 
-        .navbar-brand {
-            color: var(--primary-color);
-            font-size: 21px;
-            font-weight: 700;
-            text-decoration: none;
-            transition: all 0.5s ease;
-            font-family: 'Open Sans', sans-serif;
-            text-transform: uppercase;
-            white-space: nowrap;
-        }
 
-        .hamburger {
-            display: none;
-            flex-direction: column;
-            cursor: pointer;
-            border: none;
-            background: transparent;
-            padding: 5px;
-        }
-
-        .hamburger span {
-            width: 25px;
-            height: 3px;
-            background-color: var(--primary-color);
-            margin-bottom: 4px;
-            border-radius: 2px;
-            transition: all 0.3s ease;
-        }
-
-        @media (max-width: 1100px) {
-            .navbar {
-                flex-wrap: wrap;
-            }
-
-            .hamburger {
-                display: flex;
-            }
-
-            .navbar-nav {
-                flex-direction: column !important;
-                width: 100%;
-                background: white;
-                max-height: 0;
-                overflow: hidden;
-                transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
-                padding-top: 0;
-                padding-bottom: 0;
-            }
-
-            .navbar-nav.show {
-                max-height: 400px;
-                padding-top: 15px;
-                padding-bottom: 15px;
-            }
-
-            .navbar-nav a {
-                margin: 12px 0;
-                margin-left: 0;
-                text-align: center;
-                width: 100%;
-            }
-        }
-
-        .navbar-brand:hover {
-            color: var(--secondary-color);
-        }
-
-        .navbar-nav {
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-        }
-
-        .navbar-nav a {
-            color: #333;
-            margin-left: 30px;
-            font-size: 13px;
-            text-transform: uppercase;
-            letter-spacing: 1.5px;
-            text-decoration: none;
-            font-weight: 600;
-            font-family: 'Open Sans', sans-serif;
-            transition: all 0.5s ease;
-        }
-
-        .navbar-nav a:hover,
-        .navbar-nav a.active {
-            color: var(--primary-color);
-        }
-
-        .navbar-nav a.disabled {
-            color: #aaa !important;
-            pointer-events: none;
-            cursor: default;
-            opacity: 0.6;
-        }
-
-        /* Subpage Banner */
+        /* Subpage Hero Banner */
         .subpage-hero {
             height: 200px;
             min-height: 200px;
@@ -215,6 +105,36 @@
             background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/ab1.jpg') no-repeat center center;
             background-size: cover;
             width: 100%;
+            display: flex;
+            align-items: flex-end;
+            padding-bottom: 20px;
+        }
+
+        .hero-breadcrumb-container {
+            width: 100%;
+        }
+
+        .hero-breadcrumb {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 0.85rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .hero-breadcrumb a {
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .hero-breadcrumb a:hover {
+            color: var(--secondary-color);
+        }
+
+        .hero-breadcrumb span {
+            color: white;
+            font-weight: 700;
         }
 
         /* Page Content Specific Setup */
@@ -483,28 +403,20 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar">
-        <a class="navbar-brand" href="index.html">HCOMP 2026</a>
-        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
-        <div class="navbar-nav" id="nav-links">
-            <a href="submit.html" {% if page.url contains 'submit' %}class="active" {% endif %}>Call for
-                Participation</a>
-            <a href="#" class="disabled">Attend</a>
-            <a href="#" class="disabled">Program</a>
-            <a href="code-of-conduct.html" {% if page.url contains 'code-of-conduct' %}class="active" {% endif %}>Code
-                of Conduct</a>
-            <a href="organizers.html" {% if page.url contains 'organizers' %}class="active" {% endif %}>Organizers</a>
-            <a href="sponsors.html" {% if page.url contains 'sponsors' %}class="active" {% endif %}>Sponsors</a>
-            <a href="past-meetings.html">Past Meetings</a>
-        </div>
-    </nav>
+    {% include navbar_2026.html %}
 
     <!-- Subpage Hero Banner -->
-    <div class="subpage-hero"></div>
+    <div class="subpage-hero">
+        <div class="container hero-breadcrumb-container">
+            <div class="hero-breadcrumb">
+                <a href="index.html">HCOMP 2026</a> 
+                {% if page.parent %}
+                    / <a href="{{ page.parent_url }}">{{ page.parent }}</a>
+                {% endif %}
+                / <span>{{ page.title }}</span>
+            </div>
+        </div>
+    </div>
 
     <!-- Page Content -->
     <main class="page-content container">
