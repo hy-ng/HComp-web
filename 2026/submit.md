@@ -15,7 +15,7 @@ year: 2026
 - Call for [Posters and Demos](#posters) (Coming Soon!)
 - Call for [Doctoral Consortium](#dc) (Coming Soon!)
 - Call for [Workshops](#workshops)
-- Call for [CrowdCamp](#crowdcamp) (Coming Soon!)
+- Call for [CrowdCamp](#crowdcamp)
 - [General Submission Instructions](#general)
 
 ---
@@ -338,15 +338,34 @@ Please contact the Workshops Co-Chairs for any questions concerning workshop pro
 &nbsp;
 {:.sub-page-border}
 
-Coming soon!
+## Overview
 
-### **HCOMP 2026 CrowdCamp Co-Chairs**<br>
-**Brian McInnis**, University of Texas at Austin<br>
-**Stephanie Valencia**, University of Maryland, College Park
+CrowdCamp is a hackathon that takes place during CI/HCOMP 2026 for researchers and practitioners interested in collective intelligence, crowdsourcing, human computation, and AI. It's an interdisciplinary, collaborative event with no technical prerequisites: you don't need to know how to code to take part! Students, researchers, practitioners, and industry folks from across disciplines (social science, programming, ethnography, design, and beyond) come together to explore [wicked problems](https://en.wikipedia.org/wiki/Wicked_problem): complex, real-world challenges that call for human–AI collaboration.
 
-### **CI 2026 CrowdCamp Co-Chairs**<br>
-**Yaxing Yao**, Johns Hopkins University<br>
-**Yasmine Kotturi**, University of Maryland, Baltimore County
+Teams form around a set of challenges connected to this year's conference theme, Connections, and participants spend the day building prototypes, study designs, algorithmic concepts, pilot studies, or whatever moves an idea forward. We encourage lightweight, fast-moving approaches like vibe coding, Figma mockups, and creative brainstorming to push boundaries and spark meaningful conversations. Bring your own wicked problem, or pick from starter ideas we'll provide. Possible directions might include:
+
+*   Crowdsourcing and Civics
+*   Learnersourcing in-the-wild
+*   Advancing Citizen Science
+*   Community-driven Journalism
+*   New Economic Models for Human Crowd Work
+*   Revisiting the "Future of Crowd Work"
+
+Running for over a decade across HCI and AI venues, CrowdCamp has seeded influential work — including the paper [The Future of Crowd Work](https://dl.acm.org/doi/pdf/10.1145/2441776.2441923) — along with numerous tools and follow-on projects.
+
+CrowdCamp 2026 is part of ACM Collective Intelligence 2026 (September 27–30, Virginia Tech's Academic Building One, in the Washington, DC area), held jointly with HCOMP 2026, where a single badge covers all conference events. CrowdCamp itself is a workshop with its own registration and fee, separate from the main conference — so you can register for just the workshop, the full conference, or both.
+
+**When:** Sunday, September 27, 2026, 9:00 AM–4:00 PM<br>
+**Where:** Virginia Tech's Academic Building One (AB1), Washington, DC area
+
+[Sign up here](https://forms.gle/vWQJ3mftk4EzZ2A38) to express interest before 8/31, and [register for the workshop here](https://hcomp.acm.org/2026/registration.html).
+
+## CrowdCamp Co-Chairs
+
+*   [Yasmine Kotturi](http://ykotturi.gitub.io), University of Maryland, Baltimore County, USA
+*   [Brian McInnis](https://ischool.utexas.edu/profiles/brian-mcinnis), University of Texas at Austin, USA
+*   [Stephanie Valencia](https://info.umd.edu/directory/stephanie-valencia/), University of Maryland, College Park, USA
+*   [Yaxing Yao](https://engineering.jhu.edu/faculty/yaxing-yao/), Johns Hopkins University, USA
 
 ---
 
