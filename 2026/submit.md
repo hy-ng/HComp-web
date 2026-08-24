@@ -278,7 +278,7 @@ We welcome traditional workshop formats that encourage lively debates and focuse
 *   **Workshop Websites Live & CfP Announced:** June 29, 2026
 *   <span style="background-color: #ff8181ff; padding: 2px;">**Suggested Workshop Paper Submission Deadline:** July 23 - July 30, 2026 (Organizers may select their preferred deadline, provided they can meet the Aug 7 notification requirement)</span>
 *   <span style="background-color: #ff8181ff; padding: 2px;">**Workshop Paper Acceptance Notifications:** August 7, 2026</span>
-*   **Conference Early Registration Deadline:** August 22, 2026
+*   **Conference Early Registration Deadline:** <span style="color:red; font-weight:bold;">Extended to August 28, 2026</span>
 *   **Workshops Day:** September 27, 2026
 
 ## Submission Guidelines
