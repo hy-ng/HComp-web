@@ -25,7 +25,7 @@ year: 2026
 {% endcapture %}
 {% include sticky_subnav.html links=subnav_links %}
 
-<img src="images/crowdcamp2025.jpeg" alt="CrowdCamp 2025: a team mapping out a wicked problem at ACM Collective Intelligence 2025." style="width: 100%; border-radius: 8px; margin-bottom: 10px;">
+<img src="images/crowdcamp2025.jpeg" alt="CrowdCamp 2025: a team mapping out a wicked problem at ACM Collective Intelligence 2025." style="width: 100%; max-height: 420px; object-fit: cover; border-radius: 8px; margin-bottom: 10px;">
 <p style="font-size: 0.95rem; color: #666; font-style: italic; margin-bottom: 2rem;">CrowdCamp 2025: a team mapping out a wicked problem at ACM Collective Intelligence 2025.</p>
 
 # Important Dates
