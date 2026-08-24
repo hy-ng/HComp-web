@@ -14,6 +14,7 @@ The theme of this year's co-located event is Connections. We encourage submissio
 <div class="attend-index">
     <span class="index-label">More Information:</span>
     <a href="venue.html" class="index-link">Venue</a>
+    <a href="crowdcamp.html" class="index-link">CrowdCamp</a>
     <!-- Future sub-pages (e.g. Registration, Accommodation) can be added here -->
 </div>
 

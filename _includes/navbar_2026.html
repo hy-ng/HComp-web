@@ -9,9 +9,10 @@
             <a href="submit.html" {% if page.url contains 'submit' %}class="active" {% endif %}>Call for
                 Participation</a>
             <div class="dropdown">
-                <a href="attend.html" {% if page.url contains 'venue' or page.url contains 'attend' %}class="active"{% endif %}>Attend <i class="fa fa-caret-down"></i></a>
+                <a href="attend.html" {% if page.url contains 'venue' or page.url contains 'attend' or page.url contains 'crowdcamp' %}class="active"{% endif %}>Attend <i class="fa fa-caret-down"></i></a>
                 <div class="dropdown-content">
                     <a href="venue.html" {% if page.url contains 'venue' %}class="active"{% endif %}>Venue</a>
+                    <a href="crowdcamp.html" {% if page.url contains 'crowdcamp' %}class="active"{% endif %}>CrowdCamp</a>
                 </div>
             </div>
             <a href="#" class="disabled">Program</a>
