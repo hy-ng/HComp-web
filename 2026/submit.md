@@ -15,7 +15,6 @@ year: 2026
 - Call for [Posters and Demos](#posters) (Coming Soon!)
 - Call for [Doctoral Consortium](#dc) (Coming Soon!)
 - Call for [Workshops](#workshops)
-- Call for [CrowdCamp](#crowdcamp) (Coming Soon!)
 - [General Submission Instructions](#general)
 
 ---
@@ -29,7 +28,6 @@ year: 2026
     <a href="#posters" class="subnav-link">Posters/Demos</a>
     <a href="#dc" class="subnav-link">Doctoral Consortium</a>
     <a href="#workshops" class="subnav-link">Workshop</a>
-    <a href="#crowdcamp" class="subnav-link">CrowdCamp</a>
     <a href="#general" class="subnav-link">Submission Info</a>
 {% endcapture %}
 {% include sticky_subnav.html links=subnav_links %}
@@ -278,7 +276,7 @@ We welcome traditional workshop formats that encourage lively debates and focuse
 *   **Workshop Websites Live & CfP Announced:** June 29, 2026
 *   <span style="background-color: #ff8181ff; padding: 2px;">**Suggested Workshop Paper Submission Deadline:** July 23 - July 30, 2026 (Organizers may select their preferred deadline, provided they can meet the Aug 7 notification requirement)</span>
 *   <span style="background-color: #ff8181ff; padding: 2px;">**Workshop Paper Acceptance Notifications:** August 7, 2026</span>
-*   **Conference Early Registration Deadline:** August 22, 2026
+*   **Conference Early Registration Deadline:** <span style="color:red; font-weight:bold;">Extended to August 28, 2026</span>
 *   **Workshops Day:** September 27, 2026
 
 ## Submission Guidelines
@@ -329,24 +327,6 @@ Please contact the Workshops Co-Chairs for any questions concerning workshop pro
 
 ### **CI 2026 Workshops Co-Chair**<br>
 **Vikram Mohanty**, Carnegie Mellon University
-
----
-
-# Call for CrowdCamp
-{:#crowdcamp}
-{:.sub-page-header}
-&nbsp;
-{:.sub-page-border}
-
-Coming soon!
-
-### **HCOMP 2026 CrowdCamp Co-Chairs**<br>
-**Brian McInnis**, University of Texas at Austin<br>
-**Stephanie Valencia**, University of Maryland, College Park
-
-### **CI 2026 CrowdCamp Co-Chairs**<br>
-**Yaxing Yao**, Johns Hopkins University<br>
-**Yasmine Kotturi**, University of Maryland, Baltimore County
 
 ---
 

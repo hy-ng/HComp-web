@@ -6,15 +6,16 @@
             <span></span>
         </button>
         <div class="navbar-nav" id="nav-links">
-            <a href="submit.html" {% if page.url contains 'submit' %}class="active" {% endif %}>Call for
-                Participation</a>
             <div class="dropdown">
-                <a href="attend.html" {% if page.url contains 'venue' or page.url contains 'attend' %}class="active"{% endif %}>Attend <i class="fa fa-caret-down"></i></a>
+                <a href="attend.html" {% if page.url contains 'venue' or page.url contains 'attend' or page.url contains 'crowdcamp' %}class="active"{% endif %}>Attend <i class="fa fa-caret-down"></i></a>
                 <div class="dropdown-content">
                     <a href="venue.html" {% if page.url contains 'venue' %}class="active"{% endif %}>Venue</a>
+                    <a href="crowdcamp.html" {% if page.url contains 'crowdcamp' %}class="active"{% endif %}>CrowdCamp</a>
                 </div>
             </div>
-            <a href="#" class="disabled">Program</a>
+            <a href="program.html" {% if page.url contains 'program' %}class="active" {% endif %}>Program</a>
+            <a href="submit.html" {% if page.url contains 'submit' %}class="active" {% endif %}>Call for
+                Participation</a>
             <a href="code-of-conduct.html" {% if page.url contains 'code-of-conduct' %}class="active" {% endif %}>Code
                 of Conduct</a>
             <a href="organizers.html" {% if page.url contains 'organizers' %}class="active" {% endif %}>Organizers</a>
