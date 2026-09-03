@@ -1,5 +1,40 @@
+<style>
+    .announcement-banner {
+        background-color: var(--secondary-color);
+        color: white;
+        text-align: center;
+        padding: 10px;
+        font-weight: 600;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1002;
+        font-size: 14px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .announcement-banner a {
+        color: white;
+        text-decoration: underline;
+        margin-left: 10px;
+        font-weight: bold;
+    }
+    .announcement-banner a:hover {
+        color: #fdfdfd;
+        text-decoration: none;
+    }
+    .navbar { top: 40px !important; }
+    body { margin-top: 40px; }
+</style>
+<div class="announcement-banner">
+    Registration is now open for HCOMP + CI 2026!
+    <a href="registration.html">View details and register here &rarr;</a>
+</div>
     <nav class="navbar">
-        <a class="navbar-brand" href="index.html">HCOMP 2026</a>
+        <a class="navbar-brand" href="index.html" style="display: flex; align-items: center; text-decoration: none; gap: 6px;">
+            <img src="{{ site.baseurl }}/2026/img/2026_logo/HCOMP_logo-01-colored.svg" alt="HCOMP Logo" class="nav-logo">
+            <span style="font-weight: 800; color: #00a79d; font-size: 1.4rem;">2026</span>
+        </a>
         <button class="hamburger" id="hamburger" aria-label="Toggle menu">
             <span></span>
             <span></span>
@@ -7,20 +42,24 @@
         </button>
         <div class="navbar-nav" id="nav-links">
             <div class="dropdown">
-                <a href="attend.html" {% if page.url contains 'venue' or page.url contains 'attend' or page.url contains 'crowdcamp' %}class="active"{% endif %}>Attend <i class="fa fa-caret-down"></i></a>
+                <a href="attend.html" {% if page.url contains 'venue' or page.url contains 'attend' or page.url contains 'registration' or page.url contains 'accommodations' or page.url contains 'travel-grants' or page.url contains 'visa' or page.url contains 'code-of-conduct' or page.url contains 'student-volunteers' or page.url contains 'crowdcamp' %}class="active"{% endif %}>Attend <i class="fa fa-caret-down"></i></a>
                 <div class="dropdown-content">
                     <a href="venue.html" {% if page.url contains 'venue' %}class="active"{% endif %}>Venue</a>
+                    <a href="accommodations.html" {% if page.url contains 'accommodations' %}class="active"{% endif %}>Accommodations</a>
+                    <a href="registration.html" {% if page.url contains 'registration' %}class="active"{% endif %}>Registration</a>
+                    <a href="travel-grants.html" {% if page.url contains 'travel-grants' %}class="active"{% endif %}>Travel Grants</a>
+                    <a href="visa.html" {% if page.url contains 'visa' %}class="active"{% endif %}>Visa Support Letter</a>
+                    <a href="student-volunteers.html" {% if page.url contains 'student-volunteers' %}class="active"{% endif %}>Student Volunteers</a>
+                    <a href="attend.html#workshops">Workshops</a>
                     <a href="crowdcamp.html" {% if page.url contains 'crowdcamp' %}class="active"{% endif %}>CrowdCamp</a>
+                    <a href="code-of-conduct.html" {% if page.url contains 'code-of-conduct' %}class="active"{% endif %}>Code of Conduct</a>
                 </div>
             </div>
             <a href="program.html" {% if page.url contains 'program' %}class="active" {% endif %}>Program</a>
-            <a href="submit.html" {% if page.url contains 'submit' %}class="active" {% endif %}>Call for
-                Participation</a>
-            <a href="code-of-conduct.html" {% if page.url contains 'code-of-conduct' %}class="active" {% endif %}>Code
-                of Conduct</a>
+            <a href="submit.html" {% if page.url contains 'submit' %}class="active" {% endif %}>Submit</a>
             <a href="organizers.html" {% if page.url contains 'organizers' %}class="active" {% endif %}>Organizers</a>
             <a href="sponsors.html" {% if page.url contains 'sponsors' %}class="active" {% endif %}>Sponsors</a>
-            <a href="past-meetings.html">Past Meetings</a>
+            <a href="past-meetings.html" {% if page.url contains 'past-meetings' %}class="active" {% endif %}>Past Meetings</a>
         </div>
     </nav>
 
