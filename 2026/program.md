@@ -178,18 +178,17 @@ year: 2026
 
 <section id="keynotes" class="program-section">
 <h2>Keynotes</h2>
-<p>Three keynote speakers span industry, academia, and government, with one talk on each day of the conference.</p>
+<p>Three keynote speakers span industry, academia, and government, with one talk on each day of the conference. Click any speaker to view their talk title, abstract, and biography.</p>
 
-<ul class="keynote-grid">
-<li class="keynote-card is-industry">
+<div class="keynote-showcase-container" id="keynoteShowcase">
+<ul class="keynote-grid" id="keynoteOverviewGrid">
+<li class="keynote-card is-industry" onclick="openKeynoteSpotlight('eric-horvitz')" role="button" tabindex="0" onkeypress="if(event.key==='Enter')openKeynoteSpotlight('eric-horvitz')">
 <span class="keynote-badge badge-industry">Industry &bull; Joint Keynote</span>
 <div class="keynote-photo-wrapper">
 <img class="keynote-photo" src="images/eric-horvitz.jpg" alt="Eric Horvitz" loading="lazy">
 </div>
 <div class="keynote-body">
-<h3 class="keynote-name">
-<a href="https://www.microsoft.com/en-us/research/people/horvitz/" target="_blank" rel="noopener">Eric Horvitz</a>
-</h3>
+<h3 class="keynote-name">Eric Horvitz</h3>
 <p class="keynote-role">Chief Scientific Officer</p>
 <p class="keynote-org">Microsoft</p>
 <div class="keynote-schedule">
@@ -202,18 +201,20 @@ year: 2026
 <span>9:15 AM – 10:30 AM EDT</span>
 </p>
 </div>
+<button type="button" class="keynote-view-btn" aria-label="View Eric Horvitz talk and bio">
+<span>View Talk &amp; Bio</span>
+<i class="fa fa-arrow-right" aria-hidden="true"></i>
+</button>
 </div>
 </li>
 
-<li class="keynote-card is-academia">
+<li class="keynote-card is-academia" onclick="openKeynoteSpotlight('diyi-yang')" role="button" tabindex="0" onkeypress="if(event.key==='Enter')openKeynoteSpotlight('diyi-yang')">
 <span class="keynote-badge badge-academia">Academia &bull; HCOMP Keynote</span>
 <div class="keynote-photo-wrapper">
 <img class="keynote-photo" src="images/diyi-yang.jpg" alt="Diyi Yang" loading="lazy">
 </div>
 <div class="keynote-body">
-<h3 class="keynote-name">
-<a href="https://cs.stanford.edu/~diyiy/index.html" target="_blank" rel="noopener">Diyi Yang</a>
-</h3>
+<h3 class="keynote-name">Diyi Yang</h3>
 <p class="keynote-role">Assistant Professor of Computer Science</p>
 <p class="keynote-org">Stanford University</p>
 <div class="keynote-schedule">
@@ -226,18 +227,20 @@ year: 2026
 <span>11:00 AM – 12:15 PM EDT</span>
 </p>
 </div>
+<button type="button" class="keynote-view-btn" aria-label="View Diyi Yang talk and bio">
+<span>View Talk &amp; Bio</span>
+<i class="fa fa-arrow-right" aria-hidden="true"></i>
+</button>
 </div>
 </li>
 
-<li class="keynote-card is-government">
+<li class="keynote-card is-government" onclick="openKeynoteSpotlight('laurie-allen')" role="button" tabindex="0" onkeypress="if(event.key==='Enter')openKeynoteSpotlight('laurie-allen')">
 <span class="keynote-badge badge-government">Government &bull; CI Keynote</span>
 <div class="keynote-photo-wrapper">
 <img class="keynote-photo" src="images/laurie-allen.jpg" alt="Laurie Allen" loading="lazy">
 </div>
 <div class="keynote-body">
-<h3 class="keynote-name">
-<a href="https://www.loc.gov/" target="_blank" rel="noopener">Laurie Allen</a>
-</h3>
+<h3 class="keynote-name">Laurie Allen</h3>
 <p class="keynote-role">Creative Engagement Officer</p>
 <p class="keynote-org">Library of Congress</p>
 <div class="keynote-schedule">
@@ -250,9 +253,119 @@ year: 2026
 <span>9:15 AM – 10:30 AM EDT</span>
 </p>
 </div>
+<button type="button" class="keynote-view-btn" aria-label="View Laurie Allen talk and bio">
+<span>View Talk &amp; Bio</span>
+<i class="fa fa-arrow-right" aria-hidden="true"></i>
+</button>
 </div>
 </li>
 </ul>
+
+<div class="keynote-spotlight-panel" id="keynoteSpotlight" style="display: none;">
+<div class="spotlight-header">
+<div class="spotlight-header-top">
+<button type="button" class="spotlight-back-btn" onclick="closeKeynoteSpotlight()">
+<i class="fa fa-th-large" aria-hidden="true"></i>
+<span>All 3 Keynotes</span>
+</button>
+<button type="button" class="spotlight-close-btn" aria-label="Close Spotlight" onclick="closeKeynoteSpotlight()">&times;</button>
+</div>
+<div class="spotlight-tabs">
+<button type="button" class="spotlight-tab is-industry" data-target="eric-horvitz" onclick="switchKeynoteSpeaker('eric-horvitz')">Eric Horvitz</button>
+<button type="button" class="spotlight-tab is-academia" data-target="diyi-yang" onclick="switchKeynoteSpeaker('diyi-yang')">Diyi Yang</button>
+<button type="button" class="spotlight-tab is-government" data-target="laurie-allen" onclick="switchKeynoteSpeaker('laurie-allen')">Laurie Allen</button>
+</div>
+</div>
+
+<div class="spotlight-content is-industry" id="spotlight-eric-horvitz" style="display: none;">
+<div class="spotlight-sidebar">
+<img class="spotlight-avatar" src="images/eric-horvitz.jpg" alt="Eric Horvitz">
+<div class="spotlight-sidebar-info">
+<span class="keynote-badge badge-industry">Industry &bull; Joint Keynote</span>
+<h3 class="spotlight-name"><a href="https://www.microsoft.com/en-us/research/people/horvitz/" target="_blank" rel="noopener">Eric Horvitz</a></h3>
+<p class="spotlight-role">Chief Scientific Officer</p>
+<p class="spotlight-org">Microsoft</p>
+</div>
+<div class="spotlight-schedule-box">
+<p><i class="fa fa-calendar-o" aria-hidden="true"></i> Monday, Sep 28, 2026</p>
+<p class="highlight-time"><i class="fa fa-clock-o" aria-hidden="true"></i> 9:15 AM – 10:30 AM EDT</p>
+</div>
+</div>
+<div class="spotlight-details">
+<div class="spotlight-subtabs">
+<button type="button" class="spotlight-subtab-btn is-active" onclick="switchKeynoteSubtab('eric-horvitz', 'talk', this)"><i class="fa fa-file-text-o" aria-hidden="true"></i> Talk &amp; Abstract</button>
+<button type="button" class="spotlight-subtab-btn" onclick="switchKeynoteSubtab('eric-horvitz', 'bio', this)"><i class="fa fa-user-o" aria-hidden="true"></i> About Speaker</button>
+</div>
+<div class="spotlight-panel-view is-active" id="subtab-eric-horvitz-talk">
+<p class="keynote-pending">Talk title and abstract coming soon.</p>
+</div>
+<div class="spotlight-panel-view" id="subtab-eric-horvitz-bio" style="display: none;">
+<p class="keynote-pending">Biography coming soon.</p>
+</div>
+</div>
+</div>
+
+<div class="spotlight-content is-academia" id="spotlight-diyi-yang" style="display: none;">
+<div class="spotlight-sidebar">
+<img class="spotlight-avatar" src="images/diyi-yang.jpg" alt="Diyi Yang">
+<div class="spotlight-sidebar-info">
+<span class="keynote-badge badge-academia">Academia &bull; HCOMP Keynote</span>
+<h3 class="spotlight-name"><a href="https://cs.stanford.edu/~diyiy/index.html" target="_blank" rel="noopener">Diyi Yang</a></h3>
+<p class="spotlight-role">Assistant Professor of Computer Science</p>
+<p class="spotlight-org">Stanford University</p>
+</div>
+<div class="spotlight-schedule-box">
+<p><i class="fa fa-calendar-o" aria-hidden="true"></i> Tuesday, Sep 29, 2026</p>
+<p class="highlight-time"><i class="fa fa-clock-o" aria-hidden="true"></i> 11:00 AM – 12:15 PM EDT</p>
+</div>
+</div>
+<div class="spotlight-details">
+<div class="spotlight-subtabs">
+<button type="button" class="spotlight-subtab-btn is-active" onclick="switchKeynoteSubtab('diyi-yang', 'talk', this)"><i class="fa fa-file-text-o" aria-hidden="true"></i> Talk &amp; Abstract</button>
+<button type="button" class="spotlight-subtab-btn" onclick="switchKeynoteSubtab('diyi-yang', 'bio', this)"><i class="fa fa-user-o" aria-hidden="true"></i> About Speaker</button>
+</div>
+<div class="spotlight-panel-view is-active" id="subtab-diyi-yang-talk">
+<h4 class="spotlight-talk-title">Human-AI Collaboration: Building Agents That Augment Work</h4>
+<p class="spotlight-abstract">AI agents are transforming how people work; however, building agents that augment workers requires knowing what they want from AI, how they collaborate with it, and whether that collaboration helps them. In this talk, we first audit the U.S. workforce to map where workers want automation, where they want augmentation, and where AI capabilities fall short, complemented by an analysis of nearly 250,000 real-world conversations.</p>
+<p class="spotlight-abstract">We then introduce frameworks to measure collaboration directly by pairing workers with agents on real-world tasks to separate human and agent skill contributions, and by quantifying how much cognitive effort users offload through reconstructing how they would have worked without AI. Overall, this talk highlights how to understand and evaluate human-AI collaboration and how to design agents that augment human work.</p>
+</div>
+<div class="spotlight-panel-view" id="subtab-diyi-yang-bio" style="display: none;">
+<p class="spotlight-bio">Diyi Yang is an assistant professor in the Computer Science Department at Stanford University, also affiliated with the Stanford NLP Group, Stanford HCI Group and Stanford Human Centered AI Institute. Her research focuses on human-centered natural language processing and human-AI interaction.</p>
+<p class="spotlight-bio">She is a recipient of Microsoft Research Faculty Fellowship (2021), NSF CAREER Award (2022), an ONR Young Investigator Award (2023), and a Sloan Research Fellowship (2024). Her work has received multiple paper awards or nominations at top NLP and HCI conferences.</p>
+</div>
+</div>
+</div>
+
+<div class="spotlight-content is-government" id="spotlight-laurie-allen" style="display: none;">
+<div class="spotlight-sidebar">
+<img class="spotlight-avatar" src="images/laurie-allen.jpg" alt="Laurie Allen">
+<div class="spotlight-sidebar-info">
+<span class="keynote-badge badge-government">Government &bull; CI Keynote</span>
+<h3 class="spotlight-name"><a href="https://www.loc.gov/" target="_blank" rel="noopener">Laurie Allen</a></h3>
+<p class="spotlight-role">Creative Engagement Officer</p>
+<p class="spotlight-org">Library of Congress</p>
+</div>
+<div class="spotlight-schedule-box">
+<p><i class="fa fa-calendar-o" aria-hidden="true"></i> Wednesday, Sep 30, 2026</p>
+<p class="highlight-time"><i class="fa fa-clock-o" aria-hidden="true"></i> 9:15 AM – 10:30 AM EDT</p>
+</div>
+</div>
+<div class="spotlight-details">
+<div class="spotlight-subtabs">
+<button type="button" class="spotlight-subtab-btn is-active" onclick="switchKeynoteSubtab('laurie-allen', 'talk', this)"><i class="fa fa-file-text-o" aria-hidden="true"></i> Talk &amp; Abstract</button>
+<button type="button" class="spotlight-subtab-btn" onclick="switchKeynoteSubtab('laurie-allen', 'bio', this)"><i class="fa fa-user-o" aria-hidden="true"></i> About Speaker</button>
+</div>
+<div class="spotlight-panel-view is-active" id="subtab-laurie-allen-talk">
+<p class="keynote-pending">Talk title and abstract coming soon.</p>
+</div>
+<div class="spotlight-panel-view" id="subtab-laurie-allen-bio" style="display: none;">
+<p class="spotlight-bio">Laurie Allen is the Creative Engagement Officer in Researcher &amp; Collections Services at the Library of Congress. She moved into this new position in 2026 after serving as the Chief of the Digital Innovation Division (LC Labs) in the Digital Strategy Directorate.</p>
+<p class="spotlight-bio">Before joining the Library of Congress in 2019, she spent nearly 20 years in academic libraries, leading efforts in scholarly communication, crowdsourcing, public data curation, and a variety of other projects where history, memory, art, and cultural heritage intersect with new technologies and new approaches to public engagement. Laurie lives in Philadelphia and holds a Bachelor's degree in Philosophy from Bard College, and a Master's of Library and Information Science from Simmons College.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
 </section>
 
 <section id="workshops" class="program-section">
@@ -495,4 +608,71 @@ year: 2026
 </li>
 </ul>
 </section>
+
+<script>
+function openKeynoteSpotlight(speakerId) {
+    const grid = document.getElementById('keynoteOverviewGrid');
+    const spotlight = document.getElementById('keynoteSpotlight');
+    if (!grid || !spotlight) return;
+    grid.style.display = 'none';
+    spotlight.style.display = 'block';
+    switchKeynoteSpeaker(speakerId);
+
+    // Smooth auto-align for mobile & tablet screens
+    if (window.innerWidth <= 880) {
+        const showcase = document.getElementById('keynoteShowcase');
+        if (showcase) {
+            const nav = document.querySelector('.navbar');
+            const subnav = document.getElementById('subnav');
+            const offset = (nav ? nav.offsetHeight : 0) + (subnav ? subnav.offsetHeight : 0) + 15;
+            const topPos = showcase.getBoundingClientRect().top + window.scrollY - offset;
+            window.scrollTo({ top: topPos, behavior: 'smooth' });
+        }
+    }
+}
+
+function closeKeynoteSpotlight() {
+    const grid = document.getElementById('keynoteOverviewGrid');
+    const spotlight = document.getElementById('keynoteSpotlight');
+    if (!grid || !spotlight) return;
+    spotlight.style.display = 'none';
+    grid.style.display = 'grid';
+}
+
+function switchKeynoteSpeaker(speakerId) {
+    const contents = document.querySelectorAll('.spotlight-content');
+    contents.forEach(c => c.style.display = 'none');
+    const target = document.getElementById('spotlight-' + speakerId);
+    if (target) {
+        target.style.display = 'flex';
+    }
+    const tabs = document.querySelectorAll('.spotlight-tab');
+    tabs.forEach(t => {
+        t.classList.toggle('is-active', t.getAttribute('data-target') === speakerId);
+    });
+}
+
+function switchKeynoteSubtab(speakerId, tabType, btn) {
+    const container = btn.closest('.spotlight-details');
+    if (!container) return;
+    
+    // Toggle subtab buttons
+    const btns = container.querySelectorAll('.spotlight-subtab-btn');
+    btns.forEach(b => b.classList.remove('is-active'));
+    btn.classList.add('is-active');
+
+    // Toggle panels
+    const panels = container.querySelectorAll('.spotlight-panel-view');
+    panels.forEach(p => {
+        p.style.display = 'none';
+        p.classList.remove('is-active');
+    });
+
+    const activePanel = document.getElementById('subtab-' + speakerId + '-' + tabType);
+    if (activePanel) {
+        activePanel.style.display = 'block';
+        activePanel.classList.add('is-active');
+    }
+}
+</script>
 
