@@ -199,7 +199,7 @@ year: 2026
 </p>
 <p class="keynote-time">
 <i class="fa fa-clock-o" aria-hidden="true"></i>
-<span>9:30 AM – 10:45 AM EDT</span>
+<span>9:15 AM – 10:30 AM EDT</span>
 </p>
 </div>
 </div>
@@ -223,7 +223,7 @@ year: 2026
 </p>
 <p class="keynote-time">
 <i class="fa fa-clock-o" aria-hidden="true"></i>
-<span>9:00 AM – 10:15 AM EDT</span>
+<span>11:00 AM – 12:15 PM EDT</span>
 </p>
 </div>
 </div>
@@ -247,7 +247,7 @@ year: 2026
 </p>
 <p class="keynote-time">
 <i class="fa fa-clock-o" aria-hidden="true"></i>
-<span>9:00 AM – 10:15 AM EDT</span>
+<span>9:15 AM – 10:30 AM EDT</span>
 </p>
 </div>
 </div>
