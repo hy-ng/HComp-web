@@ -442,21 +442,23 @@
 
         // Dynamic Sticky Positioning for Sub-navbars
         // This ensures sub-navs always sit perfectly under the main navbar across all devices
-        const updateSubnavPosition = () => {
+        window.updateSubnavPosition = () => {
             const mainNav = document.querySelector('.navbar');
+            const banner = document.querySelector('.announcement-banner');
             const subnavs = document.querySelectorAll('.sticky-subnav');
             if (mainNav && subnavs.length > 0) {
-                const height = mainNav.offsetHeight;
+                const bannerHeight = (banner && window.getComputedStyle(banner).display !== 'none') ? banner.offsetHeight : 0;
+                const totalHeight = bannerHeight + mainNav.offsetHeight;
                 subnavs.forEach(nav => {
-                    nav.style.top = (height - 1) + 'px'; // 1px overlap to eliminate tiny gaps
+                    nav.style.top = (totalHeight - 6) + 'px'; // 6px overlap to eliminate tiny gaps
                 });
-                document.documentElement.style.setProperty('--navbar-height', height + 'px');
+                document.documentElement.style.setProperty('--navbar-height', (totalHeight - 6) + 'px');
             }
         };
 
-        window.addEventListener('DOMContentLoaded', updateSubnavPosition);
-        window.addEventListener('load', updateSubnavPosition);
-        window.addEventListener('resize', updateSubnavPosition);
+        window.addEventListener('DOMContentLoaded', window.updateSubnavPosition);
+        window.addEventListener('load', window.updateSubnavPosition);
+        window.addEventListener('resize', window.updateSubnavPosition);
     </script>
 </body>
 

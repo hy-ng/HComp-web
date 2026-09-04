@@ -1,9 +1,12 @@
 <style>
+    :root {
+        --banner-height: 40px;
+    }
     .announcement-banner {
         background-color: var(--secondary-color);
         color: white;
         text-align: center;
-        padding: 10px;
+        padding: 10px 15px;
         font-weight: 600;
         position: fixed;
         top: 0;
@@ -12,6 +15,7 @@
         z-index: 1002;
         font-size: 14px;
         box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        box-sizing: border-box;
     }
     .announcement-banner a {
         color: white;
@@ -23,8 +27,12 @@
         color: #fdfdfd;
         text-decoration: none;
     }
-    .navbar { top: 40px !important; }
-    body { margin-top: 40px; }
+    .navbar {
+        top: var(--banner-height, 40px) !important;
+    }
+    body {
+        margin-top: var(--banner-height, 40px);
+    }
 </style>
 <div class="announcement-banner">
     Registration is now open for HCOMP + CI 2026!
@@ -64,6 +72,58 @@
     </nav>
 
 <script>
+    (function() {
+        function updateBannerAndNavbar() {
+            const banner = document.querySelector('.announcement-banner');
+            const navbar = document.querySelector('.navbar');
+            if (banner && window.getComputedStyle(banner).display !== 'none') {
+                const bannerHeight = banner.offsetHeight;
+                document.documentElement.style.setProperty('--banner-height', bannerHeight + 'px');
+                if (navbar) {
+                    navbar.style.top = bannerHeight + 'px';
+                }
+                document.body.style.marginTop = bannerHeight + 'px';
+            } else {
+                document.documentElement.style.setProperty('--banner-height', '0px');
+                if (navbar) {
+                    navbar.style.top = '0px';
+                }
+                document.body.style.marginTop = '0px';
+            }
+
+            if (typeof window.updateSubnavPosition === 'function') {
+                window.updateSubnavPosition();
+            }
+        }
+
+        window.updateBannerAndNavbar = updateBannerAndNavbar;
+
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', updateBannerAndNavbar);
+        } else {
+            updateBannerAndNavbar();
+        }
+
+        window.addEventListener('load', updateBannerAndNavbar);
+        window.addEventListener('resize', updateBannerAndNavbar);
+        window.addEventListener('orientationchange', updateBannerAndNavbar);
+
+        if (window.ResizeObserver) {
+            const ro = new ResizeObserver(() => {
+                updateBannerAndNavbar();
+            });
+            const banner = document.querySelector('.announcement-banner');
+            if (banner) {
+                ro.observe(banner);
+            } else {
+                document.addEventListener('DOMContentLoaded', () => {
+                    const b = document.querySelector('.announcement-banner');
+                    if (b) ro.observe(b);
+                });
+            }
+        }
+    })();
+
     document.addEventListener('DOMContentLoaded', function() {
         // Only target the arrow icon for expanding/collapsing
         const dropdownIcons = document.querySelectorAll('.dropdown > a > i');
