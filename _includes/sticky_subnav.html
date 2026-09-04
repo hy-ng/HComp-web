@@ -29,8 +29,9 @@
 
 
   .subnav-container {
-    max-width: 1200px;
+    max-width: 1600px;
     margin: 0 auto;
+    position: relative;
     display: flex;
     overflow-x: auto;
     white-space: nowrap;
@@ -46,8 +47,8 @@
     height: 3px;
   }
   .subnav-container::-webkit-scrollbar-thumb {
-    /* background: rgba(134, 31, 65, 0.2); */
-    /* border-radius: 3px; */
+    background: rgba(134, 31, 65, 0.2);
+    border-radius: 3px;
   }
 
   .subnav-link {
@@ -164,14 +165,21 @@
 <script>
   window.addEventListener('DOMContentLoaded', () => {
     const subnav = document.querySelector('.sticky-subnav');
-    const sections = document.querySelectorAll('h1[id]');
     const navLinks = document.querySelectorAll('.subnav-link');
     
+    const getTargetElements = () => {
+      return Array.from(navLinks).map(link => {
+        const hash = link.getAttribute('href');
+        return hash && hash.startsWith('#') ? document.querySelector(hash) : null;
+      }).filter(Boolean);
+    };
+
     // Reveal Nav on Scroll with dynamic trigger
-    const firstSection = document.querySelector('h1[id]');
+    const targetElements = getTargetElements();
+    const firstSection = targetElements[0] || document.querySelector('h1[id]');
     const handleScroll = () => {
       const scrollPos = window.scrollY;
-      const triggerPos = firstSection ? firstSection.offsetTop - 150 : 300;
+      const triggerPos = firstSection ? (firstSection.offsetTop - 150) : 300;
 
       if (scrollPos > triggerPos) {
         subnav.classList.add('show-nav');
@@ -219,9 +227,12 @@
         const id = link.getAttribute('href');
         const target = document.querySelector(id);
         if (target) {
-          const mainNavHeight = document.querySelector('.navbar').offsetHeight;
-          const subNavHeight = subnav.offsetHeight;
-          const offset = mainNavHeight + subNavHeight - 5; // Slight overlap for cleaner look
+          const mainNav = document.querySelector('.navbar');
+          const mainNavHeight = mainNav ? mainNav.offsetHeight : 0;
+          const banner = document.querySelector('.announcement-banner');
+          const bannerHeight = (banner && window.getComputedStyle(banner).display !== 'none') ? banner.offsetHeight : 0;
+          const subNavHeight = subnav ? subnav.offsetHeight : 0;
+          const offset = bannerHeight + mainNavHeight + subNavHeight + 10; // Extra breathing room (whitespace) after clicking
           
           const elementPosition = target.getBoundingClientRect().top + window.scrollY;
           const offsetPosition = elementPosition - offset;
@@ -263,13 +274,13 @@
     // Continuous Verification Scroll-Spy
     let currentActiveId = '';
     const updateActiveState = () => {
-      const h1Sections = document.querySelectorAll('h1[id]');
+      const targets = getTargetElements();
       let activeSectionId = '';
       
-      h1Sections.forEach(sec => {
+      targets.forEach(sec => {
         const rect = sec.getBoundingClientRect();
         // A section is considered active if we have scrolled past its header (plus offset)
-        if (rect.top <= 250) {
+        if (rect.top <= 260) {
           activeSectionId = sec.getAttribute('id');
         }
       });
